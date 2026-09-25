@@ -1,0 +1,13 @@
+name = "Create: Chimneys"
+filename = "create_chimneys-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "669d8f0823ddb2d41817510faf79fb27e2fc8952"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6948669
+project-id = 1056947

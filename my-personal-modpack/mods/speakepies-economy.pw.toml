@@ -1,0 +1,13 @@
+name = "SpeakePie's Economy"
+filename = "speakepieeconomy-26.9.0-NEOFORGE-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ed08ca54676718f16d468de09996681f02458bd9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8652376
+project-id = 1565600

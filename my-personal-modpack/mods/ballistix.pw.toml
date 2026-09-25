@@ -1,0 +1,13 @@
+name = "Ballistix"
+filename = "ballistix-1.21.1-1.0.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "510b1aa7a05249675360201f28ff71aaccedb972"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8631979
+project-id = 443915

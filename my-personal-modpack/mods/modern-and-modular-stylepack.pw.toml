@@ -1,0 +1,13 @@
+name = "Modern and Modular Stylepack"
+filename = "Modern and Modular 1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c756858e3ae4eb3b9c77757e798b261493e11a3c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8416943
+project-id = 1604567

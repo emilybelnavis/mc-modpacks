@@ -1,0 +1,3 @@
+[horses]
+	#Chance for horses to pee on tick update. (0.1 = 10%)
+	urinationchance = 0.1

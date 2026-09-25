@@ -1,0 +1,13 @@
+name = "MCTier Library"
+filename = "mctier_engine-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77dc4e489e1932abf927c775352f9b964cf463a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8123069
+project-id = 1546154

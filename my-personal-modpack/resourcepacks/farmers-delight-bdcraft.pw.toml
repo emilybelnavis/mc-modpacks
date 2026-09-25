@@ -1,0 +1,13 @@
+name = "Farmer's Delight BDCraft"
+filename = "[64x] Farmers Delight BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "23b99e4fedd13adfce4629216a7131f25ca3ceb1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6019071
+project-id = 1165026

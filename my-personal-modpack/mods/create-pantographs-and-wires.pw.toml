@@ -1,0 +1,13 @@
+name = "Create: Pantographs & Wires"
+filename = "pantographsandwires-neoforge-1.21.1-beta-0.2.3-C6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44ac4b3d476c2a2b824ea8bf4bc8bb124edd74c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8223808
+project-id = 1186908

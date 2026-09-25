@@ -1,0 +1,13 @@
+name = "Create: New Age BDCraft"
+filename = "[64x] Create New Age BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca23e55d5a7863fb2fde1ba733fd19330aedabb0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7592740
+project-id = 1152628

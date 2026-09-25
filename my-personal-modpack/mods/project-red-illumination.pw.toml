@@ -1,0 +1,13 @@
+name = "Project Red - Illumination"
+filename = "ProjectRed-1.21.1-4.22.0-illumination.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "003e0850feb85703c6617ff40d1a4776631d8dde"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7890770
+project-id = 229046

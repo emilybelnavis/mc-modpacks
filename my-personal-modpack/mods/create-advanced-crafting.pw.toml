@@ -1,0 +1,13 @@
+name = "Create: Advanced Crafting"
+filename = "advancedcrafting-1.21.1-0.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "381801fc33f41a1a304472b5353d5e5437055668"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7211596
+project-id = 1199190

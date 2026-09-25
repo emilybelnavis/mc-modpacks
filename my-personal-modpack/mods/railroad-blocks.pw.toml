@@ -1,0 +1,13 @@
+name = "Railroad Blocks"
+filename = "railroadblocksaddon-1.21-0.6.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e9c7ba8114f8580210390351ff5a3214b217327"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7338243
+project-id = 684961

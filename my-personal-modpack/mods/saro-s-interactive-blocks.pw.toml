@@ -1,0 +1,13 @@
+name = "Saro´s Interactive Blocks"
+filename = "Saros-Interactive-Blocks-NeoForge-1.21.1-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bee79a09f5813d315ba54b84a65844c417d4b7ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8303267
+project-id = 1106371

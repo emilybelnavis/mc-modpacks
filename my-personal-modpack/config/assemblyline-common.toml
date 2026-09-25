@@ -1,0 +1,37 @@
+[common]
+	#Usage is joules per tick
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	conveyorbelt_usage = 8.0
+	#Usage is joules per entity movement
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	sorterbelt_usage = 8.0
+	#Usage is joules per craft
+	# Default: 200.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	autocrafter_usage = 200.0
+	#Usage is per tick
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	blockbreaker_usage = 20.0
+	#Usage is per usage
+	# Default: 40.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	blockplacer_usage = 40.0
+	#Usage is per usage
+	# Default: 40.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rancher_usage = 40.0
+	#Usage is per usage
+	# Default: 40.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mobgrinder_usage = 40.0
+	#Usage is per usage
+	# Default: 40.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	farmer_usage = 40.0
+	#How many additional conveyers a single one can power
+	# Default: 16
+	# Range: > 0
+	conveyor_max_spread = 16

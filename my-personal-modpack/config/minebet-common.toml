@@ -1,0 +1,59 @@
+#Configuración General de MineBet
+[General]
+	#Nombre de la moneda mostrada en las interfaces
+	currencyName = "Créditos"
+
+#Configuración de Máquina Tragamonedas
+[SlotMachine]
+	#Retorno al Jugador (RTP) para Slot Machine (0.0 a 1.0)
+	# Default: 0.97
+	# Range: 0.0 ~ 1.0
+	slotRtp = 0.97
+	#Apuesta mínima permitida
+	# Default: 10
+	# Range: > 1
+	slotMinBet = 10
+	#Apuesta máxima permitida
+	# Default: 10000
+	# Range: > 1
+	slotMaxBet = 10000
+
+#Configuración de Buscaminas
+[Minesweeper]
+	#Retorno al Jugador (RTP) para Buscaminas (0.0 a 1.0)
+	# Default: 0.97
+	# Range: 0.0 ~ 1.0
+	minesweeperRtp = 0.97
+	#Apuesta mínima para jugar Buscaminas
+	# Default: 10
+	# Range: > 1
+	minesweeperMinBet = 10
+
+#Configuración de El Camino de la Gallina
+[ChickenRoad]
+	#Retorno al Jugador (RTP) para Chicken Road (0.0 a 1.0)
+	# Default: 0.97
+	# Range: 0.0 ~ 1.0
+	chickenRtp = 0.97
+
+#Configuración de Creeper Crash
+[CreeperCrash]
+	#Retorno al Jugador (RTP) para Creeper Crash (0.0 a 1.0)
+	# Default: 0.97
+	# Range: 0.0 ~ 1.0
+	crashRtp = 0.97
+
+#Configuración de Ruleta Multijugador
+[Roulette]
+	#Tiempo en segundos de la cuenta regresiva antes de girar
+	# Default: 15
+	# Range: 5 ~ 60
+	rouletteTimer = 15
+	#Multiplicador de pago para Rojo y Negro
+	# Default: 2
+	# Range: 1 ~ 100
+	multiplierRedBlack = 2
+	#Multiplicador de pago para el 0 Verde
+	# Default: 14
+	# Range: 1 ~ 100
+	multiplierGreen = 14

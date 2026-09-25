@@ -1,0 +1,8 @@
+#Fireproofing: spouting Superheated Lava over an item makes it fire- and lava-proof.
+[fireproofing]
+	#Whether a Spout can fireproof items with Superheated Lava at all.
+	enabled = true
+	#Superheated Lava (in mB) consumed to fireproof a single item.
+	# Default: 250
+	# Range: 1 ~ 1000000
+	amountMb = 250

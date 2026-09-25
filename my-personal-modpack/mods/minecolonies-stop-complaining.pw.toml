@@ -1,0 +1,13 @@
+name = "Minecolonies - Stop Complaining"
+filename = "nocolonieslongcommute-neoforge-1.21-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "23a2ceb9f15412b98cd145b75f49c47d734c3a95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8308342
+project-id = 1584999

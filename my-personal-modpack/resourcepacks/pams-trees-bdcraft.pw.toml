@@ -1,0 +1,13 @@
+name = "Pam's Trees BDCraft"
+filename = "[64x] Pams HarvestCraft 2 TREES BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3e3f731bb1c20672c520084eacab262412c1db0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7486497
+project-id = 1436189

@@ -1,0 +1,13 @@
+name = "Create: AtomiCreate"
+filename = "atomicreate-0.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "02600e212cecb24a1e3bfa0a169122b831830000"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8270258
+project-id = 1574677

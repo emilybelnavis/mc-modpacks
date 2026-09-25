@@ -1,0 +1,13 @@
+name = "Vista - All The Cassettes!"
+filename = "vistaallthetapes - 1.2.0 - neoforge - 1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b77b062159ec1f3f04f7955e705a903c0cbaa585"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7907460
+project-id = 1499622

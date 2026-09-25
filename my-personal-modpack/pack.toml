@@ -1,0 +1,11 @@
+name = "emily's modpack"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "39f0d50a1cb1675ca6bb502ca273cc650f57cc93cd326e04a34a84583ee60515"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

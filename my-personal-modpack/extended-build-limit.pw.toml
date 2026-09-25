@@ -1,0 +1,13 @@
+name = "Extended Build Limit"
+filename = "extended-build-limit-1.18-1.21.x.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "82c4aac825277a7e4bad3fa9fa1ec637624b31f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7760942
+project-id = 1486812

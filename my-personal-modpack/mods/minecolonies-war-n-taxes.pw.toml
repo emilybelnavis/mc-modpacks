@@ -1,0 +1,13 @@
+name = "Minecolonies: War 'N Taxes "
+filename = "WarNTaxes-NeoForge-5.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "95d255ab47abce8380767f4f7bfe9ed62298dbd2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8631625
+project-id = 1129258

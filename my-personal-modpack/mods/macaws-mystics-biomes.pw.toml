@@ -1,0 +1,13 @@
+name = "Macaw's Mystic's Biomes"
+filename = "mcwmysticbiomes-neoforge-1.21.1-1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "413c5f52dcf9877eafb711ef922bf8aa2772291f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8363733
+project-id = 683252

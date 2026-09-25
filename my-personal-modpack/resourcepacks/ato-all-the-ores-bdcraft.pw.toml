@@ -1,0 +1,13 @@
+name = "ATO - All The Ores BDCraft"
+filename = "[64x] ATO All The Ores BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9547717274a4d6f66515488953eac5315fd0c12d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7435964
+project-id = 1424127

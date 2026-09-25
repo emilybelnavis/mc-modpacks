@@ -1,0 +1,13 @@
+name = "WMATA - Washington DC Metro Signs"
+filename = "WMATA Washington DC Metro Signs - NeoForge 1.21.1 - v1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d851f08cd6c8489ab2556d8a91a3ee8b0c3b16b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8496042
+project-id = 1600483

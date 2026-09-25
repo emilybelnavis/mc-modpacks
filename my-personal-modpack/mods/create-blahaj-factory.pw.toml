@@ -1,0 +1,13 @@
+name = "Create: Blahaj Factory"
+filename = "create_blahaj_factory-1.0.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b33f119c20d8b91e6b34347c5f976d519e0cdfb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8348430
+project-id = 1579048

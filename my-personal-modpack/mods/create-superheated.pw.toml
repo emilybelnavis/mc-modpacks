@@ -1,0 +1,13 @@
+name = "Create: Superheated"
+filename = "create-superheated-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "865948aca5a8decb5044fc8af8ba66ea656541d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8548625
+project-id = 1629132
