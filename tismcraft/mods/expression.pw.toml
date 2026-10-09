@@ -1,0 +1,13 @@
+name = "Expression: Core"
+filename = "expression_core-3.0.7-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BGUYUAbf/versions/k1F7bD6t/expression_core-3.0.7-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "a5dc20a4764d4314014d6d57817899dbf76f6bc505234bf73f26961cd161c27fc52c67151a4f6b3024f05c27c068d10222e87739030762ec3e55ac2184842bdd"
+
+[update]
+[update.modrinth]
+mod-id = "BGUYUAbf"
+version = "k1F7bD6t"
