@@ -1,6 +1,6 @@
 name = "Biome Music"
 filename = "biomemusic-1.21.1-4.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
