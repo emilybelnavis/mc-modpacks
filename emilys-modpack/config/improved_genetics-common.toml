@@ -1,0 +1,126 @@
+#Genetics Settings
+[genetics]
+
+	#You cannot get creature sample from blacklisted entities.
+	[genetics.blacklist]
+		blacklist = ["minecraft:player", "minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "minecraft:iron_golem", "minecraft:snow_golem", "improved_genetics:genebot"]
+
+#Power Settings
+[power]
+
+	#Generator settings
+	[power.generator]
+		#Maximum power for the Generator
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power generation to send per tick
+		# Default: 2000
+		# Range: > 0
+		transfer = 2000
+		#Produced FE per tick
+		# Default: 4
+		# Range: > 0
+		produce = 4
+
+	#DNA Extractor settings
+	[power.dna_extractor]
+		#Maximum power for the DNA Extractor
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power to transfer per tick
+		# Default: 1000
+		# Range: > 0
+		extract = 1000
+		#Power to consume per tick
+		# Default: 2
+		# Range: > 0
+		consume = 2
+		#Tick count per process
+		# Default: 100
+		# Range: > 0
+		ticks = 100
+
+	#DNA Editor settings
+	[power.dna_editor]
+		#Maximum power for the DNA Editor
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power to transfer per tick
+		# Default: 1000
+		# Range: > 0
+		extract = 1000
+		#Power to consume per tick
+		# Default: 2
+		# Range: > 0
+		consume = 2
+		#Tick count per process
+		# Default: 100
+		# Range: > 0
+		ticks = 100
+
+	#DNA Injector settings
+	[power.dna_injector]
+		#Maximum power for the DNA Injector
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power to transfer per tick
+		# Default: 1000
+		# Range: > 0
+		extract = 1000
+		#Power to consume per tick
+		# Default: 2
+		# Range: > 0
+		consume = 2
+		#Tick count per process
+		# Default: 100
+		# Range: > 0
+		ticks = 100
+
+	#Cloning Machine settings
+	[power.cloning_machine]
+		#Maximum power for the Cloning Machine
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power to transfer per tick
+		# Default: 2000
+		# Range: > 0
+		extract = 2000
+		#Power to consume per tick
+		# Default: 3
+		# Range: > 0
+		consume = 3
+		#Tick count per process
+		# Default: 1000
+		# Range: > 0
+		ticks = 1000
+
+	#Analyzer settings
+	[power.analyzer]
+		#Maximum power for the Analyzer
+		# Default: 100000
+		# Range: > 0
+		maxPower = 100000
+		#Power generation to send per tick
+		# Default: 1000
+		# Range: > 0
+		transfer = 1000
+		#Power to consume per tick
+		# Default: 2
+		# Range: > 0
+		consume = 2
+		#Tick count per process
+		# Default: 100
+		# Range: > 0
+		ticks = 100
+
+	#Copper Wire settings
+	[power.copper_wire]
+		#Transfer
+		# Default: 200
+		# Range: > 0
+		transfer = 200

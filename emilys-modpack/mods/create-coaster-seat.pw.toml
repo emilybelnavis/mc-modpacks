@@ -1,0 +1,13 @@
+name = "Create: Coaster Seat"
+filename = "createcoasterseat-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3af1575db6d4d067b64a4281b8767bdc8bd382dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8933384
+project-id = 1678666

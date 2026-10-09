@@ -1,0 +1,13 @@
+name = "Create: Power Components"
+filename = "power-components-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cbdf1874ecce7ac4cf4858c1a2876732b9392df2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8714305
+project-id = 1659527

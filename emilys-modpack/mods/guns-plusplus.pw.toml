@@ -1,0 +1,13 @@
+name = "Guns ++"
+filename = "guns++-5.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22835a506f6dfc200991045c41b5f114fbaf94bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5811665
+project-id = 1112275

@@ -1,0 +1,13 @@
+name = "MTA - New York City Subway Signs"
+filename = "MTA NYC Subway Signs - NeoForge 1.21.1 - v2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "09070179864d4566150b6f2591c837641d594ed5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8318772
+project-id = 1551335

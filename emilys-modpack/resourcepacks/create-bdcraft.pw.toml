@@ -1,0 +1,13 @@
+name = "Create BDCraft"
+filename = "[64x] Create 6 BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07822ebd130d5d67952cb6f590536b151dc0aeb0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7485414
+project-id = 1152174

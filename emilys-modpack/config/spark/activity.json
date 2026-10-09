@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "memewatney",
+      "uniqueId": "a7d8482a-00f7-4eef-91f8-0647a1cf8f1c"
+    },
+    "time": 1787083655363,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cbfUbWImm9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "memewatney",
+      "uniqueId": "a7d8482a-00f7-4eef-91f8-0647a1cf8f1c"
+    },
+    "time": 1787083004633,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ucd0s53Jzy"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+name = "Actually Additions BDCraft"
+filename = "[64x] Actually Additions BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0913f030ed77a0084c022cb0c7df4e0645127eb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7343609
+project-id = 1406417

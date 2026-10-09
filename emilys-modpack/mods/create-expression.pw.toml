@@ -1,0 +1,13 @@
+name = "Create: Expression"
+filename = "reestrogen_additions-1.0.9-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3cdeafa47fb5322cc3eada7e04dcbb914ad60fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8506961
+project-id = 1548435

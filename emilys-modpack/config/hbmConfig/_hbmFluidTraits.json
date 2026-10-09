@@ -1,0 +1,210 @@
+{
+  "NONE": {},
+  "AIR": {
+    "gaseous": {}
+  },
+  "WATER": {
+    "liquid": {},
+    "unsiphonable": {}
+  },
+  "LAVA": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "STEAM": {
+    "gaseous": {},
+    "unsiphonable": {}
+  },
+  "HOTSTEAM": {
+    "gaseous": {},
+    "unsiphonable": {}
+  },
+  "SUPERHOTSTEAM": {
+    "gaseous": {},
+    "unsiphonable": {}
+  },
+  "ULTRAHOTSTEAM": {
+    "gaseous": {},
+    "unsiphonable": {}
+  },
+  "SPENTSTEAM": {
+    "gaseous": {},
+    "nocontainer": {}
+  },
+  "OXYGEN": {
+    "gaseous_art": {},
+    "liquid": {}
+  },
+  "HELIUM_3": {
+    "gaseous": {}
+  },
+  "HELIUM_4": {
+    "gaseous": {}
+  },
+  "OIL_CRUDE": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_CRACKED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_DESULFURIZED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_DESULFURIZED_CRACKED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_HOT": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_DESULFURIZED_HOT": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_CRACKED_HOT": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_CRUDE_DESULFURIZED_CRACKED_HOT": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_HEAVY": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_HEAVY_VACUUM": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_LIGHT": {
+    "liquid": {}
+  },
+  "OIL_LIGHT_DESULFURIZED": {
+    "liquid": {}
+  },
+  "OIL_LIGHT_CRACKED": {
+    "liquid": {}
+  },
+  "OIL_LIGHT_VACUUM": {
+    "liquid": {}
+  },
+  "NAPHTHA": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "NAPHTHA_DESULFURIZED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "NAPHTHA_CRACKED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "NAPHTHA_COKER": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "PETROLEUM_GAS": {
+    "liquid": {}
+  },
+  "OIL_INDUSTRIAL": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_INDUSTRIAL_RECLAIMED": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_HEATING": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "OIL_HEATING_HEAVY": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "PETROIL": {
+    "liquid": {}
+  },
+  "PETROIL_LEADED": {
+    "liquid": {}
+  },
+  "GAS": {
+    "gaseous": {},
+    "flammable": {
+      "energy": 10000
+    }
+  },
+  "AROMATICS": {
+    "flammable": {
+      "energy": 25000
+    },
+    "viscous": {},
+    "liquid": {}
+  },
+  "UNSATURATEDS": {
+    "gaseous": {},
+    "flammable": {
+      "energy": 1000000
+    }
+  },
+  "KEROSENE": {
+    "flammable": {
+      "energy": 300000
+    },
+    "liquid": {}
+  },
+  "KEROSENE_REFORM": {
+    "liquid": {}
+  },
+  "ETHANOL": {
+    "flammable": {
+      "energy": 75000
+    },
+    "liquid": {}
+  },
+  "PEROXIDE": {
+    "corrosive": {
+      "rating": 40
+    },
+    "liquid": {}
+  },
+  "SULFURIC_ACID": {
+    "corrosive": {
+      "rating": 50
+    },
+    "liquid": {}
+  },
+  "NITRIC_ACID": {
+    "corrosive": {
+      "rating": 60
+    },
+    "liquid": {}
+  },
+  "SCHRABIDIC_ACID": {
+    "corrosive": {
+      "rating": 75
+    },
+    "liquid": {}
+  },
+  "SOLVENT": {
+    "corrosive": {
+      "rating": 30
+    },
+    "liquid": {}
+  },
+  "PERFLUOROMETHYL": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "COLD_PERFLUOROMETHYL": {
+    "viscous": {},
+    "liquid": {}
+  },
+  "CUSTOM_DEMO": {}
+}

@@ -1,0 +1,13 @@
+name = "Genetics: Resequenced"
+filename = "geneticsresequenced-1.21.1-1.14.1-build.38.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d9c4f6d6228846f2ddaf34c3ec5ea00ef625823d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8841602
+project-id = 1040563

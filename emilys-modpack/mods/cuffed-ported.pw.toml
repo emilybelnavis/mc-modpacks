@@ -1,0 +1,16 @@
+name = "Cuffed Ported"
+filename = "Cuffed-PORT-1.21.1-1.3.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "164a5d1f3a7af844189a2fb135d2ac16990db00a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8501562
+project-id = 1623594
+
+[option]
+optional = true

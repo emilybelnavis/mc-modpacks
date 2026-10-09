@@ -1,0 +1,12 @@
+{
+  "comment": "Template file, remove the underscore ('_') from the name to enable the config.",
+  "itemStats": [],
+  "setStats": [],
+  "entityStats": [
+    ["net.minecraft.world.entity.monster.Creeper",
+      {
+        "category": [
+          ["EXPLOSION",2.0,0.25]
+        ]}]
+  ]
+}

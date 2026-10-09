@@ -1,0 +1,13 @@
+name = "ClickSigns (NeoForge Port)"
+filename = "ClickSigns-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d769586ee6f7ead29c542c55f80962b31ae24fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8513902
+project-id = 1626283

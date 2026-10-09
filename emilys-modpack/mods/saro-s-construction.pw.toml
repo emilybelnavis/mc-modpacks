@@ -1,0 +1,13 @@
+name = "Saro´s Construction"
+filename = "Saros-Construction-NeoForge-1.21.1-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "767f0dabe694392ba54e72d2c8721d54661d9279"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8254407
+project-id = 908736

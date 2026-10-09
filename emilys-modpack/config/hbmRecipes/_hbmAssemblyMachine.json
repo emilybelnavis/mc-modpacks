@@ -1,0 +1,1490 @@
+{
+  "recipes": [
+    {
+      "name": "ass.boytarget",
+      "inputItem": [
+        ["item","hbmsntm:ingot_uranium",18,32767]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:little_boy_target"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.machine_refinery",
+      "inputItem": [
+        ["item","hbmsntm:plate_copper",8,32767],
+        ["item","hbmsntm:shell_steel",4,32767],
+        ["item","hbmsntm:pipe_steel",12,32767],
+        ["item","hbmsntm:insulator",8,32767],
+        ["item","hbmsntm:circuit_analog_board",3,32767],
+        ["item","hbmsntm:cast_plate_welded",3,11]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:machine_refinery"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.drill_titanium",
+      "inputItem": [
+        ["item","hbmsntm:cast_plate",1,12],
+        ["item","hbmsntm:plate_titanium",8,32767]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:drill_titanium"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.machine_oil_derrick",
+      "inputItem": [
+        ["item","hbmsntm:cast_plate",1,5],
+        ["item","hbmsntm:plate_steel",8,32767],
+        ["item","hbmsntm:pipe_steel",4,32767],
+        ["item","hbmsntm:drill_titanium",1,32767],
+        ["item","hbmsntm:motor",1,32767]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:machine_oil_derrick"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.man",
+      "inputItem": [
+        ["item","hbmsntm:pellet_antimatter",1,32767]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:nuke_fat_man"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.packagehbmfluid.air",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.air",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,1]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.air",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,1]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.air",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,1,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.water",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.water",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,2]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.water",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,2]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.water",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,2,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.lava",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.lava",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,10]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.lava",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,10]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.lava",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,10,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.steam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.steam",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,3]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.steam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,3]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.steam",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,3,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.hotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.hotsteam",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,4]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.hotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,4]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.hotsteam",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,4,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.superhotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.superhotsteam",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,5]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.superhotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,5]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.superhotsteam",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,5,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.ultrahotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.ultrahotsteam",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,6]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.ultrahotsteam",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,6]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.ultrahotsteam",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,6,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oxygen",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oxygen",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,20]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oxygen",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,20]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oxygen",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,20,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.helium_3",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.helium_3",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,8]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.helium_3",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,8]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.helium_3",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,8,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.helium_4",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.helium_4",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,9]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.helium_4",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,9]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.helium_4",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,9,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,21]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,21]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,21,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_cracked",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,22]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,22]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_cracked",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,22,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_desulfurized",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,23]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,23]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_desulfurized",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,23,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_desulfurized_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_cracked",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,24]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_desulfurized_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,24]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_cracked",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,24,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_hot",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,25]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,25]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_hot",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,25,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_desulfurized_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_hot",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,26]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_desulfurized_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,26]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_hot",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,26,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_cracked_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_cracked_hot",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,27]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_cracked_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,27]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_cracked_hot",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,27,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_crude_desulfurized_cracked_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_cracked_hot",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,28]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_crude_desulfurized_cracked_hot",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,28]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_crude_desulfurized_cracked_hot",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,28,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_heavy",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_heavy",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,29]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_heavy",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,29]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_heavy",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,29,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_heavy_vacuum",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_heavy_vacuum",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,30]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_heavy_vacuum",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,30]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_heavy_vacuum",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,30,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_light",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_light",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,31]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_light",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,31]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_light",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,31,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_light_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_light_desulfurized",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,32]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_light_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,32]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_light_desulfurized",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,32,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_light_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_light_cracked",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,33]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_light_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,33]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_light_cracked",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,33,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_light_vacuum",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_light_vacuum",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,34]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_light_vacuum",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,34]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_light_vacuum",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,34,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.naphtha",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.naphtha",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,35]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.naphtha",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,35]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.naphtha",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,35,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.naphtha_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.naphtha_desulfurized",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,36]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.naphtha_desulfurized",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,36]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.naphtha_desulfurized",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,36,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.naphtha_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.naphtha_cracked",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,37]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.naphtha_cracked",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,37]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.naphtha_cracked",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,37,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.naphtha_coker",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.naphtha_coker",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,38]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.naphtha_coker",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,38]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.naphtha_coker",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,38,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.petroleum_gas",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.petroleum_gas",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,39]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.petroleum_gas",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,39]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.petroleum_gas",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,39,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_industrial",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_industrial",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,40]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_industrial",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,40]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_industrial",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,40,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_industrial_reclaimed",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_industrial_reclaimed",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,41]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_industrial_reclaimed",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,41]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_industrial_reclaimed",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,41,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_heating",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_heating",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,42]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_heating",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,42]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_heating",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,42,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.oil_heating_heavy",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.oil_heating_heavy",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,43]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.oil_heating_heavy",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,43]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.oil_heating_heavy",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,43,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.petroil",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.petroil",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,44]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.petroil",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,44]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.petroil",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,44,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.petroil_leaded",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.petroil_leaded",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,45]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.petroil_leaded",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,45]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.petroil_leaded",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,45,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.gas",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.gas",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,12]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.gas",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,12]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.gas",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,12,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.aromatics",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.aromatics",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,13]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.aromatics",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,13]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.aromatics",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,13,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.unsaturateds",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.unsaturateds",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,14]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.unsaturateds",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,14]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.unsaturateds",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,14,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.kerosene",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.kerosene",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,11]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.kerosene",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,11]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.kerosene",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,11,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.kerosene_reform",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.kerosene_reform",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,49]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.kerosene_reform",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,49]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.kerosene_reform",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,49,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.ethanol",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.ethanol",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,48]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.ethanol",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,48]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.ethanol",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,48,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.peroxide",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.peroxide",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,15]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.peroxide",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,15]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.peroxide",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,15,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.sulfuric_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.sulfuric_acid",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,16]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.sulfuric_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,16]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.sulfuric_acid",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,16,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.nitric_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.nitric_acid",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,17]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.nitric_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,17]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.nitric_acid",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,17,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.schrabidic_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.schrabidic_acid",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,18]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.schrabidic_acid",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,18]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.schrabidic_acid",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,18,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.solvent",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.solvent",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,19]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.solvent",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,19]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.solvent",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,19,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.perfluoromethyl",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.perfluoromethyl",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,46]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.perfluoromethyl",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,46]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.perfluoromethyl",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,46,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.cold_perfluoromethyl",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["hbmfluid.cold_perfluoromethyl",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,47]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.cold_perfluoromethyl",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,47]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["hbmfluid.cold_perfluoromethyl",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,47,"{Fill:32000,Pressure:0}"]
+    },
+    {
+      "name": "ass.packageCustom Fluid Demo",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_empty",1,32767]
+      ],
+      "inputFluid": [
+        ["Custom Fluid Demo",32000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_full",1,1000]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackageCustom Fluid Demo",
+      "inputItem": [
+        ["item","hbmsntm:fluid_pack_full",1,1000]
+      ],
+      "outputItem": [
+        ["single",["hbmsntm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["Custom Fluid Demo",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbmsntm:fluid_icon",1,1000,"{Fill:32000,Pressure:0}"]
+    }
+  ]
+}

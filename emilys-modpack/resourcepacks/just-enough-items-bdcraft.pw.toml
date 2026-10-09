@@ -1,0 +1,13 @@
+name = "Just Enough Items BDCraft"
+filename = "[512x - 32x] JEI BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4275a208516604a77f90f50b2a8fb855134d72a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7377221
+project-id = 1397486

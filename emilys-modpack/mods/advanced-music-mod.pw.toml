@@ -1,0 +1,13 @@
+name = "Advanced Music Mod"
+filename = "advanced_music_mod-neoforge-2.0.2+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3e72f93a7013f5fe38313de46f23a9552e15976"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5437078
+project-id = 539777

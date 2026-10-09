@@ -1,0 +1,16 @@
+name = "Lazr's Lib"
+filename = "lazrslib-neoforge-1.21.1-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6e34418e2a7a3339ae18bf4446c5cc749ce5a41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8675816
+project-id = 1048285
+
+[option]
+optional = true

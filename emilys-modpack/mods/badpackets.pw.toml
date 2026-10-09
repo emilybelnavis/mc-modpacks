@@ -1,0 +1,13 @@
+name = "bad packets"
+filename = "badpackets-neo-0.8.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a29963a30afd7fa8993b97e4f870460b3f51323"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6067146
+project-id = 615134

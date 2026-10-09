@@ -1,0 +1,13 @@
+name = "Mekanism BDCraft"
+filename = "[64x] Mekanism BDCraft - 1.21 .zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8f59f691af513bcc4ccd5aa7242e1dfb233cb701"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7379625
+project-id = 1413545

@@ -1,0 +1,13 @@
+name = "Iron Chests BDCraft"
+filename = "[64x] Iron Chests BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f0216dd70e42918fe5a680be81845c90db15913f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8386968
+project-id = 1601256

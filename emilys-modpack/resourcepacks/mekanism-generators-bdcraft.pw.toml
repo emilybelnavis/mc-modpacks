@@ -1,0 +1,13 @@
+name = "Mekanism Generators BDCraft"
+filename = "[32x] Mekanism Generators BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ee7a6f608ce0ca2efc2bad856613c697cf1534ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7380231
+project-id = 1413632

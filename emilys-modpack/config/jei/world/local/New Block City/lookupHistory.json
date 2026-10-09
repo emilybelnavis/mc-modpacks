@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"gtceu:ev_pump"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mcwlights:square_wall_lamp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"megacells:portable_item_cell_256m","components":"{\"ae2:stored_energy\":160000.0d}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanismadvancedgenerators:infinity_universal_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"handcrafted:fancy_painting"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

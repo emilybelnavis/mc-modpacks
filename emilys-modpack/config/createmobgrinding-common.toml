@@ -1,0 +1,39 @@
+[spawner]
+	#Progress points required for a Tier 1 mob spawn.
+	#Example: 1000.0 means at 64 RPM it takes ~15.6 seconds.
+	#Default: 2000.0 (~31s at 64 RPM)
+	# Default: 2000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	spawnTimeTier1 = 2000.0
+	#Progress points required for a Tier 2 mob spawn.
+	#Example: 4000.0 means at 64 RPM it takes ~62.5 seconds.
+	#Default: 4000.0 (~62s at 64 RPM)
+	# Default: 4000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	spawnTimeTier2 = 4000.0
+	#Progress points required for a Tier 3 mob spawn.
+	#Example: 6000.0 means at 64 RPM it takes ~93.7 seconds.
+	#Default: 6000.0 (~93s at 64 RPM)
+	# Default: 6000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	spawnTimeTier3 = 6000.0
+	#Progress points required for a Tier 4 mob spawn.
+	#Example: 8000.0 means at 64 RPM it takes ~125.0 seconds.
+	#Default: 8000.0 (~125s at 64 RPM)
+	# Default: 8000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	spawnTimeTier4 = 8000.0
+	#Progress points required for a Tier 5 mob spawn.
+	#Example: 10000.0 means at 64 RPM it takes ~156.2 seconds.
+	#Default: 10000.0 (~156s at 64 RPM)
+	# Default: 10000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	spawnTimeTier5 = 10000.0
+	#List of entity types that cannot be spawned. (e.g. minecraft:warden)
+	spawnerBlacklist = ["minecraft:warden", "minecraft:ender_dragon"]
+
+[grinder]
+	#Base multiplier for grinder damage. Actual damage is speed * multiplier.
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	grinderBaseDamage = 0.1

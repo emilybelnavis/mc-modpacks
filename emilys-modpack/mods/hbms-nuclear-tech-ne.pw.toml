@@ -1,0 +1,16 @@
+name = "Hbm's Nuclear Tech: Neo Edition"
+filename = "hbmsntm-198A.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de9dc51852fa78af0daac5ed192731a609cfdb05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8459999
+project-id = 1449927
+
+[option]
+optional = true

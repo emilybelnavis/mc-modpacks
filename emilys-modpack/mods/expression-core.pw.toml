@@ -1,0 +1,13 @@
+name = "Expression: Core"
+filename = "reestrogen-3.0.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "721e1087df6168d640ce3234bfc9f877ecc829a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8605339
+project-id = 1392695

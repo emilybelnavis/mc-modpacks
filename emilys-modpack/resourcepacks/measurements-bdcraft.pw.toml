@@ -1,0 +1,13 @@
+name = "Measurements BDCraft"
+filename = "[64x] Measurements BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c5b7517ce7e25e9bbd28c5793399dbbac2df553"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7343205
+project-id = 1406335

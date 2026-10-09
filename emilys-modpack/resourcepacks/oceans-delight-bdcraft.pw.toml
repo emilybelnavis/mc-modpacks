@@ -1,0 +1,13 @@
+name = "Ocean's Delight BDCraft"
+filename = "[64x] Oceans Delight BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2800f004d81af1dc5728fa4fbb7f4e9c13b24c02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6019110
+project-id = 1165033

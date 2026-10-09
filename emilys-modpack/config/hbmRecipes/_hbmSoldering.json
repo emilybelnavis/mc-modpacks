@@ -1,0 +1,597 @@
+{
+  "comment": "Soldering station recipes.",
+  "recipes": [
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",3,32767],
+        ["item","hbmsntm:circuit_capacitor",2,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",4,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",4,32767]
+      ],
+      "output": ["hbmsntm:circuit_analog_board"],
+      "duration": 100,
+      "consumption": 100
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",4,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",4,32767]
+      ],
+      "output": ["hbmsntm:circuit_integrated_board"],
+      "duration": 200,
+      "consumption": 250
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",8,32767],
+        ["item","hbmsntm:ingot_pc",2,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",8,32767]
+      ],
+      "fluid": ["hbmfluid.sulfuric_acid",1000],
+      "output": ["hbmsntm:circuit_military_grade_board"],
+      "duration": 300,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",8,32767],
+        ["item","hbmsntm:ingot_pvc",2,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",8,32767]
+      ],
+      "fluid": ["hbmfluid.sulfuric_acid",1000],
+      "output": ["hbmsntm:circuit_military_grade_board"],
+      "duration": 300,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_tantalium_capacitor",3,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",1,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",3,32767]
+      ],
+      "fluid": ["hbmfluid.peroxide",250],
+      "output": ["hbmsntm:circuit_capacitor_board"],
+      "duration": 200,
+      "consumption": 300
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_versatile_integrated",4,32767],
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",24,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",12,32767],
+        ["item","hbmsntm:ingot_polymer",2,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",12,32767]
+      ],
+      "fluid": ["hbmfluid.solvent",1000],
+      "output": ["hbmsntm:circuit_versatile_board"],
+      "duration": 400,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_versatile_integrated",4,32767],
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",24,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",12,32767],
+        ["item","hbmsntm:ingot_bakelite",2,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",12,32767]
+      ],
+      "fluid": ["hbmfluid.solvent",1000],
+      "output": ["hbmsntm:circuit_versatile_board"],
+      "duration": 400,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_solid_state_quantum_processor",4,32767],
+        ["item","hbmsntm:circuit_versatile_integrated",16,32767],
+        ["item","hbmsntm:circuit_atomic_clock",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",16,32767],
+        ["item","hbmsntm:ingot_pc",4,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",16,32767]
+      ],
+      "fluid": ["hbmfluid.helium_4",1000],
+      "output": ["hbmsntm:circuit_quantum_processing_unit"],
+      "duration": 400,
+      "consumption": 100000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_solid_state_quantum_processor",4,32767],
+        ["item","hbmsntm:circuit_versatile_integrated",16,32767],
+        ["item","hbmsntm:circuit_atomic_clock",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_printed_board",16,32767],
+        ["item","hbmsntm:ingot_pvc",4,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",16,32767]
+      ],
+      "fluid": ["hbmfluid.helium_4",1000],
+      "output": ["hbmsntm:circuit_quantum_processing_unit"],
+      "duration": 400,
+      "consumption": 100000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",32,32767],
+        ["item","hbmsntm:circuit_capacitor",32,32767],
+        ["item","hbmsntm:circuit_tantalium_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_control_unit_casing",1,32767],
+        ["item","hbmsntm:upgrade_speed_1",1,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",16,32767]
+      ],
+      "fluid": ["hbmfluid.perfluoromethyl",1000],
+      "output": ["hbmsntm:circuit_control_unit"],
+      "duration": 400,
+      "consumption": 15000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_versatile_integrated",16,32767],
+        ["item","hbmsntm:circuit_tantalium_capacitor",48,32767],
+        ["item","hbmsntm:circuit_atomic_clock",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_control_unit_casing",1,32767],
+        ["item","hbmsntm:upgrade_speed_3",1,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",24,32767]
+      ],
+      "fluid": ["hbmfluid.perfluoromethyl",4000],
+      "output": ["hbmsntm:circuit_advanced_control_unit"],
+      "duration": 600,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_solid_state_quantum_processor",16,32767],
+        ["item","hbmsntm:circuit_versatile_integrated",48,32767],
+        ["item","hbmsntm:circuit_atomic_clock",8,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:circuit_control_unit_casing",2,32767],
+        ["item","hbmsntm:upgrade_overdrive_1",1,32767]
+      ],
+      "solder": [
+        ["item","hbmsntm:wire_lead",32,32767]
+      ],
+      "fluid": ["hbmfluid.cold_perfluoromethyl",6000],
+      "output": ["hbmsntm:circuit_quantum_computer"],
+      "duration": 600,
+      "consumption": 250000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",4,32767],
+        ["item","hbmsntm:circuit_capacitor",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_grade_copper",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_speed_1"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",4,32767],
+        ["item","hbmsntm:circuit_capacitor",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_emerald",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_effect_1"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",4,32767],
+        ["item","hbmsntm:circuit_capacitor",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_gold",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_power_1"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",4,32767],
+        ["item","hbmsntm:circuit_capacitor",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_niobium",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_fortune_1"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_vacuum_tube",4,32767],
+        ["item","hbmsntm:circuit_capacitor",1,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_tungsten",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_afterburn_1"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",4,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","minecraft:glowstone_dust",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_radius"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",4,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_template",1,32767],
+        ["item","hbmsntm:powder_lithium",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_health"],
+      "duration": 200,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_speed_1",1,32767],
+        ["item","hbmsntm:ingot_polymer",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_speed_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_speed_1",1,32767],
+        ["item","hbmsntm:ingot_bakelite",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_speed_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_speed_2",1,32767],
+        ["item","hbmsntm:ingot_biorubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_speed_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_speed_2",1,32767],
+        ["item","hbmsntm:ingot_rubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_speed_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_effect_1",1,32767],
+        ["item","hbmsntm:ingot_polymer",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_effect_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_effect_1",1,32767],
+        ["item","hbmsntm:ingot_bakelite",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_effect_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_effect_2",1,32767],
+        ["item","hbmsntm:ingot_biorubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_effect_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_effect_2",1,32767],
+        ["item","hbmsntm:ingot_rubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_effect_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_power_1",1,32767],
+        ["item","hbmsntm:ingot_polymer",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_power_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_power_1",1,32767],
+        ["item","hbmsntm:ingot_bakelite",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_power_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_power_2",1,32767],
+        ["item","hbmsntm:ingot_biorubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_power_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_power_2",1,32767],
+        ["item","hbmsntm:ingot_rubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_power_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_fortune_1",1,32767],
+        ["item","hbmsntm:ingot_polymer",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_fortune_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_fortune_1",1,32767],
+        ["item","hbmsntm:ingot_bakelite",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_fortune_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_fortune_2",1,32767],
+        ["item","hbmsntm:ingot_biorubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_fortune_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_fortune_2",1,32767],
+        ["item","hbmsntm:ingot_rubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_fortune_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_afterburn_1",1,32767],
+        ["item","hbmsntm:ingot_polymer",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_afterburn_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",8,32767],
+        ["item","hbmsntm:circuit_capacitor",4,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_afterburn_1",1,32767],
+        ["item","hbmsntm:ingot_bakelite",4,32767]
+      ],
+      "solder": [],
+      "output": ["hbmsntm:upgrade_afterburn_2"],
+      "duration": 300,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_afterburn_2",1,32767],
+        ["item","hbmsntm:ingot_biorubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_afterburn_3"],
+      "duration": 400,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbmsntm:circuit_microchip",16,32767],
+        ["item","hbmsntm:circuit_capacitor",16,32767]
+      ],
+      "pcb": [
+        ["item","hbmsntm:upgrade_afterburn_2",1,32767],
+        ["item","hbmsntm:ingot_rubber",4,32767]
+      ],
+      "solder": [],
+      "fluid": ["hbmfluid.solvent",500],
+      "output": ["hbmsntm:upgrade_afterburn_3"],
+      "duration": 400,
+      "consumption": 25000
+    }
+  ]
+}

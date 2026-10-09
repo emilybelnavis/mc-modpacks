@@ -1,0 +1,99 @@
+{
+  "recipes": [
+    {
+      "input": ["item","hbmsntm:ingot_aluminium",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_aluminium",8]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_schrabidium",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_schrabidium",8]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_saturnite",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_saturnite"]
+    },
+    {
+      "input": ["item","minecraft:gold_ingot",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_gold"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_combine_steel",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_combine_steel"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_weaponsteel",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_weapon_steel"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_schrabidium",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_schrabidium"]
+    },
+    {
+      "input": ["item","minecraft:copper_ingot",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_copper",8]
+    },
+    {
+      "input": ["item","minecraft:iron_ingot",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_iron"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_gunmetal",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_gunmetal"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_lead",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_lead"]
+    },
+    {
+      "input": ["item","minecraft:copper_ingot",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_copper"]
+    },
+    {
+      "input": ["item","minecraft:gold_ingot",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_gold",8]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_titanium",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_titanium"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_steel",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_steel"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_aluminium",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_aluminium"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_dura_steel",1,32767],
+      "stamp": "plate",
+      "output": ["hbmsntm:plate_dura_steel"]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_lead",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_lead",8]
+    },
+    {
+      "input": ["item","hbmsntm:ingot_steel",1,32767],
+      "stamp": "wire",
+      "output": ["hbmsntm:wire_steel",8]
+    }
+  ]
+}

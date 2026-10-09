@@ -1,0 +1,250 @@
+[capture]
+	#Allow downing/leashing/capturing villagers. The easy singleplayer test path;
+	#turn off for a players-only server.
+	captureVillagers = true
+	#Allow downing/leashing/capturing players.
+	capturePlayers = true
+
+[down]
+	#Real seconds a downed (crawling) victim survives before bleeding out and dying,
+	#unless they are finished off, leashed, or revived first. The timer PAUSES while
+	#they are leashed (shackled) and while they are offline.
+	# Default: 30
+	# Range: 1 ~ 86400
+	bleedOutSeconds = 30
+	#Real seconds anyone must hold right-click (empty hand) on a downed/leashed body
+	#to revive them back onto their feet.
+	# Default: 4.0
+	# Range: 0.25 ~ 60.0
+	reviveSeconds = 4.0
+	#Health a revived victim stands up with (1.0 = half a heart).
+	# Default: 6.0
+	# Range: 1.0 ~ 1024.0
+	healOnRevive = 6.0
+	#Health a victim is set to when locked into a cell at the terminal.
+	# Default: 12.0
+	# Range: 1.0 ~ 1024.0
+	healOnImprison = 12.0
+	#If true, ANY weapon (no Non-lethal enchantment needed) downs a player/villager on a
+	#blow that would otherwise kill them, turning this mod into a global downing system.
+	#Default OFF, so it stays an enchantment opt-in. WARNING: other mods with their own
+	#down/death systems (e.g. Vampirism) can conflict with a global downing rule; leave
+	#this OFF if you rely on another mod's down mechanic.
+	globalNonLethal = false
+
+[leash]
+	#Distance (blocks) past which a leashed captive starts getting pulled toward the lead
+	#holder. Kept deliberately loose so a captive trails a few blocks behind, out of the
+	#captor's forward view - which means a captor who isn't watching may not notice when a
+	#captive silently struggles free.
+	# Default: 5.0
+	# Range: 2.0 ~ 64.0
+	leashPullStart = 5.0
+	#Distance (blocks) past which a leashed captive is yanked (teleported) closer to
+	#the holder so they cannot be left behind on a snag.
+	# Default: 16.0
+	# Range: 4.0 ~ 128.0
+	leashTeleportDistance = 16.0
+	#If true, putting the lead away (no lead in either hand) drops the captive back to
+	#the ground (downed). If false, the leash holds until bind/rescue/holder death.
+	leashBreaksWhenLeadPutAway = true
+
+[struggle]
+	#Let a captive PLAYER fight free of the lead by holding right-click, so a captor cannot
+	#just drag someone around forever without ever jailing them.
+	struggleEnabled = true
+	#Seconds of continuous holding for a captive to complete one HEAVE. A 'strain' meter fills
+	#over this time; when it tops out the captive gains a chunk of escape progress and the
+	#strain resets. Lower = faster escapes.
+	# Default: 5
+	# Range: 1 ~ 60
+	struggleHeaveSeconds = 5
+	#Percent of escape progress gained per completed heave (guaranteed - the bar always climbs
+	#while struggling, so a captive never stares at a stuck 0%). At 100% they break free.
+	#Default 12 = about eight heaves (~40s of unbroken struggling) to escape.
+	# Default: 12
+	# Range: 1 ~ 100
+	struggleProgressPerHeave = 12
+	#Chance (0..1) that a leash creak SOUND plays when the captive completes a heave - the only
+	#tell the captor gets that their captive is struggling, so they know to fasten the lead.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	struggleLeashSoundChance = 0.25
+	#The captor can FASTEN the lead (right-click air while dragging) to cut a captive's escape
+	#progress, but only this often (seconds). Fastening when they aren't struggling is wasted.
+	# Default: 30
+	# Range: 0 ~ 600
+	fastenCooldownSeconds = 30
+	#Percent of escape progress removed each time the captor fastens the lead.
+	# Default: 50
+	# Range: 0 ~ 100
+	fastenProgressReduction = 50
+	#Percent of LEAD DURABILITY worn off by a real fasten (one that set back a struggling
+	#captive). The captor sees a lead-durability meter; at 0% the lead snaps and the captive
+	#drops free. Default 12 = about eight good fastens per lead.
+	# Default: 12
+	# Range: 0 ~ 100
+	fastenLeadWearReal = 12
+	#Percent of LEAD DURABILITY worn off by a FALSE fasten (one done while the captive wasn't
+	#struggling - wasted effort that just frays the lead). Set higher than the real wear so
+	#spamming fasten at nothing chews through the lead fast. Default 25.
+	# Default: 25
+	# Range: 0 ~ 100
+	fastenLeadWearWasted = 25
+	#Slowness level on a captor while they are dragging a captive (the burden of hauling a
+	#body), applied whether or not the captive is struggling. 0 = none, 1 = Slowness I, etc.
+	# Default: 1
+	# Range: 0 ~ 9
+	dragSlownessLevel = 1
+
+[guard]
+	#Entity type spawned as a dungeon guard when you feed the terminal's compartment.
+	#Default is the iron golem; set another mob id (e.g. a unit from another mod) to use
+	#it as your guards instead. Must be a living 'Mob' that can take a target; invalid
+	#values fall back to the iron golem. NOTE: mods with their own team/faction AI (e.g.
+	#Hundred Years War) may ignore our targeting or behave oddly, test before relying on it.
+	guardEntity = "minecraft:iron_golem"
+	#How many blocks BEYOND the cell wall an idle guard patrols. Their evenly-spread
+	#perimeter posts sit this far out, and their leash reaches a little farther so they
+	#can pace between posts. Low values make guards crowd the walls; raise it to give them
+	#a wider beat around the prison. Measured from the cell edge, not its center.
+	# Default: 6.0
+	# Range: 1.0 ~ 32.0
+	guardPatrolRadius = 6.0
+	#If true, an armed terminal automatically raises replacement guards from materials
+	#STOCKED in its compartment (4 iron blocks + 1 carved pumpkin per golem, or an HYW
+	#soldier scroll) up to its stationed count - so you keep it stocked and don't have to
+	#re-trigger spawns by hand. It never makes guards for free: no materials, no respawn.
+	#Turn off to only ever post guards manually.
+	guardAutoRespawn = true
+	#Seconds between auto-respawn top-ups (from stocked materials) when guardAutoRespawn is
+	#on. Default 120 (2 min).
+	# Default: 120
+	# Range: 5 ~ 3600
+	guardRespawnSeconds = 120
+	#Seconds an idle guard holds a post before rotating to the next one, to simulate a
+	#patrol/relief cycle around the prison's weak points. Default 120 (2 min).
+	# Default: 120
+	# Range: 10 ~ 3600
+	guardCycleSeconds = 120
+
+[escape]
+	#How many blocks from the terminal a prisoner must get to count as a SUCCESSFUL
+	#escape (guards give up, items returned). Deliberately LARGE by default: a cell is
+	#often deep inside a base or a MineColonies compound, so the prisoner must clear the
+	#whole settlement and its outer walls before they're truly free. Lower it for small
+	#prisons, raise it for sprawling colonies.
+	# Default: 500.0
+	# Range: 4.0 ~ 8192.0
+	escapeDistance = 500.0
+	#If false, prisoners cannot break ANY block - a fully escape-proof cell. If true,
+	#they may dig (slowly, with Mining Fatigue) and scavenge crafting materials.
+	prisonerCanMine = true
+	#If true, a prisoner's block-breaking is allowed even inside another mod's claim
+	#(MineColonies, FTB Chunks, etc.) so a cell built on claimed land is still escapable.
+	prisonerBypassClaims = true
+	#Chance (0..1) that a prisoner breaking a block scavenges a crafting material
+	#(plank/stick/log) toward escape tools. 0 = never (combine with prisonerCanMine=false
+	#for a truly inescapable prison). Default 0.6 = a fair grind under Mining Fatigue.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	escapeMaterialChance = 0.6
+	#Mining Fatigue LEVEL on prisoners (0 = none, 1 = Mining Fatigue I, 3 = III).
+	#Higher makes digging out slower and the cell harder to escape.
+	# Default: 2
+	# Range: 0 ~ 9
+	prisonerMiningFatigue = 2
+	#Anti-grief (MineColonies): stop a prisoner from breaking into a colony their prison is
+	#NOT part of. A prison built outside a colony could otherwise tunnel in, since the claim
+	#bypass lets a prisoner break claimed blocks and the cell swallows them. A cell that
+	#sits inside its OWN colony can still be dug out of normally, and unclaimed ground is
+	#always free - only crossing into someone else's claim is refused. Off = no protection.
+	blockTunnelIntoClaims = true
+	#Stop a prisoner (or a downed/being-dragged captive) from TELEPORTING out of custody.
+	#Covers ender pearls (including stasis chambers, where a held-open pearl yanks them
+	#away), chorus fruit, and the vanilla /tp command by cancelling the teleport outright.
+	#It ALSO runs a catch-all: any other teleport (a warp/home/RTP mod that bypasses the
+	#teleport event entirely) is detected the moment they land outside the cell and they are
+	#snapped straight back to the anchor. Digging out is unaffected - that is continuous
+	#movement, not a teleport. NOTE: this also blocks an admin /tp aimed at a held prisoner;
+	#release them first, or turn this off, if you need to move one by command.
+	preventPrisonerTeleport = true
+	#Catch-all sensitivity: how many blocks of HORIZONTAL movement in a single upkeep tick
+	#(every 1/4 second) counts as a teleport when the prisoner ends up outside the cell. No
+	#legitimate running/sprinting moves this far in a quarter-second, while pearls and warps
+	#jump much farther, so this cleanly separates a teleport from a dig-out. A prisoner who
+	#digs down and falls (vertical, not horizontal) is never mistaken for a teleport. Only
+	#used for teleports that slip past the event cancel above; lower = stricter.
+	# Default: 6.0
+	# Range: 4.0 ~ 256.0
+	teleportJumpBlocks = 6.0
+	#Stop a prisoner (or a downed / being-dragged captive) from RIDING anything out of
+	#custody - boats, minecarts, horses, and modded chairs/seats all use the same mount
+	#hook. They are ejected if already riding and cannot mount while held. Off = they can
+	#climb into a boat/minecart to be carried off.
+	preventHeldMount = true
+	#Stop a downed or being-dragged captive from JUMPING and CLIMBING ladders/vines/
+	#scaffolding to squirm off their down spot or out of a drag. Their own jump and climb-up
+	#are cancelled each tick, while the captor's drag still lifts them over 1-block ledges.
+	#Off = they can hop and climb while down.
+	immobilizeDowned = true
+	#If true, food dropped into a cell is pulled into the terminal and auto-fed to the
+	#prisoner over time (better food lasts longer), so they cannot starve themselves and
+	#wardens needn't risk hand-feeding.
+	autoFeedPrisoners = true
+	#When a warden executes a NON-escaping prisoner, where their confiscated items go:
+	#  true  = neatly stashed in a chest spawned inside the prison (they get their kit
+	#          back only by escaping or being ransomed, never by dying).
+	#  false = returned to the player on respawn.
+	executeItemsToChest = true
+
+[ransom]
+	#Real seconds a freed/escaped/revived victim cannot be re-downed or re-captured.
+	# Default: 30
+	# Range: 0 ~ 86400
+	kidnapImmunitySeconds = 30
+	#Seconds of strong Resistance + Fire Resistance (and a heal) a player gets the moment
+	#they are freed by ransom or escape. Because re-capture immunity suppresses the
+	#protective DOWN, a freshly-freed player would otherwise take killing blows for real -
+	#this stops a captor who rigged the capture site (lava, a mob pit) from instantly
+	#deleting them as they reappear. 0 = off.
+	# Default: 10
+	# Range: 0 ~ 600
+	releaseResistanceSeconds = 10
+	#What a ransom is paid in. One of:
+	#  ITEM      = a stack of the ransomItem below (default emerald). Always works.
+	#  SDM       = a balance in SDM Economy (sdmeconomy). Charges the payer and credits
+	#              the captor by UUID, so an OFFLINE captor is still paid.
+	#  LIGHTMANS = Lightman's Currency coins (lightmanscurrency). Charges the payer's
+	#              wallet/held coins; an online captor is paid into their money handler,
+	#              an offline captor into their bank account.
+	#If the chosen economy mod is NOT installed (or its currency can't be resolved), the
+	#payment automatically falls back to ITEM so the server is never stuck. The ransom
+	#PRICE is the number set per-prison at the terminal, interpreted in the chosen unit.
+	ransomCurrency = "ITEM"
+	#Only used when ransomCurrency = SDM. The NAME of the SDM Economy currency to charge
+	#(as shown in SDM). Leave BLANK to use the server's first/default currency.
+	sdmCurrency = ""
+	#Only used when ransomCurrency = LIGHTMANS. The coin CHAIN to charge in. Default
+	#"main" is the standard copper->netherite coin set; only change it if your server
+	#defines a custom coin chain.
+	lightmansChain = "main"
+	#Item used to pay ransoms when ransomCurrency = ITEM.
+	ransomItem = "minecraft:emerald"
+
+[items]
+	#How a prisoner's items are handled when they are locked into a cell. BOTH modes clear
+	#their inventory on capture (they hold NOTHING in the cell) and keep the kit safe until
+	#they leave - the difference is only how it comes back:
+	#  VAPORIZE = handed back into their inventory when freed (escape/ransom/death).
+	#  CHEST    = never handed back; it drops in a chest at the CAPTURE SITE when they are
+	#             freed, or in a chest inside the cell if they are executed. The chest is
+	#             NOT spawned while they are held, so it can never be looted from the cell.
+	itemMode = "VAPORIZE"
+
+[dungeon]
+	#Max size (in blocks, each axis) of an enclosed dungeon. A flood-fill that leaks
+	#past this is considered not enclosed.
+	# Default: 20
+	# Range: 2 ~ 64
+	maxDungeonDimension = 20
