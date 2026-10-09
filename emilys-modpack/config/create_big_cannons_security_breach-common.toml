@@ -1,0 +1,79 @@
+[general]
+	#Enable CBC damage to Security Craft blocks globally
+	enabled = true
+	#Global multiplier for explosive damage to SC blocks
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	explosionDamageMultiplier = 0.5
+	#Minimum explosion power to damage an SC block
+	# Default: 2.0
+	# Range: 0.1 ~ 20.0
+	minExplosionPower = 2.0
+	#Multiplier for direct projectile hits (solid shot, grapeshot)
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	directHitMultiplier = 1.5
+
+[damage_decay]
+	#Cracks slowly heal over time
+	damageDecayEnabled = true
+	#Min ticks between crack reductions (20 = 1s)
+	# Default: 140
+	# Range: 20 ~ 1200
+	damageDecayIntervalMin = 140
+	#Max ticks between crack reductions (20 = 1s)
+	# Default: 300
+	# Range: 20 ~ 1200
+	damageDecayIntervalMax = 300
+
+[material_hp]
+	reinforcedGlassHp = "50.0"
+	reinforcedPowderHp = "75.0"
+	reinforcedWoodHp = "200.0"
+	reinforcedStoneHp = "500.0"
+	reinforcedCopperHp = "500.0"
+	reinforcedWoolHp = "100.0"
+	reinforcedIronHp = "1500.0"
+	reinforcedSteelHp = "3000.0"
+	reinforcedDiamondHp = "3000.0"
+	reinforcedObsidianHp = "2500.0"
+	reinforcedNetheriteHp = "4000.0"
+	fallbackHp = "600.0"
+
+[material_resistance]
+	# Default: 2400.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedGlassResistance = 2400.0
+	# Default: 2400.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedPowderResistance = 2400.0
+	# Default: 3000.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedWoodResistance = 3000.0
+	# Default: 4500.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedStoneResistance = 4500.0
+	# Default: 4500.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedCopperResistance = 4500.0
+	# Default: 2400.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedWoolResistance = 2400.0
+	# Default: 6000.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedIronResistance = 6000.0
+	# Default: 8000.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedSteelResistance = 8000.0
+	# Default: 8000.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedDiamondResistance = 8000.0
+	# Default: 7500.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedObsidianResistance = 7500.0
+	# Default: 10000.0
+	# Range: 1.0 ~ 50000.0
+	reinforcedNetheriteResistance = 10000.0
+	# Default: 4500.0
+	# Range: 1.0 ~ 50000.0
+	fallbackResistance = 4500.0

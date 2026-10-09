@@ -1,0 +1,13 @@
+name = "Pam's Crops BDCraft"
+filename = "[64x] Pams HarvestCraft 2 CROPS BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a92bc9795af51966ab4067cfc0e513e57b74598d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7486485
+project-id = 1436187

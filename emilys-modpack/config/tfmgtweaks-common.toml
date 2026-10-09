@@ -1,0 +1,211 @@
+[oil_rock]
+	#1-in-N chance for an Oil Rock cluster to attempt spawning per chunk.
+	#Lower = more common.
+	# Default: 20
+	# Range: > 1
+	spawnChance = 20
+	#Maximum number of additional Oil Rock deposits that can spawn near a primary deposit
+	# Default: 6
+	# Range: 0 ~ 10
+	maxNearbyDeposits = 6
+	#Lowest Y level Oil Rock clusters can start spawning at.
+	# Default: -32
+	# Range: -64 ~ 320
+	minHeight = -32
+	#Highest Y level Oil Rock clusters can start spawning at.
+	# Default: 60
+	# Range: -64 ~ 320
+	maxHeight = 60
+	#If true, Oil Rock replaces TFMG's own bedrock-locked oil deposits entirely.
+	#If false, both spawn side by side.
+	replacesOldOilNodes = true
+	#If true, old, already generated TFMG oil deposits will be replaced with new oil rock deposits.
+	migrateOldDeposits = false
+	#If true, will scan every Y level instead of just scanning Y=-64 for old oil deposits.
+	#Use this only if your old oil nodes spawned at any height.
+	migrateScanFullHeight = false
+	#If true, an Oil Rock's oil reserves are finite and deplete with extraction.
+	#If false, reserves never run out.
+	finiteReserves = true
+	#How much oil a single Oil Rock holds when finiteReserves is true.
+	# Default: 10000000
+	# Range: > 1
+	reserves = 10000000
+	#Total mB of Steam needed to crack an Oil Rock deposit for fracking to start.
+	# Default: 10000
+	# Range: > 1
+	fluidToFullyCrack = 10000
+	#How much fracking progress an Oil deposit loses per tick.
+	# Default: 5
+	# Range: > 0
+	frackingDecayRate = 5
+	#How many ticks with no Steam received before frackingDecayRate above starts
+	# Default: 60
+	# Range: > 0
+	frackingDecayGraceTicks = 60
+	#If true, requires oil rock to be cracked from fracking to extract oil from it.
+	requireCrackedToExtract = false
+	#General multiplier applied to a pump jack's extraction rate before fracking
+	# Default: 0.5
+	# Range: 0.1 ~ 10.0
+	baseExtractionMultiplier = 0.5
+	#Extraction rate multiplier applied on top of base extraction when fracking.
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	crackedExtractionMultiplier = 3.0
+	#How much mB of waste water a pump jack can store internally.
+	# Default: 4000
+	# Range: > 100
+	pumpjackWasteWaterCapacity = 4000
+	#How much mB of steam a pump jack can store internally.
+	# Default: 4000
+	# Range: > 100
+	pumpjackSteamTankCapacity = 4000
+	#What percentage of the steam tank is converted into waste water per tick
+	# Default: 5
+	# Range: 1 ~ 100
+	pumpjackSteamProcessingRatePercent = 5
+
+[surface_scanner]
+	#How often a Surface Scanner re-scans for deposits
+	#Default = 2400 ticks
+	# Default: 2400
+	# Range: > 1
+	rescanIntervalTicks = 2400
+
+[fuel_explosions]
+	#If true, a tank filled with flammable fluid will explode when triggered by another explosion
+	enabled = true
+	#If true, tanks will only explode on Hard difficulty.
+	#If false, it will explode on any difficutty.
+	requireHardDifficulty = true
+	#How much mB of flammable fluid a tank needs stored to be able to explode
+	# Default: 500
+	# Range: > 0
+	minAmountMb = 500
+	#Explosion power added per 1000 mB of flammable fluid
+	# Default: 0.2
+	# Range: 0.01 ~ 10.0
+	powerPerBucket = 0.2
+	#Max power a tank explosion is capped at.
+	# Default: 64.0
+	# Range: 1.0 ~ 128.0
+	maxPower = 64.0
+	#Radius around the follow-up explosion to attempt to ignite.
+	# Default: 6
+	# Range: 0 ~ 16
+	fireRadius = 6
+	#Chance for each eligible position within fireRadius to catch fire.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	fireChance = 0.5
+	#How many falling fire entitys will spawn on tank explosion.
+	# Default: 24
+	# Range: 0 ~ 128
+	fallingFireCount = 24
+	#Horizontal-only velocity multiplier applied every tick to falling fire.
+	# Default: 0.9
+	# Range: 0.1 ~ 1.0
+	fallingDrag = 0.9
+	#Horizontal-only velocity multiplier applied every tick to falling fluid.
+	# Default: 0.95
+	# Range: 0.1 ~ 1.0
+	fallingFluidDrag = 0.95
+	#The max amount of falling fluid entitys that will spawn on tank explosion.
+	# Default: 8
+	# Range: 1 ~ 64
+	maxFluidSpillCount = 8
+	#How many smaller secondary explosions go off at random spots near the main blast.
+	# Default: 6
+	# Range: 0 ~ 32
+	secondaryExplosionCount = 6
+	#Maximum horizontal and vertical distance a secondary explosion will spawn.
+	# Default: 8
+	# Range: 1 ~ 32
+	secondaryExplosionRadius = 8
+	#Explosion power of secondary blasts.
+	# Default: 1.5
+	# Range: 0.5 ~ 32.0
+	secondaryExplosionPower = 1.5
+	#The max amount of ticks a secondary explosion will wait before going off.
+	# Default: 80
+	# Range: 0 ~ 200
+	secondaryExplosionMaxDelayTicks = 80
+	#How many falling fire debris entities spawn from each secondary explosion.
+	# Default: 4
+	# Range: 0 ~ 32
+	secondaryExplosionFallingFireCount = 4
+	#If true, secondary explosions destroys nearby blocks.
+	surroundingBlocksDamaged = true
+	#Max distance fluid tank can chain react with each other.
+	# Default: 5
+	# Range: 0 ~ 32
+	chainExplosionRadius = 5
+
+[fluid_ignition]
+	#If true, flammable fluid will become ignited when lit on fire or exploded.
+	enabled = true
+	#Maximum distance a ignition can spread across flammable fluid
+	# Default: 128
+	# Range: 1 ~ 512
+	maxSpread = 128
+	#How fast ignition will spread to nearby flammable fluid each tick
+	#instantly covering it.
+	# Default: 2
+	# Range: 1 ~ 64
+	spreadPerTick = 2
+	#How many client side particles will spawn on ignited fuel per tick
+	# Default: 1
+	# Range: 0 ~ 16
+	particlesPerTick = 1
+	#How fast unsupported ignited fuel is removed per tick
+	# Default: 2
+	# Range: 1 ~ 64
+	removalPerTick = 2
+	#How far a non-source ignited fuel fragments can be from a source before it is removed
+	# Default: 8
+	# Range: 1 ~ 64
+	sourceSupportRadius = 8
+	#How long a freshly ignited fragment will stay when unsupported.
+	# Default: 60
+	# Range: 0 ~ 1200
+	supportGracePeriod = 60
+	#How many tracked ignited fuel fragments get re-checked for sources at random per tick
+	# Default: 4
+	# Range: 0 ~ 64
+	proactiveCheckPerTick = 4
+
+[air_intake_pollution_cleaning]
+	#Whether an assembled air intake gradually reduces nearby pollution
+	#Requires Pollution of the Realms
+	enabled = true
+	#Base pollution quantity removed per minute by a single intake
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	rate1x1PerMinute = 1.0
+	#Base pollution quantity removed per minute by a 2x2 air intake.
+	# Default: 5.0
+	# Range: 0.0 ~ 1000.0
+	rate2x2PerMinute = 5.0
+	#Base pollution quantity removed per minute by a 3x3 air intake.
+	# Default: 12.0
+	# Range: 0.0 ~ 1000.0
+	rate3x3PerMinute = 12.0
+	#Multiplies the base rates by how fast they are spining starting at 1x with 128 Rpm up to 2x at max speed.
+	# Default: 128
+	# Range: 1 ~ 1024
+	speedBonusBaselineRpm = 128
+	#Fallback Y level to check for pollution when an air intake is
+	#producing Carbon Dioxide or Sulfur Dioxide, only used if Pollution of
+	#the Realms' own per-gas "concentration altitude" setting can't be
+	#read directly (normally it can, and that value -- which may differ
+	#between gases -- is used instead of this one).
+	# Default: 192
+	# Range: -64 ~ 320
+	gasProductionHeightY = 192
+
+[oil_hammer]
+	#If true, the Oil Hammer's Oil Rock readout reports the exact coordinates
+	#of the nearest Oil Rock instead of the normal vague "traces of oil" message.
+	#Intended for debugging/development, not normal play.
+	debugMode = false

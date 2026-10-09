@@ -1,0 +1,7 @@
+[telestation]
+	#Only affects integrated singleplayer worlds. When true, TeleStation travel adds world time based on travel distance.
+	skip_time_in_singleplayer = true
+	#World time ticks added per block traveled by TeleStation in singleplayer. 1.0 means 1000 blocks adds 1000 ticks.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	time_ticks_per_block = 1.0

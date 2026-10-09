@@ -1,0 +1,16 @@
+name = "Villager Overhaul"
+filename = "villageroverhaul-neoforge-1.21.1-3.10.17.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "babb93b1496d70533d816b8db5fcaeb4c7dd1a7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8237734
+project-id = 1338090
+
+[option]
+optional = true

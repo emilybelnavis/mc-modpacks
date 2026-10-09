@@ -1,0 +1,13 @@
+name = "Sophisticated Backpack Allthemodium Tier"
+filename = "backpack_allthemodium_upgrade-2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c383e1d8a7f21cfae83a04bdc693bb72bbd7430"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6842146
+project-id = 1198838

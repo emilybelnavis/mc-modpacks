@@ -1,0 +1,13 @@
+name = "Neighborly"
+filename = "Neighborly 1.8 for Neoforge 1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30039677ccb511996c78bbdb7395de35872da688"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7362725
+project-id = 935770

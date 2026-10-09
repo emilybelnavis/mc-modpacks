@@ -1,0 +1,13 @@
+name = "Create: Ender Transmission BDCraft"
+filename = "[64x] Create Ender Transmission BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c7a52b5e771482c448d7f5129f0436dbd4c0586"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7296045
+project-id = 1152592

@@ -1,0 +1,13 @@
+name = "Extreme Reactors BDCraft"
+filename = "[64x] Extreme Reactors BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "73f6ceb88140c62e7539f8442b6381d960802e54"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8291163
+project-id = 1582783

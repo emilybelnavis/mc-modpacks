@@ -1,0 +1,13 @@
+name = "Create: Mind the Gap"
+filename = "create_mtg-1.2.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5e53f63a91c8ac06def5556318778a6c7b15019"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8445756
+project-id = 1517134

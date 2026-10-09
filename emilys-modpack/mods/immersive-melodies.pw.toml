@@ -1,0 +1,13 @@
+name = "Immersive Melodies"
+filename = "immersive_melodies-neoforge-0.7.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0be207824ef9905fcb3372b95572ad0feda991cc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8618153
+project-id = 904471

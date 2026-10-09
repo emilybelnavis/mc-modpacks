@@ -1,0 +1,13 @@
+name = "Applied Energistics 2 BDCraft"
+filename = "[64x] Applied Energistics 2 BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49a30af37e019b75f2636cb3fbbc1d7ef858734c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7523127
+project-id = 1443841

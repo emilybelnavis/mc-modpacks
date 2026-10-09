@@ -1,0 +1,13 @@
+name = "Pam's Food Extended BDCraft"
+filename = "[64x] Pams HarvestCraft 2 EXTENDED BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6516232deb23bc8ed7de829338971daa359f6718"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7486457
+project-id = 1436178

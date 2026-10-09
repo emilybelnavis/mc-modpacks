@@ -1,0 +1,13 @@
+name = "Create: Train Physics"
+filename = "create_train_physics-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b938eb6b1f94adff66c5fdca5df88709d3b2807"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7459528
+project-id = 1429488

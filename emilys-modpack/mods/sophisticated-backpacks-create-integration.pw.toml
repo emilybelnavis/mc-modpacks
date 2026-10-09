@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks Create Integration"
+filename = "sophisticatedbackpackscreateintegration-1.21.1-0.2.1.171.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2aceb2689c04006cca171657ead6feeeda48ac73"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8985949
+project-id = 1238567

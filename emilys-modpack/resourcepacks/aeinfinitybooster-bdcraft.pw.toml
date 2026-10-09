@@ -1,0 +1,13 @@
+name = "AEInfinityBooster BDCraft"
+filename = "[64x] AEInfinityBooster BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1052193278d48292e294d59f79d5aa425709f7b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8363181
+project-id = 1596600

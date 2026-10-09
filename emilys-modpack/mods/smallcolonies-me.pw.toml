@@ -1,0 +1,13 @@
+name = "SmallColonies ME for Minecolonies"
+filename = "smallcoloniesme 1.21.1 v1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28de82aefd7d3444a5e83347a82447504d56afa2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8045900
+project-id = 1247027

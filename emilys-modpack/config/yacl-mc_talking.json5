@@ -1,0 +1,141 @@
+{
+	// This key is used to authenticate with the Gemini API. You can get one at https://aistudio.google.com/apikey
+	geminiApiKey: "",
+	// What kind of AI model to use. Right now, this is the only one Google offers
+	currentAiModel: "Flash3",
+	// The language the AI should use to speak
+	language: "en-US",
+	// Whether the citizens should respond if the player is in a group or not.
+	respondInGroups: false,
+	// If true, text messages from mumbling and citizen-to-citizen conversations will also be sent to nearby players in chat.
+	sendMumblingAndConversationsToChat: false,
+	// If true, citizens will occasionally mention colony milestones (buildings built, mobs killed, etc.) in their idle mumbles and conversations.
+	enableColonyStatsMentions: true,
+	// If true, citizens continue wandering normally while in a player conversation / conversation with another citizen etc. If false (default), they stay in place for the duration of the conversation.
+	continueWorkDuringConversation: false,
+	// If true, an AI will look at the conversation and take not of the most notable events that happend in that conversation. If not the real time AI is only able to update their memory mid conversation (less accurate)
+	enableConversationSummaryAndMemorize: false,
+	// If true, citizens will be able to start conversations with each other without player involvement.
+	enableCitizenToCitizenConversation: true,
+	// How citizen-to-citizen conversations are generated.
+	// LIVE_WEBSOCKETS: Two Gemini Live sessions feed audio to each other in real time - no Flash or TTS call needed.
+	// FLASH_TTS: Flash generates a script, then Gemini TTS renders multi-speaker audio. Higher quality but limited to ~10/day.
+	// AUTO (default): Tries Flash+TTS first; automatically falls back to Live WebSockets if the pipeline fails (e.g. quota exhausted).
+	conversationMode: "AUTO",
+	// If true, citizens will randomly start conversations with each other based on the chance below. Requires enableCitizenToCitizenConversation to be true.
+	enableRandomConversations: true,
+	// Chance (0.0-1.0) that a pair of nearby citizens start a random conversation per check interval
+	randomConversationChance: 0.05,
+	// How often (in server ticks) to check for random citizen conversations. 20 ticks = 1 second
+	randomConversationCheckIntervalTicks: 400,
+	// If true, the mod will pregenerate audio for citizen greetings and threats in the background to reduce audio latency.
+	enablePregeneration: true,
+	// Distance in blocks within which passing citizens will trigger their pregenerated greeting.
+	pregeneratedGreetingDistance: 6.0,
+	// Cooldown in milliseconds between threat pregeneration plays for a citizen. Set to 0 to disable.
+	threatPlayCooldownMs: 15000,
+	// Maximum number of pregenerated greetings to store per citizen. Oldest greetings are discarded when limit is reached.
+	maxPregeneratedGreetingsPerCitizen: 5,
+	// Maximum number of pregenerated citizen-to-citizen greetings that may play in a single tick interval (default: 1). Increase only if you have a very large colony and want more ambient chatter.
+	maxGreetingsPerTickInterval: 1,
+	// Maximum number of AI agents that can be activated at once (for free tier Flash2.0 this is limited to 3, for Flash2.5 to 1)
+	maxConcurrentAgents: 3,
+	// Maximum concurrent background connections for the flash2.5 cheap live model (memory compaction, greeting pregeneration). The API allows 3 concurrent connections.
+	maxConcurrentBackground: 3,
+	// Maximum distance the player can be from a citizen before the conversation is ended
+	maxConversationDistance: 8.0,
+	// In which format the AI should respond. This can be text, audio or both.
+	modality: "AUDIO",
+	// List of disabled tools for the AI. These tools can't be used by the AI to perform actions. Use the /list_tools command to see a list of the available tools.
+	disabledTools: [],
+	// If true, errors will be sent to players that have OP permissions. If false, errors will only be logged to the console.
+	sendErrorsToPlayers: true,
+	// Chance (0.0-1.0) that a nearby citizen starts mumbling to themselves per check interval
+	mumblingChance: 0.05,
+	// Distance in blocks within which a citizen can be triggered to mumble/start a conversation etc when a player is nearby
+	citizenInteractionRange: 10.0,
+	// How often (in server ticks) to check for citizens to trigger mumbling near players. 20 ticks = 1 second
+	mumblingCheckIntervalTicks: 200,
+	// If true, citizens with urgent needs will proactively speak to nearby players.
+	enableCitizenInitiatedContact: true,
+	// Base chance (0.0-1.0) per check interval that an urgent citizen speaks to a nearby player. Multiplied by an urgency weight derived from the citizen's state (unhappiness, injury, hunger, etc.).
+	citizenContactBaseChance: 0.5,
+	// How often (in server ticks) to check for citizens that should initiate contact. 20 ticks = 1 second
+	citizenContactCheckIntervalTicks: 80,
+	// When enabled, urgent citizens walk to the player and follow them, searching over a larger radius. The conversation auto-starts when they get close.
+	enableUrgentContactWalkToPlayer: true,
+	// Search radius for urgent contacts when walk-to-player is enabled.
+	urgentContactSearchRange: 30.0,
+	// Extra urgency weight applied when the citizen is stuck (blocked by missing tools/items). Makes them much more likely to call for help.
+	blockingTaskUrgencyMultiplier: 3.0,
+	// Minimum cooldown in seconds between urgent citizen contacts for the same player. Set to 0 to disable.
+	playerUrgentContactCooldownSeconds: 60,
+	// Base weight for casual greetings (0.0-1.0). Even content citizens get this small chance to wave/say hello per check interval. Multiplied by citizenContactBaseChance.
+	citizenCasualGreetingWeight: 0.1,
+	// If true, the mod will pregenerate player-specific greetings for frequent citizen-player pairs in the background.
+	enablePlayerGreetingPregen: true,
+	// Distance in blocks within which a citizen will trigger their pregenerated player greeting.
+	playerGreetingDistance: 8.0,
+	// If true, citizens will whisper when talking
+	citizenVoiceWhisper: true,
+	// Max voice distance of the citizen. Use 0 to use default distance
+	citizenVoiceDistance: 0,
+	// Minimum number of seconds that must pass after a citizen's automatic session (mumble or citizen-to-citizen) ends before they can be selected for another one. Set to 0 to disable.
+	citizenCooldownSeconds: 120,
+	// How long (in seconds) citizens express post-raid trauma in their prompts after a raid ends. Set to 0 to disable.
+	raidTraumaDurationSeconds: 1200,
+	// How long (in seconds) colony lifecycle events (births, deaths, job changes, building changes) appear in citizen prompts. Set to 0 to disable.
+	colonyEventWindowSeconds: 1200,
+	// If true, citizens will share memories with each other as rumors, creating a living information ecosystem.
+	enableRumorMill: true,
+	// How often (in server ticks) to check for rumor propagation between nearby citizens. 20 ticks = 1 second.
+	rumorMillCheckIntervalTicks: 600,
+	// Maximum distance in blocks for rumor propagation between citizens.
+	rumorMillRange: 12.0,
+	// Chance (0.0-1.0) that rumors are shared between a pair of nearby citizens per check.
+	rumorMillChancePerPair: 0.4,
+	// Maximum number of rumor propagations per tick to bound server cost.
+	rumorMillMaxPropagationsPerTick: 3,
+	// If true, citizens will voice rumors aloud when a player is nearby, creating immersive gossip.
+	enableRumorTalking: true,
+	// Chance (0.0-1.0) that a rumor propagation is voiced aloud when a player is nearby.
+	rumorTalkingChance: 0.5,
+	// Maximum distance in blocks for a player to witness voiced rumors.
+	rumorTalkingRange: 12.0,
+	// Maximum rumors stored per citizen. Oldest discarded when limit reached.
+	maxRumorsStored: 10,
+	// How many rumors to include in a citizen's prompt. Set to 0 to disable.
+	maxRumorsInPrompt: 3,
+	// If true, players can ask citizens to broadcast messages across the colony, which propagate through citizen-to-citizen interactions.
+	enableBroadcastPropagation: true,
+	// How often (in server ticks) to check for broadcast propagation between citizens. 20 ticks = 1 second.
+	broadcastPropagationIntervalTicks: 300,
+	// Maximum number of broadcast propagations per tick.
+	broadcastMaxPropagationsPerTick: 5,
+	// Maximum distance in blocks between citizens for broadcast propagation. Broadcasts spread through proximity like rumors.
+	broadcastPropagationRange: 24.0,
+	// How many of the most recent broadcasts to include in a citizen's prompt.
+	maxBroadcastsInPrompt: 3,
+	// Maximum broadcasts stored per citizen. Oldest discarded when limit reached.
+	maxBroadcastsStored: 20,
+	// If true, citizens will announce broadcasts aloud when a player is nearby.
+	enableBroadcastYelling: true,
+	// Maximum distance in blocks for a player to hear a citizen announce a broadcast aloud.
+	broadcastYellingRange: 24.0,
+	// Internal: config schema version for one-time migrations.
+	configVersion: 3,
+	// If true, each citizen is randomly assigned a personality archetype that influences their speech style and tone.
+	enablePersonalityArchetypes: true,
+	// Custom personality archetype strings added to the random pool citizens can be assigned. Each entry is a freeform instruction injected into the citizen's system prompt. Example: 'Always speak in rhyming couplets.'
+	customPersonalityArchetypes: [],
+	// If true, citizens will reference neighboring colonies and their diplomatic standing (allies, enemies, etc.) in conversations.
+	enableColonyDiplomacy: true,
+	// How memory compaction is performed. LIVE uses a text-only WebSocket session. FLASH uses the Gemini Flash API.
+	memoryMode: "LIVE",
+	// If true, citizen memories will be periodically compacted and summarized to prevent unbounded growth.
+	enableMemoryCompaction: true,
+	// How often (in server ticks) to check for memory compaction candidates. 20 ticks = 1 second.
+	memoryCompactionIntervalTicks: 100,
+	// Maximum number of individual events/facts before compaction is triggered for a citizen.
+	memoryCompactionThreshold: 15
+}

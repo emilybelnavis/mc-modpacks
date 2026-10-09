@@ -1,0 +1,13 @@
+name = "DarkSpins - RPG XP Casino"
+filename = "darkspins-neoforge-1.21-1.2.4a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "74c4203d6fd50a5ef64bc418afe9ae87f1f9ffaa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6873221
+project-id = 682209

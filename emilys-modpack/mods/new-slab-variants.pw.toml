@@ -1,0 +1,13 @@
+name = "New Slab Variants | +250 New Slabs!"
+filename = "new_slab_variants-merged-1.21.1-3.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e35202e741711b8b545bb121eec8c5c13461a852"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5747588
+project-id = 896385

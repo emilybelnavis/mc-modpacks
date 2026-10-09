@@ -1,0 +1,13 @@
+name = "AE2 Network Analyser BDCraft"
+filename = "[64x] AE2 Network Analyzer BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "91de59ca6484dc6a41b113ef6e44a806d256b29e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8358347
+project-id = 1595152

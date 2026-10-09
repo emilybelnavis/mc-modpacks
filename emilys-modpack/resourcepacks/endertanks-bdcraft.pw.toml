@@ -1,0 +1,13 @@
+name = "EnderTanks BDCraft"
+filename = "[64x] EnderTanks BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f0bbe8fe12d7850de45629a822901b064402f3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8387065
+project-id = 1601274

@@ -1,0 +1,13 @@
+name = "Ethical Kidnapping & Ransom - Prison Mod"
+filename = "kidnapransom-1.21.1-neoforge-java21-1.1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "452c18af582585807b9c930553f1e1a7df0a4ead"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8429921
+project-id = 1576437

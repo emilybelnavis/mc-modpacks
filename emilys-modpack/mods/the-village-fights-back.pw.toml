@@ -1,0 +1,13 @@
+name = "The Village Fights Back"
+filename = "thevillagefightsback-1.21.1-1.7.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c61f3acbd42149e50289c82231137baabfc2c458"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8706735
+project-id = 1579387

@@ -1,0 +1,13 @@
+name = "Gemini Live Library"
+filename = "gemini_live_lib-2.3.4-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbd3531a031b03fc7336e2504aa818cca9f3ce81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8196711
+project-id = 1293101

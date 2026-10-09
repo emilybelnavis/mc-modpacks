@@ -1,0 +1,13 @@
+name = "Faithful 64x"
+filename = "Faithful 64x - Release 6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "303bf334a2d0015bde217526485ec977c8f81b7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5704399
+project-id = 419139

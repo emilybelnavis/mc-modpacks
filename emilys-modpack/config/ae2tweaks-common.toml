@@ -1,0 +1,59 @@
+[formation_plane]
+	#Maximum number of upgrade slots for Formation Plane
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[inscriber]
+	#Maximum number of upgrade slots for Inscriber
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[io_bus_port]
+	#Maximum number of upgrade slots for IO Bus
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[io_port]
+	#Maximum number of upgrade slots for IO Port
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[matter_cannon]
+	#Maximum number of upgrade slots for Matter Cannon
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[molecular_assembler]
+	#Maximum number of upgrade slots for Molecular Assembler
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[portable_cell]
+	#Maximum number of upgrade slots for Portable Cell
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[storage_bus]
+	#Maximum number of upgrade slots for Storage Bus
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[vibration_chamber]
+	#Maximum number of upgrade slots for Vibration Chamber
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8
+
+[wireless_terminal_chamber]
+	#Maximum number of upgrade slots for Wireless Terminal
+	# Default: 8
+	# Range: 1 ~ 8
+	max_upgrades = 8

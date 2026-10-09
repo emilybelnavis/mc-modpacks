@@ -1,0 +1,13 @@
+name = "Pam's Food Core BDCraft"
+filename = "[64x] Pams HarvestCraft 2 CORE BDCraft - 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20afdaec7c281099b73a3a94f708903471c70554"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7486472
+project-id = 1436182

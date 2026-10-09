@@ -1,0 +1,16 @@
+name = "Lazr's Lib Ported"
+filename = "LazrsLib[PORT]-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "624c263306e2ae2db3c525e40c71c00f6bdbd887"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8428568
+project-id = 1609599
+
+[option]
+optional = true

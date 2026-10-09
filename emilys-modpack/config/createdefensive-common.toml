@@ -1,0 +1,36 @@
+#Whether undead mobs should spawn with Rusty Armor or not
+mobsRustyArmor = true
+#Whether piglins, zombified piglins, and piglin brutes should spawn with Weathered Netherite Armor or not
+mobsWeatheredNetheriteArmor = true
+#Whether Skeletons should spawn with Compound Bows or not
+skeletonsCompoundBows = true
+#Whether Pillagers should spawn with Compound Crossbows or not
+pillagersCompoundCrossbows = true
+#Whether Piglins should spawn with Compound Crossbows or not
+piglinsCompoundCrossbows = true
+#Whether Piglin Brutes should spawn with Greataxes or not
+piglinBrutesGreataxes = true
+#Whether Nukes should detonate or not
+nukes = true
+#Whether Superheated Blazes should spawn or not
+spawnSuperBlaze = true
+#Whether Aluminum Ore should generate or not
+generateAluminum = true
+#Whether Silver Ore should generate or not
+generateSilver = true
+#Whether Platinum Ore should generate or not
+generatePlatinum = true
+#Whether Salt Ore should generate or not
+generateSalt = true
+#Whether Sulfur Ore should generate or not
+generateSulfur = true
+#Whether Niter Ore should generate or not
+generateNiter = true
+#Whether Lead Ore should generate or not
+generateLead = true
+#Whether Tin Ore should generate or not
+generateTin = true
+#Whether Nickel Ore should generate or not
+generateNickel = true
+#Whether Uranium Ore should generate or not
+generateUranium = true

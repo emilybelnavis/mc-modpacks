@@ -1,0 +1,13 @@
+name = "Comforts BDCraft"
+filename = "[64x] Comforts BDCraft - 1.20-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2180d8900494905e3171a760ccc2db96ca96c59c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7505541
+project-id = 1440517

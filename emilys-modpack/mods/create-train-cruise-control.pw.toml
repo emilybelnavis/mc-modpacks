@@ -1,0 +1,13 @@
+name = "Create: Train Cruise Control"
+filename = "createtraincruisecontrol-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66432c0674e44ceea74ba72c69379bd3c89c799e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8519998
+project-id = 1627653

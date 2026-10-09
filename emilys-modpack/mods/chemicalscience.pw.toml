@@ -1,0 +1,13 @@
+name = "Chemical Science"
+filename = "chemicalscience-1.21.1-3.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24c0ec79a67b8ccb045277452200f6abff7ff47d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8406903
+project-id = 1062574
