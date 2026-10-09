@@ -1,0 +1,13 @@
+name = "BBL Routers"
+filename = "routers-1.21.1-1.1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/g69ApBz2/versions/P57vcvrr/routers-1.21.1-1.1.9.jar"
+hash-format = "sha512"
+hash = "405fffd49c06ff76d7a03fd41c8f705865643033e858eb3d78498961361f0dacb9810cb74977a0f5cb0510a0b9e9e77f55e30bc1ed8066456e107ac97bf75905"
+
+[update]
+[update.modrinth]
+mod-id = "g69ApBz2"
+version = "P57vcvrr"

@@ -1,0 +1,91 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/all-the-tweaks.pw.toml"
+hash = "62d6542120adc6e92ad40f0e080c9ade52c1e9ad53e2b0d9b0b7583e4d28310c"
+metafile = true
+
+[[files]]
+file = "mods/applied-construction-sticks.pw.toml"
+hash = "dc1a6a71af8151dd7693d5bff47bb9627e0c4deddcd212503c0546e247f11bd5"
+metafile = true
+
+[[files]]
+file = "mods/ato.pw.toml"
+hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
+metafile = true
+
+[[files]]
+file = "mods/bbl-core.pw.toml"
+hash = "6fb07e7e9a4be28852072eb6708929a0571afca751302009ef5df37ea95fbc18"
+metafile = true
+
+[[files]]
+file = "mods/bbl-routers.pw.toml"
+hash = "0385ba0ba7e308665ad2bea4964a223b8f8f32173bf613c9d0bfb0fbc8c9b935"
+metafile = true
+
+[[files]]
+file = "mods/bbl-strainers.pw.toml"
+hash = "47b2369a257c13ad4d4c821cb2ea3aee909703244f6035ed4122167d0d757e06"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
+metafile = true
+
+[[files]]
+file = "mods/in-world-recipes.pw.toml"
+hash = "297bc2a36170310a1e5a8cd3a0c59581f48af6f736309a7c4f7f861540c5954a"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-additions.pw.toml"
+hash = "086e5173f9d4dd76196a67e6604b5787b5f17312a6c3db49b1651fe2d972fe16"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tools.pw.toml"
+hash = "efafea92ef966ffe7c3c31209b643a9bbcccb3a8a5a02347b49ff50e015980fe"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-unleashed.pw.toml"
+hash = "3b581d5b1f00597a27c366f82cfe9a3f3e311c233e7e03a54403de752c4fb3c7"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
+metafile = true
+
+[[files]]
+file = "mods/mekanismmoremachine.pw.toml"
+hash = "2998025f99be79a3b4813b687c83e7c4964cbc1a424c4a35dd20e08a7a594b51"
+metafile = true
+
+[[files]]
+file = "mods/potionsmaster.pw.toml"
+hash = "a5cd72e2985163b0b98ca833d6cf07e6dd15e054b3b2d2aaa2ab524765d7a8fb"
+metafile = true
+
+[[files]]
+file = "mods/refined-construction-sticks.pw.toml"
+hash = "1d74ab009a040695f15f48656190be6a4603ad1357ca17089e963fc6f88a3987"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+metafile = true
