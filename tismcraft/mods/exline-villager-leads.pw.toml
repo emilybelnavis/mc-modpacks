@@ -1,0 +1,13 @@
+name = "Villager Leads"
+filename = "villagerfollows-v1.0.0-neoforge-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kguuS1Ti/versions/JHb9GXIy/villagerfollows-v1.0.0-neoforge-1.21.jar"
+hash-format = "sha512"
+hash = "a9fb87006c82b90744d60605e8e55fd92e7131b484b11d1e8fc977501ce20866d5f85a09dfb131ea44fc821e0274d8f747c6172c092cff22251086245a636ccc"
+
+[update]
+[update.modrinth]
+mod-id = "kguuS1Ti"
+version = "JHb9GXIy"

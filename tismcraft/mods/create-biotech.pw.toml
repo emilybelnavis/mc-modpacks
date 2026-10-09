@@ -1,0 +1,13 @@
+name = "Create: Biotech - 机械动力：生物科技"
+filename = "create_biotech-1.21.1-2.0.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UW0IjVT0/versions/jwN6zZrY/create_biotech-1.21.1-2.0.0-beta.2.jar"
+hash-format = "sha512"
+hash = "f76d9db6237c4009904acd45083654861c9816c066297ff2b1e4a0ba62ba806719d8331c7a85d9d93a474e076393bba26ed869f929a69a11947e85d48f74cd78"
+
+[update]
+[update.modrinth]
+mod-id = "UW0IjVT0"
+version = "jwN6zZrY"

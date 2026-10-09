@@ -1,0 +1,226 @@
+[general]
+	#Enable debugging mode.
+	enableDebugMode = false
+	#If enabled, shows the 'Loaded mod!' chat message as well as update notifications when joining a world.
+	enableMOTD = true
+	#Logs uses of the detonator, nuclear explosions, missile launches, grenades, etc.
+	enableExtendedLogging = true
+	#Has bomber planes spawn in closer to the target for use with smaller render distances.
+	enableBomberShortMode = false
+	#Enabling this will disable log spam created by unregistered items in ComparableStack instances.
+	enableSilentCompStackErrors = false
+	#If enabled, will handle keybinds that would otherwise be ignored due to overlapping.
+	enableKeybindOverlap = true
+	#It does what the name implies.
+	enableExpensiveMode = false
+
+[nukes]
+	#Radius of the Gadget.
+	# Default: 150
+	# Range: > 0
+	gadgetRadius = 150
+	#Radius of Little Boy.
+	# Default: 120
+	# Range: > 0
+	boyRadius = 120
+	#Radius of Fat Man.
+	# Default: 175
+	# Range: > 0
+	manRadius = 175
+	#Radius of Ivy Mike.
+	# Default: 250
+	# Range: > 0
+	mikeRadius = 250
+	#Radius of Tsar Bomba.
+	# Default: 500
+	# Range: > 0
+	tsarRadius = 500
+	#Radius of the Prototype.
+	# Default: 150
+	# Range: > 0
+	prototypeRadius = 150
+	#Radius of F.L.E.I.J.A.
+	# Default: 50
+	# Range: > 0
+	fleijaRadius = 50
+	#Radius of the blue rinse.
+	# Default: 150
+	# Range: > 0
+	soliniumRadius = 150
+	#Radius of the N2 mine.
+	# Default: 200
+	# Range: > 0
+	n2Radius = 200
+	#Radius of the nuclear missile
+	# Default: 100
+	# Range: > 0
+	missileRadius = 100
+	#Radius of a MIRV.
+	# Default: 100
+	# Range: > 0
+	mirvRadius = 100
+	#Radius of the Fatman Launcher.
+	# Default: 35
+	# Range: > 0
+	fatmanRadius = 35
+	#Radius of the nuka grenade.
+	# Default: 25
+	# Range: > 0
+	nukaRadius = 25
+	#Radius of dropped anti schrabidium.
+	# Default: 20
+	# Range: > 0
+	aSchrabRadius = 20
+
+[explosion]
+	#Toggles the spawning of meteors.
+	enableMeteorStrikes = true
+	#Toggles meteor showers, which start with a 1% chance for every spawned meteor.
+	enableMeteorShowers = true
+	#Toggles the particle effect created by falling meteors.
+	enableMeteorTails = true
+	#Toggles rare, special meteor types with different impact effects.
+	enableSpecialMeteors = true
+	#The probability of a meteor spawning during meteor shower (an average of once every nTH ticks).
+	# Default: 18000
+	# Range: > 1
+	meteorStrikeChance = 18000
+	#Max duration of meteor shower in ticks.
+	# Default: 36000
+	# Range: > 1
+	meteorShowerDuration = 36000
+	#Minimum amount of milliseconds per tick allocated for mk5 chunk processing.
+	# Default: 50
+	# Range: > 0
+	mk5BlastTime = 50
+	#Base speed of MK3 system (old and schrabidium) detonations (Blocks / tick)
+	# Default: 1024
+	# Range: > 0
+	propBlastSpeed = 1024
+	#Radius of fallout area (base radius * value in percent)
+	# Default: 100
+	# Range: > 0
+	falloutRange = 100
+	#How many ticks to wait for the next fallout chunk computation
+	# Default: 4
+	# Range: > 0
+	falloutDelay = 4
+	#How long an explosion can be unloaded until it dies in seconds. Based of system time. 0 disables the effect.
+	# Default: 0
+	# Range: > 0
+	limitExplosionLifespan = 0
+
+[dangerous_drops]
+	#Whether antimatter cells should explode when dropped.
+	dropCell = true
+	#Whether singularities and black holes should spawn when dropped.
+	dropSing = true
+	#Whether rigged star blaster cells should explode when dropped.
+	dropStar = true
+	#Whether xen crystals should move blocks when dropped.
+	dropCrys = true
+	#Whether dead man's explosives should explode when dropped.
+	dropDead = true
+
+[tools]
+	#Limits veinminer's recursive function
+	# Default: 1000
+	# Range: > 0
+	recursionDepth = 1000
+	#Determines whether veinminer can break stone
+	recursionStone = false
+	#Determines whether veinminer can break netherrack
+	recursionNetherrack = false
+	#Allows AoE ability
+	hammerAbility = true
+	#Allows veinminer ability
+	abilityVein = true
+	#Allow luck (fortune) ability
+	abilityLuck = true
+	#Allow silk touch ability
+	abilitySilk = true
+	#Allow auto-smelter ability
+	abilityFurnace = true
+	#Allow auto-shredder ability
+	abilityShredder = true
+	#Allow auto-centrifuge ability
+	abilityCentrifuge = true
+	#Allow auto-crystallizer ability
+	abilityCrystallizer = true
+	#Allow mercury touch ability (digging redstone gives mercury)
+	abilityMercury = true
+	#Allow explosion ability
+	abilityExplosion = true
+
+[mobs]
+	#Whether pressing O should allow the player to duck.
+	enableDucks = true
+	#A multiplier for soot emitted
+	# Default: 1.0
+	# Range: 4.9E-324 ~ 1.7976931348623157E308
+	pollutionMult = 1.0
+
+[radiation]
+	#RAD/s in the nether.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hellRad = 0.1
+	#Radiation in RADs required for fog to spawn.
+	# Default: 100
+	# Range: > 0
+	fogRad = 100
+	#1:n chance of fog spawning every second.
+	# Default: 20
+	# Range: > 0
+	fogRadChance = 20
+	#Whether high radiation levels should perform changes in the world.
+	worldRadEffects = true
+	#Toggles player contamination (and negative effects from radiation poisoning).
+	enableContamination = true
+	#Toggles the world radiation system (chunk radiation only, some blocks use an AoE!).
+	enableChunkRads = true
+
+[hazards]
+	#When turned on, all asbestos hazards are disabled.
+	disableAsbestos = false
+	#When turned on, all coal dust hazards are disabled.
+	disableCoaldust = false
+	#When turned on, all hot hazards are disabled.
+	disableHot = false
+	#When turned on, all explosive hazards are disabled.
+	disableExplosive = false
+	#When turned on, all hydroactive hazards are disabled.
+	disableHydroactive = false
+	#When turned on, all blinding hazards are disabled.
+	disableBlinding = false
+
+[pollution]
+	#If disabled, none of the polltuion related things will work.
+	enablePol = true
+
+[biomes]
+	#Enables the biome change caused by nuclear explosions
+	craterBiome = true
+	#RAD/s for the crater biome
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	craterBiomeRad = 5.0
+	#RAD/s for the inner crater biome
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	craterBiomeInnerRad = 25.0
+	#RAD/s for the outer crater biome
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	craterBiomeOuterRad = 0.5
+	#Multiplier for RAD/s in crater biomes when in water
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	craterBiomeWaterMultiplier = 5.0
+
+#528 Mode: Please proceed with caution!
+#528-Modus: Lassen Sie Vorsicht walten!
+#способ-528: действовать с осторожностью!
+[528]
+	#The central toggle for 528 mode.
+	enable528 = false

@@ -1,0 +1,13 @@
+name = "Improved Genetics"
+filename = "improved_genetics-0.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c36e2c6b01108aa9e96393b5c8e9a37dde1f21d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8499686
+project-id = 401395

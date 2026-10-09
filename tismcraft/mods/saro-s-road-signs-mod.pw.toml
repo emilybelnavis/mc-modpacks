@@ -1,0 +1,13 @@
+name = "Saro´s Road Signs"
+filename = "Saros-Road-Signs-NeoForge-1.21.1-4.14.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "565763f80ca052f814d503c6a128a04a125c104a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8795958
+project-id = 676294

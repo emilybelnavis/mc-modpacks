@@ -1,0 +1,13 @@
+name = "AllTheMoreHammers"
+filename = "allthemorehammers-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3587d17f5841207cd0bdb6a84a204ba244db996"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7938759
+project-id = 1516386

@@ -1,0 +1,3 @@
+[dashing]
+	#Toggle the dashing ability when Euphoric effect is active.
+	enabledashing = true

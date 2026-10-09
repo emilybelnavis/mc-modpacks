@@ -1,0 +1,881 @@
+#Internal migration marker. Do not edit by hand: the mod uses this to force-correct
+#specific values exactly once when their shipped default changes between versions,
+#so a config from an older release does not silently keep reading a stale number.
+#Editing this either skips a pending correction or re-applies one that already ran.
+# Default: 0
+# Range: > 0
+configVersion = 3
+
+[pathways]
+	#VCC Mk IV vehicles on a route keep their own chunks loaded (under them, and along the line ahead of them),
+	#so a loop keeps running with its owner at the other end of the map. Off: a route runs only where players are.
+	routeChunkLoading = true
+	#Vehicles on routes that may hold chunks loaded at once, server-wide. The rest wait parked,
+	#"Waiting for a chunk budget", and set off as soon as one finishes or is paused.
+	# Default: 8
+	# Range: 0 ~ 256
+	maxRouteVehicles = 8
+	#Chunks either side of a route vehicle, and of its line ahead, that it keeps loaded.
+	# Default: 1
+	# Range: 0 ~ 4
+	routeChunkRadius = 1
+	#Nodes one pathway may have.
+	# Default: 512
+	# Range: 16 ~ 512
+	maxNodes = 512
+	#Pathways one player may own in one dimension (operators are not limited).
+	# Default: 64
+	# Range: 1 ~ 1024
+	maxPerPlayer = 64
+
+[data]
+	#Max samples stored per display panel (default 600 = 10 min at 1/sec)
+	# Default: 600
+	# Range: 60 ~ 6000
+	panelBufferSize = 600
+	#Max samples stored per recorder (default 1800 = 30 min at 1/sec)
+	# Default: 1800
+	# Range: 60 ~ 18000
+	recorderBufferSize = 1800
+	#Ticks between samples (20 = 1 second). Lower = more resolution, more memory
+	# Default: 20
+	# Range: 1 ~ 200
+	sampleIntervalTicks = 20
+
+[display]
+	#Passive refresh interval for stats-link auto-read sources (20 = default, 10 = high refresh, 5 = aggressive)
+	# Default: 20
+	# Range: 5 ~ 20
+	statsLinkPassiveRefreshTicks = 20
+	#Responsive refresh cap for live stats-link telemetry. Effective cadence uses the lower of this and statsLinkPassiveRefreshTicks. Default 5 for snappier AERO/Simulated updates.
+	# Default: 5
+	# Range: 5 ~ 20
+	responsiveStatsLinkRefreshTicks = 5
+
+[export]
+	#Allow CSV export from recorders
+	enableCsvExport = true
+	#Auto-export interval in minutes (0 = disabled)
+	# Default: 0
+	# Range: 0 ~ 60
+	csvAutoExportIntervalMinutes = 0
+
+[dashboard]
+	#Minimum multiblock blocks (W*H) to auto-activate dashboard mode
+	# Default: 6
+	# Range: 4 ~ 64
+	dashboardMinBlocks = 6
+	#Minimum width or height to allow dashboard (prevents thin strips)
+	# Default: 3
+	# Range: 2 ~ 8
+	dashboardMinDimension = 3
+	#Enable scrolling alert ticker in dashboard mode
+	dashboardTickerEnabled = true
+	#Ticker scroll speed in pixels per texture update (1-5)
+	# Default: 1
+	# Range: 1 ~ 5
+	dashboardTickerSpeed = 1
+
+[topology]
+	#Default maximum nodes in topology map (higher = more CPU). Panel settings can lower this per display.
+	# Default: 200
+	# Range: 10 ~ 1000
+	topologyMaxNodes = 200
+	#Radius to search for kinetic seed blocks
+	# Default: 5
+	# Range: 1 ~ 16
+	topologyScanRadius = 5
+	#Force-directed layout iterations (higher = better layout, more CPU)
+	# Default: 150
+	# Range: 30 ~ 300
+	topologyLayoutIterations = 150
+	#Force-directed layout iterations for the full train map screen (higher = better layout, more CPU)
+	# Default: 180
+	# Range: 30 ~ 500
+	trainMapLayoutIterations = 180
+
+#Topology Scanner blocks. Budgets are element counts, never radii: kinetic
+#networks are shaped like the buildings they run through, so a distance
+#bound cuts a long belt run in half and wastes itself on four machines at
+#the corners of a chunk.
+[topologyScanner]
+	#Elements one Topology Scanner sweep may reach
+	# Default: 64
+	# Range: 8 ~ 4096
+	scannerBudgetField = 64
+	#Elements one Advanced Topology Scanner sweep may reach
+	# Default: 128
+	# Range: 8 ~ 4096
+	scannerBudgetAdvanced = 128
+	#Elements one Industrial Topology Scanner sweep may reach
+	# Default: 512
+	# Range: 8 ~ 4096
+	scannerBudgetIndustrial = 512
+	#Elements per tick a Topology Scanner sweeps (higher = faster scan, more CPU per tick)
+	# Default: 4
+	# Range: 1 ~ 128
+	scannerRateField = 4
+	#Elements per tick an Advanced Topology Scanner sweeps
+	# Default: 8
+	# Range: 1 ~ 128
+	scannerRateAdvanced = 8
+	#Elements per tick an Industrial Topology Scanner sweeps
+	# Default: 16
+	# Range: 1 ~ 128
+	scannerRateIndustrial = 16
+	#Stress units per RPM the inline Topology Scanner draws (16 su at 8 RPM, 512 su at 256 RPM)
+	# Default: 2.0
+	# Range: 0.0 ~ 64.0
+	scannerStressField = 2.0
+	#Stress units per RPM the inline Advanced Topology Scanner draws
+	# Default: 4.0
+	# Range: 0.0 ~ 64.0
+	scannerStressAdvanced = 4.0
+	#Stress units per RPM the inline Industrial Topology Scanner draws
+	# Default: 8.0
+	# Range: 0.0 ~ 64.0
+	scannerStressIndustrial = 8.0
+	#Ticks between full re-sweeps when the network has not changed. A changed network re-sweeps immediately regardless.
+	# Default: 200
+	# Range: 40 ~ 1200
+	scannerRescanIntervalTicks = 200
+	#Ticks between live RPM/stress updates sent to an open scanner screen
+	# Default: 10
+	# Range: 1 ~ 100
+	scannerLiveSyncIntervalTicks = 10
+	#Most elements the world overlay will outline at once
+	# Default: 256
+	# Range: 16 ~ 2048
+	scannerOverlayMaxElements = 256
+	#Blocks from the camera the world overlay draws to
+	# Default: 48.0
+	# Range: 8.0 ~ 192.0
+	scannerOverlayRange = 48.0
+
+[dieselEngines]
+	#Show every detected Create Diesel Generators metric. Disabled keeps Diesel displays curated for normal play.
+	showRawDieselMetrics = false
+
+#Verbose diagnostic logging toggles. Only the subsystems with detailed developer trace logging are exposed here; other subsystems log at standard levels and do not need a toggle.
+[debug]
+	#Enable verbose FCC and flight-control runtime logs.
+	fccVerboseLogging = false
+	#Enable verbose RPM Governor runtime logs.
+	rpmGovernorVerboseLogging = false
+	#Enable antenna placement and display-link diagnostics.
+	antennaDebugLogging = false
+
+[vccMkII]
+	#If true, a VCC Mk II re-applies its saved cockpit control hold (throttle, steering, etc.) on world load while armed. If false (default), controls hold across GUI reopen but require one fresh input after a world load so the craft never moves on its own.
+	vccPersistControlsOnLoad = false
+
+[inductionHeater]
+	#SU drawn per RPM by an active Induction Heater (>= 64 RPM). Default 32 makes the anchor costs 2048 SU at 64 RPM, 4096 SU at 128 RPM (Kindled) and 8192 SU at 256 RPM (Superheated).
+	# Default: 32.0
+	# Range: 1.0 ~ 64.0
+	inductionHeaterStressImpact = 32.0
+	#Seconds of continuous Superheated runtime one Induction Coil survives before burning out.
+	# Default: 240
+	# Range: 10 ~ 3600
+	inductionCoilLifetimeSeconds = 240
+
+[antenna]
+	#Direct-link range multiplier granted by a Small Signal Antenna.
+	# Default: 4
+	# Range: 1 ~ 64
+	antennaRangeMultiplierSmall = 4
+	#Direct-link range multiplier granted by an Advanced Signal Antenna.
+	# Default: 12
+	# Range: 1 ~ 128
+	antennaRangeMultiplierAdvanced = 12
+	#Direct-link range multiplier granted by a TRT Signal Antenna (also bridges loaded Overworld and Nether targets).
+	# Default: 32
+	# Range: 1 ~ 512
+	antennaRangeMultiplierTrt = 32
+
+#Storage upgrades. Three degrees of Slot Upgrade and three of Stack Upgrade, installed in a block's
+#Upgrades rack. Degrees multiply: a rack holding one of each is 1.5 * 2 * 4 = 12 times. The two maxima
+#below are the ceilings that product is clamped to, and they are set to exactly what one full set
+#earns, so duplicate upgrades can never exceed a set. Lowering a maximum is safe at any time: a
+#container never shrinks below the slots its contents already occupy, so an overfull block keeps
+#everything and simply refuses to give its upgrades back until it has been emptied.
+[upgrades]
+	#What a first-degree storage upgrade multiplies by.
+	# Default: 1.5
+	# Range: 1.0 ~ 64.0
+	upgradeMultiplierFirst = 1.5
+	#What a second-degree storage upgrade multiplies by.
+	# Default: 2.0
+	# Range: 1.0 ~ 64.0
+	upgradeMultiplierSecond = 2.0
+	#What a third-degree storage upgrade multiplies by.
+	# Default: 4.0
+	# Range: 1.0 ~ 64.0
+	upgradeMultiplierThird = 4.0
+	#Most rows of nine a Security Locker's grid can reach. Default 36 is the base three rows times a full set's 12. The grid shows six rows and scrolls past them.
+	# Default: 36
+	# Range: 3 ~ 256
+	lockerMaxRows = 36
+	#Most items one Security Locker slot can hold. Default 768 is a normal stack of 64 times a full set's 12. Items that do not stack at all are never deepened.
+	# Default: 768
+	# Range: 64 ~ 8192
+	lockerMaxStack = 768
+
+[experimental]
+	#Show experimental, in-development items (the VCC Mk II, the VCC Mk III, the Vehicle Control Unit, the Stats Display Mk2, the Holographic Projector Mk III, and the Aeronautics Hinge) in the creative menu and JEI, and enable the crafting recipes for the ones that have them. Off by default because they are unfinished and may change or break. They stay obtainable with /give regardless of this setting.
+	showExperimentalBlocks = false
+
+#Forge Energy. The mod's advanced electronics (avionics, sensors, screens, lighting, comms) each keep a small internal FE buffer that external FE networks can charge, and a block whose buffer runs dry goes inert until it is powered again. This is the normal way the mod works; it is not optional. Create kinetic power stays the mechanical side; FE only powers electronics. Simple gauges, passive readouts, and utility blocks never need FE. Changes may require a restart.
+[power]
+	#Creative energy. When true, every block below runs on free power: buffers read full, nothing drains,
+	#and no block can ever cut off. Intended for creative building, testing and map making, where wiring a
+	#grid to each screen is busywork. Generation, wiring and storage still work normally, they simply have
+	#nothing to feed.
+	creativeEnergy = false
+	#Show a one-line notice in chat on world join saying that the mod's electronics run on Forge Energy
+	#and pointing at creativeEnergy. Shown only while creativeEnergy is off; set false to silence it.
+	showLoginReminder = true
+	#Sub-linear scaling for blocks whose load grows with how many sources are linked (currently the Stats Display).
+	#Draw multiplier = sourceCount ^ exponent, so extra sources cost progressively less each.
+	#1.0 is fully linear (10 sources = 10x). The 0.85 default gives 1 source 1.0x, 2 sources 1.8x, 10 sources 7.1x, 20 sources 12.8x.
+	#Lower values flatten the curve further.
+	# Default: 0.85
+	# Range: 0.5 ~ 1.0
+	sourceLoadExponent = 0.85
+	#Buffer percent a cut-off block must charge back up to before it restarts.
+	#This is hysteresis, and it matters more than it sounds: without it a supply that is even slightly
+	#short flips a block between running and dead every few ticks, which stops and restarts flight
+	#governors, strobes stage lights, and rebuilds holograms over and over.
+	#A cut-off block charges like a capacitor and wakes up once, at this level.
+	#0 restores the old edge-triggered behaviour.
+	# Default: 25
+	# Range: 0 ~ 90
+	rebootThresholdPct = 25
+
+	#Flight Control Computer
+	[power.fcc]
+		#Internal FE buffer size.
+		# Default: 160000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 160000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 250
+		# Range: 0 ~ 100000
+		idleDrain = 250
+		#FE drained per tick while actively working.
+		# Default: 1000
+		# Range: 0 ~ 100000
+		activeDrain = 1000
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#VCC Mk II
+	[power.vccMk2]
+		#Internal FE buffer size.
+		# Default: 160000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 160000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 250
+		# Range: 0 ~ 100000
+		idleDrain = 250
+		#FE drained per tick while actively working.
+		# Default: 1000
+		# Range: 0 ~ 100000
+		activeDrain = 1000
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Pathfinder Computer
+	[power.pathfinderComputer]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Path Scanner (burst = one scan region batch)
+	[power.pathScanner]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 8000
+		# Range: 0 ~ 1000000
+		burstCost = 8000
+
+	#Battle Screen Display
+	[power.battleScreen]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Holographic Projector (burst = one nearby-block scan)
+	[power.holographicProjector]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 4000
+		# Range: 0 ~ 1000000
+		burstCost = 4000
+
+	#Factory Logic Controller
+	[power.factoryLogicController]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Production Detector
+	[power.productionDetector]
+		#Internal FE buffer size.
+		# Default: 96000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 96000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 150
+		# Range: 0 ~ 100000
+		idleDrain = 150
+		#FE drained per tick while actively working.
+		# Default: 600
+		# Range: 0 ~ 100000
+		activeDrain = 600
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Stats Display Panel and Stats Display Mk2 (active drain is per single linked source; see sourceLoadExponent)
+	[power.statsDisplayPanel]
+		#Internal FE buffer size.
+		# Default: 16000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 16000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 25
+		# Range: 0 ~ 100000
+		idleDrain = 25
+		#FE drained per tick while actively working.
+		# Default: 100
+		# Range: 0 ~ 100000
+		activeDrain = 100
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Stats Alarm (constant 16 FE/t draw)
+	[power.statsAlarm]
+		#Internal FE buffer size.
+		# Default: 2560
+		# Range: 100 ~ 100000000
+		bufferCapacity = 2560
+		#FE drained per tick while placed but not doing active work.
+		# Default: 16
+		# Range: 0 ~ 100000
+		idleDrain = 16
+		#FE drained per tick while actively working.
+		# Default: 16
+		# Range: 0 ~ 100000
+		activeDrain = 16
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Dispatch Board (burst = one summary refresh)
+	[power.dispatchBoard]
+		#Internal FE buffer size.
+		# Default: 64000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 64000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 100
+		# Range: 0 ~ 100000
+		idleDrain = 100
+		#FE drained per tick while actively working.
+		# Default: 400
+		# Range: 0 ~ 100000
+		activeDrain = 400
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 3000
+		# Range: 0 ~ 1000000
+		burstCost = 3000
+
+	#Stage Light and Stage Light Mk2
+	[power.stageLight]
+		#Internal FE buffer size.
+		# Default: 48000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 48000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 75
+		# Range: 0 ~ 100000
+		idleDrain = 75
+		#FE drained per tick while actively working.
+		# Default: 300
+		# Range: 0 ~ 100000
+		activeDrain = 300
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Status Tower Light
+	[power.statusTowerLight]
+		#Internal FE buffer size.
+		# Default: 48000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 48000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 75
+		# Range: 0 ~ 100000
+		idleDrain = 75
+		#FE drained per tick while actively working.
+		# Default: 300
+		# Range: 0 ~ 100000
+		activeDrain = 300
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Wall Outlet (a socket passes power, it does not spend any)
+	[power.wallOutlet]
+		#Internal FE buffer size.
+		# Default: 1024
+		# Range: 100 ~ 100000000
+		bufferCapacity = 1024
+		#FE drained per tick while placed but not doing active work.
+		# Default: 0
+		# Range: 0 ~ 100000
+		idleDrain = 0
+		#FE drained per tick while actively working.
+		# Default: 0
+		# Range: 0 ~ 100000
+		activeDrain = 0
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Cine Camera (a battery camera: active while film runs through it, idle otherwise. The default buffer films for an hour at the active draw)
+	[power.cineCamera]
+		#Internal FE buffer size.
+		# Default: 216000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 216000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 1
+		# Range: 0 ~ 100000
+		idleDrain = 1
+		#FE drained per tick while actively working.
+		# Default: 3
+		# Range: 0 ~ 100000
+		activeDrain = 3
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Topology Scanner Probe (clamp-on, Field grade)
+	[power.topologyScannerField]
+		#Internal FE buffer size.
+		# Default: 16000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 16000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 10
+		# Range: 0 ~ 100000
+		idleDrain = 10
+		#FE drained per tick while actively working.
+		# Default: 40
+		# Range: 0 ~ 100000
+		activeDrain = 40
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Advanced Topology Scanner Probe
+	[power.topologyScannerAdvanced]
+		#Internal FE buffer size.
+		# Default: 32000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 32000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 20
+		# Range: 0 ~ 100000
+		idleDrain = 20
+		#FE drained per tick while actively working.
+		# Default: 80
+		# Range: 0 ~ 100000
+		activeDrain = 80
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Industrial Topology Scanner Probe
+	[power.topologyScannerIndustrial]
+		#Internal FE buffer size.
+		# Default: 64000
+		# Range: 100 ~ 100000000
+		bufferCapacity = 64000
+		#FE drained per tick while placed but not doing active work.
+		# Default: 40
+		# Range: 0 ~ 100000
+		idleDrain = 40
+		#FE drained per tick while actively working.
+		# Default: 160
+		# Range: 0 ~ 100000
+		activeDrain = 160
+		#Extra FE paid per discrete heavy operation. 0 = this block has no burst operations.
+		# Default: 0
+		# Range: 0 ~ 1000000
+		burstCost = 0
+
+	#Kinetic Dynamo, the mod's built-in rotation-to-FE generator. Unaffected by creativeEnergy, so packs can power other FE mods with it too.
+	[power.generator]
+		#FE per tick per RPM of shaft speed, for the STANDARD grade (Kinetic Dynamo).
+		#Default 1.40625 = 360 FE/t at Create's top speed of 256 RPM, which is exactly a
+		#Crafts and Additions alternator. The other two grades scale off this one:
+		#Open Frame Dynamo x0.75 (270 FE/t), Industrial Alternator x1.5 (540 FE/t).
+		# Default: 1.40625
+		# Range: 0.01 ~ 100.0
+		fePerRpm = 1.40625
+		#Stress impact (SU per RPM) of the STANDARD grade while spinning.
+		#Default 64 = 16384 SU at 256 RPM, which is exactly a Crafts and Additions
+		#alternator, the same generator fePerRpm above is pinned to. Matching on both axes
+		#is deliberate: matching only on output would make this quietly 5.7x cheaper to run
+		#than the block it claims to equal.
+		#Grades scale off this: Open Frame x0.5 (8192 SU), Industrial x1.2 (19661 SU).
+		#Because the cheap grade sheds half its stress for only a quarter of its output it
+		#is the efficient one: 0.033 FE per SU against the standard's 0.022.
+		# Default: 64.0
+		# Range: 0.0 ~ 256.0
+		stressImpact = 64.0
+		#Internal FE buffer of the dynamo.
+		# Default: 64000
+		# Range: 100 ~ 10000000
+		bufferCapacity = 64000
+		#Maximum FE per tick the dynamo pushes to each adjacent block or hands to an extract request.
+		# Default: 4096
+		# Range: 16 ~ 1000000
+		transferRate = 4096
+		#FE per tick one REINFORCED Solar Panel makes at noon, in the clear, under open
+		#sky, on its own. Default 32, and it is set by a relationship rather than chosen:
+		#nine panels earn a x1.25 array bonus, so a 3x3 Reinforced roof is exactly 360 FE/t,
+		#which is a Kinetic Dynamo at Create's top speed. Move this and that equivalence
+		#moves with it.
+		#The other two grades scale off this one: Solar Panel x0.6, Photovoltaic Array x1.6.
+		#Everything else is a multiplier on top: the sun's height through the day (a sine, so
+		#the daily mean is about a third of the peak), rain x0.35, thunder x0.15, sky light
+		#above the panel, and the array bonus itself, which caps at x1.5 at 81 panels.
+		# Default: 32
+		# Range: 1 ~ 1000000
+		solarFePerTick = 32
+
+	#Power Connectors and Copper Wire, the mod's built-in point-to-point FE wiring. Unaffected by creativeEnergy.
+	[power.wiring]
+		#The one base rate everything electrical in this mod is a multiple of: cable, wire,
+		#connector tiers, the Capacitor Bank and the PDU all scale off this single number, so
+		#retuning it retunes the whole grid consistently rather than leaving some part of it
+		#pinned at a number the rest has moved away from. Per tier multipliers live on
+		#CableTier, WireTier and ConnectorTier rather than here, so they stay a fixed ratio
+		#of this base instead of drifting independently of it.
+		# Default: 8192
+		# Range: 16 ~ 1000000
+		transferRate = 8192
+		#Internal FE buffer of each connector node.
+		# Default: 16000
+		# Range: 64 ~ 1000000
+		bufferCapacity = 16000
+		#Hold a circuit to the grade of cable it is built from. With this on, a run carries what its
+		#thinnest segment carries no matter how many generators, batteries or machines are bolted along
+		#it, which is what the cable's own goggle readout has always claimed. Off restores the older
+		#behaviour, where every rate was a per-block one and they simply added up: three generators on
+		#one Surface Cable delivered three times that cable's rating. Wire and connectors are unaffected
+		#either way; a connector is already rated by the spans strung to it, and separate spans really
+		#are parallel capacity.
+		cableThroughputLimit = true
+		#Maximum copper wire length in blocks between two connectors.
+		# Default: 32
+		# Range: 4 ~ 128
+		wireRange = 32
+
+	#Power Limiter, the inline throttle. It is a boundary rather than a length of wire: the circuit on its terminal and the circuit on its gland are two separate grids, and nothing crosses between them faster than the setting allows.
+	[power.limiter]
+		#Ceiling on what one Power Limiter can be set to pass. The block's dial is a fixed ladder of
+		#round figures from 0 to 1,048,576 FE/t, and this clamps the figure that ladder resolves to, so a
+		#pack can cap every limiter in the world without the control changing shape under the player.
+		#The default is the top of the ladder, which is far above anything this mod generates: a limiter
+		#at full is a limiter that is in place for its redstone control rather than for its cap.
+		# Default: 1048576
+		# Range: 0 ~ 1000000000
+		maxRate = 1048576
+
+	#Main Breaker, the rotary disconnect. Its two studs are two separate circuits and the block is the only way across, so throwing the handle really does leave the protected side with no source in it. What it passes is the lesser of the two studs' wire spans summed, so the rating is the copper actually bolted on rather than a number in here.
+	[power.mainBreaker]
+		#Seconds of sustained overload before a Main Breaker's thermal element lets go. The
+		#element heats while the rating, rather than the demand, is what decides how much crosses,
+		#and cools at the same rate while it is not: so anything under half duty cycle above the
+		#rating never trips however long it runs, and a solid overload trips after this long. A
+		#starved breaker is never counted as an overloaded one -- there has to be energy in the
+		#buffer that the rating held back. Set to 0 to disable tripping entirely, which leaves the
+		#breaker a pure disconnect that silently caps an undersized service. The Creative twin
+		#never trips whatever this says.
+		# Default: 5
+		# Range: 0 ~ 600
+		tripSeconds = 5
+
+	#Capacitor Bank, the mod's built-in FE storage. Banks merge into a single structure that fills from the bottom up, so a stack reads as one gauge. Unaffected by creativeEnergy.
+	[power.storage]
+		#Base FE per Capacitor Bank block, before the merge bonus below.
+		#Default 1,024,000. A single block holds just over a million; a full 3x3x6 bank holds about 82 million.
+		# Default: 1024000
+		# Range: 64 ~ 100000000
+		bufferCapacity = 1024000
+		#Merge bonus. Capacity = bufferCapacity x blockCount ^ exponent, so a merged bank holds more than the sum of its parts.
+		#The default 1.1 is a deliberately gentle curve: 2 blocks give 2.14x, 4 give 4.59x, 9 give 11.2x, and a full 3x3x6 gives 80.5x.
+		#1.0 makes merging purely linear with no bonus at all.
+		# Default: 1.1
+		# Range: 1.0 ~ 1.5
+		mergeExponent = 1.1
+		#Maximum width and depth in blocks of one merged bank. Default 3 gives a 3x3 footprint.
+		# Default: 3
+		# Range: 1 ~ 16
+		maxFootprint = 3
+		#Maximum height in blocks of one merged bank. Blocks beyond this start a second bank.
+		# Default: 6
+		# Range: 1 ~ 32
+		maxHeight = 6
+		#Maximum FE per tick in or out of a merged bank. Default is 4x the base connector rate, flat regardless of merge size.
+		# Default: 32768
+		# Range: 16 ~ 10000000
+		transferRate = 32768
+		#Reserve cascade. With this on, several banks on one grid drain in a defined order instead of an arbitrary one:
+		#the outermost rank empties first and rank 1, the core, empties last and refills first. Set a bank's rank with a wrench.
+		#This is the horizontal version of what a merged bank tower already does vertically, and it is what lets a set of banks
+		#read as staged tanks emptying one at a time rather than all sagging together.
+		#Off restores the old behaviour, where storage was walked in whatever order the wire network discovered it.
+		reserveCascade = true
+
+	#FE Battery Controller, the block that replaces wiring capacitor banks to each other in a chain.
+	#Three inputs take generation and storage, three outputs feed circuits, and every bank on the input side is
+	#managed as one pooled reserve with a per-output state-of-charge floor. Nothing here is a battery: the
+	#controller's own buffer is a working bus, and the reserve is whatever banks the player wired to it.
+	[power.batteryController]
+		#Maximum FE per tick through one terminal, before the wire strung to it is taken into account.
+		#Default is 4x the base connector rate, matching a merged capacitor bank, so a single port can carry a
+		#whole bank's throughput and the wire grade is what actually decides a circuit's ceiling.
+		# Default: 32768
+		# Range: 16 ~ 10000000
+		portRate = 32768
+		#The controller's own working buffer. Deliberately small: this is a switchboard, not a battery, and a large
+		#buffer here would hide the state of the reserve the whole block exists to manage.
+		# Default: 64000
+		# Range: 1000 ~ 10000000
+		bufferCapacity = 64000
+
+		#The reserve band. Instead of one floor, the controller steers the pooled banks' state of charge INTO a band,
+		#which is what stops the two opposite failures a reserve policy can have. Above the ceiling it releases charge
+		#(so a full bank farm is actually spent during a lull rather than hoarded while machines sit shed); inside the
+		#band it holds and lives on generation; below the floor only CRITICAL load draws, metered so the dregs last.
+		#A long outage therefore parks the base inside the band with its important machines still running.
+		[power.batteryController.band]
+			#Percent of the pooled banks' capacity below which only CRITICAL load may draw.
+			# Default: 10
+			# Range: 0 ~ 95
+			floorPct = 10
+			#The charge a sustained shortage settles at. Between this and the floor the controller holds the
+			#reserve steady and runs on generation alone. Clamped to at least floorPct.
+			# Default: 30
+			# Range: 0 ~ 98
+			ceilingPct = 30
+			#At or above this the reserve counts as deep and is spent with no rationing at all.
+			#Clamped to at least ceilingPct.
+			# Default: 60
+			# Range: 0 ~ 100
+			healthyPct = 60
+			#The droop's time constant, in ticks (20 = 1 second). The controller offers the charge above the floor
+			#spread over this, so the allowance is proportional to what is left and falls smoothly to zero AT the floor.
+			#It is not a deadline: because the rate shrinks as the reserve drains, the charge decays toward the floor
+			#exponentially with this as its time constant. Lower spends the reserve harder and rides shorter lulls;
+			#higher is stingier and lasts longer. This value is what makes the system stable, so changing it by an order
+			#of magnitude will change how readily the base sheds far more than the band percentages do.
+			# Default: 1200
+			# Range: 20 ~ 72000
+			rideTicks = 1200
+			#The most of live generation the controller may hold back to refill the banks, as a percent. The claim
+			#ramps up as the reserve falls: nothing at healthyPct, this much at floorPct and below, and a smooth
+			#line between them so there is no threshold for the base to oscillate around. It is only ever a slice of
+			#generation, never of stored charge, and it is bounded so that CRITICAL circuits are never funded from.
+			#Without it a base whose generation roughly equals its demand can never climb out of a low reserve: the
+			#machines take every FE before one reaches a bank. Set to 0 to switch the behaviour off entirely.
+			# Default: 60
+			# Range: 0 ~ 100
+			chargeClaimPct = 60
+
+	#Portable Power Interface, Create's portable interface for FE. A pair docks a contraption and moves
+	#charge between the ground block's circuit and the Capacitor Banks the contraption carries.
+	[power.portableInterface]
+		#The fastest a player may set the dial, in FE per tick. The dial runs from 256 up to the largest step of
+		#the Power Limiter's ladder that does not exceed this. Default is 4x the base connector rate, Shielded Wire.
+		# Default: 32768
+		# Range: 256 ~ 1048576
+		maxRate = 32768
+		#Where a newly placed interface sets its source floor: it never drains the side power comes from below
+		#this percentage. In Charge mode that is the base circuit's banks, in Draw mode the train's. Rounded to tens.
+		# Default: 50
+		# Range: 0 ~ 90
+		defaultFloorPct = 50
+
+	#FE Fluid Pump, the powered pipe that pushes fluid down its run in place of a Mechanical Pump. MK I matches a Create pump at 128 RPM (up to 64 mB/t), MK II at 256 RPM (up to 128 mB/t). Unaffected by creativeEnergy.
+	[power.pump]
+		#Forge Energy burned per millibucket moved. At the default 4.5, MK I costs up to 288 FE/t at full flow and MK II up to 576 FE/t, matching the Electric Drive FE-for-FE at both grades. Zero makes pumping free.
+		# Default: 4.5
+		# Range: 0.0 ~ 100000.0
+		feCostPerMb = 4.5
+
+	#Power Distribution Unit, the panel that serves its branch by priority tier and sheds what it cannot reach. A Power Connector mounted on the output stud (the right-hand side face) roots the managed branch; FE is taken in through either side boss. Each boss is rated independently at the Industrial connector's own grade (PowerDistributionUnitBE.inputRatePerBoss, not configurable here), so the panel's real input ceiling is that rate times two.
+	[power.pdu]
+		#Internal FE buffer, the shared reserve for the whole managed branch.
+		# Default: 512000
+		# Range: 1000 ~ 100000000
+		bufferCapacity = 512000
+		#Running overhead in FE per second, waived under creative energy. Zero makes the panel free to run.
+		# Default: 1024
+		# Range: 0 ~ 1000000
+		idleDrain = 1024
+
+		#Active Auto tuning. These shape how eagerly the panel sheds and restores; the defaults are deliberately cautious, in the spirit of a real load management controller.
+		[power.pdu.auto]
+			#Percent of the buffer held back as the Critical ride-through. Below this only Critical tier devices may draw. Raising it protects Critical for longer at the cost of shedding everything else sooner.
+			# Default: 15
+			# Range: 0 ~ 90
+			reserveFloorPct = 15
+			#Buffer percent that counts as spare supply, one of the two ways a shed device becomes eligible to come back (the other is an upstream capacitor bank actively charging).
+			# Default: 45
+			# Range: 0 ~ 100
+			restoreSocPct = 45
+			#Percent of headroom a shed device must clear on top of measured generation before it is restored, so the branch never comes back up at exactly 100 percent of supply. This is the operating reserve.
+			# Default: 10
+			# Range: 0 ~ 50
+			burstMarginPct = 10
+			#Minimum ticks between two run-state changes of the same device (20 = 1 second). This is the anti-flap minimum switching time; a reserve floor trip is exempt from it.
+			# Default: 60
+			# Range: 0 ~ 6000
+			dwellTicks = 60
+			#Minimum ticks between restoring any two devices, so a recovering branch picks its load back up in stages rather than all at once.
+			# Default: 20
+			# Range: 0 ~ 6000
+			restoreIntervalTicks = 20
+			#Ticks over which the reserve above the floor is treated as spendable. Larger means the panel spends the buffer more slowly and therefore admits less on top of real generation.
+			# Default: 600
+			# Range: 20 ~ 72000
+			rideHorizonTicks = 600
+			#Ticks between reads of the upstream grid (summing dynamo capacity and checking capacitor bank charge). Lower reacts faster to a generation change and costs more; the decision itself still runs every tick.
+			# Default: 10
+			# Range: 1 ~ 200
+			supplyReadIntervalTicks = 10
+			#Per-tick decay, in percent, of the observed-supply peak used for third-party generators the panel cannot introspect (Create Crafts and Additions, Powah). 98 means it falls to half in about 1.7 seconds.
+			# Default: 98
+			# Range: 50 ~ 100
+			observedDecayPct = 98
+			#Ticks a served device's own buffer is topped up over, when the panel has energy spare above its reserve floor.
+			#The panel serves in two passes: every admitted device first gets exactly what it costs to RUN, then whatever is
+			#left over is spent filling buffers at this pace. A device with an empty buffer will accept its entire transfer
+			#rate, which is why it needs its own pass: without one, the first cold machine in the list drinks the pool and the
+			#other thirteen the panel had budgeted for get nothing while the roll call reports them all as served.
+			#Lower fills faster and makes a cold start lumpier; higher is gentler and takes longer to bank anything.
+			# Default: 40
+			# Range: 1 ~ 1200
+			fillTicks = 40
+			#Ticks of evidence before the panel trusts what it has WATCHED a third-party machine draw over what its buffer
+			#headroom suggests. Our own blocks publish what they cost; anything from another mod does not, and headroom is a
+			#poor substitute (an idle machine looks free, a cold one looks like an emergency). The panel measures the real
+			#figure from the outside, by differencing each device's buffer against what it was handed, and switches to that
+			#once it has this many ticks of it. Zero-ish reacts instantly and is noisier; higher is steadier and slower.
+			# Default: 10
+			# Range: 1 ~ 600
+			learnTicks = 10
+			#Hold the back boss to what the panel can spare. The back boss gives power out to anything willing to pull on it
+			#(a Battery Controller charging off the run, a foreign conduit, a downstream board), and with this off the only
+			#limits are the leg's breaker and its rating, so a battery farm behind the panel can take the buffer to zero and
+			#shed every machine in front of it. On, the export follows three bands: nothing below the reserve floor, live
+			#surplus generation only between the floor and the restore mark, and freely above it. Turn off for the old
+			#behaviour; the export is counted as demand either way.
+			exportPolicy = true
+			#Core protection. Once the upstream capacitor banks are nearly spent, only Critical devices may draw on what is left:
+			#everything else falls back to what generation alone sustains, and nothing below Critical is restored until the
+			#banks recover. This is the reserve floor idea applied to the banks feeding the panel rather than to its own buffer.
+			#Turning it off does not hide the cascade, the panel still reads and reports it, it just stops holding anything back.
+			coreProtection = true
+			#Percent of the upstream banks' total capacity below which core protection engages.
+			#Measured as charge remaining against capacity across every bank on the feed, deliberately NOT as a count of banks
+			#still holding: a bank that was never filled is not a bank that drained, and since storage only ever charges from a
+			#generator, an empty second bank on a generator-less grid stays empty. Counting banks would put an ordinary
+			#one-full-one-empty build into protection permanently with tens of millions of FE sitting next door.
+			# Default: 20
+			# Range: 0 ~ 90
+			coreProtectionPct = 20

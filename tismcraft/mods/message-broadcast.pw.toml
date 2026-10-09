@@ -1,0 +1,13 @@
+name = "Message Broadcast"
+filename = "message_broadcast-neoforge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f8833209f56e93c74fb34ba2f74d2a41ac6dedf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6390897
+project-id = 1227067

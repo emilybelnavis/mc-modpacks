@@ -1,0 +1,89 @@
+[pathways]
+	#Show every pathway's ribbon and stops all the time, not only with the Surveyor's Staff in hand or goggles on,
+	#for players who like their routes always visible. Client-only.
+	alwaysShown = false
+	#Show pathways' ribbons and stops, dimmer, while wearing Engineer's Goggles. Client-only.
+	withGoggles = true
+
+[sound]
+	#Volume of the Kinetic Flywheel's hum, charged chime and trip thunk (0.0 = silent, 1.0 = default, 2.0 = twice the default). The hum only plays while a flywheel is actually charging or carrying load, and a whole bank shares one hum.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	flywheelSoundVolume = 1.0
+	#Volume of Announcement Computer speech (0.0 = silent, 1.0 = full). Client-only, so each player sets their own.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	paVoiceVolume = 1.0
+
+[graphics]
+	#Draw the soft phosphor glow around Stats Display line-chart traces. Turn off for crisp, flat lines.
+	signalTraceGlow = true
+	#Global ceiling (blocks) on Create Stats display render distance. Each display has its own tuned distance (32-96); this only ever caps them lower, never higher. 128 = no cap. Client-only, so each player controls their own in multiplayer.
+	# Default: 128
+	# Range: 16 ~ 128
+	maxRenderDistance = 128
+	#Show Weather Panel temperatures in Fahrenheit instead of Celsius. There is a chip
+	#in the panel's own screen that sets this, so the file is only the escape hatch.
+	#Client-only on purpose: a unit is a property of whoever is reading, not of the
+	#panel, so this follows you onto somebody else's wall rather than overriding them.
+	weatherFahrenheit = false
+
+#How a Stats Display Mk III face behaves as you walk away from it. Every setting here has a
+#control in the display's own Screen tab, which also shows the resulting distances in metres for
+#the panel you are looking at; this file is the escape hatch for tuning them exactly.
+#
+#The ranges are size aware. A single block panel holds full detail to about 18 metres and
+#collapses to a status glyph past about 48; a larger wall holds both proportionally further,
+#up to four times as far, because a bigger face carries bigger type and a bigger readout.
+[panelDetail]
+	#How eagerly the face gives up detail with distance.
+	#NEVER      = no simplification at all, at any range the panel renders at.
+	#FAR        = roughly double the normal ranges.
+	#BALANCED   = the default. Full detail across a room, simplified across the factory.
+	#AGGRESSIVE = simplifies early. The cheapest option on a large wall of panels.
+	simplify = "BALANCED"
+	#Extra multiplier applied on top of the mode above, for tuning the exact distance.
+	#1.0 leaves the mode as it is; 2.0 doubles every range; 0.5 halves them.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	detailRangeTrim = 1.0
+	#Blend between detail levels instead of switching between one frame and the next.
+	#Off restores a hard cut at each threshold, which is very slightly cheaper and, for some
+	#players, easier to read because the face is never in an in-between state.
+	crossFade = true
+	#Keep the title and status band at any distance, even once the face has collapsed to a glyph.
+	#Costs two short strings and is the difference between a distant panel that still says which
+	#machine it is watching and one that is an anonymous coloured rectangle.
+	keepHeader = true
+
+[accessibility]
+	#Skip the Power Distribution Unit screen's animated transitions; every gauge and bar snaps straight to its value instead of gliding. Client-only.
+	pduReduceMotion = false
+
+#Create Stats' own dynamic lights: light that moves (a Stage Light's pool, a torch in your hand),
+#drawn by the game's own light engine on your client, so it works with Sodium and Iris shaderpacks
+#and stops at walls. No other mod is needed. Press F3 to see what it is doing.
+[dynamicLights]
+	#Master switch. Off puts every dynamic light out, Stage Light pools included; a world-placed
+	#Stage Light still lights the spot it points at from the server.
+	enabled = true
+	#A light-giving block held in either hand (a torch, a lantern, glowstone) lights the world round
+	#whoever holds it, you, other players and mobs alike.
+	heldItems = true
+	#The same for light-giving blocks lying on the ground as items.
+	droppedItems = true
+	#Lights further than this many blocks from the camera are not drawn.
+	# Default: 64
+	# Range: 16 ~ 256
+	maxDistance = 64
+	#The most light cells alive at once; past it the ones nearest the camera win. A held light is one
+	#cell, a Stage Light up to nine.
+	# Default: 256
+	# Range: 16 ~ 2048
+	maxCells = 256
+	#The most light cells changed per tick. Each change relights up to 15 blocks round it and rebuilds
+	#the chunk sections that touches, so this caps the cost of many moving or strobing lights. Changes
+	#that do not fit wait for the next tick, nearest the camera first.
+	# Default: 64
+	# Range: 4 ~ 1024
+	maxChangesPerTick = 64

@@ -3,11 +3,11 @@ filename = "create_blahaj_factory-1.0.7-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vNsRvrDc/versions/ptFyKiF3/create_blahaj_factory-1.0.7-neoforge-1.21.1.jar"
-hash-format = "sha512"
-hash = "1044e267ad945f315a76f42c78b2371535f6ddfb6a6d20bc4ecd82592ac7cc4e7d9e50770d50f45d167b590339d8f99fae2edd0236d98a3be3db4dfdd1bbcf4c"
+hash-format = "sha1"
+hash = "0d6b6b66084da82b527e7a7e669db7de6090d818"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "vNsRvrDc"
-version = "ptFyKiF3"
+[update.curseforge]
+file-id = 8873353
+project-id = 1579048

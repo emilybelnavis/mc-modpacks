@@ -1,0 +1,13 @@
+name = "Assembly Lines"
+filename = "assemblyline-1.21.1-0.8.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "695a6ba2cbaf314b1de84f712c62ef2fc377929c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8237005
+project-id = 404360

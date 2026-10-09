@@ -1,0 +1,13 @@
+name = "Create: Dragons Plus — Aeronautics Coloring Compat"
+filename = "Dyeable Components Compat.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ccbd596441d36917c1474e9b76a3d9370408ae27"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8533247
+project-id = 1630420

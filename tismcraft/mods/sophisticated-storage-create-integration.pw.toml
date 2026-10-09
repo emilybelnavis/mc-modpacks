@@ -3,11 +3,11 @@ filename = "sophisticatedstoragecreateintegration-1.21.1-0.1.22.238.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/MJ0hdevs/versions/vC5Xhg1p/sophisticatedstoragecreateintegration-1.21.1-0.1.22.238.jar"
-hash-format = "sha512"
-hash = "3304c80ffb6f8f23ec6dbbb8420a5e38c92184e551705e77136e255bb0416453470ee61221418c957f4887c39e556d533971f61fb116e5d971f60e73ed0ee5fd"
+hash-format = "sha1"
+hash = "513b3f3b9097e010c3ce7f6743ab3dbb73b9e749"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "MJ0hdevs"
-version = "vC5Xhg1p"
+[update.curseforge]
+file-id = 9074616
+project-id = 1226755

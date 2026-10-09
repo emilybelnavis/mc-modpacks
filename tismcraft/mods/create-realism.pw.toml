@@ -1,0 +1,13 @@
+name = "Create Realism"
+filename = "realism-0.6.6-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3676ceb59c47b7cbfa03a71a52a2751231652dd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8587414
+project-id = 1203960

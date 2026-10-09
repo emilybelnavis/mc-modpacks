@@ -1,0 +1,13 @@
+name = "Create:Tracks+"
+filename = "tracks_plus-1.0.6b6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d51307ecd8f18c82a43bd9ad79bcc0b879ce4ab5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8812568
+project-id = 1548863

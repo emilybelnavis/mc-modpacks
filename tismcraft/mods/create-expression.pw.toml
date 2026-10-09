@@ -1,0 +1,13 @@
+name = "Create: Expression"
+filename = "create_expression-1.1.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b37647da4dcf96a5057a0c4829eb36e7a8e309a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8983044
+project-id = 1548435

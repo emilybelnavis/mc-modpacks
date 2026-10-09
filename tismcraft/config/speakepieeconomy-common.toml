@@ -1,0 +1,112 @@
+[prices]
+	#Sell prices shown in the active currency. Editing this list locks each entered value as its Dollar base. Pound format is pounds.shillings.pence, e.g. minecraft:wheat=1.2.18.
+	tradeable_items = ["minecraft:acacia_leaves=0.03", "minecraft:acacia_log=0.04", "minecraft:acacia_sapling=0.17", "minecraft:andesite=0.02", "minecraft:anvil=34.25", "minecraft:azalea=0.20", "minecraft:azalea_leaves=0.02", "minecraft:bamboo=0.05", "minecraft:bamboo_block=0.06", "minecraft:bamboo_sapling=0.02", "minecraft:bell=8.40", "minecraft:birch_leaves=0.02", "minecraft:birch_log=0.03", "minecraft:birch_sapling=0.17", "minecraft:blackstone=0.06", "minecraft:blast_furnace=7.22", "minecraft:bricks=0.08", "minecraft:brown_mushroom=0.09", "minecraft:calcite=0.09", "minecraft:candle=0.12", "minecraft:cartography_table=0.13", "minecraft:cauldron=9.95", "minecraft:chain=1.23", "minecraft:cherry_leaves=0.04", "minecraft:cherry_log=0.09", "minecraft:cherry_sapling=0.28", "minecraft:chiseled_bookshelf=0.13", "minecraft:chiseled_stone_bricks=0.03", "minecraft:clay=0.01", "minecraft:coarse_dirt=0.01", "minecraft:cobblestone=0.01", "minecraft:comparator=2.10", "minecraft:composter=0.23", "minecraft:crafting_table=0.07", "minecraft:crimson_stem=0.95", "minecraft:dark_oak_leaves=0.03", "minecraft:dark_oak_log=0.03", "minecraft:dark_oak_sapling=0.17", "minecraft:decorated_pot=0.07", "minecraft:deepslate=0.02", "minecraft:diorite=0.03", "minecraft:dirt=0.01", "minecraft:dirt_path=0.03", "minecraft:dripstone_block=0.04", "minecraft:end_stone=0.20", "minecraft:end_stone_bricks=0.21", "minecraft:fletching_table=0.25", "minecraft:flowering_azalea=0.21", "minecraft:flowering_azalea_leaves=0.04", "minecraft:furnace=0.30", "minecraft:glass=0.03", "minecraft:granite=0.02", "minecraft:grass_block=0.03", "minecraft:gravel=0.01", "minecraft:grindstone=0.40", "minecraft:ice=0.05", "minecraft:jungle_leaves=0.02", "minecraft:jungle_log=0.03", "minecraft:jungle_sapling=0.17", "minecraft:ladder=0.07", "minecraft:lantern=1.60", "minecraft:lectern=0.78", "minecraft:lever=0.06", "minecraft:loom=0.29", "minecraft:mangrove_leaves=0.04", "minecraft:mangrove_log=0.09", "minecraft:mangrove_propagule=0.29", "minecraft:melon=0.80", "minecraft:moss_block=0.06", "minecraft:mud=0.01", "minecraft:mud_bricks=0.07", "minecraft:mycelium=0.20", "minecraft:nether_bricks=0.19", "minecraft:netherrack=0.04", "minecraft:oak_leaves=0.03", "minecraft:oak_log=0.03", "minecraft:oak_sapling=0.17", "minecraft:podzol=0.01", "minecraft:polished_andesite=0.03", "minecraft:polished_blackstone=0.07", "minecraft:polished_blackstone_bricks=0.07", "minecraft:polished_deepslate=0.03", "minecraft:polished_diorite=0.03", "minecraft:polished_granite=0.04", "minecraft:pumpkin=0.57", "minecraft:purpur_block=0.28", "minecraft:quartz_block=0.20", "minecraft:red_mushroom=0.09", "minecraft:red_sand=0.02", "minecraft:red_sandstone=0.21", "minecraft:redstone_lamp=2.63", "minecraft:redstone_torch=0.27", "minecraft:repeater=2.10", "minecraft:rooted_dirt=0.10", "minecraft:sand=0.01", "minecraft:sandstone=0.03", "minecraft:scaffolding=0.49", "minecraft:smithing_table=3.63", "minecraft:smoker=0.64", "minecraft:smooth_stone=0.03", "minecraft:snow_block=0.01", "minecraft:spruce_leaves=0.02", "minecraft:spruce_log=0.03", "minecraft:spruce_sapling=0.17", "minecraft:stone=0.02", "minecraft:stone_bricks=0.03", "minecraft:stonecutter=1.75", "minecraft:stripped_warped_stem=0.95", "minecraft:torch=0.04", "minecraft:tripwire_hook=0.84", "minecraft:tuff=0.06", "minecraft:white_banner=0.72", "minecraft:white_wool=0.11", "minecraft:armor_stand=0.13", "minecraft:apple=0.07", "minecraft:baked_potato=0.09", "minecraft:beef=1.00", "minecraft:beetroot=0.05", "minecraft:beetroot_seeds=0.02", "minecraft:beetroot_soup=0.22", "minecraft:black_dye=0.02", "minecraft:blue_dye=0.01", "minecraft:bone=0.04", "minecraft:bone_meal=0.02", "minecraft:book=0.23", "minecraft:bow=3.27", "minecraft:bowl=0.01", "minecraft:bread=0.07", "minecraft:brick=0.02", "minecraft:brown_dye=0.01", "minecraft:bucket=4.97", "minecraft:carrot=0.05", "minecraft:charcoal=0.07", "minecraft:chicken=0.75", "minecraft:coal=0.19", "minecraft:cocoa_beans=0.08", "minecraft:cod=0.35", "minecraft:compass=7.40", "minecraft:cooked_beef=0.56", "minecraft:cooked_chicken=0.48", "minecraft:cooked_cod=0.31", "minecraft:cooked_mutton=0.53", "minecraft:cooked_porkchop=0.57", "minecraft:cooked_rabbit=0.97", "minecraft:cooked_salmon=0.32", "minecraft:cookie=0.04", "minecraft:copper_ingot=0.65", "minecraft:crossbow=5.50", "minecraft:cyan_dye=0.01", "minecraft:diamond=10000.00", "minecraft:dried_kelp=0.04", "minecraft:egg=0.01", "minecraft:emerald=1.00", "minecraft:feather=0.03", "minecraft:flint=0.14", "minecraft:flint_and_steel=1.94", "minecraft:flower_pot=0.07", "minecraft:glass_bottle=0.03", "minecraft:glow_berries=0.17", "minecraft:glow_ink_sac=0.01", "minecraft:glowstone_dust=0.25", "minecraft:gold_ingot=1800.00", "minecraft:gold_nugget=50.00", "speakepieeconomy:gold_bar=600.00", "minecraft:gray_dye=0.01", "minecraft:green_dye=0.02", "minecraft:gunpowder=0.08", "minecraft:honey_bottle=0.25", "minecraft:honeycomb=0.09", "minecraft:iron_axe=5.00", "minecraft:iron_hoe=3.35", "minecraft:iron_ingot=1.50", "minecraft:iron_pickaxe=5.00", "minecraft:iron_shovel=1.75", "minecraft:iron_sword=3.25", "minecraft:item_frame=0.16", "minecraft:lapis_lazuli=1.75", "minecraft:lead=0.05", "minecraft:leather=0.14", "minecraft:light_blue_dye=0.01", "minecraft:light_gray_dye=0.01", "minecraft:lime_dye=0.01", "minecraft:magenta_dye=0.01", "minecraft:melon_seeds=0.01", "minecraft:melon_slice=0.11", "minecraft:milk_bucket=0.35", "minecraft:mushroom_stew=0.29", "minecraft:mutton=0.80", "minecraft:name_tag=2.29", "minecraft:nether_brick=0.04", "minecraft:orange_dye=0.01", "minecraft:paper=0.03", "minecraft:pink_dye=0.01", "minecraft:porkchop=1.00", "minecraft:potato=0.05", "minecraft:potion.effect.healing=1.27", "minecraft:potion.effect.regeneration=1.64", "minecraft:pumpkin_pie=0.34", "minecraft:pumpkin_seeds=0.01", "minecraft:purple_dye=0.01", "minecraft:quartz=0.06", "minecraft:rabbit=0.70", "minecraft:rabbit_hide=0.13", "minecraft:rabbit_stew=1.50", "minecraft:raw_gold=1610.00", "minecraft:red_dye=0.01", "minecraft:redstone=0.25", "minecraft:saddle=14.49", "minecraft:salmon=0.35", "minecraft:shears=3.23", "minecraft:splash_potion.effect.healing=1.35", "minecraft:splash_potion.effect.regeneration=1.75", "minecraft:spyglass=44.75", "minecraft:string=0.05", "minecraft:sugar=0.07", "minecraft:sweet_berries=0.23", "minecraft:tropical_fish=1.05", "minecraft:wheat=0.04", "minecraft:wheat_seeds=0.00", "minecraft:white_dye=0.01", "minecraft:writable_book=0.55", "minecraft:yellow_dye=0.01"]
+	#Daily random sell price swing. 0.02 means +/-2% around the configured base price.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	daily_price_swing = 0.02
+	#Minimum vending machine buyback multiplier. 0.50 means VMs buy from players for 50% of sell price.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	vm_buy_min = 0.5
+	#Maximum vending machine buyback multiplier. 0.70 means VMs buy from players for 70% of sell price.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	vm_buy_max = 0.7
+	#Maximum items in the VM sell-input cell. Default: 1000. Maximum: 10000. A selected stock cell also reserves its existing one-item template.
+	# Default: 1000
+	# Range: 1 ~ 10000
+	vm_item_slot_max_stack = 1000
+
+[currency]
+	#World currency policy. Valid values: DOLLAR, YEN, POUND, UNLISTED.
+	#UNLISTED lets every ATM, VM, and TeleStation select its own transaction currency.
+	currency_mode = "DOLLAR"
+	#Legacy setting kept for old configs. Use currency_mode instead.
+	use_yen = false
+	#Dollar to Pound conversion shown as: $1.00 = £1.0.00
+	#Use pounds.shillings.pence format. Example: 1.2.13 means $1.00 = £1 2s 13p.
+	atm_exchange_rate_pounds_per_dollar = "1.0.00"
+	#Dollar to Yen conversion shown as: $1.00 = ¥2000
+	#Stored as yen per dollar. 2000 means $1.00 = ¥2000.
+	# Default: 2000
+	# Range: > 1
+	atm_exchange_rate_yen_per_dollar = 2000
+
+[atm]
+	#Default ATM loan interest percent per 365 Minecraft days.
+	# Default: 2.0
+	# Range: -1000.0 ~ 1000.0
+	default_loan_interest_percent = 2.0
+	#Default ATM loan due time in Minecraft days.
+	# Default: 365
+	# Range: 1 ~ 7300
+	default_loan_term_days = 365
+	#Maximum loan term allowed in the ATM UI.
+	# Default: 7300
+	# Range: 1 ~ 100000
+	max_loan_days = 7300
+
+[cash_reserve]
+	#Default Central Reserve counts. Format: denomination_id=count.
+	dollar_reserve_defaults = ["half_cent=16000000", "one_cent=270000000", "two_cents=42000000", "five_cents=173000000", "ten_cents=176000000", "twenty_five_cents=118000000", "fifty_cents=104000000", "one_dollar=350000000", "two_dollars=60000000", "five_dollars=235000000", "ten_dollars=180000000", "twenty_dollars=115000000", "fifty_dollars=46000000", "one_hundred_dollars=30000000", "five_hundred_dollars=1200000", "one_thousand_dollars=1300000", "ten_thousand_dollars=100000", "one_hundred_thousand_dollars=25000"]
+	#Default Pound Central Reserve counts. Format: denomination_id=count.
+	pound_reserve_defaults = ["one_penny=70000000", "two_pence=70000000", "five_pence=115000000", "ten_pence=200000000", "one_shilling=200000000", "two_shillings=130000000", "five_shillings=118000000", "one_pound=350000000", "two_pounds=60000000", "five_pounds=235000000", "ten_pounds=180000000", "twenty_pounds=115000000", "fifty_pounds=46000000", "one_hundred_pounds=30000000", "five_hundred_pounds=1200000", "one_thousand_pounds=1300000", "ten_thousand_pounds=100000", "one_hundred_thousand_pounds=25000"]
+	#Default Yen Central Reserve counts. Format: denomination_id=count.
+	yen_reserve_defaults = ["one_yen=181000000", "five_yen=252000000", "ten_yen=500000000", "fifty_yen=320000000", "one_hundred_yen=1100000000", "five_hundred_yen=440000000", "one_thousand_yen=4400000000", "two_thousand_yen=21000000", "five_thousand_yen=300000000", "ten_thousand_yen=2700000000"]
+	#Hard cap for generated Dollar/Pound change pieces; returned tender is excluded.
+	# Default: 48
+	# Range: 1 ~ 512
+	dollar_pound_max_change_items = 48
+	#Normal generated count cap for one Dollar/Pound denomination.
+	# Default: 10
+	# Range: 1 ~ 128
+	dollar_pound_normal_max_per_denomination = 10
+	#Emergency generated count cap for one Dollar/Pound denomination.
+	# Default: 20
+	# Range: 1 ~ 256
+	dollar_pound_emergency_max_per_denomination = 20
+	#Hard cap for generated Yen change pieces; returned tender is excluded.
+	# Default: 20
+	# Range: 1 ~ 512
+	yen_max_change_items = 20
+	#Normal generated count cap for one Yen denomination.
+	# Default: 5
+	# Range: 1 ~ 128
+	yen_normal_max_per_denomination = 5
+	#Emergency generated count cap for one Yen denomination.
+	# Default: 10
+	# Range: 1 ~ 256
+	yen_emergency_max_per_denomination = 10
+	#Maximum physical notes or coins an ATM may generate for one withdrawal. Cancels instead of flooding inventory.
+	# Default: 200
+	# Range: 1 ~ 10000
+	atm_max_compact_withdrawal_pieces = 200
+
+[machine_access]
+	#Maximum players simultaneously using one Unlimited-ON vending machine.
+	# Default: 10
+	# Range: 1 ~ 128
+	vm_unlimited_max_concurrent_users = 10
+	#Maximum players simultaneously using one Unlimited-OFF vending machine.
+	# Default: 5
+	# Range: 1 ~ 128
+	vm_limited_max_concurrent_users = 5
+	#Maximum players simultaneously using one ATM.
+	# Default: 10
+	# Range: 1 ~ 128
+	atm_max_concurrent_users = 10
+	#Maximum players simultaneously using one TeleStation.
+	# Default: 20
+	# Range: 1 ~ 128
+	telestation_max_concurrent_users = 20
+
+[telestation]
+	#Progressive TeleStation fare tiers as meters=price_per_meter_in_active_currency. Use *=price for all remaining distance.
+	fare_tiers = ["1000=1.00", "1000=0.80", "1000=0.70", "*=0.60"]
+
+[migration]
+	#Internal config migration version. Do not edit.
+	# Default: 7
+	# Range: 0 ~ 7
+	config_version = 7

@@ -1,0 +1,13 @@
+name = "Sophisticated Storage Allthemodium tier"
+filename = "storage_allthemodium_upgrade-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1be6c4ac7741ac4e7cc402b08a50d92c4ba47da8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8241426
+project-id = 1200165

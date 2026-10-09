@@ -1,0 +1,13 @@
+name = "Trade Post for MineColonies"
+filename = "mctradepost-1.06.014-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4915b77444e7e2a290399f90f343bafe435722f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9017243
+project-id = 1288791

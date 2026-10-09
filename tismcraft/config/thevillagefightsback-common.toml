@@ -1,0 +1,240 @@
+[limbo]
+	#Fraction of Limbo chunks that mirror their overworld twin (dimensional drift).
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	driftOverworldChance = 0.02
+	#Fraction of Limbo chunks that mirror their nether twin (dimensional drift).
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	driftNetherChance = 0.01
+
+[explosions]
+	#If true, a creature/unit rocket's explosion breaks blocks. The blast still HURTS units either way.
+	#Default: false (protects the build).
+	creature_rocket_explosion_destroy_blocks = false
+	#If true, a creature/unit rocket's explosion can set blocks on fire. The blast still IGNITES units either way.
+	creature_rocket_set_blocks_on_fire = true
+	#If true, an air-strike rocket's explosion breaks blocks. Air strikes usually land outside the village
+	#perimeter, so the risk to the village itself is low. The blast still hurts units either way.
+	air_strike_rocket_explosion_destroy_blocks = true
+	#If true, an air-strike rocket's explosion can set blocks on fire.
+	air_strike_rocket_set_blocks_on_fire = true
+	#Master switch for the emerald-virus death explosion. If false, a creature that dies carrying the
+	#emerald virus does NOT explode at all (no blast, no entity damage, no fire) -- the two options below
+	#then have no effect. The mite/emeraldger spawn and emerald loot still happen. Default: false (nerf).
+	enable_emerald_virus_explosion = false
+	#If true, the explosion of a creature that dies carrying the emerald virus breaks blocks.
+	#The blast still hurts units either way. Default: false.
+	emerald_virus_explosion_destroy_blocks = false
+	#If true, the emerald-virus death explosion can set blocks on fire. Default: false.
+	emerald_virus_explosion_set_blocks_on_fire = false
+
+[features]
+	#If true, a brain node will (free, on a 1-minute cooldown, at any stage) clear ALL vanilla
+	#fire (normal + soul fire) within its influence radius. This mod adds no fire of its own; other
+	#mods' custom fire is left untouched.
+	brain_node_extinguishes_fire = true
+	#If true, destroying a Village Brain Node (any non-silk-touch break) unleashes the Vindictive
+	#Village Spirit boss, with its emerge animation and warning. If false, the node can be destroyed
+	#without summoning the boss. Default: true.
+	defeated_brain_node_spawn_spirit = true
+	#If true, every player permanently has the 'Enemy of the Village' status and can NEVER become a
+	#Hero of the Village, no matter what. Default: false.
+	player_is_hostile = false
+	#If true, emeraldgers spawn with a size proportional to the HP of the victim they came from (current
+	#behaviour). If false, they all spawn at the default villager size.
+	emeraldgers_size_variation = true
+	#If true, every minute the brain node spawns a settler that places a random colored TNT block. The
+	#usual settler placement rules (far enough from existing buildings, etc.) still apply. Default: false.
+	mega_expansion_mode = false
+	#If true, General Darius never returns to the brain node, even after every 100+ HP enemy is cleared.
+	general_darius_remains = true
+	#What a Dead Brain Node accepts to raise a Village Spirit. Item ids; feeding any one of
+	#them works, and the first is the one the in-game prompts name.
+	#Default: ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"].
+	reviving_items = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
+	#What the brain node's stage 1 -> 2 costs in items, on top of its emeralds (SURVIVAL
+	#experience only). Each entry is "<item id> <count>", at most 3 entries. An empty list
+	#means emeralds alone. Default: ["minecraft:copper_ingot 8"].
+	upgrade_items_stage_1_2 = ["minecraft:copper_ingot 8"]
+	#Stage 2 -> 3. Default: ["minecraft:copper_ingot 8", "minecraft:gold_ingot 8"].
+	upgrade_items_stage_2_3 = ["minecraft:copper_ingot 8", "minecraft:gold_ingot 8"]
+	#Stage 3 -> 4. Default: ["thevillagefightsback:limbo_ingot 1"].
+	upgrade_items_stage_3_4 = ["thevillagefightsback:limbo_ingot 1"]
+	#Entities the village treats as threats even though nothing about them says so -- mobs
+	#from other mods that are hostile in play but are not tagged as monsters. An entry is
+	#either a full id ("somemod:raider") or a whole namespace ("somemod:*").
+	#Seeded with Hostile Civilization, whose settlers the village otherwise ignored.
+	extra_hostile_entities = ["hostilecivilization:*"]
+	#If true, General Darius chews through terrain: he breaks soft blocks on contact, digs down to
+	#a target below him and tunnels up to one above him. Turn it off and he leaves the world alone
+	#and paths around it like anything else -- his pathfinder is told about the change too, so he
+	#does not simply walk into the rock he can no longer break. Default: true.
+	darius_can_break_blocks = true
+	#If true, the five seconds of reversed gravity that follow a Special Sauce holder falling out of
+	#the world also turn every player's view upside down. The physics are unaffected either way -- this
+	#only controls the camera. Set false if a 180 degree world roll makes anyone on the server queasy.
+	#Default: true.
+	reversed_gravity_flips_screen = true
+	#TESTING ONLY. A villager or guard that has not left a 1x1 spot is normally rescued by the
+	#brain node after 30 seconds if it is stuck in a pit, or after 60 seconds whatever the reason.
+	#Set this true and both clocks drop to a few seconds, so the rescue can be watched without
+	#standing around waiting for it. Leave it false in a real world: it makes the mod quick to
+	#decide that a villager doing something slow is stuck. Default: false.
+	unstick_test_mode = false
+	#If true, infested paths and fertile grass only spread blocks while they are within the
+	#100-block reach of a brain node that has reached stage 2. This keeps a converted zone
+	#roughly inside the village's own radius instead of creeping across the map, and stops any
+	#conversion at all while the node is still stage 1. Set false and both spread on their own
+	#wherever they happen to be, which is the pre-1.5.2 behaviour. Default: true.
+	infested_paths_need_brain_node = true
+	#If true, everything the infection converts from now on is GREEN, as it was before the
+	#colour sets were added. The four other colours stay registered and stay in the VFB:
+	#blocks creative tab -- this only stops the infection CHOOSING them: a new infested path
+	#is laid green, and a conversion inherits green rather than its source's colour.
+	#Blocks already placed keep the colour they were placed with; nothing rewrites the world.
+	#Default: false.
+	monochrome_green_fertile_blocks = false
+	#If true: all village units permanently gain Strength III, Regeneration III, Resistance III and Speed III
+	#(no potion particles); guards wield Alien Smashers in place of the regular Mace; and golems can teleport
+	#to enemies the way the Vindictive Village Spirit does. Default: false.
+	mega_brutal_mode = false
+	#If true, a newly created world moves the spawn point onto the nearest village so the player spawns
+	#in a village. Default: false (players start at the vanilla spawn).
+	player_spawn_in_village = false
+	#If true, the player is given a Bell when they first spawn into a new world (to found their own village).
+	player_is_given_bell_at_spawn = true
+	#Master switch for block infection. If false, neither paths proliferate nor fertile blocks appear at all
+	#(the multiplier_block_infection_* settings are then irrelevant). Default: true.
+	enable_block_infection = true
+	#Master switch for MOB infection (the 20 emerald units). If false, NO emerald unit can ever spawn:
+	#no infection-conversion of a slain mob, no brain summon, not even a spawn egg. Default: true.
+	enable_mob_infection = true
+	#Switch for the EMERALD faction's block infestation: the lime 'infested path' laid below a converted
+	#unit and its slow fertile/rich spread. This is the emerald-faction counterpart of enable_block_infection
+	#(which is the VILLAGE brain node's own fertile spread) and is fully independent of it: turn this off to
+	#keep emerald mobs but stop them altering the world. Default: true.
+	enable_emerald_infestation = true
+	#If true, emerald units treat the player as a target (a non-creative/spectator player who is an Enemy
+	#of the Village). If false, emerald units never attack the player at all. Default: false.
+	emerald_mobs_are_hostile_to_player = false
+	#Scales the emerald scouts the brain summons: base 2 cats per settlement + 1 bat per sunset, times this.
+	#e.g. 2 -> 4 cats and 2 bats. Default: 1.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_emerald_mobs_spawned_by_brain = 1.0
+	#Soft LOCAL cap on emerald units (mites included) within a player's active range of a spawn, to limit
+	#lag. Emeralds far from any player don't count. When an automatic spawn would exceed it the unit does
+	#NOT appear; instead the nearest non-mite emerald gains its max HP (a conversion's victim just dies, and
+	#its infested path still appears). A spawn egg / summon at the cap tells the player. 0 = unlimited. Default: 50.
+	# Default: 50
+	# Range: 0 ~ 100000
+	emerald_mobs_max_number = 50
+	#ORGANIC MASS system (alternative to convert-on-kill). If true: an emerald unit's kills do NOT convert
+	#the victim into an emerald unit. Instead an infested path is laid below the victim and the victim's max
+	#HP is added as 'organic mass' to the nearest brain node, which banks it and spends it to spawn its own
+	#emerald army at infested blocks (a decision tree picks when/what). Organic mass is shown next to the brain's
+	#emerald count and NEVER affects the brain's level/emerald economy. If false: keep the classic 1.1.1
+	#convert-on-kill behavior. Default: true.
+	enable_organic_mass_system = true
+	#Scales the standing organic army a brain may field: cap = emerald_mobs_max_number x this (default 50).
+	#e.g. 2 -> up to 100 emerald units. Default: 1.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	organic_army_multiplier = 1.0
+	#Scales how much of its banked organic mass a brain spends per decision (more = more aggressive bursts).
+	#Default: 1.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	organic_spawn_budget_multiplier = 1.0
+	#If true, a stage-3 guard slain by a hostile/boss-minion goes out in a TNT-strength, fire-spreading
+	#blast (a 'fire grenade'). If false, guards die quietly. Default: true.
+	guards_drop_fire_grenade_upon_death = true
+	#Master switch for CHUNK PORTALS (work in progress, v1.2.1). When ON: once a village brain reaches
+	#stage 3, ~1% of nearby overworld chunks turn into 4-wall portals that show, and lead into, the Limbo.
+	#Default: false (off for now). Turning this on applies portals immediately to any stage-3-or-higher
+	#brain node currently in reach (loaded); turning it off only stops NEW portals -- existing ones persist.
+	enable_chunk_portals = false
+	#Minecraft Comes Alive (MCA Reborn) integration. Has NO effect unless MCA is installed. When ON and
+	#MCA is present, every villager this mod spawns (settlers, brain-node reinforcements, staged spawn eggs)
+	#is spawned as an MCA human instead of a vanilla villager, so the village is uniformly MCA rather than a
+	#mix. MCA villagers extend the vanilla villager, so they take the same roles, weapons, walls and virus.
+	#Turn OFF to spawn plain vanilla villagers alongside MCA's. Default: true.
+	mca_compat = true
+	#Where your REPUTATION with the village starts and how far it can move, picked on the difficulty
+	#screen when a world is created.
+	#0 = Peaceful  -- start at 200 (already a Hero) and never fall below 0.
+	#1 = Neutral   -- start at 0, no bound either way. The recommended setting.
+	#2 = Hostile   -- start at -300 and never rise above -100: an Enemy of the Village for good.
+	#3 = Nightmare -- start at -1000000 and never rise above -500: the sunset hunt never lifts.
+	#Separate from the GAME MODE (what spreads and spawns); the two are asked on two screens. Default: 1.
+	# Default: 1
+	# Range: 0 ~ 3
+	difficulty = 1
+	#If true, every one of General Darius's blows marks its victim with Obliteration, and a stage-4 brain
+	#node raises an Obliteration Furnace beside itself and pays 1 emerald per minute to keep it lit (never
+	#so much that the village drops back to stage 3). Together those mean a creature Darius kills near the
+	#village is struck off the spawn tables for as long as the village can afford the fuel. Players are
+	#never marked and can never be obliterated, whatever this is set to. Set false and Darius is simply a
+	#hard fighter: no mark, and the node neither builds nor fuels a furnace. Default: true.
+	darius_inflicts_obliteration = true
+
+[multipliers]
+	#Scales the emerald cost for the brain node to reach each stage. 2.0 = every stage costs twice as much.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_level_up_emerald_threshold = 1.0
+	#Scales how OFTEN nodes spawn their unit. 2.0 = each unit that would spawn once a day at sunset instead spawns
+	#twice a day, at even intervals. Applies to the brain node and every node (iron golem factory, barracks, lure
+	#tower). Rounded to a whole number of spawns per day.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_unit_spawn_frequency = 1.0
+	#Scales how many settlers spawn each time settlers would spawn. 2.0 = twice as many (still spaced apart, not
+	#stacked on the same spot).
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_number_of_settlers = 1.0
+	#Scales the cooldown between brain initiatives. 2.0 = brain initiatives happen half as often. (Air strikes
+	#have their own separate multiplier.)
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_brain_initiatives_cooldown = 1.0
+	#Scales the cooldown between air strikes, separately from the brain initiatives cooldown. 2.0 = half as often.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_air_strikes_cooldown = 1.0
+	#Scales how fast blocks get infected/converted by the fertile zone. 2.0 = spreads twice as fast.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_block_infection_speed = 1.0
+	#Scales the brain's influence radius -- every rule that acts 'within the brain's radius'. Also sets the base
+	#reach of the block infection.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_brain_influence_radius = 1.0
+	#Scales how far the fertile zone reaches relative to the brain's radius. 2.0 = the fertile zone can reach
+	#twice the brain's radius (per-stage multipliers still apply on top).
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_block_infection_reach = 1.0
+	#Scales how many limbo raiders appear during every raid phase. 2.0 = twice as many.
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	multiplier_limbo_raiders = 1.0
+
+[values]
+	#The brain stage (1-4) at which air strikes become available. Default: 4.
+	# Default: 4
+	# Range: 1 ~ 4
+	air_strikes_appear_at_stage = 4
+	#A creature whose base max-health reaches this is 'unstable' in Limbo (its placed gravel self-destructs
+	#after the countdown). Default: 50.
+	# Default: 50
+	# Range: 1 ~ 100000
+	unstable_limbo_gravel_HP_threshold = 50
+	#If greater than 0, this many guards spawn alongside General Darius and are immediately enrolled by him.
+	#Default: 0.
+	# Default: 0
+	# Range: 0 ~ 64
+	guards_spawning_with_general_darius = 0

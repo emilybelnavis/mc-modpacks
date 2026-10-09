@@ -1,0 +1,13 @@
+name = "Create: The Factory Must Work!"
+filename = "TFMW-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c3ef13cdbe795819d24fe0fd0497b26596e1e98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8766971
+project-id = 1652099

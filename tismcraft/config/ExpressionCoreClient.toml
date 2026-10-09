@@ -1,0 +1,3 @@
+	[overlays.dashing]
+		#Toggles overlay for dash ability.
+		showdashingoverlay = true
