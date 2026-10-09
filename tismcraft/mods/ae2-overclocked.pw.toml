@@ -1,0 +1,13 @@
+name = "AE2 Overclocked"
+filename = "ae2_overclocked-1.2.3-fix2-beta1-1.21.1Neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef7b424e7ca934a6afb7debd3fc4fac719b9ab0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7930483
+project-id = 1472240

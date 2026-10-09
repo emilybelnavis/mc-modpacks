@@ -1,0 +1,30 @@
+#Toggles ntm skybox.
+enableNtmSkybox = true
+#Toggles flash from nuke explosion.
+enableNukeHudFlash = true
+#Toggles hud shake from nuke explosion.
+enableNukeHudShake = true
+#Info position: 0 - top left, 1 - top right, 2 - next to the crosshair.
+# Default: 0
+# Range: 0 ~ 2
+infoPosition = 0
+#Offset for the y position of the info panel
+# Default: 0
+# Range: > -2147483648
+infoOffsetHorizontal = 0
+#Offset for the x position of the info panel
+# Default: 0
+# Range: > -2147483648
+infoOffsetVertical = 0
+#Toggles wacky splashes in the main menu.
+mainMenuWackySplashes = true
+#Toggles tips in the world loading screen.
+tips = true
+#Tool hud indicator x offset.
+# Default: 0
+# Range: > -2147483648
+toolHudIndicatorX = 0
+#Tool hud indicator x offset.
+# Default: 0
+# Range: > -2147483648
+toolHudIndicatorY = 0

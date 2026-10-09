@@ -1,0 +1,13 @@
+name = "AE2 Tweaks"
+filename = "AE2Tweaks-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5d534522accb076fbe2c52a3d953982f85fd4150"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6199502
+project-id = 1201668

@@ -1,0 +1,13 @@
+name = "Ultimate Car Mod"
+filename = "car-neoforge-1.21.1-1.0.46.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30e776a63e46a48d2b3cc9f850db0fce4ebf3911"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7518005
+project-id = 267458

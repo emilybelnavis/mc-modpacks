@@ -1,0 +1,13 @@
+name = "toucanLib"
+filename = "toucanlib-neoforge-1.21.1-0.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d2324ef489e9e49b732770800f40b9c3235233f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8665762
+project-id = 1542666

@@ -1,0 +1,13 @@
+name = "Common Roads"
+filename = "Common Roads (Neoforge 1.21.1) V1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/okJo8dgi/versions/t59vPOXn/Common%20Roads%20%28Neoforge%201.21.1%29%20V1.2.4.jar"
+hash-format = "sha512"
+hash = "3edb258d05d1cf195f87877424b9c85d45b1d91a6d1e83fe0ae10ad31ba5c03188f86a487240139ed909beef5b877e37fea7fb142dc9f384a4d87415e57deffd"
+
+[update]
+[update.modrinth]
+mod-id = "okJo8dgi"
+version = "t59vPOXn"

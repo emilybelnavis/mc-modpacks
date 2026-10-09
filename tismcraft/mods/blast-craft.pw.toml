@@ -1,0 +1,13 @@
+name = "Blastcraft mod"
+filename = "blastcraft-1.21.1-0.6.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01d21c7ef298cdba72b6d6f452ee8a95af58ae84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8237052
+project-id = 405322

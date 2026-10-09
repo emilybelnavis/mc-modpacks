@@ -1,0 +1,13 @@
+name = "Saro´s Money"
+filename = "Saros-Money-Mod-NeoForge-1.21.1-3.8.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5205976b78db48a1943490071eff5704d364497d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9039234
+project-id = 677097

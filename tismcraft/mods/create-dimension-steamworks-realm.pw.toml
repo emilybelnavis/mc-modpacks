@@ -1,0 +1,13 @@
+name = "Create: Dimension, Steamworks Realm (Forge/NeoForge)"
+filename = "create_dimension-neoforge-1.21.1-2.0.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f48d6b33b58005fdf0c06dd755e749c3d3ff2e5e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8760516
+project-id = 1214409

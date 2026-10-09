@@ -1,12 +1,12 @@
-name = "'tism craft"
-version = "0.0.2"
+name = "'Tism Craft"
+version = "1.10.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "68b4f156846c533db019c5592ee92d2319dda9135e6bb50e3e9975e138a20f65"
+hash = "3379a0e37fe6b3ac1a4ece56f77640401a43cf2b93d96a319f26c2a6d5976e8f"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.248"
+neoforge = "21.1.252"

@@ -1,0 +1,13 @@
+name = "Expression: Core"
+filename = "expression_core-3.0.7-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be5d81a44941f6245d1f731d2ad801a43a9cb7ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8975173
+project-id = 1392695

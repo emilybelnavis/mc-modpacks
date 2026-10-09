@@ -1,0 +1,26 @@
+#Damage for anti-personell landmine.
+# Default: 10.0
+# Range: 0.0 ~ 1.7976931348623157E308
+mine_ap_damage = 10.0
+#Damage for anti-tank landmine.
+# Default: 35.0
+# Range: 0.0 ~ 1.7976931348623157E308
+mine_he_damage = 35.0
+#Damage for shrapnel landmine.
+# Default: 7.5
+# Range: 0.0 ~ 1.7976931348623157E308
+mine_shrap_damage = 7.5
+#Damage for fat landmine.
+# Default: 100.0
+# Range: 0.0 ~ 1.7976931348623157E308
+mine_nuke_damage = 100.0
+#Damage for naval mine.
+# Default: 60.0
+# Range: 0.0 ~ 1.7976931348623157E308
+mine_naval_damage = 60.0
+#When turned on, taint effect will make trail.
+taint_trails = false
+#When turned on, crates can be opened in hands.
+crate_open_held = true
+#When turned on, crate will not drop their contents on break.
+crate_keep_contents = true

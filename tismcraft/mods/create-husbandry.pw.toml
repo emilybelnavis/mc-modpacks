@@ -1,0 +1,13 @@
+name = "Create: Husbandry"
+filename = "createhusbandry-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "982c3ba66fca0903e861ef1e5495395e9c7d3083"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8686054
+project-id = 1659882

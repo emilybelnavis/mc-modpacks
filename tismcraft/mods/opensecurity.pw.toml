@@ -1,0 +1,13 @@
+name = "OpenSecurity"
+filename = "opensecurity-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8fb4deb1e0391c4d11c68dee6d3d31a7ffaa2b99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8613395
+project-id = 231687

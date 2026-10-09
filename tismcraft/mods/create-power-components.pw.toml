@@ -1,13 +1,13 @@
 name = "Create: Power Components"
-filename = "power-components-1.3.0.jar"
+filename = "power-components-1.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EuJEE6yz/versions/W3GV5Ldp/power-components-1.3.0.jar"
-hash-format = "sha512"
-hash = "6b82f1ad6906ed2d64318ca73eb4df553b55c7be203cd5343bcb5446e420c643c0af1fc65618444546bc433cfcfc26763399fd4c9a6d00a6b4c14b68efcdcbf0"
+hash-format = "sha1"
+hash = "cbdf1874ecce7ac4cf4858c1a2876732b9392df2"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "EuJEE6yz"
-version = "W3GV5Ldp"
+[update.curseforge]
+file-id = 8714305
+project-id = 1659527
