@@ -1,0 +1,100 @@
+name: Deploy Packwiz packs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      # One-time setup: Settings > Pages > Source > GitHub Actions.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Stage Packwiz packs
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          manifests=(*/pack.toml)
+          if [ "${#manifests[@]}" -eq 0 ]; then
+            echo "No Packwiz manifests found in top-level pack directories." >&2
+            exit 1
+          fi
+          mkdir -p _site
+          for manifest in "${manifests[@]}"; do
+            # Copy bytes unchanged: Packwiz verifies index and file hashes.
+            cp -a -- "${manifest%/pack.toml}" _site/
+          done
+
+      - name: Create pack homepage
+        shell: python
+        run: |
+          import html
+          from pathlib import Path
+          import tomllib
+          from urllib.parse import quote
+
+          links = []
+          for manifest in sorted(Path("_site").glob("*/pack.toml")):
+              pack = tomllib.loads(manifest.read_text())
+              href = quote(manifest.relative_to("_site").as_posix())
+              name = html.escape(pack.get("name", manifest.parent.name))
+              folder = html.escape(manifest.parent.name)
+              links.append(f'<li><a href="{href}">{name}</a><br><small>{folder}/pack.toml</small></li>')
+          page = """<!doctype html>
+          <html lang="en"><head><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Emily's Minecraft Modpacks</title>
+          <style>
+          body { font: 18px/1.6 system-ui,sans-serif; max-width: 700px; margin: 64px auto; padding: 0 24px; color: #203329; background: #f5f7f2; }
+          h1 { line-height: 1.2; } a { color: #24613c; } li { margin: 24px 0; } small { color: #54635a; }
+          </style></head><body>
+          <h1>Emily's Minecraft Modpacks</h1>
+          <p>Use a pack's manifest link with the Packwiz installer in Prism Launcher.</p>
+          <ul>""" + "".join(links) + """</ul>
+          <p><a href="https://github.com/emilybelnavis/mc-modpacks">View the repository</a></p>
+          </body></html>
+          """
+          Path("_site/index.html").write_text(page)
+
+      # upload-pages-artifact excludes dotfiles, but these packs index them.
+      - name: Archive packs including hidden files
+        run: |
+          tar --dereference --hard-dereference \
+            --directory _site \
+            -cf "$RUNNER_TEMP/artifact.tar" \
+            --exclude=.git --exclude=.github .
+
+      - name: Upload packs
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
