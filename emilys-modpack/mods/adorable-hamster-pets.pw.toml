@@ -3,11 +3,11 @@ filename = "adorablehamsterpets-3.7.0-1.21.1+neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3d1bc31982eff30195e3a58247774b5136459e8d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LmrhZdK2/versions/LyCV3JSL/adorablehamsterpets-3.7.0-1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "0651244d2aaf4c127ee1818a24910bf6612a33bb3aa078217ee8c695abf2cbc8be118d29ed5e271f8f7ba316f146767b8882800a38713177993444db7df2041a"
 
 [update]
-[update.curseforge]
-file-id = 8838833
-project-id = 1306061
+[update.modrinth]
+mod-id = "LmrhZdK2"
+version = "LyCV3JSL"

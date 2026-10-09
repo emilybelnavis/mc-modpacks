@@ -1,0 +1,13 @@
+name = "BBL Strainers"
+filename = "strainers-1.21.1-5.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uwQqLJQs/versions/a0z0dhv9/strainers-1.21.1-5.2.1.jar"
+hash-format = "sha512"
+hash = "840be1254d7403bc8154b671b55331136b3395f6b44e6a57c28052c484ce7c2de5d7746b49cab3169f7da7ca3cd3d5008e5585115f642cab9c575e81f68d19e2"
+
+[update]
+[update.modrinth]
+mod-id = "uwQqLJQs"
+version = "a0z0dhv9"

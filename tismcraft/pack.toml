@@ -1,11 +1,11 @@
-name = "Emily's Modpack"
-version = "1.10.2"
+name = "'tism craft"
+version = "0.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "12435c5ddeca2af52d9a422c3ba8ccd12edb21aeacc1c9c25431cbd5e2180029"
+hash = "3195154711cceda8cba692a3e5639e041df8fa68d7f23b2dce759dbd8e7a33db"
 
 [versions]
 minecraft = "1.21.1"
