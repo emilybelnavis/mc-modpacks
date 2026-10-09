@@ -1,6 +1,6 @@
 name = "Particular ✨ Reforged"
 filename = "particular-1.21.1-NeoForge-1.5.7.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

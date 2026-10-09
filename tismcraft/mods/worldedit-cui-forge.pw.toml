@@ -1,6 +1,6 @@
 name = "WorldEdit CUI (Forge)"
 filename = "WorldEditCUI-NeoForge-1.21.1+02-SNAPSHOT.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
