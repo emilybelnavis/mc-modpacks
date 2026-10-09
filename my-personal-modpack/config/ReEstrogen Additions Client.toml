@@ -1,5 +1,0 @@
-		[visual_effects.accessibility.benadryl]
-			#Toggles Benadryl Visual Effects.
-			benadrylvisuals = true
-			#Minimizes Benadryl Visual Effects. (No flashing lights, less eyestrain.)
-			minimalbenadrylvisuals = false

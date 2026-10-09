@@ -1,9 +1,0 @@
-[Recipes]
-	#Enable recipe: diamond
-	diamond = true
-	#Enable recipe: totem
-	totem = true
-	#Enable recipe: elytra
-	elytra = true
-	#Enable recipe: shulker_shell
-	shulker_shell = true
