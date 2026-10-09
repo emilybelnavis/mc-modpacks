@@ -1,4 +1,0 @@
-[common]
-	# Default: 480.0
-	# Range: 0.0 ~ 1.7976931348623157E308
-	coercionderiver_voltage = 480.0
