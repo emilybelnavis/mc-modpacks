@@ -2862,6 +2862,11 @@ file = "mods/cc-tweaked-1.21.1-forge-1.120.0.jar"
 hash = "81a903710d109d129c249c105695a96f4bad5e0acf7068920fb191ba791c14ce"
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+metafile = true
+
+[[files]]
 file = "mods/cfm-wap.pw.toml"
 hash = "cb0d95b4c9e0c8d3c37b895a79ebbfa239f0975d198e3a4646da76dca874c661"
 metafile = true
