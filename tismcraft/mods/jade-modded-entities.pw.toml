@@ -1,0 +1,13 @@
+name = "Jade Modded Entities"
+filename = "jademoddedentities-neoforge-1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GAJkSU0A/versions/uOr842aM/jademoddedentities-neoforge-1.21.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "632a49e27bc2e5636e1b282f3c5db48f3955ca95b028ae9a376259708d897f6f5ff8e49492acdeb6cab4d02dc1efa2f517823130836fd95bcd32293dcc1cea3a"
+
+[update]
+[update.modrinth]
+mod-id = "GAJkSU0A"
+version = "uOr842aM"

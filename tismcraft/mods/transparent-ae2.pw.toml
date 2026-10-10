@@ -1,0 +1,13 @@
+name = "Transparent AE2"
+filename = "transparentae2-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wsI2EIsm/versions/qstTCWe0/transparentae2-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "1b01471992b7c261953c8d5520204c9ea1bb1d063d5bb5e82d4f5e7296754e2674ea8a7d72c1648c5ab13c8027bfee453d80678501e1f257ab2aa02b4cb0de50"
+
+[update]
+[update.modrinth]
+mod-id = "wsI2EIsm"
+version = "qstTCWe0"

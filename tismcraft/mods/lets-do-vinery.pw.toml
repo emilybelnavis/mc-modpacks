@@ -3,11 +3,11 @@ filename = "letsdo-vinery-neoforge-1.5.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "95cf5505ee39cc0418160870451c8b5d2d73dfda"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/DLINXOWN/letsdo-vinery-neoforge-1.5.5.jar"
+hash-format = "sha512"
+hash = "deeef53f933cd7750d32800009deff31e47c4e7e71e3a4e3714e3ecf9fede3190ab0db7fad10817d352de7cc4cbdea5b308e592ebd6bf8f0a921a2cf98f6871d"
 
 [update]
-[update.curseforge]
-file-id = 9089612
-project-id = 704465
+[update.modrinth]
+mod-id = "1DWmBJVA"
+version = "DLINXOWN"

@@ -1,0 +1,13 @@
+name = "[Let's Do] Alpine Whispers"
+filename = "letsdo-alpinewhispers-neoforge-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SSPTBIrB/versions/SR1AzHK6/letsdo-alpinewhispers-neoforge-1.0.3.jar"
+hash-format = "sha512"
+hash = "8a0ea353af7644795e266794d23107c3b07a5a6129e11e82d61974be1090cac709f2777df62406d249fdd6053853ce1e8f2cf3eeaaa3909ca05f427722d9aef8"
+
+[update]
+[update.modrinth]
+mod-id = "SSPTBIrB"
+version = "SR1AzHK6"
