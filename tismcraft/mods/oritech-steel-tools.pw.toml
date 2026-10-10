@@ -1,0 +1,13 @@
+name = "Oritech steel tools"
+filename = "oritech_steel_tools-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lYiulGnT/versions/2mK5RKvE/oritech_steel_tools-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "f371953dd9e0ec26f97e3f003e8907006a10de0420eebe1369b81779d63030915d4a464c52f9b2a581425951ce68249efdf9498de2ad956d51817d29b028c89b"
+
+[update]
+[update.modrinth]
+mod-id = "lYiulGnT"
+version = "2mK5RKvE"

@@ -1,0 +1,13 @@
+name = "[Let's Do] Furniture"
+filename = "letsdo-furniture-neoforge-1.1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3JQDJrYW/versions/n3hpLssf/letsdo-furniture-neoforge-1.1.7.jar"
+hash-format = "sha512"
+hash = "5146f776972d69dfd43ccb93ba1520a79b3e45f06a9f1e41970658a786583d4d7ef206df0065926412fe7928254885c12427e02f30c43d2ccb2aaa9e778f91bc"
+
+[update]
+[update.modrinth]
+mod-id = "3JQDJrYW"
+version = "n3hpLssf"
