@@ -126,7 +126,7 @@ hash = "72cc2ed04cd6411a980977b10c9c9fd6d675ad087bb8098d56cd77b2f633b04d"
 
 [[files]]
 file = "config/allthetweaks-common.toml"
-hash = "dba84889442f7625679f7356d0fd010d499b85961a9229360c74b0303f7d253d"
+hash = "0501347fdaad1d3b34d3a06b4ae635f71af73865517d15df2c6895faf376fcb4"
 
 [[files]]
 file = "config/amendments-client-1.toml.bak"
@@ -182,7 +182,7 @@ hash = "7e34b6b472d2283cf3113c0e5ebc2ecacc04eb6057b8bf7d696d7bf7eca3eedf"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "6bcaefbe4d8282518c9f49c28c4be5ef254612ef3de156603f503d3825db78fb"
+hash = "2024187777ac70c95acff27c3668357f60a709f1f10841500779d6c557d0b421"
 
 [[files]]
 file = "config/beautify-server.toml"
@@ -1508,7 +1508,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
+hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
@@ -2237,6 +2237,11 @@ hash = "addc5fb88595394e6e00f260dc496158b0791df854e3a2bf28ba236af487dc67"
 metafile = true
 
 [[files]]
+file = "mods/deimos.pw.toml"
+hash = "8fa452b9f04851f6c190c5e77caa0b81023e9f99b2c969ca28e92bca48748f02"
+metafile = true
+
+[[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
 metafile = true
@@ -2282,6 +2287,11 @@ hash = "9e397fa4b5054642a083a4a1859121449eac18c9d6300c678e14eb76d9c83725"
 metafile = true
 
 [[files]]
+file = "mods/elite-holograms.pw.toml"
+hash = "78f76642a40793c6d0a1e9203e79d4c46d5c9f8b00908a66f3a428827db6e896"
+metafile = true
+
+[[files]]
 file = "mods/ender-io.pw.toml"
 hash = "5f63fab4db6ca36f3b9f489dd1bb52fb1d1a69a3f0ff580758d083d606ff2600"
 metafile = true
@@ -2294,6 +2304,11 @@ metafile = true
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "a37dc502c28a7749d3fe81265978c9085023195470260cbd635aff1b540d5b2a"
+metafile = true
+
+[[files]]
+file = "mods/evenmoreinstruments.pw.toml"
+hash = "ab03ac2d209db1492dbfbfa7d349008f1484f72398a3d1004703712f6f25bbc5"
 metafile = true
 
 [[files]]
@@ -2453,7 +2468,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "c6aba607b0c335394c38e9e20fdff3d27c494d944099e6770629e907eaf7e47e"
+hash = "932c65fb598293dba5dc60a76fc64c2579db427018b10dd4757dd421d9abcaf0"
 metafile = true
 
 [[files]]
@@ -2469,6 +2484,11 @@ metafile = true
 [[files]]
 file = "mods/genetics-resequenced.pw.toml"
 hash = "899bba30fbc1e44074cbea68474bcfc3571aba400f671f8aaf81300af037b64f"
+metafile = true
+
+[[files]]
+file = "mods/genshin-instruments.pw.toml"
+hash = "28c19a93e0902ef190500d3c17f3893c6bfb9fa594f3e0dfcea2df03dc595d92"
 metafile = true
 
 [[files]]
@@ -2542,6 +2562,11 @@ hash = "f76de386f2b3e5bf1435a173f34d457adb9e349819b30136c5fa99382bff37bb"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "f4f4f93fd59e6a43e7484b44c667875cc8a5d8e5621d98b61e8944c9e0838d61"
+metafile = true
+
+[[files]]
 file = "mods/immersiveengineering.pw.toml"
 hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
 metafile = true
@@ -2564,6 +2589,16 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "bc0ed43619af3b5e453ccb36412d72aef8d066594946a927155d2fbd440e4b40"
+metafile = true
+
+[[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "dece537517d18acee6cb2d7078200f0476b5d7e2424676d1b290994fd40b2b48"
+metafile = true
+
+[[files]]
+file = "mods/iron-furnaces.pw.toml"
+hash = "cd73757a8c093f490d5c7673ad17f4404622a485234b79dc43efa0e67788d66e"
 metafile = true
 
 [[files]]
@@ -2927,6 +2962,11 @@ hash = "9a330e2a5586a3aa8b5532b92f81fe40ae86a586a2c5110edf577901a4a359ad"
 metafile = true
 
 [[files]]
+file = "mods/more-music-discs.pw.toml"
+hash = "97c6f557317561ec4666df0fbbe6043832368cab6ee2de346e48b7579c9a170e"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "f8ec77e8664d63ea7a482f84806f7670becd8a844e796371bbe56f4750dd56b4"
 metafile = true
@@ -3013,7 +3053,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
@@ -3264,6 +3304,11 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "4f38a1932a493c7b100f13356c65bf1cc4d43e4cb3430d428202452d1d5800a0"
+metafile = true
+
+[[files]]
+file = "mods/simple-hats.pw.toml"
+hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
 metafile = true
 
 [[files]]
