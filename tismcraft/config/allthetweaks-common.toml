@@ -15,7 +15,7 @@
 	curseforge_url = ""
 	#Pack name shown in the window title and on the branding lines
 	#Leave blank to take it from the packmode profile
-	display_name = ""
+	display_name = "'Tism Craft"
 
 	[pack.discord]
 		#Asset key or image URL for the small corner icon on the card
