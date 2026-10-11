@@ -2837,11 +2837,6 @@ hash = "b72d3f3171eb5b38308c3960dfca5716c708f29b0ea8055a589f32528bed6db4"
 metafile = true
 
 [[files]]
-file = "mods/mctier-library.pw.toml"
-hash = "0ed24297d7f75891a43e31e943ec71ebea04ea09401b8df9b9882c4c201d1da4"
-metafile = true
-
-[[files]]
 file = "mods/measurements.pw.toml"
 hash = "5634fdbd968dfd9fd3bce683f3474d34dc5d7753ed87574d713c15b41f88e8f9"
 metafile = true
