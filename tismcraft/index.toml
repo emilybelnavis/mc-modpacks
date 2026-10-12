@@ -2122,6 +2122,16 @@ hash = "bcf4e5fd635c22442ff0317a2b41ff6a2f4109cba2917bb413ff0c24d787345f"
 metafile = true
 
 [[files]]
+file = "mods/create-petro-deposit.pw.toml"
+hash = "c7f671ea26bc1e39e417d124096567d4fe0b7e48179ef72650215f3cb4382771"
+metafile = true
+
+[[files]]
+file = "mods/create-petrochem.pw.toml"
+hash = "600e7e81675d37e1d3a7e3598fb502001b4cb4440d95189bd53d77f7b32b742b"
+metafile = true
+
+[[files]]
 file = "mods/create-power-chip.pw.toml"
 hash = "0538d515a310099499f5eacebda15d64e6d7267ef85e85e52e61ce16cb36c963"
 metafile = true
@@ -2909,6 +2919,11 @@ metafile = true
 [[files]]
 file = "mods/message-broadcast.pw.toml"
 hash = "334b84d63bead07b2311a8ab97d5a0eb06957feeea241e31bc29cf02a1ab04cd"
+metafile = true
+
+[[files]]
+file = "mods/metro-utilities.pw.toml"
+hash = "46d6b3106f7ef947d9a303926409960cdb980559010058b2040e551d193cc6da"
 metafile = true
 
 [[files]]

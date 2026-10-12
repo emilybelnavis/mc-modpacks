@@ -1,0 +1,13 @@
+name = "Create: Petrochem"
+filename = "petrochem-neoforge-1.21.1-1.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0999aba109ffa51ac56863a273bc1ef19ab34083"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8926887
+project-id = 1494004

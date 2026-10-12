@@ -1,0 +1,13 @@
+name = "Create: Petro Deposit"
+filename = "create_petro_deposits-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8566add69ac64ef4b3978de93009d52becb2fee8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8815967
+project-id = 1652787
