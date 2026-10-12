@@ -1,11 +1,11 @@
 name = "'Tism Craft"
-version = "1.11.0"
+version = "1.12.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "29336f0d64f9234e3cc2d859fbea016e23bb3ec901227776a8b701e497ffb7ac"
+hash = "61b6cc8af0b7311fcc20abef4ba2903bf254d2788261b996d0605f04a1a316df"
 
 [versions]
 minecraft = "1.21.1"

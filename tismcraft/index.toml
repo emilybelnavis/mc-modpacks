@@ -1572,6 +1572,16 @@ hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
 metafile = true
 
 [[files]]
+file = "mods/agritech-evolved.pw.toml"
+hash = "404052d863fa5ea9ad1c62efb80e0c3642a8330f96f3ab2297f0ea93e1643a18"
+metafile = true
+
+[[files]]
+file = "mods/agritech.pw.toml"
+hash = "2500798bc6ac41353ca76b1b4dd42d88c9f37d6352707f0910081383ce8200c4"
+metafile = true
+
+[[files]]
 file = "mods/all-the-tweaks.pw.toml"
 hash = "62d6542120adc6e92ad40f0e080c9ade52c1e9ad53e2b0d9b0b7583e4d28310c"
 metafile = true
@@ -1644,6 +1654,11 @@ metafile = true
 [[files]]
 file = "mods/applied-mekanistics.pw.toml"
 hash = "f15037bbd326999cb63b1267628f64c29ca3df1650c2276e492cb5ff88fbed7e"
+metafile = true
+
+[[files]]
+file = "mods/applied-oritech.pw.toml"
+hash = "c052e14507aeb80442793c56fd62d2acbd47d7c97f421faaea6b45af127f7ccc"
 metafile = true
 
 [[files]]
@@ -2094,6 +2109,11 @@ metafile = true
 [[files]]
 file = "mods/create-o-plenty.pw.toml"
 hash = "69429e784359ecf3a08374d8dc910a9e5bb146f4aa9441c732d6ca489afa77d9"
+metafile = true
+
+[[files]]
+file = "mods/create-oritech-compat.pw.toml"
+hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
 metafile = true
 
 [[files]]
@@ -3037,8 +3057,18 @@ hash = "c87e8ecc3703e0170a729f32702817e2b87d261ae15367760d030ee89a117cc4"
 metafile = true
 
 [[files]]
+file = "mods/oritech-addons-one.pw.toml"
+hash = "35d33cee18f2e5e8e95a8f0dca844a38118f95538a0a4619a7cf16007d83c953"
+metafile = true
+
+[[files]]
 file = "mods/oritech-steel-tools.pw.toml"
 hash = "9626746b3bbfb91c44cce5875b56bec71c9f48858e5678e7121adee957e6ea3d"
+metafile = true
+
+[[files]]
+file = "mods/oritech-things.pw.toml"
+hash = "f905ac52fa4b4aa04280cfa8fb84954d5950b1fe4198a58d46be9b18419d29c9"
 metafile = true
 
 [[files]]
