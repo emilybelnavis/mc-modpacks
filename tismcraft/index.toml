@@ -2922,11 +2922,6 @@ hash = "334b84d63bead07b2311a8ab97d5a0eb06957feeea241e31bc29cf02a1ab04cd"
 metafile = true
 
 [[files]]
-file = "mods/metro-utilities.pw.toml"
-hash = "46d6b3106f7ef947d9a303926409960cdb980559010058b2040e551d193cc6da"
-metafile = true
-
-[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "7cc4b699a816b1dcee290ceb5951f404079edfefd0dd844955056fbf93b82629"
 metafile = true
