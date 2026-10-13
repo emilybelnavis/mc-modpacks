@@ -1,0 +1,503 @@
+{
+  "id": "5A717FA1881155B1",
+  "filename": "tc_aerospace",
+  "group": "5A7F4B4C8DFB1DC8",
+  "order_index": 10,
+  "icon": {
+    "id": "aeronautics:aviators_goggles"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A816F0404D86E45",
+      "x": 0.0d,
+      "y": -1.25d,
+      "tasks": [
+        {
+          "id": "5ACB777645483DA6",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:aviators_goggles",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADA6A24785991A1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AC0AE066EB3C834",
+      "x": 0.0d,
+      "y": 1.25d,
+      "tasks": [
+        {
+          "id": "5AD323B2CF6109D8",
+          "type": "item",
+          "item": {
+            "id": "simulated:physics_assembler",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1D6C05B1843ED7",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A04E792CC1002FC",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AC0AE066EB3C834"
+      ],
+      "tasks": [
+        {
+          "id": "5AD2BAA10B397D27",
+          "type": "item",
+          "item": {
+            "id": "simulated:red_portable_engine",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AF9C640FB2FFDE7",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A73FBE755E9B4E9",
+      "x": 2.75d,
+      "y": -5.0d,
+      "dependencies": [
+        "5A816F0404D86E45"
+      ],
+      "tasks": [
+        {
+          "id": "5ACA96E000C4A372",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:white_envelope",
+            "count": 1
+          },
+          "count": 64L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A678A5D75B3F445",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AF4C959EB6F06A0",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A73FBE755E9B4E9"
+      ],
+      "tasks": [
+        {
+          "id": "5A60DC968287C57E",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:adjustable_burner",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A6973A8999E93D4",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A8944F4AC29BD29",
+      "x": 8.25d,
+      "y": -2.5d,
+      "dependencies": [
+        "5AF4C959EB6F06A0"
+      ],
+      "icon": {
+        "id": "aeronautics:aviators_goggles"
+      },
+      "tasks": [
+        {
+          "id": "5A464424809E8DB1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A4DCB364CFD958A",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A770A2A8FE8E56E",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A04E792CC1002FC"
+      ],
+      "tasks": [
+        {
+          "id": "5A366D5E37D36827",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:wooden_propeller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2B3DF61A53DF8E",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A0A44A09051B1CA",
+      "x": 8.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A770A2A8FE8E56E"
+      ],
+      "tasks": [
+        {
+          "id": "5AE6AD012DAF2691",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:andesite_propeller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA43E3BDBE9B95C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AB5DC9313E7D82E",
+      "x": 8.25d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A770A2A8FE8E56E"
+      ],
+      "tasks": [
+        {
+          "id": "5AE7F9F3489704D6",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:propeller_bearing",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A65779F346AF6C4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A35F0421C1A10F1",
+      "x": 11.0d,
+      "y": 3.75d,
+      "dependencies": [
+        "5AB5DC9313E7D82E"
+      ],
+      "tasks": [
+        {
+          "id": "5A429A67DF3664ED",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:gyroscopic_propeller_bearing",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2F08DD7BA08760",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A1EF462AEDB5581",
+      "x": 11.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A0A44A09051B1CA"
+      ],
+      "tasks": [
+        {
+          "id": "5A371A2FF4B672C7",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:smart_propeller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABCFB235FE77215",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AE434AD15D72389",
+      "x": 2.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A816F0404D86E45"
+      ],
+      "tasks": [
+        {
+          "id": "5AC82B41FD8131E0",
+          "type": "item",
+          "item": {
+            "id": "simulated:altitude_sensor",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A59AE383DA54C50",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A9D7E09F6C6497F",
+      "x": 2.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5AC0AE066EB3C834"
+      ],
+      "tasks": [
+        {
+          "id": "5AA3E21010B2913D",
+          "type": "item",
+          "item": {
+            "id": "simulated:linked_typewriter",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A97F5C5EF2F2E70",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A604AA6A6F021E8",
+      "x": 2.75d,
+      "y": 5.0d,
+      "dependencies": [
+        "5AC0AE066EB3C834"
+      ],
+      "tasks": [
+        {
+          "id": "5AA9F45F87352E4D",
+          "type": "item",
+          "item": {
+            "id": "simulated:contraption_diagram",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ACAB31A9F7401AD",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A5811CC69424AD1",
+      "x": 11.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A8944F4AC29BD29",
+        "5A770A2A8FE8E56E",
+        "5A9D7E09F6C6497F",
+        "5A604AA6A6F021E8"
+      ],
+      "icon": {
+        "id": "aeronautics:aviators_goggles"
+      },
+      "tasks": [
+        {
+          "id": "5A824779FB59B407",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2B1EF4783D9A5D",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A0822A87A3325E5",
+      "x": 11.0d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A8944F4AC29BD29"
+      ],
+      "tasks": [
+        {
+          "id": "5AE13E2E41D23370",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:steam_vent",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1595A6E36D1F04",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A578F7149C0C0A1",
+      "x": 13.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A0822A87A3325E5",
+        "5A5811CC69424AD1"
+      ],
+      "icon": {
+        "id": "aeronautics:aviators_goggles"
+      },
+      "tasks": [
+        {
+          "id": "5A040E574DEA5304",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AF72922F655A981",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AB8D8D4703E10FC",
+      "x": 13.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A5811CC69424AD1",
+        "5AE434AD15D72389"
+      ],
+      "icon": {
+        "id": "aeronautics:aviators_goggles"
+      },
+      "tasks": [
+        {
+          "id": "5A286F1993E28884",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC140F29630B14F",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

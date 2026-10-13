@@ -1,0 +1,667 @@
+{
+  "id": "5ADD4BFCD76ABA9C",
+  "filename": "tc_railways_logistics",
+  "group": "5A7F4B4C8DFB1DC8",
+  "order_index": 8,
+  "icon": {
+    "id": "create:track_station"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A1F77311F8E592A",
+      "x": 0.0d,
+      "y": -1.25d,
+      "tasks": [
+        {
+          "id": "5A4E55309B9B634F",
+          "type": "item",
+          "item": {
+            "id": "create:track",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A8A734B09C158C9",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AC2E22DC017D933",
+      "x": 2.75d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A1F77311F8E592A"
+      ],
+      "tasks": [
+        {
+          "id": "5AF6E3670441F638",
+          "type": "item",
+          "item": {
+            "id": "create:track_station",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A4941ADD879964E",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A47370213E22208",
+      "x": 2.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A1F77311F8E592A"
+      ],
+      "tasks": [
+        {
+          "id": "5AB232EB3CCFE8DD",
+          "type": "item",
+          "item": {
+            "id": "create:controls",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AFFC823318F9B57",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A4A5F2AD67246CC",
+      "x": 5.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5AC2E22DC017D933",
+        "5A47370213E22208"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5A73C94872135C5D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A37D8CC7CD60263",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5ABA58A5FB0402D7",
+      "x": 8.25d,
+      "y": -8.75d,
+      "dependencies": [
+        "5A4A5F2AD67246CC"
+      ],
+      "tasks": [
+        {
+          "id": "5A4A2CEF4C6CB2C2",
+          "type": "item",
+          "item": {
+            "id": "create:schedule",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD0873C88A6B149",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AE02BC5A52E42F9",
+      "x": 8.25d,
+      "y": -6.25d,
+      "dependencies": [
+        "5A4A5F2AD67246CC"
+      ],
+      "tasks": [
+        {
+          "id": "5A44A0B6E7F8D834",
+          "type": "item",
+          "item": {
+            "id": "create:track_signal",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD6412FCAB20EDA",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A4113D1AC2F5E5B",
+      "x": 8.25d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A4A5F2AD67246CC"
+      ],
+      "tasks": [
+        {
+          "id": "5A481DEC1120A277",
+          "type": "item",
+          "item": {
+            "id": "create:portable_storage_interface",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABA51D49BC39736",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5ACA1469BEBEAC30",
+      "x": 8.25d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A4A5F2AD67246CC"
+      ],
+      "tasks": [
+        {
+          "id": "5A8B31B40166906E",
+          "type": "item",
+          "item": {
+            "id": "create:portable_fluid_interface",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A09DC0CEE5C6929",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A8167C48859857D",
+      "x": 11.0d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A4113D1AC2F5E5B"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5A8BB52CCFE397B8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1DEC10AC97B48A",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A2E03F5CF0A32D2",
+      "x": 13.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5ABA58A5FB0402D7",
+        "5AE02BC5A52E42F9",
+        "5A8167C48859857D"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5AE33DA436F6BDBE",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9F00240D7FE0F1",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A3528472243FD7F",
+      "x": 0.0d,
+      "y": 1.25d,
+      "tasks": [
+        {
+          "id": "5A8115B4B510F7E3",
+          "type": "item",
+          "item": {
+            "id": "railcraft:iron_crowbar",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A51A6D5AE65EDC9",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A0B7197CA115139",
+      "x": 2.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A3528472243FD7F"
+      ],
+      "tasks": [
+        {
+          "id": "5A4275ADC8680165",
+          "type": "item",
+          "item": {
+            "id": "railcraft:manual_rolling_machine",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A902DE968F7FFB8",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A2C8978266C7DAA",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A0B7197CA115139"
+      ],
+      "tasks": [
+        {
+          "id": "5A3E1A864E07DBD0",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steam_locomotive",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD48123A61AB833",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A3733B7712767E3",
+      "x": 2.75d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A3528472243FD7F"
+      ],
+      "tasks": [
+        {
+          "id": "5AB306C07BE90F44",
+          "type": "item",
+          "item": {
+            "id": "railcraft:cargo_minecart",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1B62FF82FAF57A",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A77D1D97B3C17DF",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A3733B7712767E3"
+      ],
+      "tasks": [
+        {
+          "id": "5A91335C67440EEE",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_loader",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2F6A5671CEF12D",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A359A75BA1BDD0A",
+      "x": 5.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A3733B7712767E3"
+      ],
+      "tasks": [
+        {
+          "id": "5AD8D5B84454AD64",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_unloader",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE33FEF8FDF33FB",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AC291E30BE1E725",
+      "x": 8.25d,
+      "y": 8.75d,
+      "dependencies": [
+        "5A2C8978266C7DAA",
+        "5A77D1D97B3C17DF",
+        "5A359A75BA1BDD0A"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5A14C340E5C21EE6",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9F4DFA523C9A18",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A6C511F2431796A",
+      "x": 8.25d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A2C8978266C7DAA"
+      ],
+      "tasks": [
+        {
+          "id": "5A3ED728F4F71A8A",
+          "type": "item",
+          "item": {
+            "id": "railcraft:switch_track_motor",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A09EA3CD149748B",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A52022908F186E2",
+      "x": 8.25d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A2C8978266C7DAA"
+      ],
+      "tasks": [
+        {
+          "id": "5A4251BD7313352B",
+          "type": "item",
+          "item": {
+            "id": "railcraft:block_signal",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A34E0A5002B4810",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AAF3E6EF0805983",
+      "x": 11.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A52022908F186E2"
+      ],
+      "tasks": [
+        {
+          "id": "5A82CD06BB703CD0",
+          "type": "item",
+          "item": {
+            "id": "railcraft:signal_block_surveyor",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7E1F99CE3DD871",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A6F6F520B13D98F",
+      "x": 13.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A6C511F2431796A",
+        "5AAF3E6EF0805983"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5A876D346CE2BCE2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AFB3D916C67490D",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A32D024875456BA",
+      "x": 8.25d,
+      "y": 6.25d,
+      "dependencies": [
+        "5A2C8978266C7DAA"
+      ],
+      "tasks": [
+        {
+          "id": "5A9E16FB370C17EC",
+          "type": "item",
+          "item": {
+            "id": "railcraft:tank_minecart",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A60EA446ADD3F44",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A71613176535319",
+      "x": 11.0d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A32D024875456BA"
+      ],
+      "tasks": [
+        {
+          "id": "5A45549535C94CDF",
+          "type": "item",
+          "item": {
+            "id": "railcraft:fluid_loader",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A887F2A888D87C0",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A3CF140B04950AD",
+      "x": 13.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A71613176535319",
+        "5AC291E30BE1E725"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "tasks": [
+        {
+          "id": "5A50D0B13EB42696",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1363411A81645F",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

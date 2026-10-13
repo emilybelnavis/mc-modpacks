@@ -1,0 +1,817 @@
+{
+  "id": "5AC229C9DBC0DCE3",
+  "filename": "tc_mekanism",
+  "group": "5A96CF43944B9248",
+  "order_index": 2,
+  "icon": {
+    "id": "mekanism:metallurgic_infuser"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A6B8800BA575449",
+      "x": 0.0d,
+      "y": 0.0d,
+      "tasks": [
+        {
+          "id": "5AA4434E3077ED53",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:heat_generator",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3BF6F35436AFDD",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A91B04B617F021C",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A6B8800BA575449"
+      ],
+      "tasks": [
+        {
+          "id": "5A84DEEA175A31A1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_universal_cable",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC85E0F7AD944D1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A8FD4256223517D",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A91B04B617F021C"
+      ],
+      "tasks": [
+        {
+          "id": "5A3D05A7642BA722",
+          "type": "item",
+          "item": {
+            "id": "mekanism:metallurgic_infuser",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A384152553C6E18",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A9AC18757B21E21",
+      "x": 8.25d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A8FD4256223517D"
+      ],
+      "tasks": [
+        {
+          "id": "5AC15F36E61A82D4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_infused",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABAF115569A534C",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AD45CECEF9BC633",
+      "x": 11.0d,
+      "y": -6.25d,
+      "dependencies": [
+        "5A9AC18757B21E21"
+      ],
+      "tasks": [
+        {
+          "id": "5AE8B505ADECF51A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:configurator",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ACB0ACF2ADB355D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AF6580292BCBFF3",
+      "x": 11.0d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A9AC18757B21E21"
+      ],
+      "tasks": [
+        {
+          "id": "5AD10A0030A8FB84",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_energy_cube",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0634BA8056A9A1",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5AD75C56075AA6EA",
+      "x": 11.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A9AC18757B21E21"
+      ],
+      "tasks": [
+        {
+          "id": "5A6F0A3C067EED68",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:wind_generator",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A09DDFAF03A2438",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AEB54F19B52A615",
+      "x": 8.25d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A8FD4256223517D"
+      ],
+      "tasks": [
+        {
+          "id": "5A3FE911E63203EB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:enrichment_chamber",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A99FE88BB83C65B",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A1452039562FA98",
+      "x": 11.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5AEB54F19B52A615"
+      ],
+      "tasks": [
+        {
+          "id": "5ADCC05BD9990BC3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:energized_smelter",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A35A49A5D8F8DF1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A1C82095AAE3481",
+      "x": 8.25d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A8FD4256223517D"
+      ],
+      "tasks": [
+        {
+          "id": "5A0E89ED75E07AF6",
+          "type": "item",
+          "item": {
+            "id": "mekanism:crusher",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A8D384E8F8E7F6D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5ACEE94FA6F2B21E",
+      "x": 13.75d,
+      "y": -5.0d,
+      "dependencies": [
+        "5AD45CECEF9BC633"
+      ],
+      "tasks": [
+        {
+          "id": "5A98FAA5F6DE2064",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_logistical_transporter",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9E42C2655401B4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AB328525279A952",
+      "x": 16.5d,
+      "y": -6.25d,
+      "dependencies": [
+        "5ACEE94FA6F2B21E"
+      ],
+      "tasks": [
+        {
+          "id": "5A6AB8BEEEC5E20B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:logistical_sorter",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A441FA6294E6014",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A16C468445E5F10",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A91B04B617F021C"
+      ],
+      "tasks": [
+        {
+          "id": "5A34B14BE3320062",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electric_pump",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AED8230F290730B",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AF0038D76F34C1D",
+      "x": 8.25d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A16C468445E5F10"
+      ],
+      "tasks": [
+        {
+          "id": "5AE46836C1381C06",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_mechanical_pipe",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A71BFED745B2659",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A12237368A0B9AB",
+      "x": 11.0d,
+      "y": 3.75d,
+      "dependencies": [
+        "5AF0038D76F34C1D"
+      ],
+      "tasks": [
+        {
+          "id": "5A1E9BC3334A122C",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electrolytic_separator",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A30B613ED7301BC",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5ADD2B78B437AEC8",
+      "x": 13.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A12237368A0B9AB"
+      ],
+      "tasks": [
+        {
+          "id": "5A93490DC062BADF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_pressurized_tube",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE05046BC2CBBF4",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AA98157515EC3F0",
+      "x": 16.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5ADD2B78B437AEC8",
+        "5AEB54F19B52A615"
+      ],
+      "tasks": [
+        {
+          "id": "5A44ACCA70CDC973",
+          "type": "item",
+          "item": {
+            "id": "mekanism:purification_chamber",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABEEE8DA97FA873",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5ACC83967BD6A9F1",
+      "x": 16.5d,
+      "y": 6.25d,
+      "dependencies": [
+        "5ADD2B78B437AEC8"
+      ],
+      "tasks": [
+        {
+          "id": "5AFAF37E98431EF1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_infuser",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB45F2E05C550B7",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A9494A091D4FF2B",
+      "x": 13.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AEB54F19B52A615",
+        "5AF6580292BCBFF3"
+      ],
+      "tasks": [
+        {
+          "id": "5AC2EF5EF4EDB140",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_enriching_factory",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABF939E48D442FF",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A6CAB3A54E4A707",
+      "x": 11.0d,
+      "y": 6.25d,
+      "dependencies": [
+        "5AF0038D76F34C1D"
+      ],
+      "tasks": [
+        {
+          "id": "5A5D387CBF736209",
+          "type": "item",
+          "item": {
+            "id": "mekanism:thermal_evaporation_controller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA2EA7A99BB61D7",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5ACB4A3DE0E2E79A",
+      "x": 19.25d,
+      "y": 1.25d,
+      "dependencies": [
+        "5ACC83967BD6A9F1",
+        "5A1C82095AAE3481"
+      ],
+      "tasks": [
+        {
+          "id": "5A3F301319FDE758",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pressurized_reaction_chamber",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A41145245C0E23C",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5A04992FD740E988",
+      "x": 22.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5ACB4A3DE0E2E79A"
+      ],
+      "tasks": [
+        {
+          "id": "5A13BF6E4FC78042",
+          "type": "item",
+          "item": {
+            "id": "mekanism:hdpe_sheet",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3714637D6ACFE0",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5AA371B6536FDB9C",
+      "x": 16.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A9494A091D4FF2B"
+      ],
+      "tasks": [
+        {
+          "id": "5A5411274532A5CA",
+          "type": "item",
+          "item": {
+            "id": "mekanism:digital_miner",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1159AD998396E9",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5A18A2E4D8C76922",
+      "x": 13.75d,
+      "y": 5.0d,
+      "dependencies": [
+        "5A12237368A0B9AB"
+      ],
+      "tasks": [
+        {
+          "id": "5AD165098A1AA3F2",
+          "type": "item",
+          "item": {
+            "id": "mekanism:jetpack",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE48D767FF2B0F9",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5A864063125E299C",
+      "x": 16.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A9494A091D4FF2B"
+      ],
+      "tasks": [
+        {
+          "id": "5A4CE6A0A8C00D9F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:atomic_disassembler",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE9002323289B54",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5A072C19F1DAB77A",
+      "x": 13.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5AF6580292BCBFF3"
+      ],
+      "tasks": [
+        {
+          "id": "5AB16A78CDF8D28F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:induction_casing",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ACA87F2911F64C0",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5AF8611693EEF21F",
+      "x": 16.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A072C19F1DAB77A"
+      ],
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "tasks": [
+        {
+          "id": "5A30B7597169052C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1E1FC663D2A36A",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AE0C79DCF40B73C",
+      "x": 19.25d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A9494A091D4FF2B",
+        "5A1452039562FA98",
+        "5AB328525279A952"
+      ],
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "tasks": [
+        {
+          "id": "5AF4975B83FC68ED",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AAF36D49F5CCA33",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A64EC297B98ABA1",
+      "x": 24.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A04992FD740E988"
+      ],
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "tasks": [
+        {
+          "id": "5A4C7FD90C5374B1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AACBA6538409100",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

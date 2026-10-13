@@ -1,0 +1,331 @@
+{
+  "id": "5AEF3E9300ABA97F",
+  "filename": "tc_field_guide",
+  "group": "5A96CF43944B9248",
+  "order_index": 0,
+  "icon": {
+    "id": "minecraft:book"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5AFAACCAE67C7A94",
+      "x": 0.0d,
+      "y": 0.0d,
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "tasks": [
+        {
+          "id": "5A1753842E08EEA0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A9826D10302E7D6",
+      "x": 2.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5AFAACCAE67C7A94"
+      ],
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "tasks": [
+        {
+          "id": "5A0D20603EF945CA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ACEE2359D7884AA",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A16B2BC437972FC",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AFAACCAE67C7A94"
+      ],
+      "tasks": [
+        {
+          "id": "5AD894048B0698E7",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:backpack",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A86DE7A5AA642C3",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AF7987C518CB53E",
+      "x": 5.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A16B2BC437972FC"
+      ],
+      "tasks": [
+        {
+          "id": "5AFF188E2BC9191E",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:iron_backpack",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA14BA095C7C92B",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A4D4E1269F32E8D",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A16B2BC437972FC"
+      ],
+      "tasks": [
+        {
+          "id": "5A5C6CC9FA2D7567",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:pickup_upgrade",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A6A22D53EB70277",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AB03BDAAB4127A0",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A16B2BC437972FC"
+      ],
+      "tasks": [
+        {
+          "id": "5A3F80DD92D971D9",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:crafting_upgrade",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A391C2A9A451487",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5ADB8AB5F628920A",
+      "x": 2.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5AFAACCAE67C7A94"
+      ],
+      "tasks": [
+        {
+          "id": "5AA3D3D25F710BDD",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:chest",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A80F35CCD77EF3B",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AB2653091514D60",
+      "x": 5.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5ADB8AB5F628920A"
+      ],
+      "tasks": [
+        {
+          "id": "5A51FA4A0C8C9551",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:controller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD2FE3C8FE94E08",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A989C7EA2E946A4",
+      "x": 5.5d,
+      "y": 6.25d,
+      "dependencies": [
+        "5ADB8AB5F628920A"
+      ],
+      "tasks": [
+        {
+          "id": "5AC2E6B927ABDFC6",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:compacting_upgrade",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A8391DC16C4826C",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A0E31C8EA6483B9",
+      "x": 5.5d,
+      "y": -6.25d,
+      "dependencies": [
+        "5A9826D10302E7D6"
+      ],
+      "tasks": [
+        {
+          "id": "5AC2777FA3ACC48E",
+          "type": "item",
+          "item": {
+            "id": "create:wrench",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A8894CA6BC7BC37",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A81C31E44F4E55B",
+      "x": 8.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A0E31C8EA6483B9"
+      ],
+      "tasks": [
+        {
+          "id": "5A1858B4D3876CA9",
+          "type": "item",
+          "item": {
+            "id": "create:goggles",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB6C16324FDF2C1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A9A67B062E99495",
+      "x": 11.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AB2653091514D60",
+        "5A81C31E44F4E55B"
+      ],
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "tasks": [
+        {
+          "id": "5A39E1371670C22C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC362D23C66CA52",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

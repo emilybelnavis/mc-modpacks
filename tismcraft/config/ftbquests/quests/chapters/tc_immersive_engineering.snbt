@@ -1,0 +1,554 @@
+{
+  "id": "5A29B6EA2CD6DEB5",
+  "filename": "tc_immersive_engineering",
+  "group": "5A2EC077BB8197AB",
+  "order_index": 4,
+  "icon": {
+    "id": "immersiveengineering:hammer"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A35827A79460DBC",
+      "x": 0.0d,
+      "y": 0.0d,
+      "tasks": [
+        {
+          "id": "5A9E7D88DA6DEBF6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:manual",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A35430CC9CA9336",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A8CE642205C536B",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A35827A79460DBC"
+      ],
+      "tasks": [
+        {
+          "id": "5A0D86B278EEE63A",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:hammer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A814B492635CBE7",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A471A9FBF63B872",
+      "x": 5.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A8CE642205C536B"
+      ],
+      "tasks": [
+        {
+          "id": "5A82765D43D705F1",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:cokebrick",
+            "count": 1
+          },
+          "count": 27L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A77A572405163E1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5ACD05C8FEAEFFA6",
+      "x": 8.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A471A9FBF63B872"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5AD4A65EA46C0209",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A97436868328DAF",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A351AA4E440DA9C",
+      "x": 11.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5ACD05C8FEAEFFA6"
+      ],
+      "tasks": [
+        {
+          "id": "5A86D8C956C10A61",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:treated_wood_horizontal",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A5EF9F07425A7F7",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A196159CEC0F09B",
+      "x": 11.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5ACD05C8FEAEFFA6"
+      ],
+      "tasks": [
+        {
+          "id": "5ACEB2A5CC165E9B",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blastbrick",
+            "count": 1
+          },
+          "count": 27L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7D5E403B2E4017",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A7D1DD3572AAC06",
+      "x": 13.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A196159CEC0F09B"
+      ],
+      "tasks": [
+        {
+          "id": "5A5D6ADE72C75644",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:ingot_steel",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A555FCE353DE378",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5ADCE865EC57E735",
+      "x": 16.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A351AA4E440DA9C",
+        "5A7D1DD3572AAC06"
+      ],
+      "tasks": [
+        {
+          "id": "5A93F0F8D34B5ED6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:watermill",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADD5172B8B68DE0",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AA4E4598C474C25",
+      "x": 19.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5ADCE865EC57E735"
+      ],
+      "tasks": [
+        {
+          "id": "5A5513563F710CDD",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:dynamo",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A540A2C5ACBE3B5",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AEB2889FB27A502",
+      "x": 22.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AA4E4598C474C25"
+      ],
+      "tasks": [
+        {
+          "id": "5A8B5E08F8F0F4A1",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:capacitor_lv",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ACB71CCF22EEAD3",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AD29E89E50FB797",
+      "x": 24.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AEB2889FB27A502"
+      ],
+      "tasks": [
+        {
+          "id": "5A9002A96E686229",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:wirecoil_copper",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD641E2C50E0C5A",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A371DC6015AF476",
+      "x": 27.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AD29E89E50FB797"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5A219BA10012B70F",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7C620551F863AB",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A2438033E944E34",
+      "x": 16.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A7D1DD3572AAC06"
+      ],
+      "tasks": [
+        {
+          "id": "5AECED98F73521BF",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:conveyor_basic",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2374266E6A7654",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A555656F2B047F9",
+      "x": 30.25d,
+      "y": -5.0d,
+      "dependencies": [
+        "5A371DC6015AF476"
+      ],
+      "tasks": [
+        {
+          "id": "5A2E7FCA1E7F32AD",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:sample_drill",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A5B5B6E9A805DDA",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AA7168CA6BB57F6",
+      "x": 30.25d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A2438033E944E34",
+        "5A371DC6015AF476"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5AC089B7D63E7FE0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB819E4D39B1FDD",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5ACE1A41DD4B0B45",
+      "x": 30.25d,
+      "y": 5.0d,
+      "dependencies": [
+        "5A2438033E944E34",
+        "5A371DC6015AF476"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5AAADD3122CCD92B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9F56BEAE2F67F3",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A814D68110DE36E",
+      "x": 30.25d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A371DC6015AF476"
+      ],
+      "tasks": [
+        {
+          "id": "5AA9F141DF8B1522",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:cloche",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A17110E3BFC39A3",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A9F163DDC08410D",
+      "x": 30.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A371DC6015AF476",
+        "5A7D1DD3572AAC06"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5AB62EA4028EB62A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0CB1B8EDA73B70",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A5EFBC85A757567",
+      "x": 33.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A9F163DDC08410D"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5A052FB126171739",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A38C3EB4F827A0A",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AF59AA993974BBC",
+      "x": 35.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A5EFBC85A757567",
+        "5AA7168CA6BB57F6",
+        "5ACE1A41DD4B0B45"
+      ],
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "tasks": [
+        {
+          "id": "5A59CE407DE415DC",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9DC69F00203687",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

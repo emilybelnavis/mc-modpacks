@@ -1,0 +1,497 @@
+{
+  "id": "5ADFF9AA1B6B7492",
+  "filename": "tc_minecolonies",
+  "group": "5A2EC077BB8197AB",
+  "order_index": 7,
+  "icon": {
+    "id": "minecolonies:blockhuttownhall"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5AF947095974AF18",
+      "x": 0.0d,
+      "y": 0.0d,
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5A1BB50B044A8322",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0A5357B1DE008B",
+          "type": "xp",
+          "xp": 25
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A972331B21B55EE",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AF947095974AF18"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5A19D7BF8E0E7993",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A38ACAE2DD507B0",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A727CF3C7353903",
+      "x": 5.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A972331B21B55EE"
+      ],
+      "tasks": [
+        {
+          "id": "5A3850267D1871F8",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutbuilder",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADAB163CF1A0FEF",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AEB6401E49BDC1E",
+      "x": 8.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A727CF3C7353903"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5AA3127EBAE5E9A1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A656EAA9708FA77",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A054479760E7350",
+      "x": 11.0d,
+      "y": -6.25d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5A22874836A001A2",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutcitizen",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1ED86603A75C66",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A0052A07888FDA4",
+      "x": 13.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A054479760E7350"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5AF2F89E8704DC3D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9E133843DD08A1",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A143022B5658A6D",
+      "x": 11.0d,
+      "y": -3.75d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5AE54E58DAB208A8",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutfarmer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A794B5EEA4B885D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A8B4BB3C4A1A8E2",
+      "x": 11.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5A1DB6DE3887A496",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutlumberjack",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB672B90A8B3B36",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AFF31F8911A0BDB",
+      "x": 11.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5AE4B9A3C7910A5D",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutminer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC3D0146E929A71",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A66000DF5B72A31",
+      "x": 16.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A0052A07888FDA4"
+      ],
+      "tasks": [
+        {
+          "id": "5AC3946AE3295B5F",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutguardtower",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1063E95EFA8074",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A65D8C0E1C31C38",
+      "x": 11.0d,
+      "y": 3.75d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5A15B06D3B0C34DC",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutwarehouse",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A334BB083AE223A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A67D5746C0D2648",
+      "x": 13.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A65D8C0E1C31C38"
+      ],
+      "tasks": [
+        {
+          "id": "5A67C5D68D61C3C6",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutdeliveryman",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A304565811D1A98",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A19A41C51B0B681",
+      "x": 16.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A67D5746C0D2648"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5A5A1CAED09CC2F5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9D1C7B4B019668",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AF37D8072780A51",
+      "x": 16.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A143022B5658A6D",
+        "5A0052A07888FDA4"
+      ],
+      "tasks": [
+        {
+          "id": "5A5B8FD889B50F26",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutcook",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AADE66958410318",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A55C1B550BAAD07",
+      "x": 11.0d,
+      "y": 6.25d,
+      "dependencies": [
+        "5AEB6401E49BDC1E"
+      ],
+      "tasks": [
+        {
+          "id": "5A1392348B627660",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhutuniversity",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD9845E91485610",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AC8A296FE57DA99",
+      "x": 13.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A55C1B550BAAD07"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5A760849D4DA2E6F",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AF89D63677FA08E",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5ACBA9900CF51BB1",
+      "x": 16.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5AC8A296FE57DA99"
+      ],
+      "tasks": [
+        {
+          "id": "5A9AC8EDB763CC1F",
+          "type": "item",
+          "item": {
+            "id": "minecolonies:blockhuthospital",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AFFDBA5D036C7F5",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A49C54809766799",
+      "x": 19.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A0052A07888FDA4",
+        "5A66000DF5B72A31",
+        "5A19A41C51B0B681",
+        "5AF37D8072780A51",
+        "5AC8A296FE57DA99"
+      ],
+      "icon": {
+        "id": "minecolonies:blockhuttownhall"
+      },
+      "tasks": [
+        {
+          "id": "5A724A80B78904DA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A876056C4CD22C0",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}
