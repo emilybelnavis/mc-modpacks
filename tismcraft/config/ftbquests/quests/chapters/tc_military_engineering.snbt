@@ -1,0 +1,664 @@
+{
+  "id": "5A0056810FB8C43D",
+  "filename": "tc_military_engineering",
+  "group": "5A7F4B4C8DFB1DC8",
+  "order_index": 9,
+  "icon": {
+    "id": "createbigcannons:cannon_mount"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A84ADB7B61DAD72",
+      "x": 0.0d,
+      "y": -3.75d,
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "tasks": [
+        {
+          "id": "5A75D05E95E22624",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A5B09DDB27B6EA2",
+          "type": "xp",
+          "xp": 25
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A11265B7046062E",
+      "x": 2.75d,
+      "y": -10.0d,
+      "dependencies": [
+        "5A84ADB7B61DAD72"
+      ],
+      "tasks": [
+        {
+          "id": "5AF0ACB7FACF47B8",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:ram_rod",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A459A15DE4D913B",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A2A1E5776EB7A94",
+      "x": 2.75d,
+      "y": -7.5d,
+      "dependencies": [
+        "5A84ADB7B61DAD72"
+      ],
+      "tasks": [
+        {
+          "id": "5A479A9BC462C065",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:cannon_mount",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3CE2AE9B62BFE4",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AE72220257FE249",
+      "x": 5.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A2A1E5776EB7A94"
+      ],
+      "tasks": [
+        {
+          "id": "5AD8A09DE4206700",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:basin_foundry_lid",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADD21E065B1ABC9",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A9CCA7323E0E59C",
+      "x": 8.25d,
+      "y": -1.25d,
+      "dependencies": [
+        "5AE72220257FE249"
+      ],
+      "tasks": [
+        {
+          "id": "5A21BF519D7F71F3",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:cannon_drill",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A725120F65FAF64",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A32FB15DA8FC34B",
+      "x": 5.5d,
+      "y": -8.75d,
+      "dependencies": [
+        "5A11265B7046062E"
+      ],
+      "tasks": [
+        {
+          "id": "5A1D70303D4AAB24",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:cannon_loader",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABC0B5FAD8C45A4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A454E21069456D3",
+      "x": 5.5d,
+      "y": -6.25d,
+      "dependencies": [
+        "5A11265B7046062E"
+      ],
+      "tasks": [
+        {
+          "id": "5ADCE41703322578",
+          "type": "item",
+          "item": {
+            "id": "createbigcannons:solid_shot",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AEB329DC7FE3AA2",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A7A711D4DCC00B9",
+      "x": 11.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A9CCA7323E0E59C",
+        "5A454E21069456D3"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "tasks": [
+        {
+          "id": "5A3BC1787C6F51F9",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A6047EA63664A82",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AF79B01A367FA49",
+      "x": 0.0d,
+      "y": -1.25d,
+      "tasks": [
+        {
+          "id": "5A60200A54CE5F3A",
+          "type": "item",
+          "item": {
+            "id": "tracks:track_mount",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A091415C7E7AE39",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A6B39842B395B39",
+      "x": 2.75d,
+      "y": -5.0d,
+      "dependencies": [
+        "5AF79B01A367FA49"
+      ],
+      "tasks": [
+        {
+          "id": "5A822EC67B5361BE",
+          "type": "item",
+          "item": {
+            "id": "tracks:track_drive_wheel",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AFE926B911C7F6A",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AC580C6127AF68B",
+      "x": 2.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5AF79B01A367FA49"
+      ],
+      "tasks": [
+        {
+          "id": "5A98EE180D719E1E",
+          "type": "item",
+          "item": {
+            "id": "tracks:suspension_track",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1C1D8BE7BAD414",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AE03B44B63D05BE",
+      "x": 2.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AF79B01A367FA49"
+      ],
+      "tasks": [
+        {
+          "id": "5ADF0916559259FF",
+          "type": "item",
+          "item": {
+            "id": "tracks:suspension_key",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7E4CE8FDAFC336",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A7FF54B8B3FC907",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A6B39842B395B39",
+        "5AC580C6127AF68B",
+        "5AE03B44B63D05BE"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "tasks": [
+        {
+          "id": "5A6EC252BFF55EC5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0D5B134292E2B9",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5ABAC5DE248CF494",
+      "x": 0.0d,
+      "y": 1.25d,
+      "tasks": [
+        {
+          "id": "5A855573475CE516",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:launch_pad",
+            "count": 1
+          },
+          "count": 9L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD05AB6DB85880C",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A47406FA5846416",
+      "x": 2.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5ABAC5DE248CF494"
+      ],
+      "tasks": [
+        {
+          "id": "5AE72B74D77E9003",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:assembly_panel",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AEA8DC52F4F749A",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A05ADC39921A4C4",
+      "x": 2.75d,
+      "y": 5.0d,
+      "dependencies": [
+        "5ABAC5DE248CF494"
+      ],
+      "tasks": [
+        {
+          "id": "5AA58B75281AD6C3",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:navigation_panel",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE14701476CBB9A",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AD5EAEA6C635D7D",
+      "x": 2.75d,
+      "y": 7.5d,
+      "dependencies": [
+        "5ABAC5DE248CF494"
+      ],
+      "tasks": [
+        {
+          "id": "5AABB70E7D6F7478",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:control_panel",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A390C42868864D9",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A3DF07EB868689B",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A47406FA5846416"
+      ],
+      "tasks": [
+        {
+          "id": "5A64B87869A3D509",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:chassis_assembly",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A932FBCF684995A",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AEAE1F6A719B769",
+      "x": 5.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A47406FA5846416"
+      ],
+      "tasks": [
+        {
+          "id": "5A5F4A6E80305869",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:thruster_assembly",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB7D8B50D1AB0BA",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A32A41F1FD9D147",
+      "x": 5.5d,
+      "y": 6.25d,
+      "dependencies": [
+        "5A47406FA5846416"
+      ],
+      "tasks": [
+        {
+          "id": "5AAFDAC5F91779BE",
+          "type": "item",
+          "item": {
+            "id": "createmissiles:warhead_assembly",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A8F256B89506846",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5AB97FAA28070C46",
+      "x": 8.25d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A05ADC39921A4C4",
+        "5AD5EAEA6C635D7D",
+        "5A3DF07EB868689B",
+        "5AEAE1F6A719B769",
+        "5A32A41F1FD9D147"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "tasks": [
+        {
+          "id": "5A0AF18132164532",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A1719233310C9D0",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A24FB81B951444C",
+      "x": 0.0d,
+      "y": 3.75d,
+      "tasks": [
+        {
+          "id": "5A1CFD7B6B4C8DB9",
+          "type": "item",
+          "item": {
+            "id": "cbc_more_content:siren",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A62F993CEA6BE76",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A8A3C48AE63AA60",
+      "x": 2.75d,
+      "y": 10.0d,
+      "dependencies": [
+        "5A24FB81B951444C"
+      ],
+      "tasks": [
+        {
+          "id": "5AA05BAF9738DBC1",
+          "type": "item",
+          "item": {
+            "id": "cbc_more_content:small_bomb",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A150BDA8F63AF75",
+          "type": "xp",
+          "xp": 35
+        }
+      ]
+    },
+    {
+      "id": "5A175A1327EDDD5B",
+      "x": 5.5d,
+      "y": 8.75d,
+      "dependencies": [
+        "5A8A3C48AE63AA60"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "tasks": [
+        {
+          "id": "5A72197B32B28A78",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3760DFF8AC3868",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

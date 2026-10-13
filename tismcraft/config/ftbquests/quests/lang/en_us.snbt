@@ -1,0 +1,1629 @@
+{
+  "file.0000000000000001.title": "TismCraft: Engineering Field Guide",
+  "chapter_group.5A96CF43944B9248.title": "Workshops and Networks",
+  "chapter_group.5A2EC077BB8197AB.title": "Industry and Settlements",
+  "chapter_group.5A7F4B4C8DFB1DC8.title": "Transport and Megaprojects",
+  "task.5A1753842E08EEA0.title": "I completed this challenge",
+  "quest.5AFAACCAE67C7A94.title": "Welcome to TismCraft",
+  "quest.5AFAACCAE67C7A94.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AFAACCAE67C7A94.quest_desc": [
+    "Read this first: item tasks check items in your inventory and do not consume them. They do not prove you crafted or placed an item. Checkmark tasks are build challenges you confirm yourself. Complete prerequisites before submitting a task; move an existing item into your inventory again if needed. Rewards are modest XP points, not levels. Mark this page complete when ready.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A0D20603EF945CA.title": "I completed this challenge",
+  "quest.5A9826D10302E7D6.title": "Recipes Are Your Map",
+  "quest.5A9826D10302E7D6.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A9826D10302E7D6.quest_desc": [
+    "Open JEI and inspect a recipe and its uses. Pin three machines you want to build. This book supplies goals; JEI supplies the recipes for your installed pack. Mark complete after trying both recipe views.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A16B2BC437972FC.title": "Pocket Workshop",
+  "quest.5A16B2BC437972FC.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A16B2BC437972FC.quest_desc": [
+    "Obtain a Backpack. Keep exploration supplies separate from machine parts. Items inside it may need to be moved into your main inventory for quest detection.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF7987C518CB53E.title": "More Room for Parts",
+  "quest.5AF7987C518CB53E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF7987C518CB53E.quest_desc": [
+    "Obtain an Iron Backpack through the upgrade path shown in JEI. Remove it from its equipment slot briefly if the task does not detect it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A4D4E1269F32E8D.title": "Catch the Offcuts",
+  "quest.5A4D4E1269F32E8D.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A4D4E1269F32E8D.quest_desc": [
+    "Obtain a Pickup Upgrade. Configure its filters before mining near a busy workshop.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB03BDAAB4127A0.title": "Crafting on the Move",
+  "quest.5AB03BDAAB4127A0.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB03BDAAB4127A0.quest_desc": [
+    "Obtain a Crafting Upgrade for a portable crafting station.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADB8AB5F628920A.title": "A Place for Everything",
+  "quest.5ADB8AB5F628920A.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ADB8AB5F628920A.quest_desc": [
+    "Obtain a Sophisticated Storage Chest. Choose the wood and appearance you like; this task ignores cosmetic components.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB2653091514D60.title": "One Storage Front Door",
+  "quest.5AB2653091514D60.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB2653091514D60.quest_desc": [
+    "Obtain a Storage Controller. Link a small bank of supported storage and test inserting and retrieving supplies. The item completes this task; the setup is your next project.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A989C7EA2E946A4.title": "Bulk Materials",
+  "quest.5A989C7EA2E946A4.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A989C7EA2E946A4.quest_desc": [
+    "Obtain a Compacting Upgrade. Use it for an appropriate ingot or nugget storage container and check the filter settings.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0E31C8EA6483B9.title": "The Universal Introduction",
+  "quest.5A0E31C8EA6483B9.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0E31C8EA6483B9.quest_desc": [
+    "Obtain a Create Wrench. Learn rotation and pickup controls before moving machines around your base.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A81C31E44F4E55B.title": "Read the Machine",
+  "quest.5A81C31E44F4E55B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A81C31E44F4E55B.quest_desc": [
+    "Obtain Engineer's Goggles. Read a kinetic network's speed and stress information while wearing them.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A39E1371670C22C.title": "I completed this challenge",
+  "quest.5A9A67B062E99495.title": "Room to Expand",
+  "quest.5A9A67B062E99495.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A9A67B062E99495.quest_desc": [
+    "Build a workshop with labeled storage, a production floor, and a separate space for future power or fluid equipment. Leave access around machines for maintenance. Mark complete after a walkthrough.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5AEF3E9300ABA97F.title": "01. Start Here: The Workshop",
+  "chapter.5AEF3E9300ABA97F.chapter_subtitle": [
+    "Your factory, your order. Every chapter has its own starting point. Follow a branch that interests you, then bring your systems together."
+  ],
+  "quest.5A559EC005DD149F.title": "Water Does the Work",
+  "quest.5A559EC005DD149F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A559EC005DD149F.quest_desc": [
+    "Obtain a Water Wheel and use moving water to start a kinetic network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A96BCD12131B702.title": "Send the Rotation",
+  "quest.5A96BCD12131B702.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A96BCD12131B702.quest_desc": [
+    "Obtain eight Shafts. Use them to carry rotation to your work area.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A3A7A1772D26AEB.title": "Change the Ratio",
+  "quest.5A3A7A1772D26AEB.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A3A7A1772D26AEB.quest_desc": [
+    "Obtain two Large Cogwheels. Pair large and small cogs to experiment with speed ratios and direction.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A77FC74B539536B.title": "A Larger Drive",
+  "quest.5A77FC74B539536B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A77FC74B539536B.quest_desc": [
+    "Obtain a Large Water Wheel. Compare its capacity with your starter wheel before adding more loads.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB8A8F99655B147.title": "An Off Switch",
+  "quest.5AB8A8F99655B147.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB8A8F99655B147.quest_desc": [
+    "Obtain a Clutch. Add a redstone control so you can disconnect a production branch.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB8F88E7A4FA949.title": "A Work Surface",
+  "quest.5AB8F88E7A4FA949.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB8F88E7A4FA949.quest_desc": [
+    "Obtain a Depot for compact processing setups.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A3250D35D9F7E8F.title": "Flatten the Stock",
+  "quest.5A3250D35D9F7E8F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A3250D35D9F7E8F.quest_desc": [
+    "Obtain a Mechanical Press. Place it over a Depot or belt and test a sheet recipe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A57B09A95C232EB.title": "Batch Processing",
+  "quest.5A57B09A95C232EB.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A57B09A95C232EB.quest_desc": [
+    "Obtain a Basin for mixing and compacting recipes.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AEFD95FB2C08939.title": "Mix It Up",
+  "quest.5AEFD95FB2C08939.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AEFD95FB2C08939.quest_desc": [
+    "Obtain a Mechanical Mixer. Its required speed and recipe heat determine what it can process.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A78E0AD738AC9B8.title": "A Heated Workshop",
+  "quest.5A78E0AD738AC9B8.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A78E0AD738AC9B8.quest_desc": [
+    "Obtain a filled Blaze Burner. Capture a blaze with an Empty Blaze Burner, then use the filled burner beneath a Basin when recipes require heat.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A1CA76632BD24B4.title": "The Brass Age",
+  "quest.5A1CA76632BD24B4.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A1CA76632BD24B4.quest_desc": [
+    "Obtain sixteen Brass Ingots. Use the mixing recipe available in JEI.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A3B1244F8B839EC.title": "Moving Production",
+  "quest.5A3B1244F8B839EC.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5A3B1244F8B839EC.quest_desc": [
+    "Obtain four Belt Connectors. Build a short transport line and leave room for processors above it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A48B0BF672CD03B.title": "Filtered Entry",
+  "quest.5A48B0BF672CD03B.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A48B0BF672CD03B.quest_desc": [
+    "Obtain two Brass Funnels. Use filtering and stack control to route products and ingredients.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD0ED6BEB91433E.title": "Split the Flow",
+  "quest.5AD0ED6BEB91433E.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5AD0ED6BEB91433E.quest_desc": [
+    "Obtain two Brass Tunnels for sorting or distributing a belt line.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A53DBDE6E5027BE.title": "Air as a Tool",
+  "quest.5A53DBDE6E5027BE.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A53DBDE6E5027BE.quest_desc": [
+    "Obtain an Encased Fan. Check Create's Ponder scenes for washing, smoking, and blasting setups.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADD6DA4730A3DA4.title": "First Crushing",
+  "quest.5ADD6DA4730A3DA4.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ADD6DA4730A3DA4.quest_desc": [
+    "Obtain a Millstone for early grinding. Review JEI before routing valuable materials through it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A7DBBFEE31FD317.title": "A Larger Recipe Grid",
+  "quest.5A7DBBFEE31FD317.quest_subtitle": "Obtain 21 - inventory detection, items kept",
+  "quest.5A7DBBFEE31FD317.quest_desc": [
+    "Obtain twenty-one Mechanical Crafters. Lay out and connect the grid for the recipe you intend to automate.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9A1C68D0DD156D.title": "Heavy Processing",
+  "quest.5A9A1C68D0DD156D.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A9A1C68D0DD156D.quest_desc": [
+    "Obtain two Crushing Wheels. Drive them in the correct directions and route items through their gap.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A191A93E5068B74.title": "Repeatable Handwork",
+  "quest.5A191A93E5068B74.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A191A93E5068B74.quest_desc": [
+    "Obtain a Deployer. Use its filter and inspect the recipe sequence before feeding it parts.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADA6A0EA5CA25DC.title": "Precision Assembly",
+  "quest.5ADA6A0EA5CA25DC.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5ADA6A0EA5CA25DC.quest_desc": [
+    "Obtain four Precision Mechanisms. Set up the sequenced assembly shown in JEI and provide somewhere for unsuccessful outputs.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD5326066E4DB0E.title": "Pick and Place",
+  "quest.5AD5326066E4DB0E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD5326066E4DB0E.quest_desc": [
+    "Obtain a Mechanical Arm. Configure its inputs and outputs with the placement workflow shown by Ponder.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A7F565777A2D02D.title": "Moving Fluids",
+  "quest.5A7F565777A2D02D.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A7F565777A2D02D.quest_desc": [
+    "Obtain two Mechanical Pumps. Observe flow direction and keep incompatible fluids on separate lines.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A5E641667C510CD.title": "Tank Farm",
+  "quest.5A5E641667C510CD.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A5E641667C510CD.quest_desc": [
+    "Obtain eight Fluid Tanks. Build a reservoir sized for your next production line.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A728B8EE54BF3BB.title": "Fill and Coat",
+  "quest.5A728B8EE54BF3BB.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A728B8EE54BF3BB.quest_desc": [
+    "Obtain a Spout and inspect filling recipes in JEI. Supply one suitable fluid at a time.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9408A1E3F27120.title": "Steam Power",
+  "quest.5A9408A1E3F27120.quest_subtitle": "Obtain 3 - inventory detection, items kept",
+  "quest.5A9408A1E3F27120.quest_desc": [
+    "Obtain three Steam Engines. Use the boiler Ponder scene to plan water supply, heat, and engine connections.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A77EAFE1E61A9BA.title": "Controlled Speed",
+  "quest.5A77EAFE1E61A9BA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A77EAFE1E61A9BA.quest_desc": [
+    "Obtain a Rotation Speed Controller. Set a production branch to a deliberate speed while watching the stress budget.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A51A4CF4ED83CC2.title": "Machines That Move",
+  "quest.5A51A4CF4ED83CC2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A51A4CF4ED83CC2.quest_desc": [
+    "Obtain a Mechanical Bearing. Test a small glued assembly before committing to a large contraption.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AE42C25191347A2.title": "Automated Excavation",
+  "quest.5AE42C25191347A2.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AE42C25191347A2.quest_desc": [
+    "Obtain four Mechanical Drills. Plan item collection and a stop control for a stationary or moving mining rig.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A705481028D9E1A.title": "A Timber Line",
+  "quest.5A705481028D9E1A.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A705481028D9E1A.quest_desc": [
+    "Obtain two Mechanical Saws. Choose wood processing or a tree farm, and give its outputs a destination.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A6B2E41109C0FFC.title": "I completed this challenge",
+  "quest.5A4C6BF5766D0C06.title": "From Stock to Mechanism",
+  "quest.5A4C6BF5766D0C06.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A4C6BF5766D0C06.quest_desc": [
+    "Build a line that repeatedly produces Precision Mechanisms, routes failed outputs separately, and pauses cleanly when storage is full. Observe at least five successful outputs, then confirm this challenge.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5ADBD03343DF5231.title": "I completed this challenge",
+  "quest.5A40EE56750CEEAA.title": "Commission the Boiler",
+  "quest.5A40EE56750CEEAA.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A40EE56750CEEAA.quest_desc": [
+    "Operate a steam-powered workshop for ten minutes. Verify water supply remains steady and the network does not overstress when its machines run together. Confirm after the test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A1BA14AB703DD46.title": "02. Create: Mechanical Workshop",
+  "chapter.5A1BA14AB703DD46.chapter_subtitle": [
+    "Learn rotation, processing, automation, and steam. Train building has its own chapter; these machines can support every other workshop."
+  ],
+  "quest.5A6B8800BA575449.title": "Your First Generator",
+  "quest.5A6B8800BA575449.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A6B8800BA575449.quest_desc": [
+    "Obtain a Heat Generator. Inspect its fuel and passive generation behavior before choosing a location.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A91B04B617F021C.title": "A Power Backbone",
+  "quest.5A91B04B617F021C.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A91B04B617F021C.quest_desc": [
+    "Obtain eight Basic Universal Cables. Connect generation to a machine and check its energy buffer.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A8FD4256223517D.title": "Infuse the Metal",
+  "quest.5A8FD4256223517D.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A8FD4256223517D.quest_desc": [
+    "Obtain a Metallurgic Infuser. Keep track of its infuse material as well as its item input.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9AC18757B21E21.title": "Infused Alloys",
+  "quest.5A9AC18757B21E21.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A9AC18757B21E21.quest_desc": [
+    "Obtain sixteen Infused Alloys for your first machine expansion.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD45CECEF9BC633.title": "Set the Connections",
+  "quest.5AD45CECEF9BC633.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD45CECEF9BC633.quest_desc": [
+    "Obtain a Configurator. Learn its modes and the side settings of each machine.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF6580292BCBFF3.title": "A Power Buffer",
+  "quest.5AF6580292BCBFF3.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF6580292BCBFF3.quest_desc": [
+    "Obtain a Basic Energy Cube. Set its input and output faces before connecting the network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD75C56075AA6EA.title": "Wind Above the Workshop",
+  "quest.5AD75C56075AA6EA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD75C56075AA6EA.quest_desc": [
+    "Obtain a Wind Generator. Consider height and access when planning its installation.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AEB54F19B52A615.title": "Better Processing",
+  "quest.5AEB54F19B52A615.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AEB54F19B52A615.quest_desc": [
+    "Obtain an Enrichment Chamber. JEI shows the yields for raw ores and other input forms; do not assume every input has the same multiplier.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A1452039562FA98.title": "Electric Smelting",
+  "quest.5A1452039562FA98.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A1452039562FA98.quest_desc": [
+    "Obtain an Energized Smelter for a powered processing chain.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A1C82095AAE3481.title": "Dust and Recycling",
+  "quest.5A1C82095AAE3481.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A1C82095AAE3481.quest_desc": [
+    "Obtain a Crusher. Check both its material and biofuel recipes.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ACEE94FA6F2B21E.title": "Item Routing",
+  "quest.5ACEE94FA6F2B21E.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5ACEE94FA6F2B21E.quest_desc": [
+    "Obtain eight Basic Logistical Transporters. Combine machine side configuration and auto-eject for a processing line.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB328525279A952.title": "Choose the Destination",
+  "quest.5AB328525279A952.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB328525279A952.quest_desc": [
+    "Obtain a Logistical Sorter. Add a specific filter and verify where matching and nonmatching items travel.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A16C468445E5F10.title": "A Water Supply",
+  "quest.5A16C468445E5F10.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A16C468445E5F10.quest_desc": [
+    "Obtain an Electric Pump to supply water to your processing equipment.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF0038D76F34C1D.title": "Fluid Plumbing",
+  "quest.5AF0038D76F34C1D.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5AF0038D76F34C1D.quest_desc": [
+    "Obtain eight Basic Mechanical Pipes. These transport fluids; chemical lines use Pressurized Tubes.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A12237368A0B9AB.title": "Split the Water",
+  "quest.5A12237368A0B9AB.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A12237368A0B9AB.quest_desc": [
+    "Obtain an Electrolytic Separator. Plan destinations for both chemical outputs before running it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADD2B78B437AEC8.title": "Chemical Plumbing",
+  "quest.5ADD2B78B437AEC8.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5ADD2B78B437AEC8.quest_desc": [
+    "Obtain eight Basic Pressurized Tubes. Keep chemical transport separate from fluid transport.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AA98157515EC3F0.title": "Oxygen Processing",
+  "quest.5AA98157515EC3F0.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AA98157515EC3F0.quest_desc": [
+    "Obtain a Purification Chamber. Consult JEI for its oxygen demand and connect the remaining processing stages.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ACC83967BD6A9F1.title": "Combine Chemicals",
+  "quest.5ACC83967BD6A9F1.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ACC83967BD6A9F1.quest_desc": [
+    "Obtain a Chemical Infuser. Check each input and route the output to compatible storage or a consuming machine.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9494A091D4FF2B.title": "Parallel Production",
+  "quest.5A9494A091D4FF2B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A9494A091D4FF2B.quest_desc": [
+    "Obtain a Basic Enriching Factory. Increase throughput only after checking power and output capacity.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A6CAB3A54E4A707.title": "Evaporation Control",
+  "quest.5A6CAB3A54E4A707.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A6CAB3A54E4A707.quest_desc": [
+    "Obtain a Thermal Evaporation Controller. Use the installed multiblock guidance to plan valves, blocks, and heat.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ACB4A3DE0E2E79A.title": "Pressurized Chemistry",
+  "quest.5ACB4A3DE0E2E79A.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ACB4A3DE0E2E79A.quest_desc": [
+    "Obtain a Pressurized Reaction Chamber. Its recipes can combine item, fluid, and chemical inputs.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A04992FD740E988.title": "Advanced Polymer",
+  "quest.5A04992FD740E988.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A04992FD740E988.quest_desc": [
+    "Obtain eight HDPE Sheets. Follow the actual substrate and ethene processing chain in JEI.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AA371B6536FDB9C.title": "A Selective Miner",
+  "quest.5AA371B6536FDB9C.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AA371B6536FDB9C.quest_desc": [
+    "Obtain a Digital Miner. Configure its filters, radius, power supply, and item output before starting it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A18A2E4D8C76922.title": "Personal Flight",
+  "quest.5A18A2E4D8C76922.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A18A2E4D8C76922.quest_desc": [
+    "Obtain a Jetpack. Fuel and test it over a clear area, and learn its control modes. Item detection does not require a specific fuel level.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A864063125E299C.title": "One Powered Tool",
+  "quest.5A864063125E299C.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A864063125E299C.quest_desc": [
+    "Obtain an Atomic Disassembler. Check its mode before working around finished builds.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A072C19F1DAB77A.title": "Large Energy Storage",
+  "quest.5A072C19F1DAB77A.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A072C19F1DAB77A.quest_desc": [
+    "Obtain sixteen Induction Casings. Plan an Induction Matrix with compatible cells, providers, and ports.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A30B7597169052C.title": "I completed this challenge",
+  "quest.5AF8611693EEF21F.title": "Commission the Matrix",
+  "quest.5AF8611693EEF21F.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AF8611693EEF21F.quest_desc": [
+    "Build a working Induction Matrix. Charge it, disconnect generation, and demonstrate that it powers a production line. Record the stored energy before and after; confirm this task when the test succeeds.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5AF4975B83FC68ED.title": "I completed this challenge",
+  "quest.5AE0C79DCF40B73C.title": "Continuous Processing",
+  "quest.5AE0C79DCF40B73C.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AE0C79DCF40B73C.quest_desc": [
+    "Operate an automated enrichment and smelting line for ten minutes with configured inputs and outputs. Demonstrate that a full output inventory pauses production without spilling materials. Confirm after testing.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A4C7FD90C5374B1.title": "I completed this challenge",
+  "quest.5A64EC297B98ABA1.title": "Closed Chemical Workshop",
+  "quest.5A64EC297B98ABA1.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A64EC297B98ABA1.quest_desc": [
+    "Run one Pressurized Reaction Chamber recipe from automatically supplied inputs. Give every fluid and chemical output a deliberate destination, then stop and restart the line successfully. Confirm after the demonstration.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5AC229C9DBC0DCE3.title": "03. Mekanism: Industrial Systems",
+  "chapter.5AC229C9DBC0DCE3.chapter_subtitle": [
+    "Build electrical processing, chemical logistics, advanced materials, and field equipment. Power generators in this chapter come from the installed Mekanism Generators addon."
+  ],
+  "quest.5A79FB457DC55669.title": "Find the Crystal",
+  "quest.5A79FB457DC55669.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A79FB457DC55669.quest_desc": [
+    "Obtain sixteen Certus Quartz Crystals. Start a supply you can replenish as the network grows.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0F365427194A0C.title": "Find a Meteorite",
+  "quest.5A0F365427194A0C.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0F365427194A0C.quest_desc": [
+    "Obtain a Meteorite Compass. Meteorites can supply the processor presses; this pack enables presses in meteorites.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A7FF2D10F07CC4A.title": "Charge the Quartz",
+  "quest.5A7FF2D10F07CC4A.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A7FF2D10F07CC4A.quest_desc": [
+    "Obtain a Charger. Provide a valid power source and inspect its charging recipe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB9AB2EED98E10B.title": "A New Crystal",
+  "quest.5AB9AB2EED98E10B.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5AB9AB2EED98E10B.quest_desc": [
+    "Obtain eight Fluix Crystals using the recipe shown in JEI.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD41C9A202A10CA.title": "Print the Circuits",
+  "quest.5AD41C9A202A10CA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD41C9A202A10CA.quest_desc": [
+    "Obtain an Inscriber and organize its required presses and inputs.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A63F38A3EA2F121.title": "Logic Processors",
+  "quest.5A63F38A3EA2F121.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5A63F38A3EA2F121.quest_desc": [
+    "Obtain four Logic Processors. Automating these will save time later.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF4517A767DE2C0.title": "Calculation Processors",
+  "quest.5AF4517A767DE2C0.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AF4517A767DE2C0.quest_desc": [
+    "Obtain four Calculation Processors. Keep a reserve for crafting and storage components.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ABA071ED2204D8C.title": "Engineering Processors",
+  "quest.5ABA071ED2204D8C.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5ABA071ED2204D8C.quest_desc": [
+    "Obtain four Engineering Processors for advanced network devices.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A84A086D6243751.title": "Power the Network",
+  "quest.5A84A086D6243751.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A84A086D6243751.quest_desc": [
+    "Obtain an Energy Acceptor. Connect the workshop's FE supply to your AE2 network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF4CEBBC381E2AC.title": "A Data Backbone",
+  "quest.5AF4CEBBC381E2AC.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5AF4CEBBC381E2AC.quest_desc": [
+    "Obtain sixteen Fluix ME Glass Cables. Leave room for service access and future channel planning.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9D3ACBA5FCBC2F.title": "One Search Box",
+  "quest.5A9D3ACBA5FCBC2F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A9D3ACBA5FCBC2F.quest_desc": [
+    "Obtain an ME Terminal. It needs a powered network and an attached storage destination to be useful.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFCDDE39B829FB2.title": "The Drive Rack",
+  "quest.5AFCDDE39B829FB2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFCDDE39B829FB2.quest_desc": [
+    "Obtain an ME Drive. Keep a backup route to your stored materials while rearranging the network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A93F16BBC72C824.title": "First Storage Cell",
+  "quest.5A93F16BBC72C824.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A93F16BBC72C824.quest_desc": [
+    "Obtain a 1k ME Item Storage Cell. Watch both byte capacity and the number of item types.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF47EC8CDF65B17.title": "Craft Where You Search",
+  "quest.5AF47EC8CDF65B17.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF47EC8CDF65B17.quest_desc": [
+    "Obtain an ME Crafting Terminal. This adds a crafting grid; automatic recipe execution comes from the later autocrafting branch.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF0166909DF90BC.title": "Connect the Old Warehouse",
+  "quest.5AF0166909DF90BC.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF0166909DF90BC.quest_desc": [
+    "Obtain an ME Storage Bus. Use it to expose an external inventory to the network, and test its access settings.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFD4A152674C143.title": "Collect the Output",
+  "quest.5AFD4A152674C143.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFD4A152674C143.quest_desc": [
+    "Obtain an ME Import Bus. Pull machine output into network storage.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0FD2B23D340900.title": "Supply the Machine",
+  "quest.5A0FD2B23D340900.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0FD2B23D340900.quest_desc": [
+    "Obtain an ME Export Bus. Set a specific filter before feeding a machine.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A76CDB3CB7F4C16.title": "Room for More Devices",
+  "quest.5A76CDB3CB7F4C16.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A76CDB3CB7F4C16.quest_desc": [
+    "Obtain an ME Controller. TismCraft uses the X4 channel mode; use network diagnostics when planning branches.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AAED8B7D131E9B3.title": "Network Reserve",
+  "quest.5AAED8B7D131E9B3.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AAED8B7D131E9B3.quest_desc": [
+    "Obtain an Energy Cell. It buffers AE power; it does not generate power by itself.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0B8B1B64CDBA46.title": "Encode the Recipe",
+  "quest.5A0B8B1B64CDBA46.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0B8B1B64CDBA46.quest_desc": [
+    "Obtain a Pattern Encoding Terminal. Learn the difference between crafting and processing patterns.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A6AD73C9A364D30.title": "Pattern Stock",
+  "quest.5A6AD73C9A364D30.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A6AD73C9A364D30.quest_desc": [
+    "Obtain eight Blank Patterns for the recipes you repeat most often.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB7EACA2BA32A30.title": "Send the Ingredients",
+  "quest.5AB7EACA2BA32A30.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB7EACA2BA32A30.quest_desc": [
+    "Obtain a Pattern Provider. Face it toward an assembler or a machine input suited to your encoded recipe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFF0FC9B3FA4EE8.title": "Craft on Request",
+  "quest.5AFF0FC9B3FA4EE8.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFF0FC9B3FA4EE8.quest_desc": [
+    "Obtain a Molecular Assembler for ordinary crafting patterns.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADD8CB2529D318B.title": "A Crafting Brain",
+  "quest.5ADD8CB2529D318B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ADD8CB2529D318B.quest_desc": [
+    "Obtain 1k Crafting Storage. Build a valid crafting CPU and verify the network recognizes it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A6C72C78A975E01.title": "I completed this challenge",
+  "quest.5AEFD5C1CE788FF7.title": "Your First Automatic Order",
+  "quest.5AEFD5C1CE788FF7.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AEFD5C1CE788FF7.quest_desc": [
+    "Install a crafting pattern in a Pattern Provider beside a Molecular Assembler, connect a crafting CPU, and request sixteen finished items from the terminal. Confirm after all sixteen arrive without manual crafting.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A75309F33314B6C.title": "I completed this challenge",
+  "quest.5AAE248E0903F7A1.title": "Teach a Machine Recipe",
+  "quest.5AAE248E0903F7A1.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AAE248E0903F7A1.quest_desc": [
+    "Encode a processing pattern for a machine in another chapter. Arrange ingredient delivery and return of the finished output, then request and complete the recipe from AE2. Confirm after a successful order.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A67E01A44FCDA60.title": "Leave the Desk",
+  "quest.5A67E01A44FCDA60.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A67E01A44FCDA60.quest_desc": [
+    "Obtain a Wireless Crafting Terminal. Pair it with your network and supply the required access point and power.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A289EAA7727BAF6.title": "Keep a Reserve",
+  "quest.5A289EAA7727BAF6.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A289EAA7727BAF6.quest_desc": [
+    "Obtain an ME Level Emitter. Use its output to control production around a chosen stock level.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "chapter.5A9EF8C6D67B75E7.title": "04. AE2: Storage and Autocrafting",
+  "chapter.5A9EF8C6D67B75E7.chapter_subtitle": [
+    "Turn a warehouse into a network and then into an automated workshop. TismCraft configures AE2 channels to X4; plan channel use around that setting instead of assuming vanilla AE2 capacity."
+  ],
+  "quest.5A35827A79460DBC.title": "The Engineer's Desk",
+  "quest.5A35827A79460DBC.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A35827A79460DBC.quest_desc": [
+    "Obtain an Engineer's Manual. Its construction previews show the block layout, activation point and inputs for each multiblock in this chapter.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A8CE642205C536B.title": "A Proper Hammer",
+  "quest.5A8CE642205C536B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A8CE642205C536B.quest_desc": [
+    "Obtain an Engineer's Hammer. Use it to form the multiblocks shown in the manual and configure the workshop as it grows.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A471A9FBF63B872.title": "Brick by Brick",
+  "quest.5A471A9FBF63B872.quest_subtitle": "Obtain 27 - inventory detection, items kept",
+  "quest.5A471A9FBF63B872.quest_desc": [
+    "Obtain 27 Coke Bricks for your first Coke Oven. Leave room nearby for creosote storage and fuel handling.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AD4A65EA46C0209.title": "I completed this challenge",
+  "quest.5ACD05C8FEAEFFA6.title": "First Coke Oven",
+  "quest.5ACD05C8FEAEFFA6.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5ACD05C8FEAEFFA6.quest_desc": [
+    "Build and form a Coke Oven with the hammer, then process coal until it produces coal coke and creosote oil. Collect or store the fluid so the oven can keep running. Manually check this quest after one successful cycle.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A351AA4E440DA9C.title": "Put Creosote to Work",
+  "quest.5A351AA4E440DA9C.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A351AA4E440DA9C.quest_desc": [
+    "Obtain 16 Horizontal Treated Wood Planks. Creosote from the Coke Oven supplies the treatment step; these planks begin the mechanical and electrical workshop.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A196159CEC0F09B.title": "The Hot End",
+  "quest.5A196159CEC0F09B.quest_subtitle": "Obtain 27 - inventory detection, items kept",
+  "quest.5A196159CEC0F09B.quest_desc": [
+    "Obtain 27 Blast Bricks. Follow the manual to assemble a Crude Blast Furnace, then provide an accepted iron input and fuel to make steel.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A7D1DD3572AAC06.title": "Steel on the Shelf",
+  "quest.5A7D1DD3572AAC06.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A7D1DD3572AAC06.quest_desc": [
+    "Obtain 16 Immersive Engineering Steel Ingots. This milestone checks the ingots, so steel supplied by another production route is also useful if it yields this item.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ADCE865EC57E735.title": "Turn the River",
+  "quest.5ADCE865EC57E735.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ADCE865EC57E735.quest_desc": [
+    "Obtain an Immersive Engineering Waterwheel. Its output is mechanical rotation for a Kinetic Dynamo; the similarly named Create wheels belong to a separate system.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AA4E4598C474C25.title": "Rotation into Power",
+  "quest.5AA4E4598C474C25.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AA4E4598C474C25.quest_desc": [
+    "Obtain a Kinetic Dynamo. Position a waterwheel on its mechanical side and use the manual to orient the electrical connection.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AEB2889FB27A502.title": "A Small Power Reserve",
+  "quest.5AEB2889FB27A502.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AEB2889FB27A502.quest_desc": [
+    "Obtain an LV Capacitor. Configure its input and output faces before connecting the generator and the first electrical load.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD29E89E50FB797.title": "Copper in the Air",
+  "quest.5AD29E89E50FB797.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AD29E89E50FB797.quest_desc": [
+    "Obtain 4 LV Wire Coils. You will also need LV Wire Connectors on the machines; relays route a wire run but do not substitute for a machine connection.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A219BA10012B70F.title": "I completed this challenge",
+  "quest.5A371DC6015AF476.title": "Commission the LV Grid",
+  "quest.5A371DC6015AF476.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A371DC6015AF476.quest_desc": [
+    "Connect the turning waterwheel and Dynamo to an LV Capacitor, then power a compatible load through LV connectors and wire. Confirm that energy reaches the load. Manually check this quest after the circuit works.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A2438033E944E34.title": "A Moving Floor",
+  "quest.5A2438033E944E34.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A2438033E944E34.quest_desc": [
+    "Obtain 8 Conveyor Belts. Lay out an input and output route for the first processing machine; add extraction or vertical variants where the route needs them.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A555656F2B047F9.title": "Before You Dig",
+  "quest.5A555656F2B047F9.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A555656F2B047F9.quest_desc": [
+    "Obtain a Core Sample Drill. Power it and survey the area before committing to an Excavator; the sample identifies the local mineral deposit.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AC089B7D63E7FE0.title": "I completed this challenge",
+  "quest.5AA7168CA6BB57F6.title": "Stamping Department",
+  "quest.5AA7168CA6BB57F6.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AA7168CA6BB57F6.quest_desc": [
+    "Build and form a Metal Press using the manual preview, install a suitable mold and power the machine. Process at least 16 metal inputs into the chosen product, with an output inventory catching the result. Manually check after the run.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5AAADD3122CCD92B.title": "I completed this challenge",
+  "quest.5ACE1A41DD4B0B45.title": "Crushing Department",
+  "quest.5ACE1A41DD4B0B45.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5ACE1A41DD4B0B45.quest_desc": [
+    "Build and form a Crusher, connect enough power and route its output into storage. Process at least 16 valid inputs from the recipe viewer. Manually check this quest after collecting the output.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A814D68110DE36E.title": "A Glasshouse That Works",
+  "quest.5A814D68110DE36E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A814D68110DE36E.quest_desc": [
+    "Obtain a Garden Cloche. Supply power, water, a valid growing substrate and a supported crop, then arrange collection of its harvest.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AB62EA4028EB62A.title": "I completed this challenge",
+  "quest.5A9F163DDC08410D.title": "From Harvest to Fuel",
+  "quest.5A9F163DDC08410D.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A9F163DDC08410D.quest_desc": [
+    "Build a Squeezer, Fermenter and Refinery. Supply their recipe inputs and power, then combine plant oil and ethanol into stored biodiesel. Use the manual for layouts and ports. Manually check after the refinery has completed a batch.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A052FB126171739.title": "I completed this challenge",
+  "quest.5A5EFBC85A757567.title": "The Generator Hall",
+  "quest.5A5EFBC85A757567.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A5EFBC85A757567.quest_desc": [
+    "Build and form a Diesel Generator, supply compatible fuel from storage and connect an appropriate electrical output. Confirm that it supplies power to your workshop. Manually check after generating power.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A59CE407DE415DC.title": "I completed this challenge",
+  "quest.5AF59AA993974BBC.title": "A Working Steelworks",
+  "quest.5AF59AA993974BBC.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AF59AA993974BBC.quest_desc": [
+    "Run the Diesel Generator while your Metal Press and Crusher process their own input queues into separate storage. Add a way to stop the supply or machines for maintenance. Manually check once the three systems operate together.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A29B6EA2CD6DEB5.title": "05. Immersive Engineering | Steelworks",
+  "chapter.5A29B6EA2CD6DEB5.chapter_subtitle": [
+    "Build a workshop of wires, water wheels and working multiblocks, then grow it into a biodiesel-powered factory.",
+    "Use the Engineer's Manual for the exact multiblock layouts. Construction and production milestones use manual checkmarks; item milestones only inspect your inventory."
+  ],
+  "quest.5AE6CC2B4452E314.title": "Tap the Logs",
+  "quest.5AE6CC2B4452E314.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AE6CC2B4452E314.quest_desc": [
+    "Obtain a Fluid Extractor. Aim its working face at a supported log and collect the latex it produces; provide fresh logs as the extraction consumes them.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD41DE2DC4F2551.title": "Latex Processing",
+  "quest.5AD41DE2DC4F2551.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD41DE2DC4F2551.quest_desc": [
+    "Obtain a Latex Processing Unit. Arrange power and separate supplies of latex and water, then use the resulting rubber in the plastic production chain.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A41105C5A46110D.title": "The Plastic Age",
+  "quest.5A41105C5A46110D.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A41105C5A46110D.quest_desc": [
+    "Obtain 16 Industrial Foregoing Plastic. Follow the rubber-to-plastic recipe shown by the recipe viewer and keep a supply for machine upgrades.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A1D5887704339EF.title": "Mixing with Purpose",
+  "quest.5A1D5887704339EF.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A1D5887704339EF.quest_desc": [
+    "Obtain a Dissolution Chamber. This machine combines item inputs and a fluid; check the selected recipe before filling its tank.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFF817D2D55AC75.title": "A Better Frame",
+  "quest.5AFF817D2D55AC75.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFF817D2D55AC75.quest_desc": [
+    "Obtain a Simple Machine Frame. The pinned recipe uses the Dissolution Chamber and latex, so keep the original latex system running after the first batch of plastic.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A089409BB1F7B91.title": "Seeds Back in the Ground",
+  "quest.5A089409BB1F7B91.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A089409BB1F7B91.quest_desc": [
+    "Obtain a Plant Sower. Set its working area and seed supply, and check which layer of farmland it serves before burying the machine.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A03276F213EA323.title": "Harvest on Schedule",
+  "quest.5A03276F213EA323.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A03276F213EA323.quest_desc": [
+    "Obtain a Plant Gatherer. Match its working area to your crop patch, provide power and export both harvested items and any processing byproducts.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5ACE57DD6731434B.title": "I completed this challenge",
+  "quest.5A7CEE1C51FEB578.title": "A Farm That Replants",
+  "quest.5A7CEE1C51FEB578.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A7CEE1C51FEB578.quest_desc": [
+    "Operate the Plant Sower and Plant Gatherer together. Route enough seeds back to the Sower and store the excess harvest; handle any fluid byproducts so the machines do not stall. Manually check after the farm completes a full harvest and replant cycle.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A12E7CE23810B48.title": "The Pink Slime Line",
+  "quest.5A12E7CE23810B48.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A12E7CE23810B48.quest_desc": [
+    "Obtain a Mob Slaughter Factory. It produces fluid resources from mobs rather than normal drops. Give each output a destination before starting production.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A58A46D3EAAD80F.title": "Solid Pink Slime",
+  "quest.5A58A46D3EAAD80F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A58A46D3EAAD80F.quest_desc": [
+    "Obtain a Pink Slime item. Consult its recipe and the mod guide for converting the fluid into a usable item; keep some fluid aside for machine frames.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD8B3921B493A7F.title": "Advanced Machinery",
+  "quest.5AD8B3921B493A7F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD8B3921B493A7F.quest_desc": [
+    "Obtain an Advanced Machine Frame. The pinned Dissolution Chamber recipe needs pink slime fluid, a Simple Machine Frame and Nether materials.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A533FFBD7525FC2.title": "Collect the Drops",
+  "quest.5A533FFBD7525FC2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A533FFBD7525FC2.quest_desc": [
+    "Obtain a Mob Crusher. Build an enclosed operating area and collect its item and fluid outputs; its role differs from the Mob Slaughter Factory.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A8FD7027C9E37FD.title": "Choose a Mining Target",
+  "quest.5A8FD7027C9E37FD.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A8FD7027C9E37FD.quest_desc": [
+    "Obtain an Ore Laser Base. Check its possible outputs in the recipe viewer, since biome and selected depth affect what it can produce.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A19D7E0587CB3F0.title": "Power for the Laser",
+  "quest.5A19D7E0587CB3F0.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A19D7E0587CB3F0.quest_desc": [
+    "Obtain a Laser Drill. Position it so its working area reaches the Ore Laser Base, then provide power to charge the base.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5ADA0BDE820D84B4.title": "I completed this challenge",
+  "quest.5A772E20DE619E6D.title": "Ore from Light",
+  "quest.5A772E20DE619E6D.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A772E20DE619E6D.quest_desc": [
+    "Run an Ore Laser Base with at least one powered Laser Drill. Set an appropriate depth and collect at least 16 generated resources into storage. Manually check after the production run.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5AACD21449BF55D5.title": "Building Materials on Tap",
+  "quest.5AACD21449BF55D5.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AACD21449BF55D5.quest_desc": [
+    "Obtain a Material StoneWork Factory. Configure a processing route for a building material you regularly use and prepare a place for its output.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A15FF8DF53A434D.title": "Supreme Engineering",
+  "quest.5A15FF8DF53A434D.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A15FF8DF53A434D.quest_desc": [
+    "Obtain a Supreme Machine Frame. Its pinned recipe uses ether gas and Netherite alongside an Advanced Machine Frame; consult the mod guide and recipe viewer for the gas-production setup.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5ADA05AB8E0EEFB1.title": "I completed this challenge",
+  "quest.5A659386FB8151B1.title": "Three Lines, One Factory",
+  "quest.5A659386FB8151B1.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A659386FB8151B1.quest_desc": [
+    "Keep three systems running: automatic plastic production, the crop loop, and the ore laser. Store their products separately and provide a way to handle full output storage. Manually check after each system completes another cycle without you moving its ingredients by hand.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A94FBE725448A3F.title": "06. Industrial Foregoing | Automation",
+  "chapter.5A94FBE725448A3F.chapter_subtitle": [
+    "Turn logs into plastic, automate renewable resources and progress from simple machines to laser production.",
+    "Each machine still needs its normal recipe, power and operating inputs. The quest rewards do not replace the production chain."
+  ],
+  "quest.5AF0CBCA1536DF2C.title": "Under Pressure",
+  "quest.5AF0CBCA1536DF2C.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5AF0CBCA1536DF2C.quest_desc": [
+    "Obtain 16 Compressed Iron Ingots. Use the available starter conversion from the recipe viewer, then move production into a Pressure Chamber once it is built.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9E0277ADAF72D4.title": "The First Air Line",
+  "quest.5A9E0277ADAF72D4.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A9E0277ADAF72D4.quest_desc": [
+    "Obtain 8 Pressure Tubes. Basic components operate in the low-pressure tier; check each connected machine before expanding the network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AADDB98603EA0E7.title": "Air on Demand",
+  "quest.5AADDB98603EA0E7.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AADDB98603EA0E7.quest_desc": [
+    "Obtain an Air Compressor. Connect it to the first air line, add fuel and prepare pressure control before leaving it running.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9F1C336B5FAA18.title": "Give the Air an Exit",
+  "quest.5A9F1C336B5FAA18.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A9F1C336B5FAA18.quest_desc": [
+    "Obtain a Safety Tube Module. Attach it to a tube on the low-pressure network to vent excess pressure; add gauge-based compressor control later to avoid wasting fuel.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD4488702C94941.title": "Pressure Vessel Parts",
+  "quest.5AD4488702C94941.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5AD4488702C94941.quest_desc": [
+    "Obtain 16 Pressure Chamber Walls. Gather the remaining walls or glass, a valve and two interfaces for a complete hollow chamber.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AB90B2F2A2BD049.title": "I completed this challenge",
+  "quest.5AA6D6DCD49C0726.title": "Seal the Chamber",
+  "quest.5AA6D6DCD49C0726.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AA6D6DCD49C0726.quest_desc": [
+    "Build a valid hollow Pressure Chamber with a valve and input/output interfaces. Connect the controlled air supply and process a supported recipe through the interfaces. Manually check after retrieving the finished output.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5AFBD96A351D0033.title": "An Air Filling Station",
+  "quest.5AFBD96A351D0033.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFBD96A351D0033.quest_desc": [
+    "Obtain a Charging Station. Connect it to a network within its pressure rating, then use it to charge compatible pneumatic equipment.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AC5134402825DD2.title": "An Oil Refinery",
+  "quest.5AC5134402825DD2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AC5134402825DD2.quest_desc": [
+    "Obtain a Refinery Controller. Complete it with Refinery Outputs, supply oil and heat, and route every fraction into storage. The mod guide shows how output count changes the available fractions.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFD5049313F8626.title": "Heat and Pressure",
+  "quest.5AFD5049313F8626.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFD5049313F8626.quest_desc": [
+    "Obtain a Thermopneumatic Processing Plant. Each recipe can need fluids, ingredients, heat and pressure; check all of them before diagnosing a stalled machine.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A2004411681905C.title": "Plastic Sheets",
+  "quest.5A2004411681905C.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A2004411681905C.quest_desc": [
+    "Obtain 16 PneumaticCraft Plastic Sheets. Produce molten plastic in the Thermopneumatic Processing Plant, then solidify it by an available method. The repository enables in-world plastic solidification.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AEBB45C8AC45AC4.title": "Expose the Board",
+  "quest.5AEBB45C8AC45AC4.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AEBB45C8AC45AC4.quest_desc": [
+    "Obtain a UV Light Box. Produce Empty PCBs in the Pressure Chamber and expose them fully before sending them for chemical etching.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB861477F42B896.title": "Etch the Circuit",
+  "quest.5AB861477F42B896.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB861477F42B896.quest_desc": [
+    "Obtain an Etching Tank. Supply etching acid and process fully exposed boards into Unassembled PCBs; the UV exposure step helps avoid failures.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF726351D283D13.title": "A Finished Circuit",
+  "quest.5AF726351D283D13.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AF726351D283D13.quest_desc": [
+    "Obtain 4 Printed Circuit Boards. Finish the Unassembled PCBs with the required electronic components shown in the recipe viewer.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF889FAF2BEC77B.title": "The Assembly Controller",
+  "quest.5AF889FAF2BEC77B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF889FAF2BEC77B.quest_desc": [
+    "Obtain an Assembly Controller. It coordinates a platform, import/export units and the tools needed by an installed assembly program.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AE5AE46561E2558.title": "I completed this challenge",
+  "quest.5A6024F81ECD8460.title": "A Production Cell",
+  "quest.5A6024F81ECD8460.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A6024F81ECD8460.quest_desc": [
+    "Build a complete Assembly System for a recipe of your choice. Include the platform, both IO units, required tools and correct program; supply air to the controller. Manually check after a finished item reaches the output inventory.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A816D2BF8BD04F9.title": "A Higher Pressure Tier",
+  "quest.5A816D2BF8BD04F9.quest_subtitle": "Obtain 8 - inventory detection, items kept",
+  "quest.5A816D2BF8BD04F9.quest_desc": [
+    "Obtain 8 Advanced Pressure Tubes. Plan a separate higher-pressure network and match the compressor, valves, connected machines and pressure controls to that tier.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A6457C6D2CBB149.title": "Information at a Glance",
+  "quest.5A6457C6D2CBB149.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A6457C6D2CBB149.quest_desc": [
+    "Obtain a Pneumatic Helmet. Charge it at your station and explore the upgrade options for the information you want while building.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A6E06AEB9B41734.title": "Teach the Machine",
+  "quest.5A6E06AEB9B41734.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A6E06AEB9B41734.quest_desc": [
+    "Obtain a Programmer. Use the guide's programming tutorial to build a small routine with an explicit area and a clear item filter.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A36596C1CDF7770.title": "Your First Drone",
+  "quest.5A36596C1CDF7770.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A36596C1CDF7770.quest_desc": [
+    "Obtain a programmable Drone. Give it a routine in the Programmer and arrange a Charging Station it can use when its air runs low.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A491344AD2E2BBA.title": "I completed this challenge",
+  "quest.5A43B837DBE38889.title": "A Useful Employee",
+  "quest.5A43B837DBE38889.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A43B837DBE38889.quest_desc": [
+    "Program and run the Drone to perform a useful repeatable job, such as moving a chosen item between two inventories. Keep its work area loaded and provide charging access. Manually check after it finishes at least three work cycles.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5ACB7BBA2260574E.title": "07. PneumaticCraft | Pressure Works",
+  "chapter.5ACB7BBA2260574E.chapter_subtitle": [
+    "Build a pressure network, refine materials, manufacture circuit boards and give a programmable drone its first real job.",
+    "Watch the pressure rating of every connected component. The mod guide documents machine limits, heat requirements and assembly layouts."
+  ],
+  "task.5A1BB50B044A8322.title": "I completed this challenge",
+  "quest.5AF947095974AF18.title": "Choose Your Settlement",
+  "quest.5AF947095974AF18.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AF947095974AF18.quest_desc": [
+    "Choose a location with room for several buildings, or visit the colony you already own. For a new start, use either a Supply Camp or Supply Ship and its planning tools. The repository limits repeated supply placements, so an existing colony is welcome. Manually check when the site is ready.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A19D7BF8E0E7993.title": "I completed this challenge",
+  "quest.5A972331B21B55EE.title": "Found the Colony",
+  "quest.5A972331B21B55EE.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A972331B21B55EE.quest_desc": [
+    "Establish your colony with its Town Hall, choose a building style and examine the colony management screen. An already established colony satisfies this milestone. Manually check after you can manage the colony.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A727CF3C7353903.title": "Somebody Has to Build It",
+  "quest.5A727CF3C7353903.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A727CF3C7353903.quest_desc": [
+    "Obtain a Builder's Hut block. Preview the building with the build tool, position it with access to the planned town and place the hut block.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AA3127EBAE5E9A1.title": "I completed this challenge",
+  "quest.5AEB6401E49BDC1E.title": "The Builder Moves In",
+  "quest.5AEB6401E49BDC1E.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AEB6401E49BDC1E.quest_desc": [
+    "Assign a builder, supply the requested tools and materials, and complete the Builder's Hut at level 1. Read the worker's requests when progress stops. Manually check after construction finishes and the builder is assigned.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A054479760E7350.title": "A Place to Sleep",
+  "quest.5A054479760E7350.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A054479760E7350.quest_desc": [
+    "Obtain a Residence block. Preview the selected style and plan enough housing capacity for the workers you intend to recruit.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5AF2F89E8704DC3D.title": "I completed this challenge",
+  "quest.5A0052A07888FDA4.title": "Homes for the First Citizens",
+  "quest.5A0052A07888FDA4.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A0052A07888FDA4.quest_desc": [
+    "Complete enough housing for your first four citizens and confirm they have home assignments. Give them a usable route between homes and workplaces. Manually check after all four have somewhere to live.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A143022B5658A6D.title": "Food Begins in a Field",
+  "quest.5A143022B5658A6D.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A143022B5658A6D.quest_desc": [
+    "Obtain a Farm hut block. Build it, assign a farmer and use the required field blocks, seeds and tools for the farm's crop area.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A8B4BB3C4A1A8E2.title": "A Renewable Timber Supply",
+  "quest.5A8B4BB3C4A1A8E2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A8B4BB3C4A1A8E2.quest_desc": [
+    "Obtain a Forester's Hut block. Choose a clear work area, then build and staff the hut with the tools and saplings its requests require.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AFF31F8911A0BDB.title": "Below the Settlement",
+  "quest.5AFF31F8911A0BDB.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AFF31F8911A0BDB.quest_desc": [
+    "Obtain a Mine hut block. Plan its shaft location before construction, then supply the assigned miner's requests as the mine develops.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A66000DF5B72A31.title": "A Watch over the Town",
+  "quest.5A66000DF5B72A31.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A66000DF5B72A31.quest_desc": [
+    "Obtain a Guard Tower block. Build it near an approach to the settlement and equip its assigned guard. Colony raids are enabled in the repository configuration.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A65D8C0E1C31C38.title": "One Place for Supplies",
+  "quest.5A65D8C0E1C31C38.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A65D8C0E1C31C38.quest_desc": [
+    "Obtain a Warehouse block. Build it where workers and couriers can reach it, and reserve room for its storage as the building grows.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A67D5746C0D2648.title": "The Delivery Department",
+  "quest.5A67D5746C0D2648.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A67D5746C0D2648.quest_desc": [
+    "Obtain a Courier's Hut block. Complete its building and assign a courier after the Warehouse is ready; the courier moves supplies through the colony's request system.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A5A1CAED09CC2F5.title": "I completed this challenge",
+  "quest.5A19A41C51B0B681.title": "The First Real Delivery",
+  "quest.5A19A41C51B0B681.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A19A41C51B0B681.quest_desc": [
+    "Operate a built Warehouse and Courier's Hut. Put a requested material in the Warehouse and observe the courier deliver it to a worker. Manually check after one request is fulfilled without you carrying the item to that worker.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5AF37D8072780A51.title": "Dinner Is Served",
+  "quest.5AF37D8072780A51.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF37D8072780A51.quest_desc": [
+    "Obtain a Dining Hall block. Build and staff it, then provide meals or the supported food supply its worker requests so citizens have a regular place to eat.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A55C1B550BAAD07.title": "An Investment in Ideas",
+  "quest.5A55C1B550BAAD07.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A55C1B550BAAD07.quest_desc": [
+    "Obtain a University block. Build it, assign its worker and inspect the research tree for the next useful colony improvement.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A760849D4DA2E6F.title": "I completed this challenge",
+  "quest.5AC8A296FE57DA99.title": "First Research Project",
+  "quest.5AC8A296FE57DA99.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AC8A296FE57DA99.quest_desc": [
+    "Complete one research project at the University. Meet its building, material and worker requirements in the colony UI; choose a project that supports the town you are building. Manually check after the research finishes.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5ACBA9900CF51BB1.title": "Care for the Citizens",
+  "quest.5ACBA9900CF51BB1.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ACBA9900CF51BB1.quest_desc": [
+    "Obtain a Hospital block. Check its research unlock, then plan construction, staffing and medicine supplies so the colony can respond to illness.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A724A80B78904DA.title": "I completed this challenge",
+  "quest.5A49C54809766799.title": "A Town with a Future",
+  "quest.5A49C54809766799.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A49C54809766799.quest_desc": [
+    "Grow the colony to at least eight citizens with adequate housing, complete a level 2 Town Hall, and operate a staffed Dining Hall, Guard Tower and courier network. Manually check after these systems are working and the citizens' immediate requests are being met.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5ADFF9AA1B6B7492.title": "08. MineColonies | A Living Settlement",
+  "chapter.5ADFF9AA1B6B7492.chapter_subtitle": [
+    "Build a settlement with homes, useful workers, food, logistics and research. Use the colony's own building and research screens to satisfy its requirements.",
+    "Hut-block quests check possession of a planning block. The matching building only becomes operational after construction and staffing; those milestones use manual checks."
+  ],
+  "quest.5A1F77311F8E592A.title": "A Line on the Map",
+  "quest.5A1F77311F8E592A.quest_subtitle": "Obtain 16 - inventory detection, items kept",
+  "quest.5A1F77311F8E592A.quest_desc": [
+    "Obtain 16 Create Train Tracks. Survey a route between two places that actually need supplies; this task counts track items in your inventory.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AC2E22DC017D933.title": "Two Places to Be",
+  "quest.5AC2E22DC017D933.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5AC2E22DC017D933.quest_desc": [
+    "Obtain 2 Create Train Stations. Name the endpoints clearly so schedules remain readable when the railway grows.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A47370213E22208.title": "The Driver's Seat",
+  "quest.5A47370213E22208.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A47370213E22208.quest_desc": [
+    "Obtain Train Controls. Consult their Ponder scene while planning a carriage with a usable driving position.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A73C94872135C5D.title": "I completed this challenge",
+  "quest.5A4A5F2AD67246CC.title": "First Departure",
+  "quest.5A4A5F2AD67246CC.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A4A5F2AD67246CC.quest_desc": [
+    "Assemble a Create train at a station and drive it to your second station. A simple working train is enough; elaborate rolling stock can come later.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5ABA58A5FB0402D7.title": "A Timetable",
+  "quest.5ABA58A5FB0402D7.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5ABA58A5FB0402D7.quest_desc": [
+    "Obtain a Train Schedule. Set up a two-stop route with enough waiting time to board or transfer cargo.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AE02BC5A52E42F9.title": "Give Trains Some Space",
+  "quest.5AE02BC5A52E42F9.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5AE02BC5A52E42F9.quest_desc": [
+    "Obtain 2 Create Train Signals. Use Ponder to learn how a signal divides the track network into occupied sections.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A4113D1AC2F5E5B.title": "Freight Couplings",
+  "quest.5A4113D1AC2F5E5B.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A4113D1AC2F5E5B.quest_desc": [
+    "Obtain 2 Portable Storage Interfaces. Reserve one side for a moving contraption and one for the loading platform.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5ACA1469BEBEAC30.title": "A Tanker Platform",
+  "quest.5ACA1469BEBEAC30.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5ACA1469BEBEAC30.quest_desc": [
+    "Obtain 2 Portable Fluid Interfaces. Plan a separate fluid transfer connection and storage on the train.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A8BB52CCFE397B8.title": "I completed this challenge",
+  "quest.5A8167C48859857D.title": "Cargo That Goes Somewhere",
+  "quest.5A8167C48859857D.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A8167C48859857D.quest_desc": [
+    "Build a loading platform and use your Create train to deliver at least one stack of useful items to the other station. Verify that the destination storage receives the cargo.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5AE33DA436F6BDBE.title": "I completed this challenge",
+  "quest.5A2E03F5CF0A32D2.title": "Scheduled Service",
+  "quest.5A2E03F5CF0A32D2.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A2E03F5CF0A32D2.quest_desc": [
+    "Run an unattended Create train through three complete round trips, loading and unloading freight each time. Include signals on a shared track section and watch one arrival to check that the route stays clear.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A3528472243FD7F.title": "The Other Railway",
+  "quest.5A3528472243FD7F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A3528472243FD7F.quest_desc": [
+    "Obtain an Iron Crowbar from Railcraft Reborn. This branch uses Railcraft locomotives and minecart-scale track, independently of the Create line.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0B7197CA115139.title": "Rail Workshop",
+  "quest.5A0B7197CA115139.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0B7197CA115139.quest_desc": [
+    "Obtain a Manual Rolling Machine. Use the recipe viewer to plan rails and plates for the first stretch of your Railcraft network.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A2C8978266C7DAA.title": "Steam on the Main Line",
+  "quest.5A2C8978266C7DAA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A2C8978266C7DAA.quest_desc": [
+    "Obtain a Steam Locomotive. Lay a short Railcraft-compatible test line and prepare its operating supplies before commissioning it.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A3733B7712767E3.title": "A Wagon for Everything",
+  "quest.5A3733B7712767E3.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A3733B7712767E3.quest_desc": [
+    "Obtain a Cargo Minecart. Keep one commodity per test route at first so misplaced cargo is easy to spot.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A77D1D97B3C17DF.title": "Freight In",
+  "quest.5A77D1D97B3C17DF.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A77D1D97B3C17DF.quest_desc": [
+    "Obtain an Item Loader. Design a loading stop where a waiting cart can receive items from storage.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A359A75BA1BDD0A.title": "Freight Out",
+  "quest.5A359A75BA1BDD0A.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A359A75BA1BDD0A.quest_desc": [
+    "Obtain an Item Unloader. Give the destination enough storage capacity to accept a full wagon.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A14C340E5C21EE6.title": "I completed this challenge",
+  "quest.5AC291E30BE1E725.title": "The First Consignment",
+  "quest.5AC291E30BE1E725.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AC291E30BE1E725.quest_desc": [
+    "Run a Railcraft locomotive with a cargo cart between two stops. Load at least one stack through an Item Loader and receive it through an Item Unloader at the destination.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A6C511F2431796A.title": "Choose a Route",
+  "quest.5A6C511F2431796A.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A6C511F2431796A.quest_desc": [
+    "Obtain a Switch Track Motor. Use it in a junction design appropriate to Railcraft tracks; this is a component goal, not a test of the finished switch.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A52022908F186E2.title": "Railcraft Block Signals",
+  "quest.5A52022908F186E2.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A52022908F186E2.quest_desc": [
+    "Obtain a Railcraft Block Signal. Keep its wiring and links separate from the Create signalling system.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AAF3E6EF0805983.title": "Mark the Block",
+  "quest.5AAF3E6EF0805983.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AAF3E6EF0805983.quest_desc": [
+    "Obtain a Signal Block Surveyor. Use Railcraft's signal tools to define the track section your signal will monitor.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A876D346CE2BCE2.title": "I completed this challenge",
+  "quest.5A6F6F520B13D98F.title": "A Working Junction",
+  "quest.5A6F6F520B13D98F.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A6F6F520B13D98F.quest_desc": [
+    "Build a Railcraft junction with a powered switch and a configured signal block. Drive a train through each branch and verify the occupied section is reflected by the signal.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A32D024875456BA.title": "Tank Wagon",
+  "quest.5A32D024875456BA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A32D024875456BA.quest_desc": [
+    "Obtain a Tank Minecart. Pick a fluid your base already produces or consumes and plan a rail delivery route.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A71613176535319.title": "Fill the Wagon",
+  "quest.5A71613176535319.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A71613176535319.quest_desc": [
+    "Obtain a Fluid Loader. Plan both filling and unloading infrastructure before sending a loaded tank cart away.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A50D0B13EB42696.title": "I completed this challenge",
+  "quest.5A3CF140B04950AD.title": "Liquid Logistics",
+  "quest.5A3CF140B04950AD.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A3CF140B04950AD.quest_desc": [
+    "Use a Railcraft train to carry a fluid from one station to another. Verify the source loses fluid, the destination gains it, and the wagon can return for another load.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5ADD4BFCD76ABA9C.title": "09. Railways & Logistics",
+  "chapter.5ADD4BFCD76ABA9C.chapter_subtitle": [
+    "Move freight with Create trains and Railcraft Reborn. These are separate railway systems; each branch stands on its own.",
+    "Item tasks check possession. Operating routes, freight transfers, and signal tests use clearly marked player-verified checkmarks."
+  ],
+  "task.5A75D05E95E22624.title": "I completed this challenge",
+  "quest.5A84ADB7B61DAD72.title": "The Proving Ground",
+  "quest.5A84ADB7B61DAD72.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A84ADB7B61DAD72.quest_desc": [
+    "Mark out an in-game cannon range with a firing position, an expendable target, and a clear line of fire. Check the Big Cannons Ponder scenes before constructing your first cannon; the pack has cannon failures enabled.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A11265B7046062E.title": "Loading Tool",
+  "quest.5A11265B7046062E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A11265B7046062E.quest_desc": [
+    "Obtain a Ram Rod. Learn its use in Ponder; the inspected config gives it a reach of 5 blocks and limits how many munition blocks it can push at once.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A2A1E5776EB7A94.title": "A Stable Mount",
+  "quest.5A2A1E5776EB7A94.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A2A1E5776EB7A94.quest_desc": [
+    "Obtain a Cannon Mount. Plan rotation and access around it before adding the barrel and loading equipment.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AE72220257FE249.title": "The Cannon Foundry",
+  "quest.5AE72220257FE249.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AE72220257FE249.quest_desc": [
+    "Obtain a Basin Foundry Lid. Follow the installed version's recipes and Ponder scenes to establish the foundry process for your chosen cannon material.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9CCA7323E0E59C.title": "Bore the Barrel",
+  "quest.5A9CCA7323E0E59C.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A9CCA7323E0E59C.quest_desc": [
+    "Obtain a Cannon Drill. Set aside space for the drill, workpiece, and its mechanical movement.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A32FB15DA8FC34B.title": "Mechanical Loading",
+  "quest.5A32FB15DA8FC34B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A32FB15DA8FC34B.quest_desc": [
+    "Obtain a Cannon Loader. This is an optional automation branch; the pack does not allow Deployers to use the manual cannon loading tools.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A454E21069456D3.title": "Simple Ammunition",
+  "quest.5A454E21069456D3.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A454E21069456D3.quest_desc": [
+    "Obtain a Solid Shot. Use the installed Ponder guidance for the selected barrel and propellant; item possession alone does not confirm a valid load.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A3BC1787C6F51F9.title": "I completed this challenge",
+  "quest.5A7A711D4DCC00B9.title": "Range Qualified",
+  "quest.5A7A711D4DCC00B9.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A7A711D4DCC00B9.quest_desc": [
+    "Build a functioning Big Cannons cannon and hit your expendable target once. Inspect the barrel after firing and record a reliable in-game load for that exact design.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5AF79B01A367FA49.title": "Tracked Chassis",
+  "quest.5AF79B01A367FA49.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AF79B01A367FA49.quest_desc": [
+    "Obtain 4 Track Mounts. Plan a compact ground vehicle with room for drive and suspension parts on both sides.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A6B39842B395B39.title": "Drive the Tracks",
+  "quest.5A6B39842B395B39.quest_subtitle": "Obtain 2 - inventory detection, items kept",
+  "quest.5A6B39842B395B39.quest_desc": [
+    "Obtain 2 Track Drive Wheels. Mount and power them using the current Tracks tooltips and Ponder guidance.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AC580C6127AF68B.title": "Make Room for Suspension",
+  "quest.5AC580C6127AF68B.quest_subtitle": "Obtain 4 - inventory detection, items kept",
+  "quest.5AC580C6127AF68B.quest_desc": [
+    "Obtain 4 Suspension Tracks. The listed item is the normal-size variant; arrange a consistent track layout around the vehicle.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AE03B44B63D05BE.title": "Tune the Ride",
+  "quest.5AE03B44B63D05BE.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AE03B44B63D05BE.quest_desc": [
+    "Obtain a Suspension Key. Its modes adjust suspension and mounting settings; change one setting at a time while testing.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A6EC252BFF55EC5.title": "I completed this challenge",
+  "quest.5A7FF54B8B3FC907.title": "Cross-Country Trial",
+  "quest.5A7FF54B8B3FC907.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A7FF54B8B3FC907.quest_desc": [
+    "Assemble a working tracked vehicle using the installed physics system. Drive over uneven terrain, turn both ways, stop, and return to the starting marker without losing the vehicle.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5ABAC5DE248CF494.title": "Launch Complex",
+  "quest.5ABAC5DE248CF494.quest_subtitle": "Obtain 9 - inventory detection, items kept",
+  "quest.5ABAC5DE248CF494.quest_desc": [
+    "Obtain 9 Create Missiles Launch Pads. The bundled Ponder scene starts with a 3-by-3 pad arrangement; use its instructions for the complete installation.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A47406FA5846416.title": "Assembly Planning",
+  "quest.5A47406FA5846416.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A47406FA5846416.quest_desc": [
+    "Obtain an Assembly Panel. It selects missile assemblies; use the recipe viewer for the ingredients demanded by the chosen design.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A05ADC39921A4C4.title": "A Mark on the Map",
+  "quest.5A05ADC39921A4C4.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A05ADC39921A4C4.quest_desc": [
+    "Obtain a Navigation Panel. Its interface uses a filled map to choose a destination for the in-game missile.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AD5EAEA6C635D7D.title": "Launch Control",
+  "quest.5AD5EAEA6C635D7D.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AD5EAEA6C635D7D.quest_desc": [
+    "Obtain a Control Panel. Use its status display to identify missing structure, power, destination, or assembly requirements.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A3DF07EB868689B.title": "An Assembly: Chassis",
+  "quest.5A3DF07EB868689B.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A3DF07EB868689B.quest_desc": [
+    "Obtain a Chassis Assembly. This task accepts any variant; choose one that fits the missile you intend to build.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AEAE1F6A719B769.title": "An Assembly: Thruster",
+  "quest.5AEAE1F6A719B769.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AEAE1F6A719B769.quest_desc": [
+    "Obtain a Thruster Assembly. Choose an assembly that fits the missile you intend to build; this task does not validate a matched set.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A32A41F1FD9D147.title": "An Assembly: Payload",
+  "quest.5A32A41F1FD9D147.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A32A41F1FD9D147.quest_desc": [
+    "Obtain a Warhead Assembly. Use the installed recipe viewer and the mod's assembly interface to choose the in-game payload.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A0AF18132164532.title": "I completed this challenge",
+  "quest.5AB97FAA28070C46.title": "Mission Control",
+  "quest.5AB97FAA28070C46.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AB97FAA28070C46.quest_desc": [
+    "Complete one Create Missiles launch at an expendable target in your proving ground. Confirm the Control Panel accepts the assembly, observe the flight, and inspect the destination to verify the result.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A24FB81B951444C.title": "Warnautics Test Station",
+  "quest.5A24FB81B951444C.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A24FB81B951444C.quest_desc": [
+    "Obtain a Warnautics Siren. Add a clearly marked test station to your proving ground.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A8A3C48AE63AA60.title": "A Warnautics Payload",
+  "quest.5A8A3C48AE63AA60.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A8A3C48AE63AA60.quest_desc": [
+    "Obtain a Small Bomb. Inspect the installed item guidance and controls before fitting it to a test build.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A72197B32B28A78.title": "I completed this challenge",
+  "quest.5A175A1327EDDD5B.title": "Payload Trial",
+  "quest.5A175A1327EDDD5B.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A175A1327EDDD5B.quest_desc": [
+    "Test a Warnautics Small Bomb against an expendable in-game target. Verify the result at the test site and recover any reusable test rig; this goal does not prescribe a particular vehicle design.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A0056810FB8C43D.title": "10. Military Engineering",
+  "chapter.5A0056810FB8C43D.chapter_subtitle": [
+    "Build an in-game proving ground for Create Big Cannons, tracked vehicles, Create Missiles, and Warnautics. The four branches are available independently.",
+    "The inspected pack enables cannon failures and block damage. Use a designated test area with expendable targets; component ownership does not prove a weapon works."
+  ],
+  "quest.5A816F0404D86E45.title": "Aviator's Workshop",
+  "quest.5A816F0404D86E45.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A816F0404D86E45.quest_desc": [
+    "Obtain Aviator's Goggles. Use their information displays while inspecting propulsion and lift components.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AC0AE066EB3C834.title": "Physics Assembly",
+  "quest.5AC0AE066EB3C834.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AC0AE066EB3C834.quest_desc": [
+    "Obtain a Physics Assembler from the bundled Simulated mod. Its Ponder scene explains selecting a glued structure and assembling it as a physics contraption.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A04E792CC1002FC.title": "Power on Board",
+  "quest.5A04E792CC1002FC.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A04E792CC1002FC.quest_desc": [
+    "Obtain a Red Portable Engine. It provides rotation from fuel; plan access for fuel and room for the connected shafts. This task specifically checks the red variant.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A73FBE755E9B4E9.title": "A Balloon Skin",
+  "quest.5A73FBE755E9B4E9.quest_subtitle": "Obtain 64 - inventory detection, items kept",
+  "quest.5A73FBE755E9B4E9.quest_desc": [
+    "Obtain 64 Hot Air Envelope blocks of the white/default variant. Design an enclosed air volume; blocks placed inside reduce the space available for lifting gas.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AF4C959EB6F06A0.title": "Hot Air",
+  "quest.5AF4C959EB6F06A0.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AF4C959EB6F06A0.quest_desc": [
+    "Obtain a Hot Air Burner. Use its controls to choose output and supply the required redstone signal.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A464424809E8DB1.title": "I completed this challenge",
+  "quest.5A8944F4AC29BD29.title": "An Airtight Envelope",
+  "quest.5A8944F4AC29BD29.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A8944F4AC29BD29.quest_desc": [
+    "Build a balloon envelope and fill it using a Hot Air Burner. Inspect the lift information and verify that the enclosure retains the gas. This goal can be completed on a stationary test structure.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A770A2A8FE8E56E.title": "First Thrust",
+  "quest.5A770A2A8FE8E56E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A770A2A8FE8E56E.quest_desc": [
+    "Obtain a Wooden Propeller. Connect rotation and inspect the direction of thrust before attaching it to a vehicle.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A0A44A09051B1CA.title": "Another Propulsion Option",
+  "quest.5A0A44A09051B1CA.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0A44A09051B1CA.quest_desc": [
+    "Obtain an Andesite Propeller. Compare its recipe and installed behaviour with your wooden propeller before deciding which fits the next airframe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AB5DC9313E7D82E.title": "Build Your Own Propeller",
+  "quest.5AB5DC9313E7D82E.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AB5DC9313E7D82E.quest_desc": [
+    "Obtain a Propeller Bearing. Its Ponder scenes explain assembling a propeller structure with suitable sail-like blocks.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A35F0421C1A10F1.title": "Keep the Rotor Upright",
+  "quest.5A35F0421C1A10F1.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A35F0421C1A10F1.quest_desc": [
+    "Obtain a Gyroscopic Propeller Bearing. Study its stabilization behaviour before using a large rotor on a flight vehicle.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A1EF462AEDB5581.title": "Compact Stabilized Thrust",
+  "quest.5A1EF462AEDB5581.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A1EF462AEDB5581.quest_desc": [
+    "Obtain a Smart Propeller. Its pitch adjustment offers another way to arrange upright thrust in your airframe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5AE434AD15D72389.title": "Flight Instruments",
+  "quest.5AE434AD15D72389.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5AE434AD15D72389.quest_desc": [
+    "Obtain an Altitude Sensor. It reports height and can help inspect air pressure; lift and thrust change with altitude in this version.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A9D7E09F6C6497F.title": "A Cockpit That Responds",
+  "quest.5A9D7E09F6C6497F.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A9D7E09F6C6497F.quest_desc": [
+    "Obtain a Linked Typewriter. Bind the controls you need to the appropriate Redstone Link frequencies, then test each input while the vehicle is parked.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "quest.5A604AA6A6F021E8.title": "Read the Forces",
+  "quest.5A604AA6A6F021E8.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A604AA6A6F021E8.quest_desc": [
+    "Obtain a Contraption Diagram. Use it on a simulated contraption to inspect mass and forces while balancing the airframe.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A824779FB59B407.title": "I completed this challenge",
+  "quest.5A5811CC69424AD1.title": "First Controlled Flight",
+  "quest.5A5811CC69424AD1.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A5811CC69424AD1.quest_desc": [
+    "Assemble an aircraft with lift, propulsion, and usable controls. Take off, change direction, and land at a chosen marker. Verify that you can stop or reduce thrust deliberately before checking this off.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "quest.5A0822A87A3325E5.title": "Steam-Lift Research",
+  "quest.5A0822A87A3325E5.quest_subtitle": "Obtain 1 - inventory detection, items kept",
+  "quest.5A0822A87A3325E5.quest_desc": [
+    "Obtain a Steam Vent. Its Ponder scene describes a boiler-backed way to fill an envelope; plan adequate water, heat, and boiler capacity.",
+    "Inventory check: have the requested item(s) in your main inventory. Items are kept; crafting, placement, and machine operation are not detected. Item components such as charge and contents are ignored."
+  ],
+  "task.5A040E574DEA5304.title": "I completed this challenge",
+  "quest.5A578F7149C0C0A1.title": "A Steam Airship",
+  "quest.5A578F7149C0C0A1.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A578F7149C0C0A1.quest_desc": [
+    "Build a functioning steam-lift airship with an envelope and Steam Vent. Demonstrate controlled takeoff and landing, and inspect its water and heat supply after the flight.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A286F1993E28884.title": "I completed this challenge",
+  "quest.5AB8D8D4703E10FC.title": "The Air Freight Route",
+  "quest.5AB8D8D4703E10FC.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AB8D8D4703E10FC.quest_desc": [
+    "Fly from your base to a second landing site carrying at least one stack of useful supplies. Unload the cargo, return to base, and record a repeatable route. Choose your own aircraft and lift system.",
+    "Player-verified build goal: complete the checkmark yourself after meeting the objective. FTB Quests does not detect this build or test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A717FA1881155B1.title": "11. Aerospace & Flight",
+  "chapter.5A717FA1881155B1.chapter_subtitle": [
+    "Create Aeronautics 1.3.2 bundles the Simulated physics tools used by this chapter. Build lift, propulsion, controls, and a practical cargo aircraft.",
+    "Use Ponder for the installed version. Flight performance depends on your design and the server; flight and assembly milestones are player-verified."
+  ],
+  "task.5A86941FD1E4C56B.title": "I completed this challenge",
+  "quest.5AEDA80AA3F501FF.title": "The Industrial District",
+  "quest.5AEDA80AA3F501FF.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AEDA80AA3F501FF.quest_desc": [
+    "Connect three different mod systems into one documented production chain. Label inputs, outputs, and power or rotation connections, then demonstrate ten minutes of stable operation.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A3DA306690573A7.title": "I completed this challenge",
+  "quest.5AE50F7443AB2928.title": "Freight Feeds the Factory",
+  "quest.5AE50F7443AB2928.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AE50F7443AB2928.quest_desc": [
+    "Deliver a raw material by train, unload it automatically, process it, and return the finished goods to storage. Complete three deliveries without hand-carrying freight.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5ABBAC79D6C93BA0.title": "I completed this challenge",
+  "quest.5A35779BA69B1E7C.title": "Industry Serves the Colony",
+  "quest.5A35779BA69B1E7C.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A35779BA69B1E7C.quest_desc": [
+    "Set up repeatable production for three materials your MineColonies builders request. Deliver a stocked shipment and complete one building upgrade with it.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A0DED0F6C528132.title": "I completed this challenge",
+  "quest.5A3DF2A060EB6DEA.title": "The Working Hangar",
+  "quest.5A3DF2A060EB6DEA.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A3DF2A060EB6DEA.quest_desc": [
+    "Build an aircraft hangar with a marked landing area, repair stock, and a supply connection to your workshop. Fly a vehicle out, complete a circuit, land, and replenish its supplies.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5AB64EBC56EAC6A3.title": "I completed this challenge",
+  "quest.5A94B93C8B1A782F.title": "The Test Range",
+  "quest.5A94B93C8B1A782F.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A94B93C8B1A782F.quest_desc": [
+    "Build a marked in-world testing range with a firing position, target area, observation point, and stored ammunition. Demonstrate one of your completed cannon or vehicle builds and record the result.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A420C2E2B8AE889.title": "I completed this challenge",
+  "quest.5A3ED62C172CAB72.title": "Stop Everything Cleanly",
+  "quest.5A3ED62C172CAB72.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A3ED62C172CAB72.quest_desc": [
+    "Add a deliberate shutdown procedure to a multi-mod production line. Stop inputs, allow in-process work to finish, and restart without losing materials or clogging outputs.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5A69FD79D03A95DF.title": "I completed this challenge",
+  "quest.5AFD4BEBC3E171D8.title": "Made to Order",
+  "quest.5AFD4BEBC3E171D8.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5AFD4BEBC3E171D8.quest_desc": [
+    "Use AE2 to request an item that needs processing from two different mod systems. Complete the request with automated delivery and return at both stages.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "task.5AE2F714B605C658.title": "I completed this challenge",
+  "quest.5A0970E5C9F498EC.title": "The Factory Tour",
+  "quest.5A0970E5C9F498EC.quest_subtitle": "Manual challenge - confirm it yourself",
+  "quest.5A0970E5C9F498EC.quest_desc": [
+    "Make a signed book or a wall of signs explaining five builds, their input requirements, and how to stop them. Give a friend a tour, or follow your own instructions as a maintenance test.",
+    "Manual check: this task does not inspect your build. Click the checkmark after meeting the objective."
+  ],
+  "chapter.5A860D7144C4F2EE.title": "12. TismCraft: Build Something Ridiculous",
+  "chapter.5A860D7144C4F2EE.chapter_subtitle": [
+    "Optional engineering projects combining the other chapters. Every objective here is manually confirmed. Pick projects independently and set the scale to suit your world."
+  ]
+}

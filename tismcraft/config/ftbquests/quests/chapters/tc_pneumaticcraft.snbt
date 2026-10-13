@@ -1,0 +1,563 @@
+{
+  "id": "5ACB7BBA2260574E",
+  "filename": "tc_pneumaticcraft",
+  "group": "5A2EC077BB8197AB",
+  "order_index": 6,
+  "icon": {
+    "id": "pneumaticcraft:pressure_tube"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5AF0CBCA1536DF2C",
+      "x": 0.0d,
+      "y": 0.0d,
+      "tasks": [
+        {
+          "id": "5AA0F6447731FEDA",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:ingot_iron_compressed",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE2EDBA376B080D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A9E0277ADAF72D4",
+      "x": 2.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5AF0CBCA1536DF2C"
+      ],
+      "tasks": [
+        {
+          "id": "5AC900F8B0624A53",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_tube",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE5F97860AEF916",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AADDB98603EA0E7",
+      "x": 5.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A9E0277ADAF72D4"
+      ],
+      "tasks": [
+        {
+          "id": "5A7C00732A2296D4",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:air_compressor",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A50BD24A010DE14",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A9F1C336B5FAA18",
+      "x": 8.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AADDB98603EA0E7"
+      ],
+      "tasks": [
+        {
+          "id": "5A5276A5D6663D16",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:safety_tube_module",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A45DE758454A805",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AD4488702C94941",
+      "x": 2.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5AF0CBCA1536DF2C"
+      ],
+      "tasks": [
+        {
+          "id": "5ADEAD6F57F34366",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_wall",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A85E4D5F8C8C384",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AA6D6DCD49C0726",
+      "x": 11.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AD4488702C94941",
+        "5A9F1C336B5FAA18"
+      ],
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube"
+      },
+      "tasks": [
+        {
+          "id": "5AB90B2F2A2BD049",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7D734CF109E826",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AFBD96A351D0033",
+      "x": 13.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5AA6D6DCD49C0726"
+      ],
+      "tasks": [
+        {
+          "id": "5ADF5BA502FBD4F6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:charging_station",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A87FF4A71BDA05B",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AC5134402825DD2",
+      "x": 13.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5AA6D6DCD49C0726"
+      ],
+      "tasks": [
+        {
+          "id": "5A8FE2F199A5A317",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:refinery",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A456EA9DD32AAC6",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AFD5049313F8626",
+      "x": 16.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AC5134402825DD2"
+      ],
+      "tasks": [
+        {
+          "id": "5A9579D387B3F8F6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:thermopneumatic_processing_plant",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2D756D5D01B95A",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A2004411681905C",
+      "x": 19.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AFD5049313F8626"
+      ],
+      "tasks": [
+        {
+          "id": "5A19FB5FC6930E9A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:plastic",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3233E9EBB22D7E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5AEBB45C8AC45AC4",
+      "x": 22.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A2004411681905C"
+      ],
+      "tasks": [
+        {
+          "id": "5A6CDBD39A78E9D5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:uv_light_box",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7CDD8170BCB5A9",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AB861477F42B896",
+      "x": 24.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AEBB45C8AC45AC4"
+      ],
+      "tasks": [
+        {
+          "id": "5A35DCFAE0A7F95C",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:etching_tank",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A9017E6CB46B52D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AF726351D283D13",
+      "x": 27.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AB861477F42B896"
+      ],
+      "tasks": [
+        {
+          "id": "5ABD29129BD7CAE5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:printed_circuit_board",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A5ABFFDD2C51BBF",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5AF889FAF2BEC77B",
+      "x": 30.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AF726351D283D13"
+      ],
+      "tasks": [
+        {
+          "id": "5AA3AEA152BED8E1",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_controller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A111C5EFF8DA8B1",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A6024F81ECD8460",
+      "x": 33.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5AF889FAF2BEC77B"
+      ],
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube"
+      },
+      "tasks": [
+        {
+          "id": "5AE5AE46561E2558",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A5B12BF1345BB9C",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A816D2BF8BD04F9",
+      "x": 35.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A6024F81ECD8460"
+      ],
+      "tasks": [
+        {
+          "id": "5A48DD72ABC7A814",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:advanced_pressure_tube",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A3304F67DDE2A05",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5A6457C6D2CBB149",
+      "x": 30.25d,
+      "y": -2.5d,
+      "dependencies": [
+        "5AF726351D283D13",
+        "5AFBD96A351D0033"
+      ],
+      "tasks": [
+        {
+          "id": "5A6D078E9D370CE5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pneumatic_helmet",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE94377FCFC9852",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A6E06AEB9B41734",
+      "x": 30.25d,
+      "y": 2.5d,
+      "dependencies": [
+        "5AF726351D283D13"
+      ],
+      "tasks": [
+        {
+          "id": "5A44CE47D3120395",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:programmer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0EF6A0696DA9D4",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A36596C1CDF7770",
+      "x": 33.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A6E06AEB9B41734",
+        "5AFBD96A351D0033"
+      ],
+      "tasks": [
+        {
+          "id": "5AAE7AF13BDD479C",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:drone",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADFF64BA2B59761",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A43B837DBE38889",
+      "x": 35.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A36596C1CDF7770"
+      ],
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube"
+      },
+      "tasks": [
+        {
+          "id": "5A491344AD2E2BBA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD1697F9F03A527",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

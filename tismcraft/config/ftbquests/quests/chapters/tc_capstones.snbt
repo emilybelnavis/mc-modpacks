@@ -1,0 +1,188 @@
+{
+  "id": "5A860D7144C4F2EE",
+  "filename": "tc_capstones",
+  "group": "5A7F4B4C8DFB1DC8",
+  "order_index": 11,
+  "icon": {
+    "id": "minecraft:nether_star"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5AEDA80AA3F501FF",
+      "x": 0.0d,
+      "y": -8.75d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5A86941FD1E4C56B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A45A2864AA90A94",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AE50F7443AB2928",
+      "x": 0.0d,
+      "y": -6.25d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5A3DA306690573A7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABB01F1EC255867",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A35779BA69B1E7C",
+      "x": 0.0d,
+      "y": -3.75d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5ABBAC79D6C93BA0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE628ED6389D8B0",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A3DF2A060EB6DEA",
+      "x": 0.0d,
+      "y": -1.25d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5A0DED0F6C528132",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A54AA658E5DA0DE",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A94B93C8B1A782F",
+      "x": 0.0d,
+      "y": 1.25d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5AB64EBC56EAC6A3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB30DAD911C29AA",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A3ED62C172CAB72",
+      "x": 0.0d,
+      "y": 3.75d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5A420C2E2B8AE889",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AFFDE48B8E87CF6",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5AFD4BEBC3E171D8",
+      "x": 0.0d,
+      "y": 6.25d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5A69FD79D03A95DF",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB8BD98310E6D62",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A0970E5C9F498EC",
+      "x": 0.0d,
+      "y": 8.75d,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "5AE2F714B605C658",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AB6F4CC4F641C71",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+  "id": "5A1BA14AB703DD46",
+  "filename": "tc_create",
+  "group": "5A96CF43944B9248",
+  "order_index": 1,
+  "icon": {
+    "id": "create:mechanical_press"
+  },
+  "default_quest_shape": "circle",
+  "quests": [
+    {
+      "id": "5A559EC005DD149F",
+      "x": 0.0d,
+      "y": 0.0d,
+      "tasks": [
+        {
+          "id": "5A6CC5B232F71680",
+          "type": "item",
+          "item": {
+            "id": "create:water_wheel",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A043C0DD25487F8",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A96BCD12131B702",
+      "x": 2.75d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A559EC005DD149F"
+      ],
+      "tasks": [
+        {
+          "id": "5A5821C5304D3CE5",
+          "type": "item",
+          "item": {
+            "id": "create:shaft",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AF73A8A8B1EC30A",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A3A7A1772D26AEB",
+      "x": 5.5d,
+      "y": -8.75d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5A0E90C199AAF8A7",
+          "type": "item",
+          "item": {
+            "id": "create:large_cogwheel",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A416ED8CC6F49CD",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A77FC74B539536B",
+      "x": 2.75d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A559EC005DD149F"
+      ],
+      "tasks": [
+        {
+          "id": "5A80B17F193C554B",
+          "type": "item",
+          "item": {
+            "id": "create:large_water_wheel",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AF0EDBF8CA3AD16",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5AB8A8F99655B147",
+      "x": 5.5d,
+      "y": -6.25d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5A5FF2A3008B5B51",
+          "type": "item",
+          "item": {
+            "id": "create:clutch",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A53535CD8FD68D5",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AB8F88E7A4FA949",
+      "x": 5.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5A43D7C7B1F6F23A",
+          "type": "item",
+          "item": {
+            "id": "create:depot",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE436F103F7C137",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A3250D35D9F7E8F",
+      "x": 8.25d,
+      "y": -3.75d,
+      "dependencies": [
+        "5AB8F88E7A4FA949"
+      ],
+      "tasks": [
+        {
+          "id": "5A22DD95D9CDADCA",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_press",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC04127BC5B3A54",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A57B09A95C232EB",
+      "x": 11.0d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A3250D35D9F7E8F"
+      ],
+      "tasks": [
+        {
+          "id": "5A16D6C1E0EAA7C2",
+          "type": "item",
+          "item": {
+            "id": "create:basin",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AD5D99BB3FEFBA7",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AEFD95FB2C08939",
+      "x": 13.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A57B09A95C232EB"
+      ],
+      "tasks": [
+        {
+          "id": "5A7B61A4314638DF",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_mixer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABB2004D43B5F48",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5A78E0AD738AC9B8",
+      "x": 16.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "5AEFD95FB2C08939"
+      ],
+      "tasks": [
+        {
+          "id": "5A229C8139C51DFF",
+          "type": "item",
+          "item": {
+            "id": "create:blaze_burner",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ADD06F3CEA8FA3E",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A1CA76632BD24B4",
+      "x": 19.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A78E0AD738AC9B8"
+      ],
+      "tasks": [
+        {
+          "id": "5ADFBFA7236CC84B",
+          "type": "item",
+          "item": {
+            "id": "create:brass_ingot",
+            "count": 1
+          },
+          "count": 16L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA1628397E90033",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A3B1244F8B839EC",
+      "x": 5.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5AD318BD88E70FA8",
+          "type": "item",
+          "item": {
+            "id": "create:belt_connector",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2F4B81111F180D",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A48B0BF672CD03B",
+      "x": 22.0d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A1CA76632BD24B4",
+        "5A3B1244F8B839EC"
+      ],
+      "tasks": [
+        {
+          "id": "5A160FC819FF9173",
+          "type": "item",
+          "item": {
+            "id": "create:brass_funnel",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AED664FB2E3F1E1",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5AD0ED6BEB91433E",
+      "x": 24.75d,
+      "y": -2.5d,
+      "dependencies": [
+        "5A48B0BF672CD03B"
+      ],
+      "tasks": [
+        {
+          "id": "5A4B9AE0DC1F8E2E",
+          "type": "item",
+          "item": {
+            "id": "create:brass_tunnel",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AE8672F493C5D6F",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A53DBDE6E5027BE",
+      "x": 5.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5AA5F48B5C292C1E",
+          "type": "item",
+          "item": {
+            "id": "create:encased_fan",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AEAB90551ACE1BB",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5ADD6DA4730A3DA4",
+      "x": 5.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5ACDFD5E0DEBE66C",
+          "type": "item",
+          "item": {
+            "id": "create:millstone",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA57F16B1697339",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A7DBBFEE31FD317",
+      "x": 22.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A1CA76632BD24B4"
+      ],
+      "tasks": [
+        {
+          "id": "5A5B908C12DFDC0D",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_crafter",
+            "count": 1
+          },
+          "count": 21L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABC013CC2881772",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5A9A1C68D0DD156D",
+      "x": 24.75d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A7DBBFEE31FD317"
+      ],
+      "tasks": [
+        {
+          "id": "5A5C79232683AD0F",
+          "type": "item",
+          "item": {
+            "id": "create:crushing_wheel",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ABAFD93A7F424A8",
+          "type": "xp",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "5A191A93E5068B74",
+      "x": 22.0d,
+      "y": 2.5d,
+      "dependencies": [
+        "5A1CA76632BD24B4"
+      ],
+      "tasks": [
+        {
+          "id": "5A4F98A7F78E8DA0",
+          "type": "item",
+          "item": {
+            "id": "create:deployer",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A4058309DE3B4A7",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5ADA6A0EA5CA25DC",
+      "x": 24.75d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A191A93E5068B74",
+        "5A3250D35D9F7E8F"
+      ],
+      "tasks": [
+        {
+          "id": "5AA36DF80618EDA5",
+          "type": "item",
+          "item": {
+            "id": "create:precision_mechanism",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A6DF533631E781E",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5AD5326066E4DB0E",
+      "x": 27.5d,
+      "y": 1.25d,
+      "dependencies": [
+        "5ADA6A0EA5CA25DC"
+      ],
+      "tasks": [
+        {
+          "id": "5A90F397501F69EB",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_arm",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A183622B5841D56",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A7F565777A2D02D",
+      "x": 5.5d,
+      "y": 6.25d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5A95F44DAF2373F3",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_pump",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A603C466B0E9C19",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A5E641667C510CD",
+      "x": 8.25d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A7F565777A2D02D"
+      ],
+      "tasks": [
+        {
+          "id": "5A9028A3744099C3",
+          "type": "item",
+          "item": {
+            "id": "create:fluid_tank",
+            "count": 1
+          },
+          "count": 8L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A324EBAAFABA07F",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A728B8EE54BF3BB",
+      "x": 11.0d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A5E641667C510CD"
+      ],
+      "tasks": [
+        {
+          "id": "5A929F65EE00A0B0",
+          "type": "item",
+          "item": {
+            "id": "create:spout",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A0F3D5B608277E5",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A9408A1E3F27120",
+      "x": 27.5d,
+      "y": -1.25d,
+      "dependencies": [
+        "5A5E641667C510CD",
+        "5ADA6A0EA5CA25DC"
+      ],
+      "tasks": [
+        {
+          "id": "5A20A1664FFE3DEC",
+          "type": "item",
+          "item": {
+            "id": "create:steam_engine",
+            "count": 1
+          },
+          "count": 3L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A222A36273013AA",
+          "type": "xp",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "5A77EAFE1E61A9BA",
+      "x": 27.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "5ADA6A0EA5CA25DC"
+      ],
+      "tasks": [
+        {
+          "id": "5A9EF6AE100BFF23",
+          "type": "item",
+          "item": {
+            "id": "create:rotation_speed_controller",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AADF1F0E92837A8",
+          "type": "xp",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "5A51A4CF4ED83CC2",
+      "x": 5.5d,
+      "y": 8.75d,
+      "dependencies": [
+        "5A96BCD12131B702"
+      ],
+      "tasks": [
+        {
+          "id": "5AB23CC029F440FF",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_bearing",
+            "count": 1
+          },
+          "count": 1L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A975D57205F3DFB",
+          "type": "xp",
+          "xp": 40
+        }
+      ]
+    },
+    {
+      "id": "5AE42C25191347A2",
+      "x": 8.25d,
+      "y": 1.25d,
+      "dependencies": [
+        "5A51A4CF4ED83CC2"
+      ],
+      "tasks": [
+        {
+          "id": "5AD01C55393C1B50",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_drill",
+            "count": 1
+          },
+          "count": 4L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AC6F4A6B034FE93",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A705481028D9E1A",
+      "x": 8.25d,
+      "y": 3.75d,
+      "dependencies": [
+        "5A51A4CF4ED83CC2"
+      ],
+      "tasks": [
+        {
+          "id": "5A45463693381EB7",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_saw",
+            "count": 1
+          },
+          "count": 2L,
+          "consume_items": 0b,
+          "only_from_crafting": 0b
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A439F46EBA261AF",
+          "type": "xp",
+          "xp": 25
+        }
+      ]
+    },
+    {
+      "id": "5A4C6BF5766D0C06",
+      "x": 27.5d,
+      "y": -3.75d,
+      "dependencies": [
+        "5ADA6A0EA5CA25DC",
+        "5A48B0BF672CD03B",
+        "5AB8A8F99655B147"
+      ],
+      "icon": {
+        "id": "create:mechanical_press"
+      },
+      "tasks": [
+        {
+          "id": "5A6B2E41109C0FFC",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A20737CCDCF18EB",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    },
+    {
+      "id": "5A40EE56750CEEAA",
+      "x": 30.25d,
+      "y": 0.0d,
+      "dependencies": [
+        "5A9408A1E3F27120",
+        "5A77EAFE1E61A9BA"
+      ],
+      "icon": {
+        "id": "create:mechanical_press"
+      },
+      "tasks": [
+        {
+          "id": "5ADBD03343DF5231",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A2865F55EBABA8D",
+          "type": "xp",
+          "xp": 100
+        }
+      ],
+      "shape": "hexagon"
+    }
+  ]
+}
