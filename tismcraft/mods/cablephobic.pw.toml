@@ -1,0 +1,13 @@
+name = "Cablephobic"
+filename = "cablephobic-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0134d232bc5b28adfc6e9e5cc4d791aa444dfeb1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9146915
+project-id = 1689231

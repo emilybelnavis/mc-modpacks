@@ -1,0 +1,13 @@
+name = "Mekanism:MoreModules"
+filename = "moremekasuitmodules-1.2-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oIIRHocS/versions/L1lwMLeW/moremekasuitmodules-1.2-release.jar"
+hash-format = "sha512"
+hash = "10dfb2b8a25f21bf8961d9f5b7ff74072acceec3523f1f4913226816e99d0710bfe394d5779e5080f023f76e45ec2cabe87e18c20ce89f76fe5d6c608867b4b9"
+
+[update]
+[update.modrinth]
+mod-id = "oIIRHocS"
+version = "L1lwMLeW"
