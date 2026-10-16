@@ -3364,16 +3364,6 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
-file = "mods/ad-astra-more-structures.pw.toml"
-hash = "2f128f899a60f56f732a41b33792f78cff3f32d16f901ec9217ea373c4e74853"
-metafile = true
-
-[[files]]
-file = "mods/ad-astra.pw.toml"
-hash = "5386763a89493ea2c4ab581e66ace9317641e4c6c5f094769b13e83b1f6be7aa"
-metafile = true
-
-[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "30931a894fd59654bf9ca72aa1f9882848fe2ad3601595896175e3e56f7be1f9"
 metafile = true
@@ -4751,11 +4741,6 @@ metafile = true
 [[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "e551caa3f5272461a2c64b948499434fad21854f5edc6750ed9e432174d9d33f"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-ad-astra-ores.pw.toml"
-hash = "94591555025e0b9077f7b400081db629db02c0e3d256396d8799bd4ff0174862"
 metafile = true
 
 [[files]]
