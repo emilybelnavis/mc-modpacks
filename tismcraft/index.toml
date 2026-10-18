@@ -4219,11 +4219,6 @@ hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
 metafile = true
 
 [[files]]
-file = "mods/dr.-stone-kingdom-of-science.pw.toml"
-hash = "f82d42a0c9f48a62617be8f918d14aa4954a0a07f683f1b41d4d456e37dc7c2c"
-metafile = true
-
-[[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "d2abefd9997328f0fdc8b36f9386438bee89889f58e878f290e9a9c8db8b1b5c"
 metafile = true
