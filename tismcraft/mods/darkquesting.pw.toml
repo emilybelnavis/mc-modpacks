@@ -1,0 +1,13 @@
+name = "DarkQuesting - RPG Quests and Casino"
+filename = "darkquesting-neoforge-1.21-1.2.9b.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72310b7ff68efa13338a3f720a85aa1f41a66b90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6924886
+project-id = 661661

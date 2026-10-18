@@ -3634,6 +3634,16 @@ hash = "7142648d978b9f6129fa4a1828502b87ce918d7c38478bb5a347674bfe2b7da4"
 metafile = true
 
 [[files]]
+file = "mods/block-jackpot-casino-machines.pw.toml"
+hash = "c0ece35af8765442cf0e02021a97d680c4a91e509b60bb77f9cd01ddfcdae05d"
+metafile = true
+
+[[files]]
+file = "mods/blocks-bogies.pw.toml"
+hash = "07f30551060d5eb77a36ad9eb26131751d790d8e43378faf4143c6f53f0da245"
+metafile = true
+
+[[files]]
 file = "mods/blocks-you-need.pw.toml"
 hash = "5ee65623eb28130ec482f26fd0cf520c9de4cc2af312defda16f840d33087ee4"
 metafile = true
@@ -3704,6 +3714,16 @@ hash = "cb0d95b4c9e0c8d3c37b895a79ebbfa239f0975d198e3a4646da76dca874c661"
 metafile = true
 
 [[files]]
+file = "mods/charta-casino.pw.toml"
+hash = "2971e3feb5d27f7a30437d00ea4be2b82ce968ff3b45dddf6b7597465e4f4237"
+metafile = true
+
+[[files]]
+file = "mods/charta.pw.toml"
+hash = "41699becee4b195dfbf1cb86dfa806a21eb51501df1dbfd6aeadb489202e17c7"
+metafile = true
+
+[[files]]
 file = "mods/chemicalscience.pw.toml"
 hash = "7f2f240124224437135707d2e0519a30bb019d32d3391c2b33658302a69376a2"
 metafile = true
@@ -3711,6 +3731,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "3024466ae43de66612dc5ec4cfe5b3a273f71cee29fc6940308798a817d561b6"
+metafile = true
+
+[[files]]
+file = "mods/classic-music-disc.pw.toml"
+hash = "33ea19a006fe1b63b5f23e04b74f186ea7f38712d77bf7c44fe1a58d63f723a0"
 metafile = true
 
 [[files]]
@@ -3814,8 +3839,18 @@ hash = "c9834bdacebc25bd46afa6ff730867e7f17322b8708ca777bca38d079d05855d"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-boat-propellers.pw.toml"
+hash = "32aadd0f7806ba4adf8f88f5494cf2b564b603fee8ca50a1d9dfbc5e48c9c97a"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-throwable-rope-connector.pw.toml"
 hash = "7c5aa4687ff34e1ffe62e0e2570e38d40dbedc8f0d45fadcb8f9c3252f9cf677"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-transmission-linkage.pw.toml"
+hash = "26f50a0bc609b96aa1e2ad85cea1e17ba622580947fe75f1967b52b09185f2cb"
 metafile = true
 
 [[files]]
@@ -3869,6 +3904,11 @@ hash = "491c9d22002a1bda3044a5b8353e3e9322af164a81e9a431250339332afa164d"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "3c416226b0040265cf8b2e633dd57784311797a2d7490d130f60d39a9b6bc3ae"
+metafile = true
+
+[[files]]
 file = "mods/create-chimneys.pw.toml"
 hash = "cb74948c9902da6528e7014bc2cf6bd43b0d8b4a245d170d0e5af65bbe549c2a"
 metafile = true
@@ -3894,6 +3934,11 @@ hash = "d9c8cbf813d758f2348be11df7bae4bdc4ae2e42c2e723f12a2644964329e0f8"
 metafile = true
 
 [[files]]
+file = "mods/create-compatible-storage.pw.toml"
+hash = "2ad2da0909772c24cec18c6691c9399e827e3a706e0ebe1417507677717c2b18"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "3b1b6163af92aa709dbc1800f76654db759a6ae590a6dd1858509138e1a70d6c"
 metafile = true
@@ -3906,6 +3951,11 @@ metafile = true
 [[files]]
 file = "mods/create-dimension-steamworks-realm.pw.toml"
 hash = "df47b44b39ee6c06336da42e67d2a28e8f4d470a33626365a411ede9139d4db1"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "962de0c35fb8d298b70ce4026fb149c5cf0204487bc1ed22d905dde1dbebd70c"
 metafile = true
 
 [[files]]
@@ -3941,6 +3991,11 @@ metafile = true
 [[files]]
 file = "mods/create-industry.pw.toml"
 hash = "6cf57a4d0b0d2f7bc04196d22719ca676286d4c1d4435241b7fe9512313a7332"
+metafile = true
+
+[[files]]
+file = "mods/create-mechanical-botany.pw.toml"
+hash = "24bc6a9f5d62e8c6fc92ca5a60d49ccbd7ee62e0649961987501458b17e60ba0"
 metafile = true
 
 [[files]]
@@ -4019,6 +4074,11 @@ hash = "e93d4dd32221bd49e72f5954e73caab9ab24ea5a37127115e331abb82c6e0b91"
 metafile = true
 
 [[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "df11e99922d21336ecfbb0c8ffb6ed942c2f73e32658b39afd1c4edf6b5d0ab3"
+metafile = true
+
+[[files]]
 file = "mods/create-radars.pw.toml"
 hash = "035f86b5c4c27664e1bb17d03b14cf19c5a0f540d9f0bfd2645075d6339b7e8b"
 metafile = true
@@ -4039,8 +4099,18 @@ hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
 metafile = true
 
 [[files]]
+file = "mods/create-sound-of-steam.pw.toml"
+hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
+metafile = true
+
+[[files]]
 file = "mods/create-stats-power.pw.toml"
 hash = "00297885e19623129d4bae29424fa4eecec874f040dba010d44d3df032b7608e"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
 
 [[files]]
@@ -4129,6 +4199,11 @@ hash = "df1ea84f56e9224be2280c808ebe8aff6d658e28efad78a8323cc4dd0c94364e"
 metafile = true
 
 [[files]]
+file = "mods/darkquesting.pw.toml"
+hash = "56d0e5188dd7db2abc05c19038cb3fdb9dc1842c51afea8010439cd4b7502c1f"
+metafile = true
+
+[[files]]
 file = "mods/darkspins.pw.toml"
 hash = "addc5fb88595394e6e00f260dc496158b0791df854e3a2bf28ba236af487dc67"
 metafile = true
@@ -4141,6 +4216,11 @@ metafile = true
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
+metafile = true
+
+[[files]]
+file = "mods/dr.-stone-kingdom-of-science.pw.toml"
+hash = "f82d42a0c9f48a62617be8f918d14aa4954a0a07f683f1b41d4d456e37dc7c2c"
 metafile = true
 
 [[files]]
@@ -4849,6 +4929,11 @@ hash = "6bce72fcb1335577357919f9eab8f610b70af65a3571a625c37a02ee42141c56"
 metafile = true
 
 [[files]]
+file = "mods/minevegas-casino.pw.toml"
+hash = "336e337cc04f28ce717bf0eb07bca8fb81a943349a395e605b0c9bdb328141bf"
+metafile = true
+
+[[files]]
 file = "mods/mob-grinding-utils.pw.toml"
 hash = "ed334bd8ff25757d72ac569a854f0a846b786d7704c2c36ebd95c00b97c7a6fe"
 metafile = true
@@ -4884,6 +4969,11 @@ hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
 metafile = true
 
 [[files]]
+file = "mods/movable-tracks.pw.toml"
+hash = "ec12b68cdd42d0a1cecab100e33ccfdd21734d85cb66b02a83ded620a6e5cd92"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 hash = "2909bb5f2f738538b35d359ee9d7accf5d10f90b737fa96b59d2c1e31a247e38"
 metafile = true
@@ -4906,6 +4996,11 @@ metafile = true
 [[files]]
 file = "mods/neighborly.pw.toml"
 hash = "94c07364a7932c8d0a5e905e17758b38ed04126f53094580ebb9f3ef4c6a6400"
+metafile = true
+
+[[files]]
+file = "mods/net-music.pw.toml"
+hash = "b1c9ce0452e21f513103156946aa7f6b5c25fee08e31d07f3b2d5aff678a3c45"
 metafile = true
 
 [[files]]

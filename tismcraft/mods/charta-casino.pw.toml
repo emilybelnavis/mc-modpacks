@@ -1,0 +1,13 @@
+name = "Charta: Сasino"
+filename = "charta_casino-neoforge-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UgsqlrYU/versions/Ymx4kHax/charta_casino-neoforge-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "8f9e7dc60b68ae2935a6f316e23a1837f8b5e7c720cdc7129f322e863c6636ff34a15404ca63952a8fcf863fbb9b54f73746a326dea36cbd5000f5536add05be"
+
+[update]
+[update.modrinth]
+mod-id = "UgsqlrYU"
+version = "Ymx4kHax"

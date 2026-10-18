@@ -1,0 +1,13 @@
+name = "Block Jackpot: Casino Machines"
+filename = "[NeoForge - 1.21.1] Block Jackpot - Casino Machines - 0.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e1209f666ea5b10aa0763e1c4a3b47ffe934116d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9195314
+project-id = 1668140
