@@ -1,7 +1,7 @@
 name: Deploy Packwiz packs to Cloudflare Pages
 
 on:
-  # Run manually after creating a Cloudflare Pages Direct Upload project.
+  # Optional manual deployment. Cloudflare Git integration uses scripts/build-pages.py.
   workflow_dispatch:
     inputs:
       project_name:
@@ -43,71 +43,8 @@ jobs:
             exit 1
           fi
 
-      - name: Stage Packwiz packs
-        shell: bash
-        run: |
-          set -euo pipefail
-          shopt -s nullglob
-          manifests=(*/pack.toml)
-          if [ "${#manifests[@]}" -eq 0 ]; then
-            echo "No Packwiz manifests found in top-level pack directories." >&2
-            exit 1
-          fi
-          mkdir -p _site
-          for manifest in "${manifests[@]}"; do
-            # Copy bytes unchanged: Packwiz verifies index and file hashes.
-            cp -a -- "${manifest%/pack.toml}" _site/
-          done
-
-      - name: Create pack homepage
-        shell: python
-        run: |
-          import html
-          from pathlib import Path
-          import tomllib
-          from urllib.parse import quote
-
-          links = []
-          for manifest in sorted(Path("_site").glob("*/pack.toml")):
-              pack = tomllib.loads(manifest.read_text())
-              href = quote(manifest.relative_to("_site").as_posix())
-              name = html.escape(pack.get("name", manifest.parent.name))
-              folder = html.escape(manifest.parent.name)
-              links.append(f'<li><a href="{href}">{name}</a><br><small>{folder}/pack.toml</small></li>')
-          page = """<!doctype html>
-          <html lang="en"><head><meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <title>Emily's Minecraft Modpacks</title>
-          <style>
-          body { font: 18px/1.6 system-ui,sans-serif; max-width: 700px; margin: 64px auto; padding: 0 24px; color: #203329; background: #f5f7f2; }
-          h1 { line-height: 1.2; } a { color: #24613c; } li { margin: 24px 0; } small { color: #54635a; }
-          </style></head><body>
-          <h1>Emily's Minecraft Modpacks</h1>
-          <p>Use a pack's manifest link with the Packwiz installer in Prism Launcher.</p>
-          <ul>""" + "".join(links) + """</ul>
-          <p><a href="https://github.com/emilybelnavis/mc-modpacks">View the repository</a></p>
-          </body></html>
-          """
-          Path("_site/index.html").write_text(page)
-          # Prevent Cloudflare's SPA fallback from returning HTML for missing pack files.
-          Path("_site/404.html").write_text(
-              '<!doctype html><html lang="en"><meta charset="utf-8">'
-              '<title>Not found</title><h1>File not found</h1></html>'
-          )
-
-      - name: Check Cloudflare Pages asset limits
-        shell: python
-        run: |
-          from pathlib import Path
-
-          oversized = [
-              path for path in Path("_site").rglob("*")
-              if path.is_file() and path.stat().st_size > 25 * 1024 * 1024
-          ]
-          for path in oversized:
-              print(f"::error file={path.relative_to('_site')}::Asset exceeds Cloudflare Pages' 25 MiB limit. Remove it from the pack and refresh Packwiz hashes, or host it externally.")
-          if oversized:
-              raise SystemExit(1)
+      - name: Build Packwiz site
+        run: python3 scripts/build-pages.py
 
       # Repository secrets:
       # CLOUDFLARE_API_TOKEN: Account > Cloudflare Pages > Edit for the target account.
