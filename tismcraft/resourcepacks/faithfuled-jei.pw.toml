@@ -1,6 +1,6 @@
 name = "Faithfuled JEI"
 filename = "Faithfuled JEI 1.0.0+1.20.1.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/pdWthYde/versions/UonZp6lg/Faithfuled%20JEI%201.0.0%2B1.20.1.zip"

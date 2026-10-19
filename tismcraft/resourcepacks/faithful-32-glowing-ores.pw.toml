@@ -1,6 +1,6 @@
 name = "Faithful 32× Glowing Ores"
 filename = "§7§lFaithful §a32× §e§lGlowing §b§lOre.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/op5UgY7l/versions/XnuhJCf7/%C2%A77%C2%A7lFaithful%20%C2%A7a32%C3%97%20%C2%A7e%C2%A7lGlowing%20%C2%A7b%C2%A7lOre.zip"

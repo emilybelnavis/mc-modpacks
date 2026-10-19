@@ -1,6 +1,6 @@
 name = "Faithful Fusion Connected Default Glass 32x Add-on"
 filename = "FFC Default Glass 32x v1.0.1.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/xIVQ9z6p/versions/DxtGcL8p/FFC%20Default%20Glass%2032x%20v1.0.1.zip"

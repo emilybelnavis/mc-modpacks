@@ -1,6 +1,6 @@
 name = "Faithful 32x"
 filename = "Faithful 32x - 1.21.1.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/w0TnApzs/versions/ruZOIEZE/Faithful%2032x%20-%201.21.1.zip"

@@ -1,6 +1,6 @@
 name = "Faithful 32x AppleSkin Addon"
 filename = "Faithful 32x AppleSkin - 1.21-1.21.3.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/cPFBIJcb/versions/w2KWmwqe/Faithful%2032x%20AppleSkin%20-%201.21-1.21.3.zip"

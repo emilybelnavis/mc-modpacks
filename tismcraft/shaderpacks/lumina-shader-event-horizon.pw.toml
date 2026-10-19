@@ -1,6 +1,6 @@
 name = "Lumina Shader - Event Horizon"
 filename = "Lumina_Event_Horizon_v1.3.9.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/9gxVXUDr/versions/pZJyyZZ4/Lumina_Event_Horizon_v1.3.9.zip"

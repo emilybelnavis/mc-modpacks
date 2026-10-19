@@ -1,6 +1,6 @@
 name = "ClearVisionGlass 32x - Faithful Addon"
 filename = "clearvisionglass-32x-26-1-2.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/6mO0qiIW/versions/8o3OLSWr/clearvisionglass-32x-26-1-2.zip"

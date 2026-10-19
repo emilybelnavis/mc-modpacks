@@ -1,6 +1,6 @@
 name = "Faithful - 3D Rails"
 filename = "Faithful 32x - 3D Rails - 1.21 & 1.21.1.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/SqrWex52/versions/QaqVIXFf/Faithful%2032x%20-%203D%20Rails%20-%201.21%20%26%201.21.1.zip"

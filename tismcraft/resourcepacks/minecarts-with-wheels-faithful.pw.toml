@@ -1,6 +1,6 @@
 name = "Minecarts with Wheels: Faithful"
 filename = "Minecarts with Wheels: Faithful.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/n5CS3eMO/versions/ppttxA92/Minecarts%20with%20Wheels%3A%20Faithful.zip"
