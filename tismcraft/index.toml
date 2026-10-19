@@ -5640,70 +5640,70 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/clearvisionglass-32x-faithful-addon-1.14-1.21.pw.toml"
-hash = "34b391014687a000ec122c881c39c7cfbbe1d8b1a5a54c3ca9f96348089f6c67"
+hash = "08772246e95705fae1de99174ca947a39ac4b37f9ae6bbdca937a89f7cefb0c4"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32-glowing-ores.pw.toml"
-hash = "204df6a97c4faa0792d375e52fbabd109255c00db1f99edb2ee0cafe35919af4"
+hash = "1da3fc196c5965cc00bb7af0ef70d1fbc643611ee9220630ea84ff92d70f0526"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x-appleskin-addon.pw.toml"
-hash = "91539ba7d28c8bc9c68d6f537e7ebdc79b0b9803aae5736e9dcc8a0097bc4889"
+hash = "99a5bc8e812e2575e901e3c9937d19a88b1317354d913c3ca678c22d07542987"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-32x.pw.toml"
-hash = "eac47c4424aac85ad9c44d4a24031862708ac6803829fd77eea4cbba20afc323"
+hash = "e0a6012ba9dad43bbcc771bb65c9ed857cb959d1ac36b5d4924ad036b4ffb07a"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-3d-rails.pw.toml"
-hash = "eb38dc60431146f1554094a6ecdc77e69cab42c093de654790cda075b23aad0f"
+hash = "3b3aec3ba7dc9ca1cf08d624e416c4ede5779dd47ef83b93956fe157b82da49c"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful-fusion-connected-default-glass-32x-add-on.pw.toml"
-hash = "f4f4a6acdcf5510e176d6e58bb6692f957f6763009dabcff45e142bf763a3e35"
+hash = "0753d5d9f2e5b0194011437dd14249d5efb31a42f5d658b5890882c9638b266a"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithfuled-jei.pw.toml"
-hash = "c369692ac9b0ecfe97a2212c0cec4a53fb570fcdcb1a051362b28948b379568a"
+hash = "ffcd52855a3adbba74538d4f6981907396df68d0623b133476857e2906ec6861"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "9fd64cf209789e2451d0d7707a4b87fe0c787e74eb31ce79ed94f4a30849c05d"
+hash = "a609bfde1f92ebb5c5462a9a7aa0464888b5bdb271392c81787ff3e27239ce4a"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "070948ef5674abf5d87f737453ee394531834602091aaa04dec192472cfa531e"
+hash = "6d106beb58c349a911263851a99cc0f02639f9862e2e387b975fbaaba247c534"
 metafile = true
 
 [[files]]
 file = "resourcepacks/minecarts-with-wheels-faithful.pw.toml"
-hash = "a69265e4ad8941ca78f85cca0edfd2b98ac205ffbbb2c8b8eca3b186a08a8d0a"
+hash = "d3ca582ff681679f8d6f80962f88d9cf2b10ae60b945983c538f9e56674dab14"
 metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "8e9066219882825d46a80f11057be2eacde6245780b42c49b8c8c3cb3921c893"
+hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "507cb3963240110bc71ed7c75cac1682e66d3609536b0bc5ef90a01db3cce21f"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
 
 [[files]]
 file = "shaderpacks/lumina-shader-event-horizon.pw.toml"
-hash = "7505708bd4342dba9019c9817f79625099677193e4eb3d6b1eedb89632b2ce6a"
+hash = "22127c7ae83703dbaf50eea6a54e04201d667c51fe1fe41fbaad793566bff84b"
 metafile = true
