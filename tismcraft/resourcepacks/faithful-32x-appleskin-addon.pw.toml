@@ -1,0 +1,13 @@
+name = "Faithful 32x AppleSkin Addon"
+filename = "Faithful 32x AppleSkin - 1.21-1.21.3.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cPFBIJcb/versions/w2KWmwqe/Faithful%2032x%20AppleSkin%20-%201.21-1.21.3.zip"
+hash-format = "sha512"
+hash = "2a917fc13dc114f8f99a1221c9a5ec8f9b5f1e149f63a0c4c8721d4627409de46f87e839b3ae08e13df4a1aa859a7f2c93db5723c0fec7b5be007dd0b6b5218e"
+
+[update]
+[update.modrinth]
+mod-id = "cPFBIJcb"
+version = "w2KWmwqe"

@@ -1,0 +1,13 @@
+name = "Faithful - 3D Rails"
+filename = "Faithful 32x - 3D Rails - 1.21 & 1.21.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SqrWex52/versions/QaqVIXFf/Faithful%2032x%20-%203D%20Rails%20-%201.21%20%26%201.21.1.zip"
+hash-format = "sha512"
+hash = "0be98bf374c3566ff352dfaf0e91d546ca08757abc5bddf7c792311906c5d40fa1fc02fb64d7f570acc24e16f7d902f845f697bdb12406c1e6fc3ff8ff47632c"
+
+[update]
+[update.modrinth]
+mod-id = "SqrWex52"
+version = "QaqVIXFf"

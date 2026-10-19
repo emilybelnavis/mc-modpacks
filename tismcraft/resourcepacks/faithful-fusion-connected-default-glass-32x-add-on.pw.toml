@@ -1,0 +1,13 @@
+name = "Faithful Fusion Connected Default Glass 32x Add-on"
+filename = "FFC Default Glass 32x v1.0.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xIVQ9z6p/versions/DxtGcL8p/FFC%20Default%20Glass%2032x%20v1.0.1.zip"
+hash-format = "sha512"
+hash = "560b7925a241435741b4b4e5adff7f4a39a27d209b2fc506fb467c8e78604f4f41e8bb15a6a34d865ecf26428e3a3e9bc6983bf41f1ee0b4f893741afe042587"
+
+[update]
+[update.modrinth]
+mod-id = "xIVQ9z6p"
+version = "DxtGcL8p"

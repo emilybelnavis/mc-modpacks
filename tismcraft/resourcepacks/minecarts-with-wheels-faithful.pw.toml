@@ -1,0 +1,13 @@
+name = "Minecarts with Wheels: Faithful"
+filename = "Minecarts with Wheels: Faithful.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n5CS3eMO/versions/ppttxA92/Minecarts%20with%20Wheels%3A%20Faithful.zip"
+hash-format = "sha512"
+hash = "ec7fc080e527661746a7e33ccc78ceb91ca97e9dec616725ab205e7a4f0f20508286b0ffadc48124bfb9bcdb505c72420b9636a9196327201af12c1fbed4429e"
+
+[update]
+[update.modrinth]
+mod-id = "n5CS3eMO"
+version = "ppttxA92"

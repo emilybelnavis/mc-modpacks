@@ -1,0 +1,13 @@
+name = "ClearVisionGlass 32x - Faithful Addon"
+filename = "clearvisionglass-32x-26-1-2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6mO0qiIW/versions/8o3OLSWr/clearvisionglass-32x-26-1-2.zip"
+hash-format = "sha512"
+hash = "52d5b467c5068775bfde845b4193257e0132d4f90479e302c7e8ae8ac39359b017b019a0f905d2adce7e860c3bb53ab464839f54b4fd5fe6fa05734c6904db03"
+
+[update]
+[update.modrinth]
+mod-id = "6mO0qiIW"
+version = "8o3OLSWr"

@@ -1,0 +1,13 @@
+name = "Faithful 32× Glowing Ores"
+filename = "§7§lFaithful §a32× §e§lGlowing §b§lOre.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/op5UgY7l/versions/XnuhJCf7/%C2%A77%C2%A7lFaithful%20%C2%A7a32%C3%97%20%C2%A7e%C2%A7lGlowing%20%C2%A7b%C2%A7lOre.zip"
+hash-format = "sha512"
+hash = "a13ff819a8cb0832275111cdfe9853510a72904bc9c4036adf685e4787ab95bec106e8d89c2963086ab14fcc4ad7e346f3ac4456d60e367368555efb3d7eb4ae"
+
+[update]
+[update.modrinth]
+mod-id = "op5UgY7l"
+version = "XnuhJCf7"

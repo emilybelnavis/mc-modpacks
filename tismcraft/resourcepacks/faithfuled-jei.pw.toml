@@ -1,0 +1,13 @@
+name = "Faithfuled JEI"
+filename = "Faithfuled JEI 1.0.0+1.20.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pdWthYde/versions/UonZp6lg/Faithfuled%20JEI%201.0.0%2B1.20.1.zip"
+hash-format = "sha512"
+hash = "ed6f405cd381cf58f275d2c71ceb7b02633963f387a8259b1eb8b239f8c208e39b3fcce51bb1c1c44786f4591250258983226bbdb9f4b690bd9aae4be1e84f57"
+
+[update]
+[update.modrinth]
+mod-id = "pdWthYde"
+version = "UonZp6lg"
