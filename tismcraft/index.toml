@@ -793,10 +793,6 @@ file = "config/create_fire_control-server.toml"
 hash = "03b90ba9172ff7676f44f6effc74ae1a70e6254f5b0dc30000c1685ee1724dbd"
 
 [[files]]
-file = "config/create_fire_control/cache/god_mode-9082b926.mp4"
-hash = "9082b926b2b684e6edc418dff0d5f2c93028a055793d5a6c6fe5d73d8fe55c20"
-
-[[files]]
 file = "config/create_hypertube-client.toml"
 hash = "25400eab973ba2d5cee6b6beaba0eecb75d597843124c2596ea7f4d0d2622749"
 
