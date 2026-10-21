@@ -1,0 +1,13 @@
+name = "BuildCraft Community Edition"
+filename = "BuildCraft-Community-Edition-8.0.23+1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z3Aj5eOl/versions/BetMBINi/BuildCraft-Community-Edition-8.0.23%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "445cfc5b02a478d381e038819d3cff216aa9f6e882c3db66eb65588b09006e79d209d7c1071c92f02f151dfec2cf1180b31ce8ff218527874738e55db240db8f"
+
+[update]
+[update.modrinth]
+mod-id = "z3Aj5eOl"
+version = "BetMBINi"

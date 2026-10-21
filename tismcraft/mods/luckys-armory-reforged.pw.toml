@@ -1,0 +1,13 @@
+name = "Lucky's Armory"
+filename = "luckysarmory-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5k8NxwWG/versions/Jjz1hNOF/luckysarmory-1.0.2.jar"
+hash-format = "sha512"
+hash = "60e40bd447ca911391b145784d4be58d68af117ce958669acf7a7f58c52bc64ba71103405ac2b8d14f552c850615dcc71066714caef2cd2ce466b57cbc615569"
+
+[update]
+[update.modrinth]
+mod-id = "5k8NxwWG"
+version = "Jjz1hNOF"

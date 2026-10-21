@@ -1,0 +1,13 @@
+name = "Squishy"
+filename = "squishybeta-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa1acf5729fb243ec8df9014034c62a243891062"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8932714
+project-id = 1702305

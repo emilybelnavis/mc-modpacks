@@ -1,0 +1,13 @@
+name = "Toasty's Mobs"
+filename = "toastysmobs-2.5.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e4de5df3055a9eedf8d86f1d8ca817ec3cd914b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9035189
+project-id = 1310902

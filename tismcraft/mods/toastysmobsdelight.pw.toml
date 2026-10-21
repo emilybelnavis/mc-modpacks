@@ -1,0 +1,13 @@
+name = "Toasty's Mobs Delight"
+filename = "toastys_delight-1.2.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "266f045a9b666eb9d23e99e80dff6928c89a969c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7949439
+project-id = 1263197

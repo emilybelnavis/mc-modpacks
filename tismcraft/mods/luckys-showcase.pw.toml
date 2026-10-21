@@ -1,0 +1,13 @@
+name = "Lucky's Showcase"
+filename = "luckysshowcase-neoforge-1.21.1-21.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FWO9GQ2I/versions/d0DQw3ik/luckysshowcase-neoforge-1.21.1-21.1.0.jar"
+hash-format = "sha512"
+hash = "5cfc5a9b319f4094ea1678b4bf7864e3ded42aa93fab3bbe8a8cc271774365ba6e6d4315d9a34caae6f1d87cdce51ebb013762e99270028b852d33c7ceaa5593"
+
+[update]
+[update.modrinth]
+mod-id = "FWO9GQ2I"
+version = "d0DQw3ik"

@@ -1,0 +1,13 @@
+name = "Prosperity"
+filename = "prosperity-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebabd4f74ef06eb3bd161127815f3476fd52f624"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9268930
+project-id = 1756293

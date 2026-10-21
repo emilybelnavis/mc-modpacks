@@ -1,0 +1,13 @@
+name = "AE2Colonies (Applied Energistics 2 × MineColonies)"
+filename = "ae2colonies-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "74665965bc44ce1f12cefb78127cbd7bdb000262"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9253782
+project-id = 1694075

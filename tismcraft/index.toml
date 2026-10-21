@@ -3410,6 +3410,11 @@ hash = "512c52088eed22e0b02fb322f7901ceeb597d2ea8e5ee45106f8e641407d422c"
 metafile = true
 
 [[files]]
+file = "mods/ae2colonies-applied-energistics-2-minecolonies.pw.toml"
+hash = "639cfc3f210484cc13e09137e60d2f2379861aa969e14d1327a844abd626dba9"
+metafile = true
+
+[[files]]
 file = "mods/aeinfinitybooster.pw.toml"
 hash = "ea80afccea478751cca0ba07f4a83005b51bd080840766597ec692612ed85e04"
 metafile = true
@@ -3561,7 +3566,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "0f6b24d697903dc261c881c4a736ec57c57ed5384f23d77ca9f6cec1e954d559"
+hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
@@ -3667,6 +3672,11 @@ metafile = true
 [[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "9ea9a3018efe43ae83284cb05614459dc5eb69ef4816228ba79766551fcddad2"
+metafile = true
+
+[[files]]
+file = "mods/buildcraft-community-edition.pw.toml"
+hash = "e5281b97c94252d6e4d3ad9659435be990830e80bcac0e5663d63d18dc6a2b7b"
 metafile = true
 
 [[files]]
@@ -3852,6 +3862,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
+metafile = true
+
+[[files]]
+file = "mods/create-aeroportals.pw.toml"
+hash = "26481fa2aa0c51765cfbe3e40ed4289868eeb2fc8a26b7baabc9eac1aa067d89"
 metafile = true
 
 [[files]]
@@ -4715,6 +4730,21 @@ hash = "1b78273918bdbfe66d38f35b6ec2fbaa7e862fb9dca67cc99a725df768365e96"
 metafile = true
 
 [[files]]
+file = "mods/luckyowls-wardrobe.pw.toml"
+hash = "29df77bca784d60746347ada9cfb891a61fbdbf77c58867e3277057cbe5c218b"
+metafile = true
+
+[[files]]
+file = "mods/luckys-armory-reforged.pw.toml"
+hash = "931b07a64c39c43f6ab581d18e8f299ed794f78319ebfe7ef2b3bb8b5354886a"
+metafile = true
+
+[[files]]
+file = "mods/luckys-showcase.pw.toml"
+hash = "e15121608dc0852f5c0b6fc342845d10f902dbbfdabee472a151f627103c68fc"
+metafile = true
+
+[[files]]
 file = "mods/macaws-biomes-o-plenty.pw.toml"
 hash = "bd9172920bb5de4c4eca980396cc9850322c874459f10dfd535e4ff82b8d0246"
 metafile = true
@@ -5175,6 +5205,11 @@ hash = "bdca798ffe4124bf43ea13f1fa5f0593a7539762240edb56c47b1976b413ebc4"
 metafile = true
 
 [[files]]
+file = "mods/prosperity.pw.toml"
+hash = "4979105c75e3866c790c93c6c28a582c221812b644a8379b8a7892da889f9f6b"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "c19032b9a2c8cba1071cfab9c3b8c34c476b9b500d9cfb3f84a1fc2f745029ba"
 metafile = true
@@ -5400,6 +5435,11 @@ hash = "30f04a02dc816f03518b690ea6dd0eaa9d9a0baf37e41f75dcacab6f8372f3a6"
 metafile = true
 
 [[files]]
+file = "mods/squishy.pw.toml"
+hash = "de50fe4906bc8138e01431ed89a11412c8e7b33222aeaa95be7aabaf022203d2"
+metafile = true
+
+[[files]]
 file = "mods/stellaris.pw.toml"
 hash = "75f16f9fee0d3e1abb00427e25c94d4492fd51b253340421160bc02688b3bf29"
 metafile = true
@@ -5455,6 +5495,16 @@ hash = "55df9531ad6c2db9a814bdb32c0cac04b4bc28d0ed720086d18655a0b4a622ff"
 metafile = true
 
 [[files]]
+file = "mods/toastysmobs.pw.toml"
+hash = "24990f0ad8257268fe6da0fd90c63a7c3b25da18b2f8eb75db827189b2ee5421"
+metafile = true
+
+[[files]]
+file = "mods/toastysmobsdelight.pw.toml"
+hash = "8e97c543cf48431ce2b0da9171d5c23054e865f2b94bcd82f2bf09311be8a765"
+metafile = true
+
+[[files]]
 file = "mods/toucanlib.pw.toml"
 hash = "7c9bf380fb2831d5f6d57db5e8ffb8e2c3b49304428fcf66d6b8f8cbe97bc6af"
 metafile = true
@@ -5487,6 +5537,11 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "b1908d3251d722ec5c18f2483b8c56743d7cae91f644caa6d82e1b3b5b64f604"
+metafile = true
+
+[[files]]
+file = "mods/tropicraft.pw.toml"
+hash = "16f627c0e8e56d53b9a6563c7937aa522b44b4f5774345ecbf81cfd81d5a27d4"
 metafile = true
 
 [[files]]
