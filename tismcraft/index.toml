@@ -4679,11 +4679,6 @@ hash = "ace749d349728358c3c5eb8fc76aec6b2b15aac2ef0d847ebcc2b6d59fd47963"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-tfmg.pw.toml"
-hash = "48201ff5421f0651a99b6a35dbd5cee2bab91c098ee240f036d5c2989dde58f2"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
 metafile = true
