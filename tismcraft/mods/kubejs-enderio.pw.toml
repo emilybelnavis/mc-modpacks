@@ -1,0 +1,13 @@
+name = "KubeJS EnderIO"
+filename = "kubejs_enderio-neoforge-1.21.1-0.13.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BotkzaBk/versions/FksQL3Sq/kubejs_enderio-neoforge-1.21.1-0.13.0.jar"
+hash-format = "sha512"
+hash = "440d562bf639b347bf03bcb8e93b9a50320f8fe98512685516e77f56f11fb7d5c5f5470df5d49f218abe5798e088164085f57e30ec1c3d143a46c1e74e7430ca"
+
+[update]
+[update.modrinth]
+mod-id = "BotkzaBk"
+version = "FksQL3Sq"

@@ -3345,6 +3345,10 @@ file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
 
 [[files]]
+file = "kubejs/server_scripts/creosote_fix.js"
+hash = "19637ea79f831fb95f8efb06a70c69d7973097950420efac7e216210b2791ed9"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -3357,6 +3361,11 @@ metafile = true
 [[files]]
 file = "mods/accessories.pw.toml"
 hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
+metafile = true
+
+[[files]]
+file = "mods/actually-additions.pw.toml"
+hash = "3fd67e682e6c03107722cbe2cae5a0d55f742d9ee32df8471a1d47cbaac77b52"
 metafile = true
 
 [[files]]
@@ -3577,6 +3586,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
 metafile = true
 
 [[files]]
@@ -4280,6 +4294,11 @@ hash = "5f63fab4db6ca36f3b9f489dd1bb52fb1d1a69a3f0ff580758d083d606ff2600"
 metafile = true
 
 [[files]]
+file = "mods/enderio.pw.toml"
+hash = "c1613456acb364fcc023dbdf16dff022cd01742eebc906f04b8b3b45899d9522"
+metafile = true
+
+[[files]]
 file = "mods/ethical-kidnapping-ransom.pw.toml"
 hash = "b3ba15f60a07abcbce468bb8aab220c915074e29e83bff126174fe57be3455f4"
 metafile = true
@@ -4632,6 +4651,41 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-actually-additions.pw.toml"
+hash = "c80b2eb16e9786c157e9ea1f897f5cf984d35e0f8f6e5bdd64811bce951efe54"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-enderio.pw.toml"
+hash = "7ba05c5b6ac4232f2843858e6f12b902265d552c5aae4ad5f15d03019017a8a6"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-mekanism.pw.toml"
+hash = "828f12a754a929bf2e955cf9d0acca4cbe305f172e94c556fe9b0704bcaff7e0"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-oritech.pw.toml"
+hash = "ace749d349728358c3c5eb8fc76aec6b2b15aac2ef0d847ebcc2b6d59fd47963"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-tfmg.pw.toml"
+hash = "48201ff5421f0651a99b6a35dbd5cee2bab91c098ee240f036d5c2989dde58f2"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
 metafile = true
 
 [[files]]
@@ -5281,7 +5335,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]

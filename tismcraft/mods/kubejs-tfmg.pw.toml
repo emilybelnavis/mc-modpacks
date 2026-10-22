@@ -1,0 +1,13 @@
+name = "KubeJS TFMG"
+filename = "tfmgjs-1.21.1-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HXlL9LeK/versions/PzpxpTQ3/tfmgjs-1.21.1-1.2.1.jar"
+hash-format = "sha512"
+hash = "e7a271fc03c80f4922604bd8d34b55d0a81d757e722f0ee892e2c9fbd54c7a78ba5a457fc91c2da1c152d98aa790ca1db9bdf27df241386b27f91e261d1b58a7"
+
+[update]
+[update.modrinth]
+mod-id = "HXlL9LeK"
+version = "PzpxpTQ3"
