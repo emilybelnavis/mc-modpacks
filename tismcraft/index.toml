@@ -3369,6 +3369,10 @@ hash = "3fd67e682e6c03107722cbe2cae5a0d55f742d9ee32df8471a1d47cbaac77b52"
 metafile = true
 
 [[files]]
+file = "mods/addictivespatch-1.0.0.jar"
+hash = "b8475453e9be3678993c7b53b078b0599e272d05b07b97a390445eaa1ce034be"
+
+[[files]]
 file = "mods/addonslib.pw.toml"
 hash = "30931a894fd59654bf9ca72aa1f9882848fe2ad3601595896175e3e56f7be1f9"
 metafile = true
