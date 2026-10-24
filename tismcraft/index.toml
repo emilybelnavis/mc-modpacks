@@ -5124,11 +5124,6 @@ hash = "ed334bd8ff25757d72ac569a854f0a846b786d7704c2c36ebd95c00b97c7a6fe"
 metafile = true
 
 [[files]]
-file = "mods/modern-and-modular-stylepack.pw.toml"
-hash = "9114f617523abbd7d793c0e2e75a2f7993a043df0e898da17ed3ce18aa8ba2b4"
-metafile = true
-
-[[files]]
 file = "mods/modern-elements.pw.toml"
 hash = "976be190750621b0b11063b9da3fcd203c9fdda4e1c334ead9a0d6fef0ebdbe7"
 metafile = true
@@ -5181,11 +5176,6 @@ metafile = true
 [[files]]
 file = "mods/mts-iv-official-automobile-pack.pw.toml"
 hash = "e5a079db01eb9602b9b5b3362dfa25edc5e4bdc60d8b5176895b5ed57b8e831e"
-metafile = true
-
-[[files]]
-file = "mods/multi-piston.pw.toml"
-hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
 
 [[files]]
