@@ -3813,6 +3813,11 @@ hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
 metafile = true
 
 [[files]]
+file = "mods/cobblegen-galore.pw.toml"
+hash = "8ee8facb80c02593751f4cb8eddd681868be2b725791ebf1c35060be4fa7efaa"
+metafile = true
+
+[[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "107f1089debe869dc912e119eedbc3f6b523dbdd8193719ba51ce476914f4f5a"
 metafile = true
@@ -4408,6 +4413,16 @@ hash = "ab03ac2d209db1492dbfbfa7d349008f1484f72398a3d1004703712f6f25bbc5"
 metafile = true
 
 [[files]]
+file = "mods/ex-deorum.pw.toml"
+hash = "42d431276251802c159497312e01cf2ae2b45437d33d6135fa733c1e090b4931"
+metafile = true
+
+[[files]]
+file = "mods/ex-machinis-divitiae-deorum.pw.toml"
+hash = "97542e2f8619fe9252916f6dc3129d47f827755a733a08a8813cd978e742db28"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "58c8a64f256889552536342d3544d6a957a6dbf0cf9f22ebf7f2c493acf34c0e"
 metafile = true
@@ -4743,6 +4758,11 @@ hash = "37c2484814ccc1c14c71e1bf1e166d7318cce30d2f559ab919822418d8b63a4d"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-things.pw.toml"
+hash = "fd6d935a0145a7992c3ba365c66f655c65587c9c812db55adab264144e11ce3f"
+metafile = true
+
+[[files]]
 file = "mods/justblahaj.pw.toml"
 hash = "15f92ffbfb00e44d59077f06a5a6df9b6cec4e7ceb46cbb073765c66957a16e3"
 metafile = true
@@ -4770,6 +4790,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-enderio.pw.toml"
 hash = "7ba05c5b6ac4232f2843858e6f12b902265d552c5aae4ad5f15d03019017a8a6"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-ex-deorum.pw.toml"
+hash = "431184e134418ccef86aeb256990c9fde6ec1c04a1299cc59a8121773812579a"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Ex Machinis: Divitiae Deorum"
+filename = "exmachinis-deorum-1.21.1-4.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04e87d0c4da861dc78b45e2dc85de4b3387e1e57"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8349644
+project-id = 980111

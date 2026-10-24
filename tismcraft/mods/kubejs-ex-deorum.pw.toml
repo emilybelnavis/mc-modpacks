@@ -1,0 +1,13 @@
+name = "KubeJS Ex Deorum"
+filename = "ExDeorumKJS-1.21.1-2101.1.0-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cef6e66790be5e0ef27094d7c14c53db7308f7dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8765805
+project-id = 1674108
