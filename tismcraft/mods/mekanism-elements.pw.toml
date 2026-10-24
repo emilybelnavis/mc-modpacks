@@ -1,0 +1,13 @@
+name = "Mekanism Elements"
+filename = "MekanismElements-1.21.1-3.0.11-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rn6UcTmh/versions/p0G2rhxe/MekanismElements-1.21.1-3.0.11-NeoForge.jar"
+hash-format = "sha512"
+hash = "2aec4f596a42b0f3aa8bf1ee5aae3f54acf7d2eb931db38c07fb56577a7b0341af6d9921fbf1b34ef40d71fef0576259e7470ca361f7c370cf29d6af7f2fc79a"
+
+[update]
+[update.modrinth]
+mod-id = "rn6UcTmh"
+version = "p0G2rhxe"

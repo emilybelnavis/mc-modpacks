@@ -1,0 +1,13 @@
+name = "Modern Elements"
+filename = "ModernElements-neoforge-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gZ2puRF8/versions/fUrQmhOC/ModernElements-neoforge-1.4.1.jar"
+hash-format = "sha512"
+hash = "6041fe585d3701701642505485055172dc9a318344b36a58803e81ddf1e1ec8a7227d34043e33252c724c8c261e9c92fbbfbce1b01ab408e32899d74c9078cfb"
+
+[update]
+[update.modrinth]
+mod-id = "gZ2puRF8"
+version = "fUrQmhOC"

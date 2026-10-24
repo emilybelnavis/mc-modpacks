@@ -1,0 +1,13 @@
+name = "MineColonies: Universal Resources"
+filename = "universal_resources-1.3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kCp8sIIb/versions/XsP6hJ37/universal_resources-1.3.4.jar"
+hash-format = "sha512"
+hash = "17d7f89e8f433b3e61cf8ac77f00c421d3071e13aa03fda9965ac8353534289989becf78196abd41cf96ed5139faebb85daf654da5253c6ac93f5e8aa42d867a"
+
+[update]
+[update.modrinth]
+mod-id = "kCp8sIIb"
+version = "XsP6hJ37"

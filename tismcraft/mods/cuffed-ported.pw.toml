@@ -1,0 +1,13 @@
+name = "Cuffed Ported"
+filename = "Cuffed-1.21.1-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NQ1C5Ka9/versions/lQKHTsDW/Cuffed-1.21.1-1.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "f837f7951a1ea41a645f55b6e9499496f522c83b6c2ee9d037c10e5df41766e34c4ea69a3d8a700652762afb9fabe453b0cb3923506b77f157914dc5ccb062b4"
+
+[update]
+[update.modrinth]
+mod-id = "NQ1C5Ka9"
+version = "lQKHTsDW"

@@ -1,0 +1,13 @@
+name = "Aero Science Program"
+filename = "aero_science_program-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IIO9XmIQ/versions/r0qTcukK/aero_science_program-1.21.1-1.0.jar"
+hash-format = "sha512"
+hash = "1d5448054b422e5b5d034acb5d4a39044a995daa09f60f5a4ccfb9c651b8e0e5fc2bd68f518ecb88d6773faf05cbd327740b2b287e375a3f115c7cb7262c3437"
+
+[update]
+[update.modrinth]
+mod-id = "IIO9XmIQ"
+version = "r0qTcukK"

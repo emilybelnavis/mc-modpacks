@@ -1,13 +1,13 @@
 name = "Create: Warnautics"
-filename = "Create_Warnautics-1.0.8+mc.1.21.1.jar"
+filename = "Create_Warnautics-1.1+mc.1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8ed7519b7fff5140cf2444f2508f2e64add4a413"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/DtRY2QQN/versions/jpF6JTEp/Create_Warnautics-1.1%2Bmc.1.21.1.jar"
+hash-format = "sha512"
+hash = "7a25804a369fd68119e99fd270e49886e0cc4325f36186c1a43197222830bf86c5d76c4c2369fe8d7c189eddb00eafb840e01976f8f08d2c844f704f2459ae6f"
 
 [update]
-[update.curseforge]
-file-id = 8781522
-project-id = 1620378
+[update.modrinth]
+mod-id = "DtRY2QQN"
+version = "jpF6JTEp"

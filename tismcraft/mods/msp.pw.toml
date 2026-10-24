@@ -1,0 +1,13 @@
+name = "msp"
+filename = "msp.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wL9vf6Ax/versions/I0zgswDg/msp.1.1.jar"
+hash-format = "sha512"
+hash = "155ca9e21e58fdfe5f5d4ad34fb3c07136175571e7aa19cda321c25059a7c34696fdc0f8898ca069fd807efae32ba8374f53a42f104b4f532000c1ae24c203aa"
+
+[update]
+[update.modrinth]
+mod-id = "wL9vf6Ax"
+version = "I0zgswDg"

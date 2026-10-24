@@ -1,0 +1,13 @@
+name = "Create: Creativity Ages -- Energy Bridge"
+filename = "ccacnacompat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OFkLEAkx/versions/NTelhDVV/ccacnacompat-1.0.0.jar"
+hash-format = "sha512"
+hash = "a4d00654fe26fdba8d1be7829827e92b59e82a81f09f4a8b8ae5dedec149251e09f839da5d2de2e43b4126b751c58c381c1d9e5566fa6d5e1eadbb46430179ff"
+
+[update]
+[update.modrinth]
+mod-id = "OFkLEAkx"
+version = "NTelhDVV"
