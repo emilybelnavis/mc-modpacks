@@ -5123,11 +5123,6 @@ hash = "8d3f548f419df97ef8e683f28d2726c2470453a91b68ab1db35698a2de0d81d9"
 metafile = true
 
 [[files]]
-file = "mods/minecolonies-universal-resources.pw.toml"
-hash = "f9fa34cd5271d3ac009bb733306b577aab72320cca5ecc9d7136cf1607ee253e"
-metafile = true
-
-[[files]]
 file = "mods/minecolonies-war-n-taxes.pw.toml"
 hash = "ac0fc68f09958429c602f46215b94c3d8fc72dcc5e10cac113a48f5b4395ef0e"
 metafile = true
