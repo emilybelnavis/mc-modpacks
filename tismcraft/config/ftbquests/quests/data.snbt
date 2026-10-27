@@ -1,13 +1,27 @@
 {
-  "version": 13,
-  "default_consume_items": 0b,
-  "default_reward_team": 0b,
-  "default_autoclaim_rewards": "disabled",
-  "default_quest_shape": "circle",
-  "progression_mode": "flexible",
-  "grid_scale": 0.5d,
-  "detection_delay": 20,
-  "show_lock_icons": 1b,
-  "fallback_locale": "en_us",
-  "verify_on_load": 1b
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "circle"
+	default_reward_team: false
+	detection_delay: 60
+	disable_gui: false
+	drop_loot_crates: false
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	icon: {
+		id: "minecraft:book"
+	}
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "flexible"
+	show_lock_icons: true
+	version: 13
+	fallback_locale: "en_us"
+	verify_on_load: true
 }
