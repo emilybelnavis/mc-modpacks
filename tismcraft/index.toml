@@ -418,7 +418,7 @@ hash = "7e34b6b472d2283cf3113c0e5ebc2ecacc04eb6057b8bf7d696d7bf7eca3eedf"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "2024187777ac70c95acff27c3668357f60a709f1f10841500779d6c557d0b421"
+hash = "dea2f15fa4c46325385dd6ef652507a7f7d696b5b50ab049f8162b896395a99b"
 
 [[files]]
 file = "config/beautify-server.toml"
@@ -3952,6 +3952,11 @@ hash = "639cfc3f210484cc13e09137e60d2f2379861aa969e14d1327a844abd626dba9"
 metafile = true
 
 [[files]]
+file = "mods/ae2helpers.pw.toml"
+hash = "b55ca76923c1d806677ebe92383f89377b5d59b4e30fb4da20cdd45099073c68"
+metafile = true
+
+[[files]]
 file = "mods/aeinfinitybooster.pw.toml"
 hash = "ea80afccea478751cca0ba07f4a83005b51bd080840766597ec692612ed85e04"
 metafile = true
@@ -5792,6 +5797,11 @@ hash = "c87e8ecc3703e0170a729f32702817e2b87d261ae15367760d030ee89a117cc4"
 metafile = true
 
 [[files]]
+file = "mods/oracle-index.pw.toml"
+hash = "0dbda340647b52d2e499c15356e71e433dac17d53a64b46ffcc0f4ce384acc96"
+metafile = true
+
+[[files]]
 file = "mods/oritech-addons-one.pw.toml"
 hash = "35d33cee18f2e5e8e95a8f0dca844a38118f95538a0a4619a7cf16007d83c953"
 metafile = true
@@ -6072,6 +6082,11 @@ hash = "4f38a1932a493c7b100f13356c65bf1cc4d43e4cb3430d428202452d1d5800a0"
 metafile = true
 
 [[files]]
+file = "mods/simple-conveyor-belts.pw.toml"
+hash = "04d95f2e9768804c02c7ada17c6f9ace14b0ee7d994e1d47e2ff21e67d04d59d"
+metafile = true
+
+[[files]]
 file = "mods/simple-hats.pw.toml"
 hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
 metafile = true
@@ -6253,7 +6268,7 @@ metafile = true
 
 [[files]]
 file = "mods/transparent-ae2.pw.toml"
-hash = "4b2bf0e1094f4fdce905acab3c088eea6e97a6a739549ff78368dc155db86dfb"
+hash = "0da366373175f396b51533c105edef0b9a3aac4c94bf9b9391c279cc5e90a857"
 metafile = true
 
 [[files]]

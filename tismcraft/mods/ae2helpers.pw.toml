@@ -1,0 +1,13 @@
+name = "ae2helpers"
+filename = "ae2helpers-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "37005b1380af93013900f83140a70d95b4b48c70"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7634384
+project-id = 1450496
