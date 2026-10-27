@@ -3977,6 +3977,11 @@ hash = "2500798bc6ac41353ca76b1b4dd42d88c9f37d6352707f0910081383ce8200c4"
 metafile = true
 
 [[files]]
+file = "mods/all-the-compatibility.pw.toml"
+hash = "25ae519922281a560e02d25f1342c3b119a50c809e8123fb23af501775ff2a88"
+metafile = true
+
+[[files]]
 file = "mods/all-the-tweaks.pw.toml"
 hash = "62d6542120adc6e92ad40f0e080c9ade52c1e9ad53e2b0d9b0b7583e4d28310c"
 metafile = true

@@ -1,0 +1,13 @@
+name = "All The Compatibility"
+filename = "AlltheCompatibility-1.21.1-(v.3.9.1).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/at9kXzou/versions/1IfRn5Yp/AlltheCompatibility-1.21.1-%28v.3.9.1%29.jar"
+hash-format = "sha512"
+hash = "38f2f77010cfebec15283fed7ecc3bf8af28534d89329fc0b05602865e8e72529e9afe0ebcb982c21fd5e371d522a0265c8fbc5f94d12f628ffb5a0326650cae"
+
+[update]
+[update.modrinth]
+mod-id = "at9kXzou"
+version = "1IfRn5Yp"
