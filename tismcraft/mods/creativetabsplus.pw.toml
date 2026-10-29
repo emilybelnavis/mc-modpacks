@@ -1,0 +1,13 @@
+name = "Creative Tabs +"
+filename = "CreativeTabPlus-neoforge-1.21.1-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/bdoGfcHG/versions/hQm1Jde5/CreativeTabPlus-neoforge-1.21.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "20365e421913d7bf1ca375e1dfd280c14001c75628b934fca510bb41684e066dc1517a0c8f9138957828535309c5e62e8b573ce742fd83e5c2bbbb2b6d229733"
+
+[update]
+[update.modrinth]
+mod-id = "bdoGfcHG"
+version = "hQm1Jde5"

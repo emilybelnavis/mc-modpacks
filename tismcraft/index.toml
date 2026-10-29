@@ -4308,6 +4308,11 @@ hash = "f36f2ff7ad5288638bb378f3efe3aa49b782c947122489d4886343c0014d7703"
 metafile = true
 
 [[files]]
+file = "mods/creativetabsplus.pw.toml"
+hash = "d44bee536cbcc90219197ccace594098a725d25f1a77a2db3bb0d5d8a28144a0"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "c76891545fb28fbcd2c280cf451ad98a463f8a17a50e0eee8a33b3b410743711"
 metafile = true
@@ -4715,6 +4720,11 @@ metafile = true
 [[files]]
 file = "mods/interiors.pw.toml"
 hash = "69b39b9ae4625d2b3b8b48974ef9447e28286a06bfdaf12f986a3da8efd76ae6"
+metafile = true
+
+[[files]]
+file = "mods/inventoryhudplus.pw.toml"
+hash = "19997fc3233640cda64d2fbe3eb0c01c51910101cc67ad078fa1c9d9c7374703"
 metafile = true
 
 [[files]]
