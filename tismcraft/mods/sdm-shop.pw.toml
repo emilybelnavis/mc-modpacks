@@ -1,0 +1,13 @@
+name = "SDM Shop [Forge/Fabric] (Legacy)"
+filename = "sdmshopa-neoforge-3.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "683b088e460931033653754dcfcf11bdbc987dbd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7173785
+project-id = 948942

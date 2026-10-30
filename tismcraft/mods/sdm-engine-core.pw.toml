@@ -1,0 +1,13 @@
+name = "SDM Engine Core"
+filename = "sdm-core-neoforge-1.21.1-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea43c3026ca0fafdb7a7e4006ed41059fe0894c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5968080
+project-id = 964997

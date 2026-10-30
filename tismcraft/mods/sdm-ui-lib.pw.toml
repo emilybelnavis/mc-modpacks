@@ -1,0 +1,13 @@
+name = "SDM UI Lib [Forge/Fabric]"
+filename = "sdmuilibrary-neoforge-1.21-1.9.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e9e2f93ddb2c12e61750db050c3d48dbf6dacd5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6515615
+project-id = 1095061

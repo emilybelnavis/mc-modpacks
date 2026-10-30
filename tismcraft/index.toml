@@ -3559,7 +3559,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -4414,7 +4414,7 @@ metafile = true
 
 [[files]]
 file = "mods/ethical-kidnapping-ransom.pw.toml"
-hash = "b3ba15f60a07abcbce468bb8aab220c915074e29e83bff126174fe57be3455f4"
+hash = "5384e854d580f25de1bc861db52e638568fb2eaaf961bbbd06d1d5b3f9bd40c4"
 metafile = true
 
 [[files]]
@@ -5143,6 +5143,11 @@ hash = "8d3f548f419df97ef8e683f28d2726c2470453a91b68ab1db35698a2de0d81d9"
 metafile = true
 
 [[files]]
+file = "mods/minecolonies-vanilla-tweaks.pw.toml"
+hash = "41cc04e54a28ae0752515e8f62e96191203e8e47bc4ff8121f5f88b47a781299"
+metafile = true
+
+[[files]]
 file = "mods/minecolonies-war-n-taxes.pw.toml"
 hash = "ac0fc68f09958429c602f46215b94c3d8fc72dcc5e10cac113a48f5b4395ef0e"
 metafile = true
@@ -5545,6 +5550,26 @@ metafile = true
 [[files]]
 file = "mods/saro-s-road-signs-mod.pw.toml"
 hash = "75d97a0ead1d38e824a1edf3cb29590a221c4635af047376b5cfd52fa8cdb7eb"
+metafile = true
+
+[[files]]
+file = "mods/sdm-economy.pw.toml"
+hash = "5044f4173ddcd7f58a86548d07f9ff5f5a2dd976a9f2a1ef957086dda05fa787"
+metafile = true
+
+[[files]]
+file = "mods/sdm-engine-core.pw.toml"
+hash = "f98e75171d3a4a70256011384dca0d9044bf96bd2921f1aa6c83bdb8249f284e"
+metafile = true
+
+[[files]]
+file = "mods/sdm-shop.pw.toml"
+hash = "625b55ab7916171ad3d79ce40dbd057312ca6c541eb90ffd191a92392417ac0e"
+metafile = true
+
+[[files]]
+file = "mods/sdm-ui-lib.pw.toml"
+hash = "e8ec6aa38ed7e5cc5f03ffa9d6d91616737375a827c9fe21742d028a8cdd8fe5"
 metafile = true
 
 [[files]]

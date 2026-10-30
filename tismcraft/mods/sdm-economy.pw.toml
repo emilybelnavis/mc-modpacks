@@ -1,0 +1,13 @@
+name = "SDM  Economy [Forge/Fabric]"
+filename = "sdmeconomy-neoforge-1.21.1-2.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70d3b7614c780e3afb93481bcc1b05ca478290d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6770946
+project-id = 1102542
