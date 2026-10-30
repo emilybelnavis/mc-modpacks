@@ -170,7 +170,7 @@ hash = "dda23868ae73efd2b80e01b6baa0038487dd47686487cdf73225cb514d40e9c7"
 
 [[files]]
 file = "config/ProjectE/custom_emc.json"
-hash = "1a93a0cf4e82a238415d1384ff754d62d5e444eecf80143d2172c9d20d273f39"
+hash = "6c8eeaa65775b8059853271bc30ca06ed31bd754786689ced769ed4bdd819920"
 
 [[files]]
 file = "config/ProjectE/mapping.toml"
