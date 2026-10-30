@@ -13,7 +13,7 @@
 	#Max citizens in one colony. [Default: 250, min: 25, max: 500]
 	# Default: 250
 	# Range: 25 ~ 500
-	maxcitizenpercolony = 250
+	maxcitizenpercolony = 500
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
@@ -23,7 +23,7 @@
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	# Default: 1
 	# Range: 0 ~ 100
-	luckyblockchance = 1
+	luckyblockchance = 25
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	# Default: 3
 	# Range: 0 ~ 5
@@ -35,7 +35,7 @@
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	# Default: 5
 	# Range: 1 ~ 100
-	diseasemodifier = 5
+	diseasemodifier = 25
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: true]
 	forceloadcolony = true
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. [Default: 20, min: 1, max: 1440]

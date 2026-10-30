@@ -1961,12 +1961,8 @@ file = "config/minecolonies-common.toml"
 hash = "b7308712fbb5044fff1f8354302921fad9e19b053da60d5c0c69f4c4c819a37a"
 
 [[files]]
-file = "config/minecolonies-server-1.toml.bak"
-hash = "89e970ff4f3d637dc57fd054c05a3adbde32735c54def1f24099da7680eb274b"
-
-[[files]]
 file = "config/minecolonies-server.toml"
-hash = "ccd360f00c60717c55b35b1f1e88725166d319bd8a1d717cb8b76bd2be09d2a5"
+hash = "7b0096f93ab4963b83ed774039000f900bd3b97a3ce3bb3510f677cc4be43576"
 
 [[files]]
 file = "config/minecolonies_solcarrot-server.toml"
