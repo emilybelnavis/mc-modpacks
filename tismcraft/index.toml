@@ -5729,11 +5729,6 @@ hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
 metafile = true
 
 [[files]]
-file = "mods/tfmw.pw.toml"
-hash = "bb6ced0807f4a0e65da7feb41ed638912a763134c7f44fdc532854ee72c69e62"
-metafile = true
-
-[[files]]
 file = "mods/the-village-fights-back.pw.toml"
 hash = "1f79f0c413c19347ba66b74af3e72c9d3ecf038ce1f2b9539788b7ea446a3f4d"
 metafile = true
