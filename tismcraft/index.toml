@@ -1,6 +1,2810 @@
 hash-format = "sha256"
 
 [[files]]
+file = "blueprints/MetroNYC/BuildingBlocks/Simple/building_fullchunk1_floor.blueprint"
+hash = "39f6f4804791eb5f750b5daeb404138b31880ce067160481032ee59d06966c57"
+
+[[files]]
+file = "blueprints/MetroNYC/BuildingBlocks/Simple/building_fullchunk1_roof.blueprint"
+hash = "a3316003ad5414ba8eb68cb7300af0a9339cd35586f131c6fd84ccf580b4c12d"
+
+[[files]]
+file = "blueprints/MetroNYC/Decorations/Buildings/Simple/building_fullchunk1.blueprint"
+hash = "1323e2f5656102762562e6e52105c4263f2ec05778e37e979a4cb30f2e135114"
+
+[[files]]
+file = "blueprints/MetroNYC/Decorations/Buildings/Simple/building_halfchunk1.blueprint"
+hash = "5de06a02403fcff3c607f9c0dc10b45f344aff62e47b4deafdce3385506d6548"
+
+[[files]]
+file = "blueprints/MetroNYC/Decorations/Buildings/Simple/building_quarterchunk1.blueprint"
+hash = "3c1c16e655027af71ebe094d5ecb254232b402ff10c5fa6ad6ac2876c5959dc0"
+
+[[files]]
+file = "blueprints/MetroNYC/Decorations/Sidewalk/Tree.blueprint"
+hash = "343c66a61e6c4273b5c5ded41aee0f889dc860f9cb036b86b18faf7096c29c5b"
+
+[[files]]
+file = "blueprints/MetroNYC/Huts/alchemist1.blueprint"
+hash = "e06238baddb6ae72603703c62b15a1a89300d43f2fcb275af9fdb2fd7361604f"
+
+[[files]]
+file = "blueprints/MetroNYC/Huts/archery1.blueprint"
+hash = "4e1049e9345a0f18b03737429d86cd2b497b25dac8ce4ea8cc593386d8841a67"
+
+[[files]]
+file = "blueprints/MetroNYC/Huts/builder1.blueprint"
+hash = "449de8847baf0e85e7fe2620e65b3e593695e58afa2e2d06ccdff36c57855d5f"
+
+[[files]]
+file = "blueprints/MetroNYC/Infrastructure/roads/corner.blueprint"
+hash = "dd5eca15bf5872da1fc35d607b6dd7c6ccce31f88d9aa750b84cb56cdcf1c9b6"
+
+[[files]]
+file = "blueprints/MetroNYC/Infrastructure/roads/intersection1.blueprint"
+hash = "47ea90aacc52300634a625ebc39b144ed9df06371bf19a9c22d8fd5e16f283d6"
+
+[[files]]
+file = "blueprints/MetroNYC/Infrastructure/roads/straight1.blueprint"
+hash = "b95d374d5b72a006df7d884f88bf03acefc7433f6a208a26e2377079f6fcdaea"
+
+[[files]]
+file = "blueprints/MetroNYC/Infrastructure/roads/tintersection1.blueprint"
+hash = "b01da489489923f49a5d8b1bf662c9a2c916c20b5f9e955b13f5ca54ca74f4bb"
+
+[[files]]
+file = "blueprints/MetroNYC/Planning/cityblock.blueprint"
+hash = "3974e207b0a8cb960cfa7e42e2119cbf735a3ca8d60f67f2333449d433042a9c"
+
+[[files]]
+file = "blueprints/MetroNYC/metro.jpg"
+hash = "a1990a1510a44e88e6fc849d94d21017158968f5c64838d381cb40c6a2c05ccb"
+
+[[files]]
+file = "blueprints/MetroNYC/pack.json"
+hash = "e87629f763532374decffd79038243a670123b83bfdffb416441c2fb2e1f9272"
+
+[[files]]
+file = "blueprints/Paris/2025-02-25_17.02.36.png"
+hash = "993dd86bdae2db512ac1ea23775a66721fda6e267bf6487c6ed2ea82ec3e255a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/anywhereforfarm.blueprint"
+hash = "5d51bacab617fc11a7543a0386e17669d52da5b9ca3c65e89a7cc0d82339fd3e"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/arboretum.blueprint"
+hash = "26c821f51a0076ce4db6ca294dc33036379a89d06a3d6198e859c17ed75738b7"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/cactus.blueprint"
+hash = "202c100e9fa0e16f21362999c19f90a15f578a270f4db7c52e3484f048343c54"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/crimsonfield.blueprint"
+hash = "cda523932b515cc47663c2dbdaa1379cd62fe981fbe8b55150d87661d40b7f19"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/kelpfield.blueprint"
+hash = "04feeda67c835c5bcb280c611ce97f45a1d07342928ed9f11587d3452100dba3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/rooftopfarm.blueprint"
+hash = "863ee8220502d9b3d8d01eec598129ddc058037f6b2077beec77cff0f7657b9c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/rooftopplant.blueprint"
+hash = "9f54e346bd7fd3eb0726895022875c773ecb608e3705748355a83a098d0d2525"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/seagrass.blueprint"
+hash = "108566b5b8cd3ce3cf6c6cdd97d98314c038d3c0fa29077b122ba922e8d429f8"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/seapickles.blueprint"
+hash = "0e1653a480da1d07e4ba49f8154782c08294a1bb396f60dee09589e4b890471a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/secondfloorplant.blueprint"
+hash = "33ae507694a286f7aba7b537d3660427d0bffcb9923edfa437a316c0ad50e0bd"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/sugarfield.blueprint"
+hash = "91f8dc2e194c585ed372d2848cd478af6fa5a933b46654455398bcb2730eb78a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/twistyvine.blueprint"
+hash = "463e37e0afa91e6a3f012567515cf2738703375adcb606e1019f3597a93557a7"
+
+[[files]]
+file = "blueprints/Paris/agriculture/fields/warpedfield.blueprint"
+hash = "9ba9f025b4d2acb4762a53be49570dd766542176929c9bc63a1c6316d2949e89"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/altflorist1.blueprint"
+hash = "65ccb47411eb33342f3b0800f8a8765e9a48baf148344fecfdb76007cc252a7f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/altflorist2.blueprint"
+hash = "04ed0bf0ae5a8b742d38a49709485c090dffcc8b12a5aad3ae20caa277f10e31"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/altflorist3.blueprint"
+hash = "837b0c445c8aac3bb95a07a448b42a75044da285d9ea1c1c990a291a5f73063f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/altflorist4.blueprint"
+hash = "27f76664cfd23014e60f6959aba276baa87c8db236215ec568210caa0b83eb16"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/altflorist5.blueprint"
+hash = "b825d6b47b730b9ce3829654e6e60a905b07272bacfc802e026b6210b01cade2"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/composter1.blueprint"
+hash = "df4c114774dad9bc14e2711f9c984252787c571ad76f5c02a998168cfd06a8c3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/composter2.blueprint"
+hash = "e4f8bd47a14b8f211e0fa16c0beb20f0e6ad81297192c0cafc03109edc795920"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/composter3.blueprint"
+hash = "91e5015e87af181db544a882beaed1ffcd51013afb0034fdc3789658d4a9d024"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/composter4.blueprint"
+hash = "aa4ff2ef975f4ec4719286d93d6743f4db5a6fdc45fef9c25c223d05189f4d5c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/composter5.blueprint"
+hash = "5569735e58000cc0005c1cc558944e8965cb8ecf9cb68fba0f0a3fe8ce6440d0"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/farm1.blueprint"
+hash = "92fc10e3258af67245aba853627f8b28e8d7d1b6def24282d2579bb41ec59395"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/farm2.blueprint"
+hash = "e6a51294238bd388839f776adf2c187bf1bc59ce2efc96b07cf654cc47f60d55"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/farm3.blueprint"
+hash = "914be7e092947d8ac8e647713cc0503421eae071dfbbf02f23301f880ed7df8f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/farm4.blueprint"
+hash = "bb9d8aca686a5b5ce564af68c26171b6d8602934d73fdbbc09849e70b2929c1c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/farm5.blueprint"
+hash = "8010c15ba3d412beb2f71e1aab3d8a0174f5dba84d23f37de0ee74560cf145ee"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/forester1.blueprint"
+hash = "14f2c6b80921ce56960e17aacd1d4ef105bd48a34ed866de549dc9342cd812b9"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/forester2.blueprint"
+hash = "3c8efd3a8796093c348e73ea56e099d1c1a5122b3aec609c29ad4f4e0e4059b9"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/forester3.blueprint"
+hash = "4f49f74503bbb52579fa82f092407d5b20e5827e6fa6468e812f9415043ffacd"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/forester4.blueprint"
+hash = "a5edbd2c27cfe880ac8b0d9955c9759ea542f22e35047cc9ac275db6e866532f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/forester5.blueprint"
+hash = "ce3587a767ce6ce6cf632138b041de7941fca2853ec6ceac9cc172ec47781eaf"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm0.blueprint"
+hash = "f32bb8afd81d1d0dd083d8a2403cb846f63255ebc1613475138ad5ba90a2abc3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm1.blueprint"
+hash = "dbdc8554d9b20f67a2dfaefed9af49ee378c5ac640833b3accfeaf1c18b50d38"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm2.blueprint"
+hash = "c79712877ba36e1326eb68f456213d2e2f361d3029c63150d56a7c7647feddff"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm3.blueprint"
+hash = "cc6fbbfb2a05c74dbf3c9f2bdd64b76cf429a537a8a1bf0ae495777ef4853029"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm4.blueprint"
+hash = "3859311a9d8d83db6a5096631c13ff24afb47c25b33b13a9c4782d465b096621"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/ifarm5.blueprint"
+hash = "19e0d25831e1c5eeb7afc10950b17871f2dc3e650373b3abec52112e2832b79e"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/kelpfield.blueprint"
+hash = "f7582f743eeb32903ff512eb55ced49653bb888f37d48b5594c9c136e503f450"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/plantation1.blueprint"
+hash = "8767f2fc6af13b6e2849fa1785a2f0097b22cd29fb9673f563b6cf262397168b"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/plantation2.blueprint"
+hash = "2df9d31965bd6f3503c2080f82f66135663f49d2c6724d699c1aa4eaa948d073"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/plantation3.blueprint"
+hash = "5358a82dbfd3fd68f10716f4e1ef6a5a44b504bac38a94d477df12ac6c365ae3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/plantation4.blueprint"
+hash = "f5c8a37842d18d79f8f3a2efedfa09f83697a65ad043ceedffab40a9d799f7f0"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/plantation5.blueprint"
+hash = "e728fe204f1ada3b912be974f0252f4b454e1d978a6cbe9cc423201820626a52"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/riverfarm1.blueprint"
+hash = "5cba72abb5df487d95afffce6f40084ef24cbcb4d7de692bc6c1c5def131b488"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/riverfarm2.blueprint"
+hash = "216d97efe3f2305e7e104428c8416ec14176ec4a397388feaf7a17e8f470f91c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/riverfarm3.blueprint"
+hash = "cc5a4fbbb5448cc103f7dee67d92dea1ab2795772984adfbcf629c643b7eeac4"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/riverfarm4.blueprint"
+hash = "a072cb33873fd6f0abc3b0ec9504216e992d567ac622e2131b9cfb993ecafa66"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/riverfarm5.blueprint"
+hash = "ef41c038ed472e706bffefea8549a5ef63b1980809edcb7982674bba48e09d91"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/seapickles.blueprint"
+hash = "0e1653a480da1d07e4ba49f8154782c08294a1bb396f60dee09589e4b890471a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/horticulture/sugarfield.blueprint"
+hash = "91f8dc2e194c585ed372d2848cd478af6fa5a933b46654455398bcb2730eb78a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/animalhuts1.blueprint"
+hash = "d3459b898693aa0c594aa1a16c596fe944970ef518f915755f7c519b493257dd"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/animalhuts2.blueprint"
+hash = "41a74e93c0af613430e513a76a377f1d5b076d916f28fc245efe84162fdc78cb"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/animalhuts3.blueprint"
+hash = "34602fff09e5ee1d02bc489df5b33eef4396c3e507597de808356df45fd5cc9c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/animalhuts4.blueprint"
+hash = "9a0e9a16d41d4c89ac92601deb44b3f3f29768686d95692a04718cf03fc6cd91"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/animalhuts5.blueprint"
+hash = "3da2856fe3e3a7df286f8ad2cd3239125cc4f484dae72bbc0e2b63cf321c72f3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/apiary1.blueprint"
+hash = "45b1918e85ac830109c2a0503c0c4c355d56ff42c9a3d111da8c02417677b616"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/apiary2.blueprint"
+hash = "a798f9c9c242d2906a467889eff2710f8fc70482b7a78dea53ead496fd040568"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/apiary3.blueprint"
+hash = "6bb126ade9bc2f74c1c60e47cce909046b543c671be7d8c6874febe9e035ba9c"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/apiary4.blueprint"
+hash = "2a43dd2cc9c6f0b37b76182c7cbca8f94e9b9aaa6ed048f8227c74840787f246"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/apiary5.blueprint"
+hash = "f3c776845df546f40c7a39feb9f3200dbfa2b4f527d365203d218e5b910ef574"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand0.blueprint"
+hash = "760db31bd42c467aefed3003ea020f1ef9b43c7d608e5b904a533ebfc113c122"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand1.blueprint"
+hash = "f86e064ffe4d9eecda3e71052530462fa5096d7c4aba2769fdf17c6b0d1c2530"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand2.blueprint"
+hash = "3ce5710b7669c6685331ec2ed177ec20e35a7f75d1a715eb966141109cab2694"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand3.blueprint"
+hash = "2f724456a0894159c36df0034aef104ab2692637511a667dd03d6a08dfb3ae75"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand4.blueprint"
+hash = "bfb5b9507d0e251e883fcc156d113c59ad65420a15c6856941a72b6d2bc22e31"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/cowhand5.blueprint"
+hash = "3bf435c7098e3c37e03bda684afe01e3dc85d4dbe191c5fb1917b48e588ddfaa"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/fisher1.blueprint"
+hash = "f998aad4a964c343b7269e5c35171e433e6dcd34de9256f7f219e8aa314475a5"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/fisher2.blueprint"
+hash = "4e61088f7129df3174890a6701032ef2a464dd08115969e91f4184ef5d9ac046"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/fisher3.blueprint"
+hash = "292b507e0ebc228aa31d5a7b41cdfc6d76508e22182af909fa2cde4c0a484a01"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/fisher4.blueprint"
+hash = "5b481f157a6246839771918170cf1fe062a80844e54e12c78527058561041009"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/fisher5.blueprint"
+hash = "40b6c212bf2c7d936e3fb7a595f8a5ec6a7ef9059afb58eb89a72f2319c9254f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits0.blueprint"
+hash = "e3c35eb2950055e5b1712321444a161c5ee4833fba3199a5b8a882afcad54420"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits1.blueprint"
+hash = "72d53bf7cd91bf9ad8465c1c285aaad11edecd4b256e062fc464cbc305902b07"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits2.blueprint"
+hash = "d232e35d3fcdc3728bc0f29d4d39aa194a3c5d5295a2fa81f4eb14df1bd6ded6"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits3.blueprint"
+hash = "34345607a1c1ff5b3bab869ee5b4292237b8e682bec6233d4fafbcbfd1be759e"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits4.blueprint"
+hash = "c82a7846548d775ad7a7d9be182c9f2a23b15ca365b08f2d2da73617162b6d2f"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/rabbits5.blueprint"
+hash = "c225fe96bae0d4383995a35bc32fa0659bec9203fe38a87b09e31803ea910638"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep0.blueprint"
+hash = "952520cd5b9a81dd4fc52c2f4f7dded305e4efdb4c38299006eb690c52db05af"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep1.blueprint"
+hash = "5121a427324c587e547d72b58d2db3cdbb41a7265720e5184d420443348ddc34"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep2.blueprint"
+hash = "366fac581f654f198b647a9b862fd7e98a23e43aa4650f260f3cb5c03797408d"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep3.blueprint"
+hash = "b4e979b4440f2308198388d31dad3f5242dc73bf3d87059937cb2e3994b51953"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep4.blueprint"
+hash = "5d75e5a40f590a7591c80683e209d54e0460a000d9c7febbc759da846a74ff8a"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/sheep5.blueprint"
+hash = "0c230138570ef71062175e23095758bcf09c9d0a0aaec2f72d4ca345c26d5ba5"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder0.blueprint"
+hash = "0b5a236e9e4d4bb6869d4df7f5839dc64daeba0c8a8cb6a6f83eaaf1028498ad"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder1.blueprint"
+hash = "70ddd898755b1d83c5c3bcecf672d4f94a0593eab57fe1db3cb51aa214e45c3b"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder2.blueprint"
+hash = "2e033f57887bd14b30d0450ef75ac8a11b26bb28cd0e58714a61745afcd9e7b3"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder3.blueprint"
+hash = "f4320a7d370f7d207247f717066a158da1f4d1669b57c46955d714e7aac13173"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder4.blueprint"
+hash = "31d78764a4a4ca4a2e8eb97812f4d893dc45bf2cd15be0ffb632af4c177fffaf"
+
+[[files]]
+file = "blueprints/Paris/agriculture/husbandry/swineherder5.blueprint"
+hash = "a7d2bfe85bea82181486859723654b6243305216ab8d3a668a2c5caaf9e528ea"
+
+[[files]]
+file = "blueprints/Paris/agriculture/icon.png"
+hash = "4b651727a4aa73cdfdb371cdb01d213c4a00e21b82d0faf4ed05a2ed94ab4474"
+
+[[files]]
+file = "blueprints/Paris/agriculture/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/carpentry/carpenter1.blueprint"
+hash = "f0fc6ff2a854a508985c26c5d66b0fc5f8027b0be8d587fbbb58b0f2c36bde1a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/carpentry/carpenter2.blueprint"
+hash = "4b8ed186f064802f5d03add4f85a375cd6c572fede144a18a30dfe0f7798a2ef"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/carpentry/carpenter3.blueprint"
+hash = "bd58946dd663a257516446ba9573341cb8e38461aefe2ddc58544f5a3a127e83"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/carpentry/carpenter4.blueprint"
+hash = "a7089f9667d01c848b82cf52542d6be7c4df0f4ba0cf50be896511fe21820d8e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/carpentry/carpenter5.blueprint"
+hash = "94857d0b7e7f2bc08bf788036705a07f03a4797667ac675fd2421b918e6ad51f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/icon.png"
+hash = "252fcaf18e82da0e982716f53bf23a1c13162eef7b63c75a26f09f23b1016c5e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altdyer1.blueprint"
+hash = "cedf6f85d764da227953c62681ee25e4eef1f64c94d17cde0bd124decd71c920"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altdyer2.blueprint"
+hash = "bb693d50c382232d6c53624f2256ac6159bc0a1f94962b9177b3bda9daa4bef4"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altdyer3.blueprint"
+hash = "60c6cf3d4e7e68be70590c9e3ebd027ce768d6fd063040a412e101328321c6c1"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altdyer4.blueprint"
+hash = "6c454d52e9cd9ed3c77d1ee06c4636e3678d54ce8738d46705283064eb59d84c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altdyer5.blueprint"
+hash = "4518e34f0614db0fc0bcdb7d1d15696d93ed79776079b870370f3cc10f0b0b20"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altglassblower1.blueprint"
+hash = "4769c4084211150002a05be92ca888bc2c37b940eaa0522af4c0e07a8bbd0fa2"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altglassblower2.blueprint"
+hash = "6de3cd80d6f7623ea0ca542de79b1b177e9d523823267bb28c4c201dc435d3c6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altglassblower3.blueprint"
+hash = "ffa6de378df87f2cec53d03dfa1b157f3fb215504c4885a3b894157c38dd160b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altglassblower4.blueprint"
+hash = "78c63328a0c3254aa489d632e303120365b950173e0c8e5ce259867b717b3613"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/altglassblower5.blueprint"
+hash = "b681a9b26d3ab138f00f3571c77869b4776483d95b9651994a7f8e0b5e6b96e2"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery0.blueprint"
+hash = "74cf23c5ecf4b27ea4e9136cc45e2f6c0311b321e7a245c1c3f91ad4c0eef27e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery1.blueprint"
+hash = "9252e4452b4ec89f33417a501ea81792075fc65f18061ebab6fb21bb5366f5fc"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery2.blueprint"
+hash = "0ecfeca3d020d5b4947b2687833bc81b43922ca5afc8f23cf0a24d4fa68860c6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery3.blueprint"
+hash = "db6bcdd5b50a77304d06a682157fbe1045986f595678307cf213705f78825ff3"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery4.blueprint"
+hash = "a94f1f0ae50a1251b0a35ceab3f4e82a175a205d13228df8b0cfeccea6eff319"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/bakery5.blueprint"
+hash = "8ec2882a552cff5efffe83604616a9c64c97c2bcf40a43dfe3b87f46b4cca763"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/barrackstower1.blueprint"
+hash = "250698eda350d01eba44e5d3524e19fefdd1441ede4e1cff79eca33462dc0aeb"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/barrackstower2.blueprint"
+hash = "6ad73f0ff2158fa07e774d16dea25990c69df7bc1c8eb7b14074e1ea76069d45"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/barrackstower3.blueprint"
+hash = "9b4e7e1ccedb8b7b832a7f810f0682ab6a7ee0f31efad48233f5ec56edf02c17"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/barrackstower4.blueprint"
+hash = "c67c6fa6331ed86ea6284bf8eb5e781d1842e3a5d306a7e7d1308372754ed0fe"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/barrackstower5.blueprint"
+hash = "ffb5ad83f25ace2a48129341237dd41663f48249484335342025a7c643f29193"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/cookery1.blueprint"
+hash = "579c51a8668143a902e13b0368be0fe46de7aee7a07ccc167c39af0406dc8486"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/cookery2.blueprint"
+hash = "ef9e29e07c9f1d8c48f1328d21f35abe9d69a2446ce513656a6f59782ee3578f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/cookery3.blueprint"
+hash = "7a6b8a535d93400dd9d1e4242b8f2fc54d77bdff0d6a41c83ff6ef06d3206e2d"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/cookery4.blueprint"
+hash = "1d3f6dd7513a90feae1a18be2140444d7f85f9f98ff79e43fa73ee2a74a5152c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/cookery5.blueprint"
+hash = "d3b3165f6b597456d2a655709a751676c88ad39ac8b0f3c4d2ebb66c63c87289"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer0.blueprint"
+hash = "8002397cbb0fb7dfe95533f1a66ee28684a9ab0d9af9e876c78168819b2c3548"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer1.blueprint"
+hash = "917dc962aebfaa919b87c123b75b276091019fd2dd0de01f12caae747a2da4f6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer2.blueprint"
+hash = "49bde42dbad026e3c180fc1bead2c11d70b9de43ca5d1c82dfacd1bfbf158e46"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer3.blueprint"
+hash = "fb5aa88d54dfaf35ec08ca96f91e9f372d78acd72e74c13e63b749044f2e5bdd"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer4.blueprint"
+hash = "09bec85bea842be1a55f39d1719581dfb8ec1c998edc49e26ac27c134a1a20ee"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/dyer5.blueprint"
+hash = "0d383c0a95cb804f21af812d0139431948106efb924bdee0767c374e8b48870a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist0.blueprint"
+hash = "9c244bd168411648c8516b6b30975a925ea79acb151c495e01acec05e3570cf7"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist1.blueprint"
+hash = "f1536e5e6d2d785d31c63bf0bab3a937cdfe4b5d658774afd545a5a87d91ebf4"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist2.blueprint"
+hash = "4a37adf7170d6a208c329a6fb01b980a8d3a11146dafe432658a43a43d183abc"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist3.blueprint"
+hash = "27a63442c46ac1af972ac33a9f87e043fabe9937ba5a98b336264ed674293d9e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist4.blueprint"
+hash = "7ab871bdd3767331cf555540e83595e4691cf7a3d1320c05fce4bd6bfef62b53"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/florist5.blueprint"
+hash = "817e61c7c7dd55010c8b8a0aa5b6987e284a24e89bc958adb74c0cc7a01ea4b9"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass0.blueprint"
+hash = "21297b5309b386b8b2633822ccef657a14aadbd7d50856b650ce5da1e2e6edff"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass1.blueprint"
+hash = "3706c12e6e56eb6b2a2771ed312c933ce65b38d29082430aec0822c055b0b94a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass2.blueprint"
+hash = "6b51368dac2c4ee80604a3fadb7f77bdfdfeb8153b4ca8e3429e13026b305fc5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass3.blueprint"
+hash = "d0eafbc256f99a746478988a833e6f20e4e77abce1e0b857fcff8cf4e0607209"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass4.blueprint"
+hash = "eb89a5df8b3a17ca442966621b3e9fda56687c4db93fcab878eee9a540e990cb"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/glass5.blueprint"
+hash = "7fa21d3242df39341610bf7a1258e401751503c0a834721c0c83b6574630098d"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower0.blueprint"
+hash = "e959c4a4ae6f0d71db92d7282b92ae50328c8f37c97badbecec63c8f0152879c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower1.blueprint"
+hash = "391a4af5c6c806e1ce2277f4f70843004beb474e45060b7ef972370c1cb5b4b3"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower2.blueprint"
+hash = "a0e21801bf32779e1f184791d111edaac5719a337bff6e2ef32742ec1b21c73f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower3.blueprint"
+hash = "0cc7706babc8a76c2d71ed07e8617064e0387280a101109f0582d0eb00bc191e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower4.blueprint"
+hash = "93132c7ce54ad8696bed1f21f2c4eb834828a11269d3b3708dc41448ff7991f5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/guardtower5.blueprint"
+hash = "6e6db0c689c52245d9cdca24dc4bdd0912bc5bb7a61de8d91eae8ceda0496368"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence0.blueprint"
+hash = "67c60bee268fbb87c194e064cd24400858a33e937be526f21b8cc1ec41ff9368"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence1.blueprint"
+hash = "21535c0fa5192f761513d106a99f3c75865057a84ee0e9ab473be2a7798d4a7c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence2.blueprint"
+hash = "4e0789ddbc80a7e0fc45fbd08962760678df57ffb086a1316d029ed333f00817"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence3.blueprint"
+hash = "92ecd68154530e55d4c3bd69929b93c02f1e0107169eae8bca76ca072e69f4dd"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence4.blueprint"
+hash = "c957f2027bd17ac989fd8b253db4c2f538e4573fa9770c3454b7215106f85ad5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lfresidence5.blueprint"
+hash = "92041f4f8b879513f551442cbb770edffb842b66801b1dcb7a2ad53bac8ff5be"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence0.blueprint"
+hash = "bb24164f908b93fce5f9a9a5c1df6ba551a1a84d8da76d6f9c214832ba9d1f52"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence1.blueprint"
+hash = "a7b34c66b792f0a4872df1be13ffb96788bc92eb14e4a4b2c7a5a93041ab4551"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence2.blueprint"
+hash = "9a0e76a5ad7af58285fec52ee30fc51b76852554ede3be6531d9819c64075355"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence3.blueprint"
+hash = "0381ce28a1480851e216457d0f173ddefbf138f0358bb64fcdcb767d75747ff8"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence4.blueprint"
+hash = "cf1eb79a0844163c6c9a1bf398dea95b963cc35c443a56aab7a63e6e400ef130"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/lrresidence5.blueprint"
+hash = "28cf421eb0c3e06dd1e19b674496bd62a800b02a3fb7eb22f2d1411ede5f18cd"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/mechanic1.blueprint"
+hash = "bb7b4d2758dd334310655ca724badc7e0791095a1f7c7ffbd74daec6b8b1ee5d"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/mechanic2.blueprint"
+hash = "585a887b30d41499e4b5912b85c34205516a0c7028b06087f724628530d90e03"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/mechanic3.blueprint"
+hash = "fa4ddafcda344bb54fb551432131066d0128022115f6f7267bb8ed35c1a1ad76"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/mechanic4.blueprint"
+hash = "e2c4eae72575e2d614d6d4502fd253c68fc34eb83282fd7b75153887e67b1a2e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/mechanic5.blueprint"
+hash = "41877a10f67e8662423d86c109899f7b1f9acf65762d97313827b3e75e0126d5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence0.blueprint"
+hash = "b5e10773ed3ef1ff7fa0938753e159ee0e446825a7628d186f60340bc708d53b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence1.blueprint"
+hash = "204a0232b3b1b946f00ec38926b8874eeefc4e5eae115db659e9ab3566665030"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence2.blueprint"
+hash = "16c7696dd89f448a7577406ecf4abd0546712da406e668e5fe35dd6a6a155557"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence3.blueprint"
+hash = "0dc7bb1c9733e103b5d18bee4ef4c9e2eaa49e573ae63012b64bac5b6ff7b01b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence4.blueprint"
+hash = "59f133b0522d1c5b67b2bf1e0c0b48ebdaf117a8dd5f7ae062574b9c061a22a4"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rfresidence5.blueprint"
+hash = "af5e0690f15385ee0b4de3fdb2464664896945499ca7844aac5870d5923c8cb5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence0.blueprint"
+hash = "a3c3701704b0aca5336e3371fbef4174b637c5fa5f797e88ccc3fe95db68664b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence1.blueprint"
+hash = "3bea28121573cf5f8c0bb4265a2e70b450474b83c07d44a6c9ce1bcd1f0b70e4"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence2.blueprint"
+hash = "9463500868de6c59cc8439a628b75e0df328f50d495070f3f6f15397d6bccff6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence3.blueprint"
+hash = "a2831139ba2b581e764152920237a325dd7899460f703d9adae739157bb1246c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence4.blueprint"
+hash = "a28fc19658f0f87ded6d21ec562d36b0f5dfa5b1a55f85de58c48489645e96fd"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/rrresidence5.blueprint"
+hash = "7b7595fed7b3df7b819128b60fa90b0408b0a1b7b61a85cda89ebd4ab19672eb"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/sifter1.blueprint"
+hash = "eca539dc9f1cb7b3609a0ee8a318d269c3ffa57c6d44e94ee8a8949e0be974c1"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/sifter2.blueprint"
+hash = "406800d25b1011fef1c3e39db27505e6746075440286cfdf2f672ca5dc805ee5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/sifter3.blueprint"
+hash = "0c507ce03fd1f8942b246e84e8384d8a7d2ca5cd01ba22063cf07002e6c02b87"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/sifter4.blueprint"
+hash = "8a3518ff5ee7102dc64d8ab8fe873a0b29425e8c8ec3a464a98e1b0fdef694b5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/sifter5.blueprint"
+hash = "3a71076b67984c61ace5b4ae5f9733ecbb34751ee727e02be277d120bc698664"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerfive0.blueprint"
+hash = "598ab820633a50dccbba65b8462c56e6f5a875b47d193df2a65160a0c2702982"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerfive1.blueprint"
+hash = "d03e0310334290f374652d6b4c4b6457a007a8581a638d231e2db5bc701e050f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerfour0.blueprint"
+hash = "572b13661539d008edd48c19becd3d16bdc408f2c2a7ff705b39257571f23e90"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerfour1.blueprint"
+hash = "1d13cb789b5a8a335ede76cdf52e2958d69ea8a9a7134aa04e80cd238dd636e8"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary0.blueprint"
+hash = "8934126b39d315d0b7308e7a10b69b40d435a2f37a324cf24db4c3d3f127ae48"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary1.blueprint"
+hash = "251a8e588ee6b3bd1af5e459e78813dc1f65bd9779741a6abee0339c33187dc6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary2.blueprint"
+hash = "08a5d9961d3632559a170eee413736a6960e0a8b6ca36a80e2308b3ae80b7ef6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary3.blueprint"
+hash = "9ff1bb7268ebdd4b858e3b4e955939142d0cc1d093535813d3e2580c82adc826"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary4.blueprint"
+hash = "1bd62039308cba5ffac0d198c3dcc33c66f946df86c9b9d7ebcd6e8ee181e366"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towerlibrary5.blueprint"
+hash = "e4aae7a4f9e2ac719d840e84b94ff341cfddc79cf8783d9868b061d5734434ef"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towertwo0.blueprint"
+hash = "dbb8fc7cfed66f0f55eca1fa76f8804452c76af31fe339f8a8e6ed85af43cb0a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/towertwo1.blueprint"
+hash = "f06a2a83575aee0dcb7a36a24dd0ddf1abb8995e26cf33ba2b0417bdf3903a71"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/triangletower1.blueprint"
+hash = "e674406b2b97b802da3221f291919a34b2a0bf9078ed860b3efb2879c2a3e388"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbarracks1.blueprint"
+hash = "bb5e235713a051961174fd3529ceef6f2f620b0fdc7d038b4420255cee2d3622"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbarracks2.blueprint"
+hash = "aa5412e5fe8544e0eab1566206ade2ca85ffd7b98981242b3fe3f42bf72ec738"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbarracks3.blueprint"
+hash = "744927a065577d4633cbfef9845d9c6f9fb84aad3253ecd3a94caf92d63f3058"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbarracks4.blueprint"
+hash = "d441dd69d3e708927772d72030d0318b710b43c8e996aee66a5353b3e32a4a66"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbarracks5.blueprint"
+hash = "c30ce7aa371f129feafb560c1a4d74948dcc6e0ae62a54ecca163d2b43091196"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder0.blueprint"
+hash = "be04619e7ffa2fddcd83171011753615faf8953bae26052fe274f0ae676c1952"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder1.blueprint"
+hash = "1b2cdcb47009f7d55d10d302237088b24276388cecd0c57bb04123d54b3e3c00"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder2.blueprint"
+hash = "33237bc6a0aa120946d9dded2a16c05a75920d4c0d57d4d6839b2f1d6d60dc10"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder3.blueprint"
+hash = "86566bfedc32f22242713db4cd17c28485791d5c1193c67d01ab70521f60eddc"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder4.blueprint"
+hash = "666369df7dd3e39310110fb3e547df6b9ffdfe02f7265a9e473a27943e4ff289"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttbuilder5.blueprint"
+hash = "5315f487662aba30c50352359f94ee54aa7001ab37d801836de8dd9e362cc8a9"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery0.blueprint"
+hash = "c314aaa06a27f76ba01189f174695dde683c94d64c6f6e89b02a4f5f9bb7ac25"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery1.blueprint"
+hash = "6c65893572be26fdc13f1f001ca61562546ba4f6be5b1ec7b135d2baa6cfbedd"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery2.blueprint"
+hash = "efeee86e0de022dc5685c8bc32e9840b4da0cda536a015954e92b91ce2161166"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery3.blueprint"
+hash = "862ea92118029fa026b3070cb329e3c983197a1062a0657cdc8c411ce660434b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery4.blueprint"
+hash = "309be022df4872f563aa22d653056f676fdd0c85009e5896d90636af55ffca87"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/tteatery5.blueprint"
+hash = "d25a80a334064965ffd6765e2cb34e8f5b63b341d9031c82b92ed37c4cc58040"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence0.blueprint"
+hash = "b3ab1c3a59d13bbb8dbd166e6730bd17ac1f33f39c6f9d148499811fa25357a2"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence1.blueprint"
+hash = "26aa1a522cdd916968dd38b4df80f99be883a93e21f006eea0af7c81f815a34f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence2.blueprint"
+hash = "5bc7db6162ff202100d8806893b1bbfd2db64d02a32bf16a3bcb23fe9ec93e91"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence3.blueprint"
+hash = "56b10de62df32728d084fd5fb505e93c6dec17708a95da5f720689fe52800229"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence4.blueprint"
+hash = "a8f99db94c436487a6658dc5a506fad4034069b03c5827f8e55117cf302d5967"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/luxury/ttfiveresidence5.blueprint"
+hash = "f49ed2bbe482ada381815a61e91674935c5150fbfcfbad6ae53811437c44d090"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/altstonemason1.blueprint"
+hash = "be52691fd589123707966f55bd28ea055c9826e8950043a9fc37e295527845fb"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/altstonemason2.blueprint"
+hash = "048939795c2bf4509a198a95484c608b2503957c4fb415dfc8888ea434a3554b"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/altstonemason3.blueprint"
+hash = "341a759c2813d849776d3c9833581d9c3da97eaa17d3fe800f160e6fd8c40377"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/altstonemason4.blueprint"
+hash = "b48619ba4b8a8f483514d1817fabbb7594a80109df3003baf6d6c5761425d449"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/altstonemason5.blueprint"
+hash = "d0e85a5d1f1ae6eeed9b0059c211e1b7a161facf17c309e18cfa6c811a13fcd2"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/concretemixer1.blueprint"
+hash = "39c2134a90715b5e68cd8a3633f3bfaa10918866cb388fd5c8347d801ce6455c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/concretemixer2.blueprint"
+hash = "18d9da854fbf3abdc7b3e2ab7ca60a9204e89acb09de6cdd0b9a44c9c8edb62e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/concretemixer3.blueprint"
+hash = "388fba9d3da12a4745f04692ab334a5c426d58593ca568711dd1caa59752d394"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/concretemixer4.blueprint"
+hash = "48ac4bf27509723c7e6147679ee5cde5fe5d2d1c6df8eb234333894229baabba"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/concretemixer5.blueprint"
+hash = "4ff5b6ead04b40fd6ac395ab852768a49d839af7d08077760aa5744a205a6fe0"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/crusher1.blueprint"
+hash = "23a7d9e9ee5cffdbaeb6dc37d3dc972a520c42ab1b5df72d960a7c0e86911320"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/crusher2.blueprint"
+hash = "90111a79e91eb4674c6bce5116f385de3759ea0ab0fce9a65583c7777d60eec9"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/crusher3.blueprint"
+hash = "166d5f26bf62627313614d392f4001d55ddaccfd9ecbec51f1991d2cd6a2e6a5"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/crusher4.blueprint"
+hash = "eb54672a0a1f126f08994538b7012dc723a7b43640d1c205c4d9bcee3d46d7a1"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/masonry/crusher5.blueprint"
+hash = "1853bcdfc069add7f4c3ad91647a16e7638e9a1a6266090d36d835dbd059a784"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/smelter1.blueprint"
+hash = "6bab0c430db4f500c6339f8bdca5f0bb2ce262fbdfcf7081a039d38734cb6a82"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/smelter2.blueprint"
+hash = "b51edc5012891dde58b924c0fbfadcde184be21819e3016d34acc651aa329fc2"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/smelter3.blueprint"
+hash = "8afe608877b9c242e29c07284852cea86b5e09ef6c0847ded0e0d0c51252d173"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/smelter4.blueprint"
+hash = "78b94410af1ea3f8d5dc55c9481b8b74fecdd434f1e76af7313305f10c6065bc"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/smelter5.blueprint"
+hash = "45604fe8f42104d6da1cf47961561cea4c9a7efc4f0f175441eb203d3a5298a7"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter0.blueprint"
+hash = "5bc8cec35480f7d82ebd86928cac37142440697c7795969adf40ff4a2c5b31f9"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter1.blueprint"
+hash = "562f86fe45d3105ca1643eb6a4e6f695c3ada7b0f293466fb67885e796c4f7f7"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter2.blueprint"
+hash = "54e370a374777d28848a6145ed05ea1ad9f3df295e16a65f291a095dfd76ef31"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter3.blueprint"
+hash = "f302eb0c2bff3b5281103640455dd667b18aefd95f1658e5c45a6dd4f98740b8"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter4.blueprint"
+hash = "3983a21542fea8e46b730390e1bf9691064a53274fe45614f6e2d6d67d6d538c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/metallurgy/stonesmelter5.blueprint"
+hash = "486e5d4dead34fd86e6cc963d33068c27521af812f433f5694921e9bbd04567c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/altwarehouse1.blueprint"
+hash = "99c15f3e1d1ea053955ef466888cf0693246d270892f9e28618eca373ca1166f"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/altwarehouse2.blueprint"
+hash = "d7a3592a2e6c39fe65782d8d0fe9e2f02624f2b72773c549bcf00a35e6210216"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/altwarehouse3.blueprint"
+hash = "fdc872ac92ff66e11c8138a821ea55709f7c1fd7c60bda621e689651b4ad0061"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/altwarehouse4.blueprint"
+hash = "1055beabb63fb75395430ebad0d9690c02b1fff1235064cea83efafc6be97f5e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/altwarehouse5.blueprint"
+hash = "a1214be82256b6ca5971df10cca8c4eb1c445d05f266af4e04105736fc88c66c"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/delivery1.blueprint"
+hash = "e3dd23d090be94bdb1853e9da56033ce1a8efa2aca13ed7f98b38d8b2257583a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/delivery2.blueprint"
+hash = "cc1cc9b32b63ef0ffe8013d71cf41d1affcd142340304163f1a578cff237aee6"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/delivery3.blueprint"
+hash = "7346634df02632dc0e9a3d2a2c5e8bdc0a2b49e5168711ddd5a580ae143bed1e"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/delivery4.blueprint"
+hash = "91439b6b981c3f6fc291f9d7817393f5ca751516557583da89335a5dea36fa4a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/delivery5.blueprint"
+hash = "2b5d58c5bd0f98b6ebf0dc07cfef19d5425a27399ed82e645cf9011c24cfdb69"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/warehouse1.blueprint"
+hash = "11489a50336fd6f37bdf542b5b48759d86346a3b4eb12ca795c917de66b1270a"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/warehouse2.blueprint"
+hash = "4c6b7ab3ef8989cd94972ceff4e8a2491f020cf610b523f3347443fd56b90e8d"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/warehouse3.blueprint"
+hash = "882dd694ea1a2550038cb06edf9c08a533b2dc9a40c3ff8641fb96174a313bee"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/warehouse4.blueprint"
+hash = "782c7e19df6d61b1f7d5730a4b90360c69acb0a7af6a0359008cbe8803df0f69"
+
+[[files]]
+file = "blueprints/Paris/craftsmanship/storage/warehouse5.blueprint"
+hash = "d697bd5e65b817979607affe5906aad95ebd1d69825f909aa8e2b2098f40e8db"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/beefarm.blueprint"
+hash = "c693a1f71dbb68673ee49a7a502ac688a405c3eb9bae990276b67234c92dc6e5"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/blastsmoker.blueprint"
+hash = "79728d6d0a462be91855f5198a1466fd60a603f300eb64b55fe739e745d676b2"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/brewingarea.blueprint"
+hash = "ff5be1c85373964af1623e5f865b9c304c4bee1e22b62daa96bbe31ef73d0dfb"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/chickenmachine0.blueprint"
+hash = "f9b0d23a9d9fef16f2316c395d1b0a7d932af0aad3982291d7d00a4d2366e646"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/chickenmachine1.blueprint"
+hash = "7f1e19b4bdec853273723660f45a6273eee684e7416997f0292abd86da16c98d"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/cocoabean1.blueprint"
+hash = "86f2fdd96205d819bb9e89738a44a3f4c68e893fc25073756650f5dae95125d2"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/concretemaker.blueprint"
+hash = "4f9f729bbb217c51283c494b8f88283d20c0880ba940e74749412930fcb13bb4"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/furnaces.blueprint"
+hash = "4e5035b8af39771727639976c747977066c0a2928f114d21801236ce8fcd3ce7"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/lavafarmsix.blueprint"
+hash = "0318fed3f0916a51e76146b819b45dcb7445aa566ff29afc6e4f1429fb5bc8db"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/melonfarm.blueprint"
+hash = "50dfee03ead0d11dfa0db703e1a4f7ea3e9c4f8c293abc13b106f79b9fecd232"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/minikelpfarm.blueprint"
+hash = "a91338fd5081c67a1cea4281e49c258f7d0585cbbf1272984fad97718ec3fb63"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newbrewingarea.blueprint"
+hash = "0a983ff469e131fde74a88d6a345b60e57efdc5d550470a41fe8443f875504c9"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newbrewingarea1.blueprint"
+hash = "58d0f437f8ab25cac066d8cc5114a8b8926f299e5ef372001316a2a061d110fd"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newkitchen0.blueprint"
+hash = "4e88dff22fa34e7c9dd3226f3e9cbfe86c3ef1f23c0639edff6c78e6fcc0907f"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newkitchen1.blueprint"
+hash = "b2ca3f6e4e709978c8815200d543336eedb2c956134cfb299b5897458f005d3e"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newstairs1.blueprint"
+hash = "71378c69b3ffb11afc83cb7d43abd92293edd741b75ce067f150b2e985c2465c"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newstairs2.blueprint"
+hash = "32475628920885a460cfb631428ec526058aa8ad65373bbcef10e35ec64c2704"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newstairs3.blueprint"
+hash = "f9eb3b562b0c6bb6462cace6878c6ab7b21de6d8d7b6f08d069f8c8e7672f4bc"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/newwoolfarm.blueprint"
+hash = "c229d7014617f17b9df515b971b47044752856f5e3ba42ac05d836893e7fd4f6"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/playerhome0.blueprint"
+hash = "70c4799bcaeb546734362408095dc125a8d53f42703b1732954c87261bb78851"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/playerhome1.blueprint"
+hash = "91e749a131c605162cef68a5a6fd14fb51b5b80e8a9a5ff6e06130d6765fdb62"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/playerhome2.blueprint"
+hash = "d09bbbb93a48ede50af2a32333aa16d207b77306b76231298807552a6d0348d8"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/playerhome3.blueprint"
+hash = "6b1d031a41fd630ac54fb5d7148f8c98ad3dade7ba965f050c56622149a981e4"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/pumpkinfarm.blueprint"
+hash = "1785ad405c461f415c3104b5973298b568aa156867b9f2ae95869a0e26716cbc"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/sugarcanefarm.blueprint"
+hash = "3c4f5f3296d909514750cfe3116c4edd2eca81537f90f99492ff990134618c99"
+
+[[files]]
+file = "blueprints/Paris/decorations/Player Home/sugarcanefarm1.blueprint"
+hash = "f31a047ebf4c3133ec4c3ece288a1904de7b6a0bc5a948c1e71d0bb8d696e9ba"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/end.blueprint"
+hash = "32241f73bf600b0e914515048d492cb38ecf2a510a35d48ba43b340b560b1a78"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/full.blueprint"
+hash = "4e7f82d30b62e35b664b2b6654c1821d02fbe584e54af946ff405eba79d44a83"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/halflong.blueprint"
+hash = "37abe0dab3045a67e556bc14a76bef9dc8fdc0832a06f30c28e2c8303d54e7f5"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/halfshort.blueprint"
+hash = "4cfeb226f8b9200b1319e1bcb5cda4bb211eca6f76a2f0c5fc353cb7df5e9468"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/riversedge.blueprint"
+hash = "295d02b039da6ba96b0a5f457bcdd121f56e532fac0df61d9419e0d49b4806ff"
+
+[[files]]
+file = "blueprints/Paris/decorations/cityplan/stairs.blueprint"
+hash = "947e96e5ca3de7f0e646540369ec3f22873574c29804e470ade933d9177f65bc"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/endfacade1.blueprint"
+hash = "f4a35b9d3a90c9ad8a0d7b4ac51534bb2e9226d9c593aaf34620d36076dd9874"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/endfacade2.blueprint"
+hash = "44eb15b472259903e8e89708b9e3be362fddc8d8be7bededd84bc63cacae1ea7"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadefull1.blueprint"
+hash = "69b6ea23ef9602e56672e20161140490be78f55c885503c8740ac236ef48e1d4"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadefull2.blueprint"
+hash = "4b88ada03fc26440b2a17123713f66bd7700d4161968fc7aa996d9c1ad1f39ea"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadehalflong1.blueprint"
+hash = "4544b476fb6d3dda1f2f38d69225d020862333416a930ea3a064553771171151"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadehalflong2.blueprint"
+hash = "d152d53ae98c2d44d2bd648651ae5e6f6fab541e7aba2d2b8e0d42c5f0882918"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facaderiverfront.blueprint"
+hash = "1468e656cea6ae343004643259cda2b297003af1b35455c6bc953c8cb0cce7c7"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadeshort1.blueprint"
+hash = "d5029376640dd68fc072fad10a08b27b152ad6b9075393ec05eef79476e575d6"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/facadeshort2.blueprint"
+hash = "f1a766c714d4bbdb5b556cb364235a86bcbff18273fc325f580222b37f822548"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/rooftopfacade.blueprint"
+hash = "f7b0e4669b6865273a19f4d5078cf35eb6d4471cab3dcde61863c44ad42b4233"
+
+[[files]]
+file = "blueprints/Paris/decorations/facades/secondfloorfacade.blueprint"
+hash = "e046ce5cdc8fd4c64d946d050a5aadbba93a325461e7755fbc60bd5778ffe2e8"
+
+[[files]]
+file = "blueprints/Paris/decorations/icon.png"
+hash = "46199a1d4b68572cec13edc14af98aa00f07bd092d4aab2927045a308d983649"
+
+[[files]]
+file = "blueprints/Paris/decorations/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/decorations/misc/hoteldeville1.blueprint"
+hash = "77892c959e2180b6b74cb57d47798499915f611d77a53d0a01a5b07cf5327d4e"
+
+[[files]]
+file = "blueprints/Paris/decorations/misc/hoteldeville2.blueprint"
+hash = "b0e7640ed612d958ee9bb3020ee5e02c4334bb537ef3914da0ee5eeceaa5858c"
+
+[[files]]
+file = "blueprints/Paris/decorations/misc/hoteldeville3.blueprint"
+hash = "971fd9bb244edce30f6269e5ed80764d0c024087878ac6b4a9ba78479eef322e"
+
+[[files]]
+file = "blueprints/Paris/decorations/misc/streetlight.blueprint"
+hash = "11e1ca3880d78006a6dbebcc0d94fc551dcf06c90209c07f0a48381c93a26825"
+
+[[files]]
+file = "blueprints/Paris/decorations/stairs/stairwayb1.blueprint"
+hash = "d0d44e28f30cb677682956e74189cb0cc1a8d379e8cc686a1f11dc1d1d0b853e"
+
+[[files]]
+file = "blueprints/Paris/decorations/stairs/stairwayb2.blueprint"
+hash = "61d57d102638287cea0329c899a4dfdbb1e3e0cb0f665f9792839a7fa7b746ab"
+
+[[files]]
+file = "blueprints/Paris/decorations/stairs/stairwayb3.blueprint"
+hash = "3f43afa00905d9cd243f16d2b30cf15fe57c1ac219450e43dbf274d0e8960387"
+
+[[files]]
+file = "blueprints/Paris/decorations/supplies/supplycamp.blueprint"
+hash = "ecd245a85ba0a3ff50b598fb8671d5436f264fc5d261e46f308f25056393d84f"
+
+[[files]]
+file = "blueprints/Paris/decorations/supplies/supplyship.blueprint"
+hash = "a8a35c00f147fdfd63d99991e35853a244d3e4315af56e4f2f32980f96ff74c7"
+
+[[files]]
+file = "blueprints/Paris/education/altlibrary1.blueprint"
+hash = "275ec7e892bbcb24203815cdb6cdd5910ee32079ead2920682f5f5f7327f7895"
+
+[[files]]
+file = "blueprints/Paris/education/altlibrary2.blueprint"
+hash = "a1b5142f6d07d3ae9fe625964a02433a8b7116452f437b3599e9fb7079beaddb"
+
+[[files]]
+file = "blueprints/Paris/education/altlibrary3.blueprint"
+hash = "4c4eb3d92b1164a2fef1799527994f3daf81389a273b6658c158071084be30d6"
+
+[[files]]
+file = "blueprints/Paris/education/altlibrary4.blueprint"
+hash = "e63497739ac83a3c98c0b1209c5fa796e4276caeee797a11f656851b0b578455"
+
+[[files]]
+file = "blueprints/Paris/education/altlibrary5.blueprint"
+hash = "30358cfded7e4486afaf50857a6613bb522fd82408fa33206de6b4a4a928f979"
+
+[[files]]
+file = "blueprints/Paris/education/altschool1.blueprint"
+hash = "cab298f5d0acbfa3f5e243a668b9238fad9f3f900004fbcf21daa79c85f15491"
+
+[[files]]
+file = "blueprints/Paris/education/altschool2.blueprint"
+hash = "963f68b9fa443a0369c93fc97095900aa59d0cd7c1243787fc142531eeda98e6"
+
+[[files]]
+file = "blueprints/Paris/education/altschool3.blueprint"
+hash = "71f3c26a82b4da740850477a488e1a34f80e636de935a7b6c0d1f9fe0dd88a8f"
+
+[[files]]
+file = "blueprints/Paris/education/altschool4.blueprint"
+hash = "cd7dcdc04ccc7dd723a775a1c7aa76e131a5f69d88a961f65b80d6dc4e722eae"
+
+[[files]]
+file = "blueprints/Paris/education/altschool5.blueprint"
+hash = "c739418b7c710961e360aa260e68f0ae19b07856878faa1e3d4644c792ea382d"
+
+[[files]]
+file = "blueprints/Paris/education/altuniversity1.blueprint"
+hash = "549b1c3e615a251b1ad260ea3107a5436bb5bfa1a10627f38738e656d1ca447c"
+
+[[files]]
+file = "blueprints/Paris/education/altuniversity2.blueprint"
+hash = "27464e2877f5d7744ebaefacee1871d413710c3a3ff24e89b16f3b6652361f03"
+
+[[files]]
+file = "blueprints/Paris/education/altuniversity3.blueprint"
+hash = "9460967298a77b38be0790053aa742d3aa7f4202451b8085d5ef49e1a4ec1583"
+
+[[files]]
+file = "blueprints/Paris/education/altuniversity4.blueprint"
+hash = "50a1fa9c9dee7187c9fa02c3afae98936c73f45336894543ef209ce9212c20dd"
+
+[[files]]
+file = "blueprints/Paris/education/altuniversity5.blueprint"
+hash = "26aed82b7657d9af465ce102a46391aa9df1449d675dd4d8497e5ada3fa09e00"
+
+[[files]]
+file = "blueprints/Paris/education/icon.png"
+hash = "ffd448b9afbf014783c19472ffd76a1ea7d6000e674c5c3a6f4d50b669c97d3c"
+
+[[files]]
+file = "blueprints/Paris/education/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/altbuilder1.blueprint"
+hash = "05d94e2ada58735c27f2e7e0b6f4f42fbe955a7b9f8a04aa609477f7be1128bf"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/altbuilder2.blueprint"
+hash = "83f4b0ba8783428044021efd215c31f157b6078c6ad83a73d557199c3cc55d10"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/altbuilder3.blueprint"
+hash = "6033206988c26862313b7942c05bf146d0b75a4e539fd854738c3691d0e5d3d2"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/altbuilder4.blueprint"
+hash = "75005b3034978958b337d90a0e7be824a57983431bfcdb272a830adf45102244"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/altbuilder5.blueprint"
+hash = "ccfc57eb89f82310382b078f5411145d0c9b736af2ac21a87fd9258a04615e50"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/alttownhall1.blueprint"
+hash = "78c64a7512a538ecfa87cca62cffe5e33408f998925026afe5fbea4c1266150f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/alttownhall2.blueprint"
+hash = "04f0a8656b9a34928a211f98addcc14aba98d01ab95ce09f9c23ab62b2826938"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/alttownhall3.blueprint"
+hash = "76f8e8a2af1df035c664373f6668f58028047b18a5085059e4434dcc47b86b88"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/alttownhall4.blueprint"
+hash = "3e39efa24b7ad1aeaab7a0abf45953784b8d934d747a1d97ba03ea5d492ed7a4"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/alttownhall5.blueprint"
+hash = "d9144f6941770834f386d69abfe5d3f5766f757f0af265fdf92347463391458c"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentL1.blueprint"
+hash = "0664c9fc4a8f2f7dfab4125b9b4a706577c0f5477aa10a0bccedd923ce7b773e"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentL2.blueprint"
+hash = "695a6b06df91fd7240ccbbcda2fa6ee4327e6deb7369881ccd5e113db173ce84"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentL3.blueprint"
+hash = "86f51c14417f4a515aa35ac5ed1d37118ff8442095f982a5fd5dba7b3a923575"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentL4.blueprint"
+hash = "b99c503367ef07e5ebfdbfecd5b6f19bad0de2bc5cb9b7eeccbee9a9915a85f8"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentL5.blueprint"
+hash = "3c1cccdd7530d8ff076788c74061c5242d533d6aea347cc7c0738820a4663885"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentb1.blueprint"
+hash = "86c5271a684c44fa78ac445fbb544172378cfb63c7f19a404d3101dbbc092851"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentb2.blueprint"
+hash = "c3d33952af41d82258c91773ab460bbdeb5c9920a5281b85dc3db26458bc3f9f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentb3.blueprint"
+hash = "04ce593beec9cc5d0f3d5b1844e5dff24f3ef8ac4ab3ccf036ebf05bf8c24880"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentb4.blueprint"
+hash = "1005d4eb19612138371426ff461ab6b60846d7867585f816ffaa7758b3eb9749"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/apartmentb5.blueprint"
+hash = "cc0b81a9dffee4c07236b1d26eb8e5e25ef98ed13140ee038febc45cbff39062"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/eatery1.blueprint"
+hash = "94611929a4150720b7f4ec67f75b9f26f9dd7a4dc4530bc202323df7816ab6ab"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/eatery2.blueprint"
+hash = "a21ddc146da475d83ee8b1c9a48b6a69fd6b2856af4879ca4a77e4304da58d13"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/eatery3.blueprint"
+hash = "340c4778b358556721c7283a575894e6b575f0d27d1ecb8a8866f7e96b80acc3"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/eatery4.blueprint"
+hash = "322e1ff4a4b4ca85ef437967fbf109d689c8f333e932d1f86fbde7ce101bbd92"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/eatery5.blueprint"
+hash = "6f6dbc40a587ad61717bf7e9a05331bc56ad57e041a138b20a0eb7c44b705927"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endaptguard1.blueprint"
+hash = "bde59fc8d315f99b70bcaddb4f77e41da1e876898339dff70a4b302ee40b5c4b"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endaptguard2.blueprint"
+hash = "62b25810e7e9588d18c54c60533cf2667d9797b4e19b7fb342816b339b8665f2"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endaptguard3.blueprint"
+hash = "c59cf61e1ec09d03799696bbeb3f17704f2c74f90570e3f4f17750f95bf2b2ed"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endaptguard4.blueprint"
+hash = "9459742403f572720b16e6823a58e08365e21b0d33cd39f6dd9ee3a42b72144d"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endaptguard5.blueprint"
+hash = "86701bf730ef5068ef9b7cb5d93f4362dacdabad230b6af0cf47d889fc9668a2"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endbuilder1.blueprint"
+hash = "4e04fb87bc6b7dcf12a0c80cef05ada5edc3166395a9ed91e0bcf49b41e6f5ee"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endbuilder2.blueprint"
+hash = "b81ee577de2a0b93c2319987671b85bc63d6ee7b242ff5be0d34dd675de75b64"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endbuilder3.blueprint"
+hash = "a430c1ca120b9cd113a04797374e5b16b9fe5693207258dda10903d6d118dcd8"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endbuilder4.blueprint"
+hash = "364cec192408b992f4c5283786578efc8b8fff868a667b3e5faefe6074ae3b4c"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/endbuilder5.blueprint"
+hash = "2e34206bae09f8db6d30553791e57ca3ecbe2235d665bbabbc1d3e1a935375a2"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/hospital1.blueprint"
+hash = "a5b1f41bd9493d8a2b50ce9294b55156d6e70bf3715269679712b5c6cec9845b"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/hospital2.blueprint"
+hash = "a3310d4eeb81fc51b7aeac69bff5a29e4ce495ddd063eba615990b4cef615b48"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/hospital3.blueprint"
+hash = "69671e53fe6ad9441291306f87762b10af48d0eccfef8889c5c9a5878760bfff"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/hospital4.blueprint"
+hash = "db77b0621ed28a720be528cd9c8f8d3b31e4fee235fad78dceb834e967d25ac7"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/hospital5.blueprint"
+hash = "4f10b9e70034a831f15242364f7c03174bd593c6df64ac42add6f75c373a32af"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/icon.jpeg.jpeg"
+hash = "b4af34933562aa9d34f63c798a741026fa6b60a490943a2612fb28d28dd35f70"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/icon.png"
+hash = "eef6df1ff75da3342070eb0b152f0d1599084d5eb8a5937be493821ce49ce842"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/mine1.blueprint"
+hash = "a0f88c22c7b5cd09c48643a5b4264cbc2d4de7882bf7f554b05d44dada3d3833"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/mine2.blueprint"
+hash = "cd7360e11099dea0c75ece710ce814d7d0efcac03cf9f212ebb89ff09d228e7c"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/mine3.blueprint"
+hash = "e9fa5dc239e33088d45ef10bb657bfde773eb9244c4b4dd18141e92b26433991"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/mine4.blueprint"
+hash = "2c9813ad5970068765a4b6671b29f72aefca5ba4e229a632fab6718e0a83c848"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/mine5.blueprint"
+hash = "f7a7045b8db91c33d637607b4a891d9d7abf43afb55cdd85cab8cf31def34012"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/nestedguard1.blueprint"
+hash = "396001345ffb94122aeb7d5a2da85446de0ce3a88393d5f36d5584f581765c61"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/nestedguard2.blueprint"
+hash = "34ffbbf8204c13f02ed491fd6df0d53b2476058a5aef42223a8e0e040fd247eb"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/nestedguard3.blueprint"
+hash = "16e416d523a67993e23bf6ddb7d6234c1fbc79c435626e0e0db4c4a10c982855"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/nestedguard4.blueprint"
+hash = "04b5fc41ed27970f73dd731a38fe447c5fb1923633a5fceeead6ce2766c9ad22"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/nestedguard5.blueprint"
+hash = "ce20e70371dcbf3b6f4ac801ea4d68c7f3d766fc308f6d709b0651629835c07f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/pinkhouse1.blueprint"
+hash = "7781f62f466466a772fb0861918040c4c9cc4706401a3b42e900f2701283970e"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/pinkhouse2.blueprint"
+hash = "4f4c1ce1800429f1d929d1bfe93a6f7fa63929893772eb890b1948f7e0344a07"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/pinkhouse3.blueprint"
+hash = "b182ee36b37f6a6cc84c23ca1e04ec0215e3ef60e23a55f32bab8f8e7afbe27b"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/pinkhouse4.blueprint"
+hash = "4cfc98edfcd73ef74923ed1b2bc3bf1701077f881d565840c0ceca272901eb9b"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/pinkhouse5.blueprint"
+hash = "fc3a1f2236d90076dcfa80ae02a8a3fdbcdc8ed63230278bcb811155486f8168"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/quarrymine1.blueprint"
+hash = "972a3a0bbfc4f7f90566e08c3b4cb23f994c98cd4d5a2aa27be8759c040e7591"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/quarrymine2.blueprint"
+hash = "8bf2a1f575af9adf09c645d7489669412ba2e5b6a1d67a62d462588273b94125"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/quarrymine3.blueprint"
+hash = "19a5d81708ac346ab4540a7334f89081bc323905e7a8990ae65d6bd32fb2a31f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/quarrymine4.blueprint"
+hash = "1d3f09ea9aed4ad2318b4dbc465a5350f350395b847f6bff22e0abf19ce4a25d"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/quarrymine5.blueprint"
+hash = "835912362cde35f9cf0c75b0ad7654741df0da697cf7e9a0f8a0e7a939db7c36"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/roofapartment1.blueprint"
+hash = "ab50bf91d7f58e560f2b22ea30c381a3bd7f46f546f4385689e516371e8dd87f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/roofapartment2.blueprint"
+hash = "b108d46822c1928f04b0ed5d9341ef217abc038633e27fcdbe0e6e6894ed6246"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/roofapartment3.blueprint"
+hash = "e839cd7323af17e6e22a640344ce534a958884883ae7a97ac2226ddfbd30b0e1"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/roofapartment4.blueprint"
+hash = "ed7480cee114b3301b304b964683ca6e18f67430f7f30916298cb7dfaed3957f"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/roofapartment5.blueprint"
+hash = "2d99c855b87252ab99b02f4f87ff3936299db8eadd0efcccb1b19a402809e7cb"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/tavern1.blueprint"
+hash = "dd7661adbe5b19e7c13fe9ccf132c594c252c596cd91279a4d2817b9aaddc234"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/tavern2.blueprint"
+hash = "d980736b743befcc1b4d27db857de27b9f8faf559f011732d3dcca352bd274f0"
+
+[[files]]
+file = "blueprints/Paris/fundamentals/tavern3.blueprint"
+hash = "10d076080ccb55e92c031133d7b723d3c6d6040c76e4c4fe278a5698309e85ed"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/alexandermid1.blueprint"
+hash = "f5d40e6d7ac2003887f85a59c4e751d66c744d23cf644be14f7584a3c6e52c6b"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/alexandermid2.blueprint"
+hash = "6025185c5502030b5b56e752f0760d33a8663acc75099298ed784e4425ad66bc"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/alexandermid3.blueprint"
+hash = "10b05b99d0b5b381ffadad704b15b0107d863273324f27aca35d414306fa8582"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/nestedguard1.blueprint"
+hash = "cd4c32238d99a9d6e6b4b6e97dd9bca507822b3bce8fb38468740b5258ab25c4"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/nestedguard2.blueprint"
+hash = "0ce78a48a52d42af4f84b10f2bd6870dd4643a231866497724d5c7d72a8f6957"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/nestedguard3.blueprint"
+hash = "81e46533fd4d7ee5069e3f55867e579e8860c33296f2709500cb6dc487a0cf51"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/nestedguard4.blueprint"
+hash = "20bbc90990e7f271858075c1fbb8b0f2ed9e31121668351a702045b41bb67166"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/nestedguard5.blueprint"
+hash = "a0dd63c3fa337018e0d1ff22d802b98cf92014ab7b3693bc6ec498a45f006d53"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/pontalexanderIII1.blueprint"
+hash = "0dde6c29685ba02dd0baf5fd468a4fc090d5511cf77e4fdd51a5b647379ae92a"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/pontalexanderIII2.blueprint"
+hash = "b1c9ae7266d4c021e8a1bbc530272695cf6b3d91139061e7e24517a3af1f73b4"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/pontalexanderIII3.blueprint"
+hash = "4f8b3c2b90e659d0bfffde12b3d84abde1b4ecbae4e73c0402ec3837cbb6a9a2"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/pontalexanderIII4.blueprint"
+hash = "394c65790c6bfc5d60980ed750049725107f1547b2f621e20f580fd993abac84"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/bridges/pontalexanderIII5.blueprint"
+hash = "917addc02e54347637095c6491d83515d40847ff252557458781f2a2d7ef1c19"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/icon.png"
+hash = "af223ada1f8f84efdcccda703d4cb31fdb998f07856b553735a6f6a5eee12b3c"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/mediumquarry1.blueprint"
+hash = "cd162bab28aa625d4d37275d6681b4021fc89c3c6476def017bbac895ab29383"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/mediumquarryshaft1.blueprint"
+hash = "ca309f8a4e3a1a7a2b3d5762abd710a8a055150048425880dd35d6464144a090"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minermainshaft.blueprint"
+hash = "4c58a4f2f48ecb2c2982487095e3e2cd335e73db2209bfa5ee8437a95dcd7720"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx2left.blueprint"
+hash = "07f2263c82957a089f5536c4f9715fd16ee9966af649ba3469009f7503e8bb54"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx2right.blueprint"
+hash = "e8991334f8a21a716d7436002fb4c647dc76eb36ef2a397d64bbed5715b2c67b"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx2top.blueprint"
+hash = "dd0993495cb7b904d2a72fb2d86815d53aa4f81d33f8d9f7c4f26b3dcf9d333c"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx3leftright.blueprint"
+hash = "f8345f83620b06d1357a73212a8e654f4585a274411e6b3b8a6277db3ebcef6b"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx3topleft.blueprint"
+hash = "47a642a7fd07bda32406298d3fa7e0a182735397f7cafd6a2078b762f41a3709"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx3topright.blueprint"
+hash = "94e0443f1071360ef463fd01c9562893ee0d2db6bcb12d72a5e605b29508fd8e"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/minerx4.blueprint"
+hash = "81a4dbbfabb39c389b1653bca4287720b3c3b41cc4973796f9e65843ddc19c57"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/simplequarry1.blueprint"
+hash = "0ef2592c4fe30b60d473be9e3f41c6ebaffb27f6f0c745386d11f060b00099d4"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/mineshafts/simplequarryshaft1.blueprint"
+hash = "ecc7d72b47f82fcee79b3a5fa7be22c14775f8a7b135adf9bbb40ded52c3f431"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/river/seineriver1.blueprint"
+hash = "7968e48d486cd422e7d44df72ff9464356c11a0e8e3026c628360ca56d46ca21"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/river/seineriver2.blueprint"
+hash = "ffbad44554e68410b336c1ade85d2342662c4ad5fdc4ebb18b6930a3dcdf6c49"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/corner1.blueprint"
+hash = "a126483199d768ba7ff44994642b4bb3bce742cb2983061a0ae9d3e6b5a88fef"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/corner2.blueprint"
+hash = "8294ae2901ba23fbd8c32dd5db2fbf5aa40f6554cffb81b1a8bc8351593bef82"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/corner3.blueprint"
+hash = "0f529d3ca0dacb5565acccfe6017171383d3c0c324d1c6eee40ed9759e52ecb6"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/corner4.blueprint"
+hash = "ecdb2ddea3436bc7f981dd06648ff488f8af5e635eea0fe94405748256d98d5d"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/intersection1.blueprint"
+hash = "d731a4d41e82f49cbbd9e2f86c4af2bb435e5faffd26ccc48f0bbd2991a18e19"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/intersection2.blueprint"
+hash = "a732e920f21341376149873ffbf7643f7ca2db2fe3de6d15dbfef8d67e92d1aa"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/intersection3.blueprint"
+hash = "6ca960329565961ee84d3f1e65398ce475a1684fd360d1fdb6b3ba1bb34a3ca0"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/intersection4.blueprint"
+hash = "29d532522195463b9b405aa81d287d0ca611e60df068d8b0608d2507d9ab66eb"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/shortstraight1.blueprint"
+hash = "4d2bd3be4869c6761a11de4cb6392cd248c408c068f6ae3758922cca59500cfe"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/shortstraight2.blueprint"
+hash = "5e0103620f7cdb5e0037b32f41db77612ff1bbc1965b5429fdc3004f4e939620"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/shortstraight3.blueprint"
+hash = "0d7ac1726a6aee4123d57ac140cb040f30385d12f413e6fb8371b59c4654e124"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/step1.blueprint"
+hash = "6fdf5f236854c49c6d433f34d1925a6e4730424903352a157377853d38d79b87"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/step2.blueprint"
+hash = "606775d54e9fe9742129b0505b68487c3bc2c897bb6b5595465f77ce0f7a8f40"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/step3.blueprint"
+hash = "95c9cf027348f556965de29ec609d6717eb5cab753537c9c4a7c4f00416a9c17"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/straight1.blueprint"
+hash = "ee06ffb0bfe9ddab53d5f984378d28d7c9b2c76a7fb44068d20cc95160c829b6"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/straight2.blueprint"
+hash = "81ba15ace9e11a4a329c00ac1e31f9974f5387134a7cce448b54b83b90c9b5cf"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/straight3.blueprint"
+hash = "4c72b73529c984bd048b1f75113f88ff27866053ef6314c67ed9e763108ee4ec"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/tintersection1.blueprint"
+hash = "091651b8b36bac5789f0e80927528b374177a40dd5bdf8f02c5f53700a2ea3d7"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/tintersection2.blueprint"
+hash = "8daaeed82961af46a0148f45a70137c1f55a8d0b53f4c93687a86eb9d574d060"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/tintersection3.blueprint"
+hash = "e4f33764349b728a60640006b2a5dde2806622a9e60d07b958af4404d260f9cc"
+
+[[files]]
+file = "blueprints/Paris/infrastructure/roads/tintersection4.blueprint"
+hash = "061fc91d49048e82354456396be843a3c45b26ddd496ce6870c53fde6845964e"
+
+[[files]]
+file = "blueprints/Paris/louvre/altnottownhall1.blueprint"
+hash = "e2999044c116a201baec379bc28e3bd6423dfe8c38114423e7e4b30d0f20f825"
+
+[[files]]
+file = "blueprints/Paris/louvre/altnottownhall2.blueprint"
+hash = "a731811018045b8b88fb7fa0622fcca403da1b14c457b8fca00d2fe38c8fe172"
+
+[[files]]
+file = "blueprints/Paris/louvre/altnottownhall3.blueprint"
+hash = "2c7dea7781ef6b37fda63a52462998a3df62aeddc5331822413f8c4ad6024445"
+
+[[files]]
+file = "blueprints/Paris/louvre/curator1.blueprint"
+hash = "67ecf17ac9889a4b7a3cec589e1fdeb04b67eebcdc5daa010a98a0e0de2a7d0d"
+
+[[files]]
+file = "blueprints/Paris/louvre/curator2.blueprint"
+hash = "80c5f07c6ce767c9437471f479cb7c4d9ed40eb753910c006fad0bf745a53b19"
+
+[[files]]
+file = "blueprints/Paris/louvre/curator3.blueprint"
+hash = "79638cf2bb556e2e6713e8998f339e2e4e6a0658685bc5e022b5b26c2c259c7f"
+
+[[files]]
+file = "blueprints/Paris/louvre/curator4.blueprint"
+hash = "abc755cafe87aa494905999735dd5acbd5c1ec2e354166afaa43bd10602a037a"
+
+[[files]]
+file = "blueprints/Paris/louvre/curator5.blueprint"
+hash = "5aa2f12bb8564e41156d6e1ec8a43aa2eb91258c057ded2985ca5b43b3cc26c3"
+
+[[files]]
+file = "blueprints/Paris/louvre/decofrontedge.blueprint"
+hash = "ba9914ddfe778e35ea66a326c6d4a450819b8ec1172c1a81ed1c2789ca2bca40"
+
+[[files]]
+file = "blueprints/Paris/louvre/eatery1.blueprint"
+hash = "f3d4d4371845c7c5dcb8ff0ed74895daac436b2d5f221d6ef78157c8390c4aaa"
+
+[[files]]
+file = "blueprints/Paris/louvre/eatery2.blueprint"
+hash = "d44dba4d5632d12aa105b0b09973aa9167314d81ae0b0d5fec2df09790f58ca6"
+
+[[files]]
+file = "blueprints/Paris/louvre/eatery3.blueprint"
+hash = "9d525d118826a3162aff2f4476ca7d008119ef7d314bae43fc3eb9c0a68f481e"
+
+[[files]]
+file = "blueprints/Paris/louvre/eatery4.blueprint"
+hash = "b8c184d728453917dc62e449226ada0b20d24c572f71b6c92882a66187101130"
+
+[[files]]
+file = "blueprints/Paris/louvre/eatery5.blueprint"
+hash = "bd7c6e704d3d2afb665a7e657b556dd122685f9ef6a60357a65e0bb60abb900e"
+
+[[files]]
+file = "blueprints/Paris/louvre/gtareslib1.blueprint"
+hash = "826dc3d29ed5f824d8e3a24fc9b7ea82b175fa93551be6d44d52bbe461948f23"
+
+[[files]]
+file = "blueprints/Paris/louvre/gtareslib2.blueprint"
+hash = "3373991e5c7dc0c889585d10a1287b8d8f0664db349e51a7b0d6f6cfb17fa311"
+
+[[files]]
+file = "blueprints/Paris/louvre/gtareslib3.blueprint"
+hash = "486273944a6199e747d8f30e451d151bdf90c9ee9331f31f2d798980607f48a9"
+
+[[files]]
+file = "blueprints/Paris/louvre/gtareslib4.blueprint"
+hash = "014f3298de2e9afcf219e7c6de66b80f48c70bca337ba7e38f97a931219bf8be"
+
+[[files]]
+file = "blueprints/Paris/louvre/gtareslib5.blueprint"
+hash = "64946c747b058b02d935307dfa458e5177322db9b547dc6d3d30f057b0aac733"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardbnikebyuni1.blueprint"
+hash = "0bc9cef3f19b02f24bba04bdd5f9b312eb1505e52b4bc83f9523b32f51ad9027"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardbnikebyuni2.blueprint"
+hash = "1a1cc553cdb39ad3b463d97a577f497c70bcd8353adc6592e4e3807eae53dc93"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardbnikebyuni3.blueprint"
+hash = "4d7f1fce5d224415329fbead64d271ba0f9dee553ade3bc71ad7d5659b432b53"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardbnikebyuni4.blueprint"
+hash = "e443b3f1523258bc73f15106a0f141bbd8bf7172b8c62b6dba3eb03bc0121b40"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardbnikebyuni5.blueprint"
+hash = "9a0cf0ff98fe0ec5a29f04318ddc8d91fbf09945de0c2ec29da8792fc312dc8d"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardcnearschool1.blueprint"
+hash = "992d69dffe331631a4e7026f22258805e8c8e117eacedde7273b276b8cdefd1e"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardcnearschool2.blueprint"
+hash = "5cea7f181e3d439519269055606cf9254cdda0b747ec41a73af019f564fb22c1"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardcnearschool3.blueprint"
+hash = "4e33514d5a4281b127cadb27a627f79bc559f172949a4c45c07d9ff087b520c2"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardcnearschool4.blueprint"
+hash = "2c14e6f4c4614cd95b6033d4621dbf69454e5ace9da39a34aac2151f964935e4"
+
+[[files]]
+file = "blueprints/Paris/louvre/guardcnearschool5.blueprint"
+hash = "d3c06cfa4b72a013668c35e6a751a5bcdd155071767ba0b9e3e815b77df47f35"
+
+[[files]]
+file = "blueprints/Paris/louvre/icon.png"
+hash = "162bbc3b93323bf1b73032125e49dad36df4e082c7a222684200669e12276fa4"
+
+[[files]]
+file = "blueprints/Paris/louvre/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/louvre/library1.blueprint"
+hash = "9b0c46d3c4c14cb8cc9120332e8136056857f43ec57fdac3d09ee03d75bb7393"
+
+[[files]]
+file = "blueprints/Paris/louvre/library2.blueprint"
+hash = "8f873f73814dbbb3162e1b2a700a263a2f67878e001fd34614e82331a82ffaad"
+
+[[files]]
+file = "blueprints/Paris/louvre/library3.blueprint"
+hash = "d3df45c1a76a4ed2b54c3cafe815d361fc96aad1f49e8b1c19ec686c7b9574a2"
+
+[[files]]
+file = "blueprints/Paris/louvre/library4.blueprint"
+hash = "c7ca4c19b57b61581a4e890106c8fb1121ea9927c759d3dbb73403c3a559d349"
+
+[[files]]
+file = "blueprints/Paris/louvre/library5.blueprint"
+hash = "329669227cf9a704fc9df8a4614d8d5d3ba78b2d5f6411bab4007984c1f15aee"
+
+[[files]]
+file = "blueprints/Paris/louvre/mystical1.blueprint"
+hash = "7f695019dc79a13c7b6813931e236dc5ab27decb6d5f129f0cfa05c67251bec2"
+
+[[files]]
+file = "blueprints/Paris/louvre/mystical2.blueprint"
+hash = "6a19c6ba3f43ecb00f3d3ac9c6fb5bd61e2724d3fce4c6c6c506d4f31de2632d"
+
+[[files]]
+file = "blueprints/Paris/louvre/mystical3.blueprint"
+hash = "20d6a700eddecb924f627acc1a74293fe0214c1b1f0b6bd78d70beffcc4a2c63"
+
+[[files]]
+file = "blueprints/Paris/louvre/mystical4.blueprint"
+hash = "7aecfa2bed2422d8cd1155f4aa370e2043880dd0b8e6c825aacb266bfe375e1a"
+
+[[files]]
+file = "blueprints/Paris/louvre/mystical5.blueprint"
+hash = "b3a2fc77ee97e9d5c1b46ebd4d284ae18182a212e72519fa2ad6043580b8ef82"
+
+[[files]]
+file = "blueprints/Paris/louvre/nestedguard1.blueprint"
+hash = "677660d4e2697f4ad681e7ca830152e713b1dcb2feb7705321c30571cf7550b9"
+
+[[files]]
+file = "blueprints/Paris/louvre/nestedguard2.blueprint"
+hash = "8ffc2e6138e0cfffbfa5267aa1e6082ccb6595509127c671827ff6e8b30d8f96"
+
+[[files]]
+file = "blueprints/Paris/louvre/nestedguard3.blueprint"
+hash = "71d1f9e1095ff6900be47677993c13838a9342b718e541fe6268872d786b005b"
+
+[[files]]
+file = "blueprints/Paris/louvre/nestedguard4.blueprint"
+hash = "6c60c2dea09da8df1e4ba7c1c4bdec1e8f12b9313b3a4b0bdd9e21fb79f70f7c"
+
+[[files]]
+file = "blueprints/Paris/louvre/nestedguard5.blueprint"
+hash = "8ae2f0854854385b89cb15abebf22e176ed5666ac3034f384cdb62b1ccc120bb"
+
+[[files]]
+file = "blueprints/Paris/louvre/residenceuni1.blueprint"
+hash = "c66939f4de83f0cdfd293e61fa046af35af9b3198f7b4d71d1ce4ca9e66f58e9"
+
+[[files]]
+file = "blueprints/Paris/louvre/residenceuni2.blueprint"
+hash = "2e488c79a4c4f57e94b3523a027b2e6e130f9bf7de9b31b4603cf7eed6356bcd"
+
+[[files]]
+file = "blueprints/Paris/louvre/residenceuni3.blueprint"
+hash = "b6a1ac934526f4773ffad53f4fc9b423c332faf77c327544053a79e2dbada669"
+
+[[files]]
+file = "blueprints/Paris/louvre/residenceuni4.blueprint"
+hash = "f86fff579cd6fdce9d40e363aa131d50283c6edf236d9975ff9dcf32ae02c34a"
+
+[[files]]
+file = "blueprints/Paris/louvre/residenceuni5.blueprint"
+hash = "ad90cddbc510be1aa893962df4d4d041bf93bb0ec8c962e9d5c473eeeab6e809"
+
+[[files]]
+file = "blueprints/Paris/louvre/school1.blueprint"
+hash = "89ff27ae88b2251305c3367c563be3b343044504ad81b68cac89db306a19df97"
+
+[[files]]
+file = "blueprints/Paris/louvre/school2.blueprint"
+hash = "54fb1064ec9a3c4dd61610f056eca1d123e820bed6c6a84e176ae2322da1168f"
+
+[[files]]
+file = "blueprints/Paris/louvre/school3.blueprint"
+hash = "3ce3eabaab2d22d71dabcdd518f4daa5e9abc710e1af8f420a2319a6b77e6274"
+
+[[files]]
+file = "blueprints/Paris/louvre/school4.blueprint"
+hash = "02974f5e25885959259976e3e9940067fee2579c05c9cc91dafcfe42135b2d73"
+
+[[files]]
+file = "blueprints/Paris/louvre/school5.blueprint"
+hash = "14b90fe652c912e4db2a308d76cfd67d49ebfd4c32b9fc2424e2fc967c254332"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresa1.blueprint"
+hash = "a24332cb5703e8f55dfb13dacf6c93a4242f08e57515acf5a23ce9ec97129bb8"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresa2.blueprint"
+hash = "d407f9ad60ec86d6cb0b1f375b820f2fe4c9fc7b44bffc7fd46b43d6799c58a8"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresa3.blueprint"
+hash = "612399312bf2bd1d6761b36f4e5f9d400b70c8f529a29fcb99c798c8718cef86"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresa4.blueprint"
+hash = "69ddd3326d63e622016e77023b1388e568745bce715b248c5e46f3f984eb385a"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresa5.blueprint"
+hash = "6ee8df354aa43acaacb69349b47e76fadefa34f30db3268a1a180c33ea7a7b5a"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresb1.blueprint"
+hash = "74f22155376ef5654555f2326cad7be0e9cb8e5079a928e8c6eb35fc69ef4f3d"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresb2.blueprint"
+hash = "4423f4b1e5127e32800d07bd9be01ffef5ef2d79db6eb0cc7fab6a26b31eeb49"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresb3.blueprint"
+hash = "ee1a46fe4f43b15e4d8c3cface582ecf51f6c8b290ae43ffc3473c2a9ba2387d"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresb4.blueprint"
+hash = "a252a072011ce19a890adc1b1b7ce5c1090b4226ab822e7f7fa121002822aec2"
+
+[[files]]
+file = "blueprints/Paris/louvre/schoolresb5.blueprint"
+hash = "414ee3c2502a2e30090d34a600246effbb681a143c96a548e5959fa40c370e8a"
+
+[[files]]
+file = "blueprints/Paris/louvre/stgatehouse1.blueprint"
+hash = "d36199b508805baa025ef07584cc6db020c8c95e1f2ace01aee473ebccaf3cb6"
+
+[[files]]
+file = "blueprints/Paris/louvre/stgatehouse2.blueprint"
+hash = "7750e6ec40548c2200e1aec675a73e61e12716dd991864c85b11d641c25e5fd5"
+
+[[files]]
+file = "blueprints/Paris/louvre/stgatehouse3.blueprint"
+hash = "18d7905dd942918db5e1abcac2ecbfe115d2c0f971912f6687d1b711bf85ce12"
+
+[[files]]
+file = "blueprints/Paris/louvre/stonemason1.blueprint"
+hash = "fd3e9edd05eada28e235434c1d4571c511cb7a293f4b898939847e6c549cba3c"
+
+[[files]]
+file = "blueprints/Paris/louvre/stonemason2.blueprint"
+hash = "141df6c6345cd7904e35ad8f1273e0c866ea0781b1c911137403814b04b51576"
+
+[[files]]
+file = "blueprints/Paris/louvre/stonemason3.blueprint"
+hash = "9a561be624c66837f700886f2f22e263b992f3ad329f11db134c9be803b41de5"
+
+[[files]]
+file = "blueprints/Paris/louvre/stonemason4.blueprint"
+hash = "a58c3ebfaa92ec9d35e2910e1346080984716d0d04f28aa6e28c5b57c14c4765"
+
+[[files]]
+file = "blueprints/Paris/louvre/stonemason5.blueprint"
+hash = "3a583d4314e935c6fba185dd173bc5d4c7ec1e66b488b79831362915b5b54231"
+
+[[files]]
+file = "blueprints/Paris/louvre/stoneresidence1.blueprint"
+hash = "279eb1dbef60752e6551d51c19fa7cd8867b4878c059b124da7e93a6a9cb2ac4"
+
+[[files]]
+file = "blueprints/Paris/louvre/stoneresidence2.blueprint"
+hash = "4ba614f31ff0b18d66ae2817fd32edb9670f8eeb552669258ad774b18ccbfbfc"
+
+[[files]]
+file = "blueprints/Paris/louvre/stoneresidence3.blueprint"
+hash = "524d56fe41f6748db6dc7aee466fa45a0ffd1152154b0c69190fdc745fb68f00"
+
+[[files]]
+file = "blueprints/Paris/louvre/stoneresidence4.blueprint"
+hash = "ed3c2b3ea705ca3a73892fc5040b936a5cd028bac268331e767a134e8d2eba85"
+
+[[files]]
+file = "blueprints/Paris/louvre/stoneresidence5.blueprint"
+hash = "6178bbd777b2e2da40fd6d8fa97da030fadb13b803c6678f3b952a2b821d964f"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres0.blueprint"
+hash = "6da0a94117dde031d546508ba79e5bf758c04421d7fcc7dfd22996007ac8da80"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres1.blueprint"
+hash = "b343584b3377d00491819f11e951ad0ab815cd2b620fae51e5250ca658a31ffe"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres2.blueprint"
+hash = "c470493b3464c419bc8384ec2e47f0b1ebb1b117b77776cc1a0f5994ea08d4a4"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres3.blueprint"
+hash = "c904a60b9deb55f80b4354ebda2a6aeeb7be46e883aa49850a2ef236fda4eb8f"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres4.blueprint"
+hash = "bf19cc95adf9777dd6e823620be89f640f8e93f1d6a22d6c106d30dce5d8a714"
+
+[[files]]
+file = "blueprints/Paris/louvre/thres5.blueprint"
+hash = "83b3dc36327a170e56d9ec0dec8e17a7d60a6bd4a5445b781071dc8e9342b6a1"
+
+[[files]]
+file = "blueprints/Paris/louvre/townhall1.blueprint"
+hash = "031bc2f1a70edbd32fe0b24157561ba750a287cde2756ec17e49f668c94eaa92"
+
+[[files]]
+file = "blueprints/Paris/louvre/townhall2.blueprint"
+hash = "ad96feed8eec1e58cbbb572c8a1c23ced6884863a7d40d6c7a40c824a3d9d9b0"
+
+[[files]]
+file = "blueprints/Paris/louvre/townhall3.blueprint"
+hash = "b2fe53772f3b749e31bc29f2f687d43884ab74b9c8f1d0b9dda022005b101434"
+
+[[files]]
+file = "blueprints/Paris/louvre/townhall4.blueprint"
+hash = "bbc461ce4cac6916a38c135d6e6825c88823b689384e887d0a6d2ea40f79bb9d"
+
+[[files]]
+file = "blueprints/Paris/louvre/townhall5.blueprint"
+hash = "156f40b2a9f4dd0ce64799fe6485e67d40c2318e36897009d307123704b49e7f"
+
+[[files]]
+file = "blueprints/Paris/louvre/university1.blueprint"
+hash = "95db72c8c8e2a9d35a2d8cd16178373d4ece7588ee25b7b1d246156244c578d8"
+
+[[files]]
+file = "blueprints/Paris/louvre/university2.blueprint"
+hash = "aa7e9da7e017b872ec94815240334e05cdcafd6ed337c604c4c56aa9487d734a"
+
+[[files]]
+file = "blueprints/Paris/louvre/university3.blueprint"
+hash = "0a35a2522322a10eb161711887acdfa7088a7f982cda76b883ac8cad6e9965a9"
+
+[[files]]
+file = "blueprints/Paris/louvre/university4.blueprint"
+hash = "a16770c3bc171c163c6f6d6e9b1af07dab8f8b41ddb4fd334964630619f9e39d"
+
+[[files]]
+file = "blueprints/Paris/louvre/university5.blueprint"
+hash = "7d27ac0a580c667660945695496dae2b082bc236fbfdf5086018701d7d1d5c53"
+
+[[files]]
+file = "blueprints/Paris/louvre/wheretoplacebuilder.blueprint"
+hash = "5f13ed42936c1db0c1e9ab1859f67899663be076c04c2cbd86d4e67ed850b9b1"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist0.blueprint"
+hash = "05655ad26045be3a052968b64cdfe68d71a0b360e34d787015de46cf2a25ee75"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist1.blueprint"
+hash = "18dc9e028d487180c58cfca68675d5ec3413e28c03117d474e620b7e81adf31c"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist2.blueprint"
+hash = "40316ef1602dc9bde883d2bff2461dd0059fcd5827b8d7a632d8af0f9687ef57"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist3.blueprint"
+hash = "3e410f25328ad34441c2725a4c6641e5073b47ad0def12e16f0e3a96f83f688c"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist4.blueprint"
+hash = "954fa3fed73182376cafd821a03c913dbe3bae251e18f9d866ae28ba350a7f87"
+
+[[files]]
+file = "blueprints/Paris/military/alchemist5.blueprint"
+hash = "bd5768e8e3046ab6dbf8cac00aab30cd8db684e57a4e5e90f469b5a4486605de"
+
+[[files]]
+file = "blueprints/Paris/military/apartment0.blueprint"
+hash = "3820e533deb88b131378f981493349204c6adb28af9f4378cc808b91d86f30dd"
+
+[[files]]
+file = "blueprints/Paris/military/apartment1.blueprint"
+hash = "90daf29fdfc135e8de57cdc53e4fac2b15c7f7751ad39c9eed3bea78caccf689"
+
+[[files]]
+file = "blueprints/Paris/military/apartment2.blueprint"
+hash = "80fa3fc71ec38f27e2fe258e38104995c2c6aa5097fb4195cb527214f77b9b52"
+
+[[files]]
+file = "blueprints/Paris/military/apartment3.blueprint"
+hash = "5bfd0c94aaecdb32607bafda9bae8bb552210348515bb2cd00549c4b3e5b8777"
+
+[[files]]
+file = "blueprints/Paris/military/apartment4.blueprint"
+hash = "ed65c3f4bf99829963446dfd26809a793ce9d4b48bb8774bcb24ded67b34a6e7"
+
+[[files]]
+file = "blueprints/Paris/military/apartment5.blueprint"
+hash = "0ec169dec1e7b74a6f398e02e58f7679070afdd2e99e031448166de3db8284eb"
+
+[[files]]
+file = "blueprints/Paris/military/barracks1.blueprint"
+hash = "3a515e13e94e0470e487b1845f93cf9614c39512c106676cce86a95501b3ec4d"
+
+[[files]]
+file = "blueprints/Paris/military/barracks2.blueprint"
+hash = "5880d1eb8cb46a992c9142c96218996cb0357dcc18f6db5443a60e3c85c7f6c9"
+
+[[files]]
+file = "blueprints/Paris/military/barracks3.blueprint"
+hash = "a177bc3a6ff173feea42ba8f588075b60d2407ee819a7697ff9dbb2ed0d4b319"
+
+[[files]]
+file = "blueprints/Paris/military/barracks4.blueprint"
+hash = "8a42102f253c7985a7ad068e62db40d2a50007f215bab3b113270c71310866d6"
+
+[[files]]
+file = "blueprints/Paris/military/barracks5.blueprint"
+hash = "8cea829f47ea6873ca76fe74ab9eef8bed1c189011de66f685f54f03e362d1c7"
+
+[[files]]
+file = "blueprints/Paris/military/barrackstower1.blueprint"
+hash = "e2a247fd53ad7f282ef0f6f6dc0b001c6539953f7f78dfdcdcae18f633ba2fd6"
+
+[[files]]
+file = "blueprints/Paris/military/barrackstower2.blueprint"
+hash = "919682b4d2014db768b567e8a723eed1c75009d1bc6bed6ca82b4559538142e7"
+
+[[files]]
+file = "blueprints/Paris/military/barrackstower3.blueprint"
+hash = "59b2f04e3449b94971840c1c057dfe119709855e9e93be8c8200371b7dbf7797"
+
+[[files]]
+file = "blueprints/Paris/military/barrackstower4.blueprint"
+hash = "8d222cdc7b15bae7c27c4cc767f9ec2f8ac9078fa8b9841008d99d96a3cb3e27"
+
+[[files]]
+file = "blueprints/Paris/military/barrackstower5.blueprint"
+hash = "a4c216625dfa11669e006886a54b7ad58897c0244cefe303422375cdee8b7d43"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith0.blueprint"
+hash = "f66ed23132a29e9fc6d228317215c824dafc5dff6e4aaeafb119a0139054f556"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith1.blueprint"
+hash = "10e15cdf8262a7c14bf02c7a06d4383b656d770fd937276dce5d5fe41b8525e5"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith2.blueprint"
+hash = "f61b3c1f7fc1233e589c3b6c982fa26bffd6aac4073313b48a3a51120ecc6a54"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith3.blueprint"
+hash = "5e64fd137b83db3be4226cd80af8a88a18169ad70120461fe5c48ec785b259bd"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith4.blueprint"
+hash = "d26397980e899122a8b4c95eec50c4a7de8b9ab5e88efe4e42e43cff1e71baa7"
+
+[[files]]
+file = "blueprints/Paris/military/blacksmith5.blueprint"
+hash = "4f30aaf9ae040ac5982231971902b4b9bb6f8cc48477958843e84ba774ddee7b"
+
+[[files]]
+file = "blueprints/Paris/military/combat1.blueprint"
+hash = "353d760cc5b6da31a9c5bfaa1ceca06d160b1993dadfb48be3c05f63e2672222"
+
+[[files]]
+file = "blueprints/Paris/military/combat2.blueprint"
+hash = "c0b8b6e60a9b0723f5162fce8ad1b1beec282e350bf5eb2deb61485c3be9a172"
+
+[[files]]
+file = "blueprints/Paris/military/combat3.blueprint"
+hash = "801c0370a436a1c805bfdacc274dd0c94a7bc0f75a67296b4b11af23c187ae50"
+
+[[files]]
+file = "blueprints/Paris/military/combat4.blueprint"
+hash = "648646b8ab88a701b256e2d14e8e42211bf16c2f4f26a6d64c40b6464bfc3869"
+
+[[files]]
+file = "blueprints/Paris/military/combat5.blueprint"
+hash = "40a9ad24ef22af865ed24b1f531458b08054bf0d71a60b3842068c99762fd597"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher0.blueprint"
+hash = "7d09c0fa70042ecaf7563b2f9b746efd62a4457e4b78a2b418608f6acdec7337"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher1.blueprint"
+hash = "0d943e16c2aa67ea62709d5c8a6839f0a5a9646ac6e85fca05eca7efe5f6ec77"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher2.blueprint"
+hash = "d4ad85c1dcbeeaf3b5ec3b9eca491ac20d4a5722c22c4786b46fa5f57711d18a"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher3.blueprint"
+hash = "f15a1240d56389374a20a0787271ed4a93c9a18dac6f49c6369a380352789c4c"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher4.blueprint"
+hash = "0169ac4e7779b4388b3420b692f5ee5a69f7f2ba11729ccdcf981c4224695956"
+
+[[files]]
+file = "blueprints/Paris/military/druidfisher5.blueprint"
+hash = "3d3d4f49c008156554720b67cae45b7a0e2207f2aa103cfe8a9c85fc97db7a89"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence0.blueprint"
+hash = "ce3abebde3e017ad0ce028a99a29902d37a02a569d2bf8ebef8c74de7c5cc809"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence1.blueprint"
+hash = "d3e31e393db0af253ac29b12ccf523f7a64ba3394e9e19bebcd42cdc537c5f35"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence2.blueprint"
+hash = "4cf9a355ece98708c661ee3aea187bf1fc9b1f4921bbbabffeae2fc00686e47c"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence3.blueprint"
+hash = "2eaa6a39d0f2b48272e29400710d074ef20960d0f58d1569539cd76cf338f2c6"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence4.blueprint"
+hash = "5510df22fa1eeaa42576634783bd81cb4cefe92f4f06b6e1d2b9da006e38afbb"
+
+[[files]]
+file = "blueprints/Paris/military/druidresidence5.blueprint"
+hash = "ca8a08e5d7529206f42fe35333df07e6989f1d9726accd213ea71f97b433c164"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter0.blueprint"
+hash = "5e61d478303ed3eba4d091b99827507c52ebeed10130b18ae5798e1dd35ff055"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter1.blueprint"
+hash = "f45065e13e71647bd2d3c0363d50d8d556359b5b2c82e7af7094bb5d6e795a53"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter2.blueprint"
+hash = "de3b916bcffb9ca97e216745255fbe8ff1a4f82f30a0be8bb705a27b494c4fe9"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter3.blueprint"
+hash = "a5386b76a8d886df3a60b15b38d117c793efacc6efd46d2c81f218b1b3073342"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter4.blueprint"
+hash = "9c8ce237cedeaf56cd45bc71027c4de1f305c36460c8c5b55857b294f82debe5"
+
+[[files]]
+file = "blueprints/Paris/military/druidsifter5.blueprint"
+hash = "9a0b0ad53c489ff9b639f94aebf820ba84450c211d8c01c06a5eed363b4847d6"
+
+[[files]]
+file = "blueprints/Paris/military/eiffelbarracks1.blueprint"
+hash = "8ecda22d89f6275b41fc77cc45136570b8f7ef615b1df50af9bfb8756304d022"
+
+[[files]]
+file = "blueprints/Paris/military/eiffelbarracks2.blueprint"
+hash = "ab4e2a985367725b1778cab48e0d4c29e8e4b107d315dcc34741e65ea4f2b726"
+
+[[files]]
+file = "blueprints/Paris/military/eiffelbarracks3.blueprint"
+hash = "e4786403898db1dde2ef42073eecdcc82af9b206050610a7142ecbfd08168a99"
+
+[[files]]
+file = "blueprints/Paris/military/eiffelbarracks4.blueprint"
+hash = "0fc7d1c8bb2a3cc68174e722ee01655427a542d4d8a6e9bc1608447587abf8e7"
+
+[[files]]
+file = "blueprints/Paris/military/eiffelbarracks5.blueprint"
+hash = "6dadb8c2005a84410be729a263ebed2ededfa4290dc19093573685787bf0b58f"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery0.blueprint"
+hash = "9e8713dab0a9859e3a044fa3a19c4612636025de7097bde13f6ac893a35d70a7"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery1.blueprint"
+hash = "c20fd8cc3a20e454c1cb6869021df8e90bc01542c10a92c9f621923027526baf"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery2.blueprint"
+hash = "fb276106cd712a378570d24fc570b4b1343f62596250dc17c51c6a9194859eec"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery3.blueprint"
+hash = "6e786ebf559afea4ed2a29fd14413c114d620c5856c6f2ecea387842806666f9"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery4.blueprint"
+hash = "45b54752f2b792138b29f2aeee10d4f2ead9fe35d90d2008231f4629467e6aae"
+
+[[files]]
+file = "blueprints/Paris/military/eiffeleatery5.blueprint"
+hash = "0562efbd0a93888c3ee585bbbebbfed2c3d28b818a6460b62d7239417037eca5"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher0.blueprint"
+hash = "857d8e20ac8fec3d967438431417ce81fa943374e727f82d5b3071d4693bac9b"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher1.blueprint"
+hash = "ee757c508f3db490ef4f439696005292c76959871735c281748474c852adfbdb"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher2.blueprint"
+hash = "7e059b958e9e65f428c7d26b704ecfbab92d2727593f3708b7c02cdae4e2f508"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher3.blueprint"
+hash = "f40d8a5abed0e87b89a9c3133d0f074280f58de3037edabf2a096dcd2a664f0f"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher4.blueprint"
+hash = "158300cacbfe766dae8b8b0fb64e007ad9969c52e60fb2ece85a726a3fd2269a"
+
+[[files]]
+file = "blueprints/Paris/military/fletcher5.blueprint"
+hash = "90f96064280ea8b882ce6a5d4366df5f45bd5bb283b5fd79d7ceac8b59191849"
+
+[[files]]
+file = "blueprints/Paris/military/gatehouse1.blueprint"
+hash = "84880011e3915e852b6a932da7c07315755d39ccc4e866aa19dffbaf1fc71a60"
+
+[[files]]
+file = "blueprints/Paris/military/gatehouse2.blueprint"
+hash = "d3ef322017b795aeb6e76b337ae3660543cbe95d3609bc762e999e4d50a51966"
+
+[[files]]
+file = "blueprints/Paris/military/gatehouse3.blueprint"
+hash = "e9ada59960f078b026586c174488c7256d057078d638ff2b96e2152ed7a74fc3"
+
+[[files]]
+file = "blueprints/Paris/military/icon.png"
+hash = "f8ceba3489578cc517702af902454f46ed907e22e8a85c733314a690ff8d56c5"
+
+[[files]]
+file = "blueprints/Paris/military/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery0.blueprint"
+hash = "006cfd810189b5a93459818e7cb2f5831a707b7ba01331b27a508d8ff066fd8e"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery1.blueprint"
+hash = "28f4b0755f299b3497e79960ae87b8feb2c78b26b7becf24d779b26582e43315"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery2.blueprint"
+hash = "d97411295821597633a72a98ac17eb55c954532c3496a918c9b12fb97848233b"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery3.blueprint"
+hash = "df866b3edfa945219cb78f20c477d8900e4f6e8c9be90f5191dc46afed9c1950"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery4.blueprint"
+hash = "ffb75b3238d217cdd8b038e10b44c2e8ad3016a5f05424818693b2dd9b9c8217"
+
+[[files]]
+file = "blueprints/Paris/military/nestedarchery5.blueprint"
+hash = "141352bf9131e96a39989474f1718b0e834db135c168ee8f68497110383da758"
+
+[[files]]
+file = "blueprints/Paris/military/policeguardtower1.blueprint"
+hash = "9b1354a03885d4963fb061d121ca2852ddec5ff1f75c759f4c4a798c1a42cc99"
+
+[[files]]
+file = "blueprints/Paris/military/policeguardtower2.blueprint"
+hash = "66106ef015f5dc5a14a3f42a16f85db7a5a795cd12b31a3b85ac11cbb0a60ae8"
+
+[[files]]
+file = "blueprints/Paris/military/policeguardtower3.blueprint"
+hash = "5381052f26ce208d938ce0c5237f3f3d3dfffbdf97dba901b56f57103208ee9b"
+
+[[files]]
+file = "blueprints/Paris/military/policeguardtower4.blueprint"
+hash = "234993302229ad31b81fe601f6840902326d460159842b2f8fb88b9dc066cdcd"
+
+[[files]]
+file = "blueprints/Paris/military/policeguardtower5.blueprint"
+hash = "d93caa211fc652a3a1d887455770b1496f1a29f7790712be6eb0d21c753a0f99"
+
+[[files]]
+file = "blueprints/Paris/military/riverguardtower1.blueprint"
+hash = "3a9c692b4cf6d1637f7649f0c2631e7e6928fc227071a5af0e1fdb542d330e1d"
+
+[[files]]
+file = "blueprints/Paris/military/riverguardtower2.blueprint"
+hash = "c1643a4f1c7612f5cf87e60f44abdeb228ae9cfcdb1b157aa4621e4f0705e923"
+
+[[files]]
+file = "blueprints/Paris/military/riverguardtower3.blueprint"
+hash = "ba82d2fd318234eb839bccaedc20a2d0b271b0390747df382a648514b398aecb"
+
+[[files]]
+file = "blueprints/Paris/military/riverguardtower4.blueprint"
+hash = "21bafd7f97bfca5b6da9c97842300f6f863c2d288f6d6b9aee9cac2eba6a1609"
+
+[[files]]
+file = "blueprints/Paris/military/riverguardtower5.blueprint"
+hash = "0563f3cf5603dda50c8b47ae3a23728ef8fc8a3a2048cd4a455d242f3d103ab1"
+
+[[files]]
+file = "blueprints/Paris/military/stable1.blueprint"
+hash = "854d15be9183535aa1c9736d2d1b687b9178d10554c5f59556d50a8a395b3179"
+
+[[files]]
+file = "blueprints/Paris/military/stable2.blueprint"
+hash = "33fbca1274230d0c2d59d104d265e571af00ca785cb6e02b58ab9b548f4e67b4"
+
+[[files]]
+file = "blueprints/Paris/military/stable3.blueprint"
+hash = "7cfa3a89a710375ed5bd5a6efd6eddfc39be3d1090655b8af9ccdbe46e9b4115"
+
+[[files]]
+file = "blueprints/Paris/military/stable4.blueprint"
+hash = "756165161d697e1f13686ac10331ab8fa55a9a9e9114ad9aa51e7bacd530dce9"
+
+[[files]]
+file = "blueprints/Paris/military/stable5.blueprint"
+hash = "e60b4e3fec3a8c850af5ea16bd492156b5aa30a029e17bfa77be6c76ef6e73ee"
+
+[[files]]
+file = "blueprints/Paris/mystical/altmysticalsite1.blueprint"
+hash = "36499a200ddf257cf49945d40597a34cd21ebf07aa8ef00a555a62f570b79b0e"
+
+[[files]]
+file = "blueprints/Paris/mystical/altmysticalsite2.blueprint"
+hash = "62b6f65764dbf0ae56da64c4380b27a381c65396a993f1928eb246c9bf88568c"
+
+[[files]]
+file = "blueprints/Paris/mystical/altmysticalsite3.blueprint"
+hash = "b9f09400bb1da68c00853b15a444db60f1515c1105ffb14cd7a9507f5d06ad72"
+
+[[files]]
+file = "blueprints/Paris/mystical/altmysticalsite4.blueprint"
+hash = "20b937a8bee5aa6c42897ddf06cfeb61df539ba14db367d2a08890bb881ab762"
+
+[[files]]
+file = "blueprints/Paris/mystical/altmysticalsite5.blueprint"
+hash = "5ac6ce64ad382b026ecf8feb4ef21fe559c212f415a58785c1683377d96a9a57"
+
+[[files]]
+file = "blueprints/Paris/mystical/catacombs1.blueprint"
+hash = "f69aab37965ffd2b767b4608bb8ce4193d1f3b258a213549ed0c2dbfdbeb868f"
+
+[[files]]
+file = "blueprints/Paris/mystical/catacombs2.blueprint"
+hash = "a8eda6ca5946a83011abd67fedb73640519639cfca514b4ce87af326a1d284c4"
+
+[[files]]
+file = "blueprints/Paris/mystical/catacombs3.blueprint"
+hash = "c4f5118969cdf31e8eb58ed6a8a27f91d98924a3116037b8feaf27139af86d99"
+
+[[files]]
+file = "blueprints/Paris/mystical/catacombs4.blueprint"
+hash = "41a9ad4e9a993ed826f5099b89a5e73f1078fc324e6a7cbdce7ef5229f45bcdf"
+
+[[files]]
+file = "blueprints/Paris/mystical/catacombs5.blueprint"
+hash = "cb2cd681dae1e5d0e39632945dcf77c8104cafaf539970d39d67e6269356ee2a"
+
+[[files]]
+file = "blueprints/Paris/mystical/enchanter1.blueprint"
+hash = "ae2bf9b20ae3461a095482efa0b76b378c770d27265ea700748cbff05094727a"
+
+[[files]]
+file = "blueprints/Paris/mystical/enchanter2.blueprint"
+hash = "ab03f7c69f004066e03d5eee224c904930e02339c76856f55b4e36d2f9612600"
+
+[[files]]
+file = "blueprints/Paris/mystical/enchanter3.blueprint"
+hash = "894ac2be3a3326a3783a439045a71f773279f6c875888a31e5e94becec34f60c"
+
+[[files]]
+file = "blueprints/Paris/mystical/enchanter4.blueprint"
+hash = "10ddc1d73cf200cfce41131218c71d66475678a1245bf718af79d87b96721c98"
+
+[[files]]
+file = "blueprints/Paris/mystical/enchanter5.blueprint"
+hash = "3d0a5da72a3cd26c73e5c60025c4e5b011b16c462666389fdbd23d9aa6089df4"
+
+[[files]]
+file = "blueprints/Paris/mystical/graveyard1.blueprint"
+hash = "706b0d3fb3b5e6bb023018878ec49eaccae5c27fb6e935c7880deadb7973bf70"
+
+[[files]]
+file = "blueprints/Paris/mystical/graveyard2.blueprint"
+hash = "1767f541b9986f99381dc074cf77347a1df0e5dbcc95f255b6bbad141a0b1933"
+
+[[files]]
+file = "blueprints/Paris/mystical/graveyard3.blueprint"
+hash = "3e9a011277c7eec7152c952b84fafb3721ee534805e05ad6fa17369e2acc9b34"
+
+[[files]]
+file = "blueprints/Paris/mystical/graveyard4.blueprint"
+hash = "8dda26657901f5cebec3a113737f02c673963833a306bc38b856b8fd7d81bc9d"
+
+[[files]]
+file = "blueprints/Paris/mystical/graveyard5.blueprint"
+hash = "d5683d5d785b134a8eea77fe90004e77377e8360d81ce2a793b628b82d77cc2c"
+
+[[files]]
+file = "blueprints/Paris/mystical/icon.png"
+hash = "94549202386a7869b9fb4ec315625013d3cf0f516e5ecc10f2b2acb7c165a95a"
+
+[[files]]
+file = "blueprints/Paris/mystical/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/mystical/nethermine1.blueprint"
+hash = "9c4fabce98336b14d7d336400ee52cb4f43960bbee27410bfef1a2689de6f012"
+
+[[files]]
+file = "blueprints/Paris/mystical/nethermine2.blueprint"
+hash = "78770d80c249dfabfafd42f3a64ef9de70808818b400b142e901c577b39d1fae"
+
+[[files]]
+file = "blueprints/Paris/mystical/nethermine3.blueprint"
+hash = "38968f8b4e4dee742425d81961c87405ffca13bf4c396835b8ab3e082dba7c7b"
+
+[[files]]
+file = "blueprints/Paris/mystical/nethermine4.blueprint"
+hash = "ebdcf15f58f49d72beb1a764d62a4718644cea5cc972727b2b6e4a791fa24938"
+
+[[files]]
+file = "blueprints/Paris/mystical/nethermine5.blueprint"
+hash = "c725e3b133f4244e6aca550b9e1dff12e4fe7bfd20c16ef37375300204d0e3bb"
+
+[[files]]
+file = "blueprints/Paris/pack.json"
+hash = "8d627a521401f4ffbcdfa3a44bb0e504f407c0a2d1f6bf75209b07552e541cb5"
+
+[[files]]
+file = "blueprints/Paris/paris.png"
+hash = "993dd86bdae2db512ac1ea23775a66721fda6e267bf6487c6ed2ea82ec3e255a"
+
+[[files]]
+file = "blueprints/Paris/walls/0corner1.blueprint"
+hash = "b179d593908a8399823c1b410a51a613a23fb7845b8625bf0ed0fe346345c1fa"
+
+[[files]]
+file = "blueprints/Paris/walls/0corner2.blueprint"
+hash = "4a6b866eae7091e66408dfefc813fb75c68bbc12e35ac3d4e4bd5b73a1fbc1ac"
+
+[[files]]
+file = "blueprints/Paris/walls/graduated1.blueprint"
+hash = "01ca755bb539a3356e1ec033be8fbd4af528095ca36196929dac87b5673af495"
+
+[[files]]
+file = "blueprints/Paris/walls/graduated2.blueprint"
+hash = "6fa0072d68151cdff31d2a3d3c02b766d9d9fb7129177ac732188d26a610bc4b"
+
+[[files]]
+file = "blueprints/Paris/walls/icon.png"
+hash = "cec2e8c710ce6fc13e60996715ada8f3fbeb14be319682bf6559de7f065e6c5c"
+
+[[files]]
+file = "blueprints/Paris/walls/icon_disabled.png"
+hash = "0736041e8e8e157799bbf514da8c1c26f7b6bfcf27cd59ca8ba23c88155b94c1"
+
+[[files]]
+file = "blueprints/Paris/walls/icorner1.blueprint"
+hash = "cf08f3e1cc7b898810b1c67f89f82095033ae9b61151bc5a006b0d6b6d28e8b0"
+
+[[files]]
+file = "blueprints/Paris/walls/icorner2.blueprint"
+hash = "5b523dc51128387a19b110dd85f136d76d824374f8b51a2a12bf326a59437b05"
+
+[[files]]
+file = "blueprints/Paris/walls/nostairs1.blueprint"
+hash = "015401aa35774176063b2d71d48b0eeedd172f43daed5636fbb0eeb903516afe"
+
+[[files]]
+file = "blueprints/Paris/walls/nostairs2.blueprint"
+hash = "85788d2ca184a1120b8e4fe2e80b26b0a5f087abeb95b3aab62989b166e29a4c"
+
+[[files]]
+file = "blueprints/Paris/walls/stairs1.blueprint"
+hash = "0a4d9231472e79fed24e3dd97323aed755936426850906d716605d3d5238f99a"
+
+[[files]]
+file = "blueprints/Paris/walls/stairs2.blueprint"
+hash = "d2699675649776ecea3ab59e4975c64141eb17252a9f60577b43a85eb87b6202"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "27d2630dcdc3acaf51c36c1347951524affdaf00f5a626f2e374a43ff7f1c534"
 
@@ -5170,7 +7974,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "99a91f1e1c59b585f0d64ee30290fbb8a176ba194fd411c1cbddefccb12100d9"
+hash = "3f87bbaa6341fb85f61a5a326362726bb943767f3828612f8dfbeba51760b0fe"
 metafile = true
 
 [[files]]
@@ -5720,12 +8524,17 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "de6a284d3055d9d00a16be172b254a6fe74d1e181ed34cee1332054c0c8f860f"
+hash = "f2c72153515f80c7b408d0f2a6dde2ecf6a0bd3b5aafe2f6d832ae69774a93a0"
+metafile = true
+
+[[files]]
+file = "mods/structurizecompat.pw.toml"
+hash = "976d734a67b0cad27836dd8ddc1f34fd1959b7f8e49a8e47455a7145d61cc788"
 metafile = true
 
 [[files]]
 file = "mods/stylecolonies.pw.toml"
-hash = "9f9697e78e4b1503d9e4e97d0863719b7075b6f6452798d8a852c1e5d971dcb5"
+hash = "f05d9cd3bdaa15f67324165cd33b3a7a37967127ee0ebb5afa3ac02049954952"
 metafile = true
 
 [[files]]
