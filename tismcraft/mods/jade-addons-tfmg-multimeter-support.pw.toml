@@ -1,0 +1,13 @@
+name = "Jade Addons: TFMG Multimeter support"
+filename = "create-jadeaddon-tfmg-compat-1.0.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "729950ba5254b93e5978b185903401606fa9e067"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7762753
+project-id = 1487186

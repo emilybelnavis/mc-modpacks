@@ -4595,7 +4595,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "760b68f2927bf6e2043afa4e3a19956f5405e4dfad2940bb6140c904974cdcad"
+hash = "659b6105f96811861262e07c488a15f753c0196b9144d9ef2bebee7679fd2f19"
 metafile = true
 
 [[files]]
@@ -4749,13 +4749,28 @@ hash = "24d27cb3caf022e154386e473bcca80e15d6ce18fa8e1367b6f9b4dc1594b446"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons-tfmg-multimeter-support.pw.toml"
+hash = "a1d1f59d9b88d48dcf594a3a782e00dea5fd3542ad5772a3a01ac1c936434bc8"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "6fb17e32ab3d80cac0fce250a55c6b5314c1330c1689b22f2ed3a84e5263220c"
+metafile = true
+
+[[files]]
 file = "mods/jade-modded-entities.pw.toml"
 hash = "06465cf25a57e6cb6f6b5194b6046366583cbf54bc342dec681d3d460da5ff19"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
+hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
+metafile = true
+
+[[files]]
+file = "mods/jadecolonies.pw.toml"
+hash = "cb353d4b96069af9cc7074c732a03f24f26e39a1d3c8c686e55ba25521e97e0f"
 metafile = true
 
 [[files]]
@@ -5039,6 +5054,11 @@ hash = "e551caa3f5272461a2c64b948499434fad21854f5edc6750ed9e432174d9d33f"
 metafile = true
 
 [[files]]
+file = "mods/mekajadeupgrades.pw.toml"
+hash = "20ba1021bb3047a3c56ffa39b40c97638211934b3fb129b9ee9b66e99387822d"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "3b457c1c1999c8bf9d1c3b27a4982f44fc800a29889da5d8372933702882e9a0"
 metafile = true
@@ -5285,7 +5305,7 @@ metafile = true
 
 [[files]]
 file = "mods/oracle-index.pw.toml"
-hash = "0dbda340647b52d2e499c15356e71e433dac17d53a64b46ffcc0f4ce384acc96"
+hash = "854a7ebd25b26946a354a677238c4c98ea397aa33146699842d58b0e8d0cbdcb"
 metafile = true
 
 [[files]]
@@ -5565,12 +5585,12 @@ metafile = true
 
 [[files]]
 file = "mods/sdm-ui-lib.pw.toml"
-hash = "e8ec6aa38ed7e5cc5f03ffa9d6d91616737375a827c9fe21742d028a8cdd8fe5"
+hash = "b96fea876b74f4a6e7f81d090e71915b373e25be608ef4a0b70e5dedb9ee612b"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
