@@ -8528,11 +8528,6 @@ hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
 metafile = true
 
 [[files]]
-file = "mods/structurize.pw.toml"
-hash = "f2c72153515f80c7b408d0f2a6dde2ecf6a0bd3b5aafe2f6d832ae69774a93a0"
-metafile = true
-
-[[files]]
 file = "mods/stylecolonies.pw.toml"
 hash = "f05d9cd3bdaa15f67324165cd33b3a7a37967127ee0ebb5afa3ac02049954952"
 metafile = true
