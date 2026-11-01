@@ -1,0 +1,13 @@
+name = "Colony Patches - Compatibility Fixes for MineColonies"
+filename = "colony_patches-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39c625c453fcba93cc88d41da03f062ba2e8302d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9119570
+project-id = 1728377

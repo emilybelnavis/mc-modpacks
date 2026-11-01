@@ -1,0 +1,13 @@
+name = "MineColonies: Block Party"
+filename = "block_party-2.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a6d1ff63279f538102f7c4c5770b255bcd2dd5d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7222126
+project-id = 1098989

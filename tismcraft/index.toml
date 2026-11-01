@@ -6489,7 +6489,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockui.pw.toml"
-hash = "0dc7230f27f24e0e64a36f5a26a6b430baaf6452a3c533bc7ae8e999f77b549b"
+hash = "643c88ee26ec68650091c395c5c4fbd33d534a9c493e3cc05da3c793cc7ab9db"
 metafile = true
 
 [[files]]
@@ -6524,7 +6524,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "1645cdf9cd396ffa042dfbbe9d617cd4d61545eb53092e7a91d52c3b94a6b21d"
+hash = "3c7de73ca8cb2e2eddda71d98cc07d29af70d5f8832fb572e2c1b8d2a4ebc720"
 metafile = true
 
 [[files]]
@@ -6635,6 +6635,11 @@ metafile = true
 [[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "107f1089debe869dc912e119eedbc3f6b523dbdd8193719ba51ce476914f4f5a"
+metafile = true
+
+[[files]]
+file = "mods/colony-patches-compatibility-fixes-for-minecolonies.pw.toml"
+hash = "37636cb01f88badcd6055f51c2dad8778c88a4f1c09c682b087383998b15431a"
 metafile = true
 
 [[files]]
@@ -7948,6 +7953,11 @@ hash = "cfa49c262d039f7f3ac13761560cdb83dfe2ca7adb0513b1bd7b9a6444b5fe16"
 metafile = true
 
 [[files]]
+file = "mods/minecolonies-block-party.pw.toml"
+hash = "3968f116e0609d2bcbea9fac8ea469a37663a91cc74e658a69685e660fd2fc41"
+metafile = true
+
+[[files]]
 file = "mods/minecolonies-build-mode.pw.toml"
 hash = "9a0fe57cbf60f8a0c28bd560e2a354f399774b8e9b44f34690de2444a86700cc"
 metafile = true
@@ -7955,6 +7965,11 @@ metafile = true
 [[files]]
 file = "mods/minecolonies-jade-crops-addon.pw.toml"
 hash = "2e2ae9e2987d534cc8be43e1b236cf37d49aa1db81e751189a168126573f3826"
+metafile = true
+
+[[files]]
+file = "mods/minecolonies-questline.pw.toml"
+hash = "d457434c3a51c964a7ddaf97913d86c38f072a345c08444189b432381a02e3e7"
 metafile = true
 
 [[files]]
@@ -8050,6 +8065,11 @@ metafile = true
 [[files]]
 file = "mods/mts-iv-official-automobile-pack.pw.toml"
 hash = "e5a079db01eb9602b9b5b3362dfa25edc5e4bdc60d8b5176895b5ed57b8e831e"
+metafile = true
+
+[[files]]
+file = "mods/multi-piston.pw.toml"
+hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
 
 [[files]]
@@ -8494,7 +8514,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "b9d4d42709629f2d52cb9d33bedf298bbea635b53f69946f9ec2735c47dfbd83"
+hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
 metafile = true
 
 [[files]]
@@ -8525,6 +8545,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
+metafile = true
+
+[[files]]
+file = "mods/structurize.pw.toml"
+hash = "f2c72153515f80c7b408d0f2a6dde2ecf6a0bd3b5aafe2f6d832ae69774a93a0"
 metafile = true
 
 [[files]]
@@ -8560,6 +8585,11 @@ metafile = true
 [[files]]
 file = "mods/ticket-machine.pw.toml"
 hash = "426b1d74bb968b0bfb20543df42e9fa4d9fc0b2f01922f949e678f46983d2652"
+metafile = true
+
+[[files]]
+file = "mods/tinted-dyes.pw.toml"
+hash = "78cc00a5b0365885e41a00b66609b79b2e67b962437cfdb5f8d7d19f1a86c2d9"
 metafile = true
 
 [[files]]

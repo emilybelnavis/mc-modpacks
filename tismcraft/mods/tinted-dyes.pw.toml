@@ -1,0 +1,13 @@
+name = "Tinted Dyes"
+filename = "tinted_dyes-2.1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ec2104f7c519c7e3aec0ab1e1c7c5bb1f02cef6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7679289
+project-id = 1009078
