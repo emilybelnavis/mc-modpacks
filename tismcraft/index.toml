@@ -3222,7 +3222,7 @@ hash = "7e34b6b472d2283cf3113c0e5ebc2ecacc04eb6057b8bf7d696d7bf7eca3eedf"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "dea2f15fa4c46325385dd6ef652507a7f7d696b5b50ab049f8162b896395a99b"
+hash = "d6022b96dc8d6fcb28e403d666adee75d1d4edc5265755cbbcc5b81ccee16bc6"
 
 [[files]]
 file = "config/beautify-server.toml"
@@ -4715,6 +4715,10 @@ hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 [[files]]
 file = "config/lmft.json"
 hash = "2db3ac5121e652fc89122055e032f034f433fe4764acb2e93af9c88848267178"
+
+[[files]]
+file = "config/mc-discordrp-client.toml"
+hash = "e69c0cc4c05e94d4e093c06205d7ba6e01c62a92a2bba4e702a481696069198a"
 
 [[files]]
 file = "config/mcjtylib-client.toml"
@@ -7160,6 +7164,11 @@ metafile = true
 [[files]]
 file = "mods/deimos.pw.toml"
 hash = "8fa452b9f04851f6c190c5e77caa0b81023e9f99b2c969ca28e92bca48748f02"
+metafile = true
+
+[[files]]
+file = "mods/discordrp.pw.toml"
+hash = "dc731155f46dd61aea8b42d2eac4e7f48b1d294355b864d0d6c81819c43c56a1"
 metafile = true
 
 [[files]]

@@ -1,0 +1,46 @@
+#Enable or disable Discord presence.
+[general]
+	enabled = true
+
+#Modpack identity. Blank values use My Modpack and 1.0.0.
+[modpack]
+	modpackName = "'Tism Craft"
+	modpackVersion = "1.21.0"
+
+#Page cycling while playing. Paused and main menu show status only.
+[rotation]
+	#Seconds per page; checked every 5 seconds.
+	# Default: 10
+	# Range: 5 ~ 300
+	pageIntervalSeconds = 10
+	rotatePages = true
+
+#Choose which world details appear.
+[display]
+	showModCount = true
+	showWorldDay = true
+	showWorldTime = true
+	showDimension = true
+	#CLOCK shows HH:mm; MAPPED shows Day, Afternoon, Evening or Night.
+	#Allowed Values: CLOCK, MAPPED
+	timeDisplayMode = "MAPPED"
+
+#Text shown on its own while paused or in the main menu.
+[status]
+	pausedText = "Paused"
+	mainMenuText = "In the main menu"
+
+#Customize text around the built-in values.
+[formats]
+	modCountFormat = "{count} mods"
+	dayFormat = "Day {day}"
+	packFormat = "{name} v{version}"
+	#The leading 'The' is removed from {dimension} for this format only.
+	locationFormat = "In the {dimension} ({biome})"
+
+#Each pair of strings is one page: first line, second line.
+[pages]
+	#Alternating details/state strings; add pairs to add pages.
+	#Placeholders: {pack}, {mods}, {dimension}, {location}, {biome}, {day}, {time}, {clock}, {status}.
+	#Empty values and separators are omitted.
+	worldPages = ["{pack}", "{mods}", "{location}", "{day} | {time}"]

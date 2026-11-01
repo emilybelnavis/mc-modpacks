@@ -1,0 +1,8 @@
+name = "discordrp"
+filename = "mc-discordrp-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://github.com/emilybelnavis/mc-discordrp/releases/download/1.0.0/mc-discordrp-1.0.0.jar"
+hash-format = "sha256"
+hash = "b7db59087b2d6d1e4c705a24f19f444f4b7c711b1e54bfce8e1ebc25e341987a"
