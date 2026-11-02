@@ -6603,12 +6603,17 @@ metafile = true
 
 [[files]]
 file = "mods/civillis-minecolonies-compatibility.pw.toml"
-hash = "b34f38a3148de26a3703ebea7dc802ebd480c1edec3340e88ac6a9f295c1b786"
+hash = "840845553c37ac0dd75c35b48162f01b0c306096c141156d2930e61ca0ac92ec"
+metafile = true
+
+[[files]]
+file = "mods/civillis-technology-compatibility.pw.toml"
+hash = "ab7ce3f4b9c4c3973d9a3bee8daf6d989fe030859b0496a206e02fc8c5ffe005"
 metafile = true
 
 [[files]]
 file = "mods/civillis.pw.toml"
-hash = "230cc3414c64bc6da098bc861d9b5c4747700a9065d7cb514284a0b766424c0b"
+hash = "fcebef4c41fd64fd1416fc57ba20b77ad311aa4c5c41e14bea66dffa6d524f5e"
 metafile = true
 
 [[files]]
