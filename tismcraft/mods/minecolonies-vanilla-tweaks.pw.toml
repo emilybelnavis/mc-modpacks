@@ -1,12 +1,8 @@
-name = "MineColonies Tweaks"
-filename = "mcvanillatweaks-1.21.1-1.5.11.jar"
-side = "client"
+name = "minecolonies-vanilla-tweaks"
+filename = "mcvanillatweaks-1.21.1-1.5.11-patch.jar"
+side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7382b2dc0bf638b5d3d949dbaf04df3f66320844"
-mode = "metadata:curseforge"
-
-[update.curseforge]
-file-id = 9249724
-project-id = 1730837
+url = "https://github.com/emilybelnavis/minecolonies-vanilla-tweaks/releases/download/1.5.11-patch/mcvanillatweaks-1.21.1-1.5.11-patch.jar"
+hash-format = "sha256"
+hash = "77434727393f4c1679df72b2a1b7ad40afc11650b004af9c861ea2b4f33866f6"
