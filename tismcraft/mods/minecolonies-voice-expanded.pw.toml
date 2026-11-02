@@ -1,6 +1,6 @@
 name = "minecolonies-voice-expanded"
 filename = "minecolonies-voice-expanded-1.21.1-1.0.0.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://github.com/emilybelnavis/MineColonies-Voice-Expanded/releases/download/1.0.0/minecolonies-voice-expanded-1.21.1-1.0.0.jar"
