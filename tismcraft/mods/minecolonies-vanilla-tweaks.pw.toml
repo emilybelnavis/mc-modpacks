@@ -1,0 +1,12 @@
+name = "MineColonies Tweaks"
+filename = "mcvanillatweaks-1.21.1-1.5.11.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "7382b2dc0bf638b5d3d949dbaf04df3f66320844"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9249724
+project-id = 1730837

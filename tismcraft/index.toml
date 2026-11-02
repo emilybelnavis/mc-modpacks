@@ -7867,10 +7867,6 @@ hash = "b72d3f3171eb5b38308c3960dfca5716c708f29b0ea8055a589f32528bed6db4"
 metafile = true
 
 [[files]]
-file = "mods/mcvanillatweaks-1.21.1-1.5.11.jar"
-hash = "77434727393f4c1679df72b2a1b7ad40afc11650b004af9c861ea2b4f33866f6"
-
-[[files]]
 file = "mods/measurements.pw.toml"
 hash = "5634fdbd968dfd9fd3bce683f3474d34dc5d7753ed87574d713c15b41f88e8f9"
 metafile = true
@@ -7993,6 +7989,11 @@ metafile = true
 [[files]]
 file = "mods/minecolonies-stop-complaining.pw.toml"
 hash = "8d3f548f419df97ef8e683f28d2726c2470453a91b68ab1db35698a2de0d81d9"
+metafile = true
+
+[[files]]
+file = "mods/minecolonies-vanilla-tweaks.pw.toml"
+hash = "8c402d70b2628990384a5b52b5a189502424b951dfd04563c9a41931db89a1d6"
 metafile = true
 
 [[files]]
