@@ -1,0 +1,8 @@
+name = "minecolonies-voice-expanded"
+filename = "minecolonies-voice-expanded-1.21.1-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://github.com/emilybelnavis/MineColonies-Voice-Expanded/releases/download/1.0.0/minecolonies-voice-expanded-1.21.1-1.0.0.jar"
+hash-format = "sha256"
+hash = "9d44b9b6336684e3154707e9a8192fdc736919886c6853735878ad8cb5d92c6d"

@@ -1,8 +1,8 @@
 name = "minecolonies-vanilla-tweaks"
-filename = "mcvanillatweaks-1.21.1-1.5.11-patch.jar"
-side = "both"
+filename = "mcvanillatweaks-1.21.1-1.5.11-patch+compat.jar"
+side = "client"
 
 [download]
-url = "https://github.com/emilybelnavis/minecolonies-vanilla-tweaks/releases/download/1.5.11-patch/mcvanillatweaks-1.21.1-1.5.11-patch.jar"
+url = "https://github.com/emilybelnavis/minecolonies-vanilla-tweaks/releases/download/1.5.11_patch%2Bcompat/mcvanillatweaks-1.21.1-1.5.11-patch+compat.jar"
 hash-format = "sha256"
-hash = "77434727393f4c1679df72b2a1b7ad40afc11650b004af9c861ea2b4f33866f6"
+hash = "f8e70425616d708338c1773e943c39a8cdd46bd08a4fe655b7ddfc3f15949832"
