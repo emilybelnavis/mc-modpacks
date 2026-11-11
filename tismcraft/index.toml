@@ -7833,7 +7833,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-camping.pw.toml"
-hash = "f9cb465e12267cf3262edf9d04f2539e9484cf8ec40b94487349688ea01dd140"
+hash = "03a2693a32c961c3add7e06d3b722d51a349bad51b558b0ece1ef1674770e2ba"
 metafile = true
 
 [[files]]
@@ -8182,6 +8182,11 @@ hash = "9a330e2a5586a3aa8b5532b92f81fe40ae86a586a2c5110edf577901a4a359ad"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
+metafile = true
+
+[[files]]
 file = "mods/more-music-discs.pw.toml"
 hash = "97c6f557317561ec4666df0fbbe6043832368cab6ee2de346e48b7579c9a170e"
 metafile = true
@@ -8453,7 +8458,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "42d8254f9bed8da6e08cabe7fa2606dbe2091141a8aa2e885affcafc4a4d5c20"
+hash = "d22d14965fb93e68529f7b0861c11179b866e5c83a1cd5d394a8bf813653446b"
 metafile = true
 
 [[files]]
@@ -8732,8 +8737,13 @@ hash = "bb48f46b7273421f7b80fb7a1abe1e778b9329bbfb615dca0b9efb61a67297f6"
 metafile = true
 
 [[files]]
+file = "mods/supplementaries-squared.pw.toml"
+hash = "46280c9487633e3bd1dd7bb24ccc4076058b2602d7dc2906f96509527346cf24"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "24d2d04bd35de31d5f3a19579b4ee1596cab14e8a171bea5de7594a63a6bb9cd"
+hash = "c7e7206384e1d5ab7caecc643dda50dae1886312e0aeca5aaef8852bb6b11b4e"
 metafile = true
 
 [[files]]
@@ -8978,7 +8988,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
+hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
 metafile = true
 
 [[files]]
