@@ -1,13 +1,13 @@
 name = "Particle Rain"
-filename = "particlerain-4.0.1+1.21.1-neoforge.jar"
-side = "client"
+filename = "particlerain-4.0.3+1.21.1-neoforge.jar"
+side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "151d5534176eb6f4342558824dad9ee6ecd4bedb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nrikgvxm/versions/inhna3NE/particlerain-4.0.3%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "85d3ee20ebecaeac9a3f83e27ac71a811d2429c0e918566d84e921f7f6937532ca466437b75f16498550f1dbaa4d563773174287dc6f22d869d1dcc80531ab5d"
 
 [update]
-[update.curseforge]
-file-id = 9085994
-project-id = 421897
+[update.modrinth]
+mod-id = "nrikgvxm"
+version = "inhna3NE"

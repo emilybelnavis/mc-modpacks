@@ -1,0 +1,13 @@
+name = "Create: Anabolics"
+filename = "anabolics-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1639a602cbbac730c010eba6d535d7958952f739"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8699882
+project-id = 1662442

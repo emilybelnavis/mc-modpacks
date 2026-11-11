@@ -1,0 +1,13 @@
+name = "Kaleidoscope Grilling"
+filename = "kaleidoscope_grilling-1.1.1-neoforge1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LPZkep5R/versions/ao5iN7Jb/kaleidoscope_grilling-1.1.1-neoforge1.21.1.jar"
+hash-format = "sha512"
+hash = "4ca960b7dc97e5a1f52844076d950b2e455a3b230dc4ce3f880be955cb580ed0c1f2d2cc70fd8ffb14e189722371ac88d999f0d15f77139cb06c72bf97c1dd28"
+
+[update]
+[update.modrinth]
+mod-id = "LPZkep5R"
+version = "ao5iN7Jb"

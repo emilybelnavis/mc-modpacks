@@ -1,0 +1,13 @@
+name = "Cinematic Zoom"
+filename = "CinematicZoom-NeoForge-1.21.1-1.3.8.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "7e891ab7862d703a3d125cb2aeb864ad0d0c2f92"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9154293
+project-id = 1291754
