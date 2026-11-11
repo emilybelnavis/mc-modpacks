@@ -6507,6 +6507,11 @@ hash = "643c88ee26ec68650091c395c5c4fbd33d534a9c493e3cc05da3c793cc7ab9db"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "16ba84aa4357c8ca27afc6f92225b94ae4a965dfef3eed9240c3062436e1fd0f"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
@@ -6639,6 +6644,11 @@ metafile = true
 [[files]]
 file = "mods/classic-music-disc.pw.toml"
 hash = "33ea19a006fe1b63b5f23e04b74f186ea7f38712d77bf7c44fe1a58d63f723a0"
+metafile = true
+
+[[files]]
+file = "mods/clayworks.pw.toml"
+hash = "1a5e1f4c0f3681ffe737efabf3efa5212987fcbe62fab840f65badfa70994418"
 metafile = true
 
 [[files]]
@@ -7242,11 +7252,6 @@ hash = "1d3b2583d08e18b372979e69d07f89c92c38bc8eb55ed270055dcd1ceb3f7328"
 metafile = true
 
 [[files]]
-file = "mods/dyenamicsandfriends.pw.toml"
-hash = "a5769a4c379f7fa69f76daeb3f0c54850c24f82c544d50734b4c5e92af02bfca"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "8bc57beb0d3d0c34a2ac8c50d70490623dd350ce62d0ccde9a16a1b000a514b1"
 metafile = true
@@ -7484,6 +7489,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "6ad22c468d67dcbb65784e161d4af9e671d3437cb5bfb1e86a42ae25207cf25b"
+metafile = true
+
+[[files]]
+file = "mods/furnish.pw.toml"
+hash = "e73eaae841a8f3ca91c2311053ea8624544da72dcc62f4cd14b213843db09e8a"
 metafile = true
 
 [[files]]
@@ -8493,7 +8503,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
