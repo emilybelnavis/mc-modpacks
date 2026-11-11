@@ -6597,6 +6597,11 @@ hash = "cb0d95b4c9e0c8d3c37b895a79ebbfa239f0975d198e3a4646da76dca874c661"
 metafile = true
 
 [[files]]
+file = "mods/chalk-mod.pw.toml"
+hash = "1d15653f184f09a0baeb343bd722e305aae882b64728cc5ede2e5be08fcebc20"
+metafile = true
+
+[[files]]
 file = "mods/charta-casino.pw.toml"
 hash = "2971e3feb5d27f7a30437d00ea4be2b82ce968ff3b45dddf6b7597465e4f4237"
 metafile = true
